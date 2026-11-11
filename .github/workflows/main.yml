@@ -1,0 +1,66 @@
+name: Update IPTV Playlist
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 */6 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: iptv-playlist-update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Validate configuration
+        run: python -m json.tool channels.json > /dev/null
+
+      - name: Update playlist
+        run: python scripts/update_playlist.py
+
+      - name: Validate generated playlist
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+
+          path = Path("playlist.m3u")
+          content = path.read_text(encoding="utf-8-sig")
+
+          if not content.startswith("#EXTM3U"):
+              raise SystemExit("Invalid M3U header")
+
+          if "#EXTINF:" not in content:
+              raise SystemExit("No channels found; keeping old playlist")
+
+          print("Playlist validation passed")
+          PY
+
+      - name: Commit updated playlist
+        run: |
+          if git diff --quiet -- playlist.m3u; then
+            echo "No changes to commit"
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add playlist.m3u
+          git commit -m "Auto-update IPTV playlist"
+          git push
