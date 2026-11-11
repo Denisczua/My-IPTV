@@ -1,0 +1,96 @@
+name: RU UA catalogue and CZ checks
+
+on:
+  workflow_run:
+    workflows: [Update IPTV Playlist]
+    types: [completed]
+  push:
+    branches: [main]
+    paths:
+      - playlist.m3u
+      - playlist-ru-ua-manual.m3u
+      - data/language-overrides.json
+      - data/category-overrides.json
+      - data/oled-channels.json
+      - data/content-overrides.json
+  workflow_dispatch:
+  schedule:
+    - cron: '47 */6 * * *'
+
+permissions:
+  contents: write
+
+# Independent queue; do not cancel pending runs of the original updater.
+concurrency:
+  group: iptv-ru-ua-update
+  cancel-in-progress: false
+
+jobs:
+  catalogue:
+    if: (github.event_name != 'workflow_dispatch' || github.ref_name == github.event.repository.default_branch) && (github.event_name != 'workflow_run' || (github.event.workflow_run.conclusion == 'success' && github.event.workflow_run.head_branch == github.event.repository.default_branch))
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Test safety and filtering
+        run: python -m unittest discover -s tests -v
+      - name: Refresh language catalogue (no media claims from this runner)
+        run: python scripts/filter_ru_ua.py --refresh-metadata
+      - name: Retain reports even on failure
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: catalogue-reports-${{ github.run_id }}-${{ github.run_attempt }}
+          path: data/reports/*.json
+          retention-days: 7
+      - name: Commit valid catalogue
+        shell: bash
+        run: |
+          git add data playlist-ru-ua-testing.m3u
+          if [ -f playlist-ru-ua.m3u ]; then git add playlist-ru-ua.m3u; fi
+          if git diff --cached --quiet; then exit 0; fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Update RU UA language catalogue'
+          git pull --rebase origin '${{ github.event.repository.default_branch }}'
+          git push origin HEAD:${{ github.event.repository.default_branch }}
+
+  check-cz:
+    needs: catalogue
+    # Enable only after configuring the Windows runner on the direct CZ connection.
+    if: vars.CZ_CHECKS_ENABLED == 'true' && github.event_name != 'workflow_run' && github.event_name != 'push'
+    runs-on: [self-hosted, Windows, X64, iptv-cz]
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+      - name: Check a bounded batch from Czech IP
+        shell: powershell
+        run: python scripts/check_ru_ua.py --confirm-direct-cz --workers 2 --max-channels 120 --budget-seconds 1500
+      - name: Retain CZ reports even on failure
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: cz-reports-${{ github.run_id }}-${{ github.run_attempt }}
+          path: data/reports/*.json
+          retention-days: 7
+      - name: Save progress and validated playlists
+        shell: powershell
+        run: |
+          git add data playlist-ru-ua-testing.m3u
+          if (Test-Path playlist-ru-ua.m3u) { git add playlist-ru-ua.m3u }
+          git diff --cached --quiet
+          if ($LASTEXITCODE -eq 0) { exit 0 }
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Save CZ media checks and progress'
+          if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+          git pull --rebase origin '${{ github.event.repository.default_branch }}'
+          if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+          git push origin HEAD:${{ github.event.repository.default_branch }}

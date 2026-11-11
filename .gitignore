@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+data/.ru-ua.lock
+data/.iptv-*.tmp
+.tools/

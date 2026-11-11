@@ -1,0 +1,42 @@
+{
+  "at": "2026-11-11T11:25:18.125505+00:00",
+  "processed": 11438,
+  "excluded_specialized_all_languages": 0,
+  "unresolved": 94,
+  "no_language_evidence": 0,
+  "other_or_review": 10730,
+  "multilingual_review": 94,
+  "known_other": 10636,
+  "russian": 561,
+  "ukrainian": 167,
+  "both": 20,
+  "excluded_specialized_ru_ua": 0,
+  "specialization_review_ru_ua": 0,
+  "catalogue_entries": 868,
+  "language_candidates": 708,
+  "eligible_candidates": 708,
+  "statuses": {
+    "UNKNOWN_CZ": 708
+  },
+  "streams_checked": 0,
+  "categories_confirmed_candidates": {
+    "4K Ultra HD": 0,
+    "HDR10": 0,
+    "HDR10+": 0,
+    "HLG": 0,
+    "OLED": 0
+  },
+  "categories_stable_cz": {
+    "4K Ultra HD": 0,
+    "HDR10": 0,
+    "HDR10+": 0,
+    "HLG": 0,
+    "OLED": 0
+  },
+  "stable_entries": 0,
+  "testing_entries": 733,
+  "stable_streams": 0,
+  "testing_streams": 708,
+  "main_updated": false,
+  "note": "Existing output retained when replacement would be empty"
+}

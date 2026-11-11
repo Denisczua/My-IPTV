@@ -63,4 +63,5 @@ jobs:
 
           git add playlist.m3u
           git commit -m "Auto-update IPTV playlist"
+          git pull --rebase
           git push
