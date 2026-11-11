@@ -12737,8 +12737,8 @@
     "excluded_specialized_ru_ua": 0,
     "specialization_review_ru_ua": 0
   },
-  "source_sha256": "66c72e5b15be9c4ec954aa51ca42db571a066413f1373103efed5beaef87faaf",
-  "catalogued_at": "2026-11-11T11:34:37.388768+00:00",
+  "source_sha256": "be7ea29da82dc13246619800c74dc26f2acff939e6501b0dec77154a5d78792e",
+  "catalogued_at": "2026-11-11T19:23:25.484756+00:00",
   "review_needed": {
     "language": [
       {
