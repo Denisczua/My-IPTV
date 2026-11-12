@@ -1,0 +1,50 @@
+{
+  "at": "2026-11-12T19:37:45.354891+00:00",
+  "processed": 11447,
+  "excluded_specialized_all_languages": 0,
+  "unresolved": 94,
+  "no_language_evidence": 0,
+  "other_or_review": 10738,
+  "multilingual_review": 94,
+  "known_other": 10644,
+  "russian": 562,
+  "ukrainian": 167,
+  "both": 20,
+  "excluded_specialized_ru_ua": 0,
+  "specialization_review_ru_ua": 0,
+  "catalogue_entries": 873,
+  "language_candidates": 713,
+  "eligible_candidates": 713,
+  "statuses": {
+    "STABLE_CZ": 0,
+    "UNSTABLE_CZ": 0,
+    "GEO_BLOCKED_CZ": 0,
+    "OFFLINE": 0,
+    "UNKNOWN_CZ": 713
+  },
+  "streams_checked": 0,
+  "cycle_remaining": 0,
+  "categories_confirmed_candidates": {
+    "4K Ultra HD": 0,
+    "HDR": 0,
+    "HDR10": 0,
+    "HDR10+": 0,
+    "HLG": 0,
+    "OLED": 0
+  },
+  "categories_stable_cz": {
+    "4K Ultra HD": 0,
+    "HDR": 0,
+    "HDR10": 0,
+    "HDR10+": 0,
+    "HLG": 0,
+    "OLED": 0
+  },
+  "stable_entries": 0,
+  "testing_entries": 738,
+  "stable_streams": 0,
+  "testing_streams": 713,
+  "main_updated": false,
+  "main_file_entries": 0,
+  "note": "Existing output retained when replacement would be empty"
+}
