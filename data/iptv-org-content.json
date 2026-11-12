@@ -1,7 +1,7 @@
 {
   "source": "https://iptv-org.github.io/api/channels.json",
-  "retrieved_at": "2026-11-12T01:57:34.927895+00:00",
-  "total_channels": 31803,
+  "retrieved_at": "2026-11-12T07:34:25.355020+00:00",
+  "total_channels": 31805,
   "flagged_channels": {
     "21Sextury.us": {
       "categories": [
@@ -342,6 +342,12 @@
     "ASTTV2.cy": {
       "categories": [
         "xxx"
+      ],
+      "is_nsfw": true
+    },
+    "AtlanticTV.tt": {
+      "categories": [
+        "entertainment"
       ],
       "is_nsfw": true
     },

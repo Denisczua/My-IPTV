@@ -1,6 +1,6 @@
 {
   "source": "https://iptv-org.github.io/api/feeds.json",
-  "retrieved_at": "2026-11-12T01:57:34.594432+00:00",
+  "retrieved_at": "2026-11-12T07:34:24.914742+00:00",
   "feeds": {
     "002RadioTV.do@SD": [
       "spa"
@@ -10101,6 +10101,9 @@
     ],
     "AtlanticoTV.ao@SD": [
       "por"
+    ],
+    "AtlanticTV.tt@SD": [
+      "eng"
     ],
     "AtlantisRadioTV.pe@SD": [
       "spa"
@@ -42745,6 +42748,9 @@
     ],
     "FilmKomedi.al@SD": [
       "sqi"
+    ],
+    "FilmMania.hu@Poland": [
+      "pol"
     ],
     "FilmMania.hu@Romania": [
       "ron"
@@ -133966,14 +133972,8 @@
     "VisionLatinaNetwork.us@SD": [
       "spa"
     ],
-    "VisionLatinaNetwork.us@WLIIDT": [
-      "spa"
-    ],
     "VisionLatinaNetwork.us@WMDOCD": [
       "eng"
-    ],
-    "VisionLatinaNetwork.us@WOLEDT": [
-      "spa"
     ],
     "VisionLatinaNetwork.us@WSBSTV": [
       "spa"
@@ -139504,6 +139504,9 @@
     ],
     "ZdravljeTV.rs@SD": [
       "srp"
+    ],
+    "ZeceTV.ro@SD": [
+      "ron"
     ],
     "ZedTV.ir@SD": [
       "fas"
