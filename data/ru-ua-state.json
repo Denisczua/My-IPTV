@@ -12,7 +12,7 @@
         "ukr"
       ],
       "evidence": "IPTV-org feeds.languages",
-      "in_source": true,
+      "in_source": false,
       "content_decision": "allow",
       "content_evidence": "No evidence of specialized erotic or pornographic channel"
     },
@@ -5382,7 +5382,7 @@
         "ukr"
       ],
       "evidence": "IPTV-org feeds.languages",
-      "in_source": true,
+      "in_source": false,
       "content_decision": "allow",
       "content_evidence": "No evidence of specialized erotic or pornographic channel"
     },
@@ -9266,7 +9266,7 @@
         "rus"
       ],
       "evidence": "IPTV-org feeds.languages",
-      "in_source": true,
+      "in_source": false,
       "content_decision": "allow",
       "content_evidence": "No evidence of specialized erotic or pornographic channel"
     },
@@ -9294,7 +9294,7 @@
         "rus"
       ],
       "evidence": "IPTV-org feeds.languages",
-      "in_source": true,
+      "in_source": false,
       "content_decision": "allow",
       "content_evidence": "No evidence of specialized erotic or pornographic channel"
     },
@@ -12795,25 +12795,40 @@
       "in_source": true,
       "content_decision": "allow",
       "content_evidence": "No evidence of specialized erotic or pornographic channel"
+    },
+    "4bcc961bab30f5986af4030ff19a535b0eddc863f11b3904f461a31891f740bd": {
+      "block": [
+        "#EXTINF:-1 tvg-id=\"Rybalkaiokhota.ru@SD\" tvg-logo=\"https://www.cableman.ru/sites/default/files/rybalka_i_ohota_int.png\" group-title=\"Outdoor\",Rybalka i okhota (576p)",
+        "https://fs.uplink.kz/ohota_i_ribalka/index.m3u8?token=onlinetv2"
+      ],
+      "history": [],
+      "status": "UNKNOWN_CZ",
+      "languages": [
+        "rus"
+      ],
+      "evidence": "IPTV-org feeds.languages",
+      "in_source": true,
+      "content_decision": "allow",
+      "content_evidence": "No evidence of specialized erotic or pornographic channel"
     }
   },
   "cycle": null,
   "counts": {
-    "processed": 11447,
+    "processed": 11449,
     "excluded_specialized_all_languages": 0,
     "unresolved": 94,
     "no_language_evidence": 0,
-    "other_or_review": 10738,
+    "other_or_review": 10743,
     "multilingual_review": 94,
-    "known_other": 10644,
-    "russian": 562,
-    "ukrainian": 167,
-    "both": 20,
+    "known_other": 10649,
+    "russian": 560,
+    "ukrainian": 165,
+    "both": 19,
     "excluded_specialized_ru_ua": 0,
     "specialization_review_ru_ua": 0
   },
-  "source_sha256": "fd95a9f2d96dacd78682822c49021ad189e9b5ec27fd77569f75b6bfd7f4dd2f",
-  "catalogued_at": "2026-11-12T19:37:45.348795+00:00",
+  "source_sha256": "9bc587e578aa8456980424afe8d62b9058e69d115086046c0202e848d218a7ab",
+  "catalogued_at": "2026-11-13T01:23:38.064217+00:00",
   "review_needed": {
     "language": [
       {
