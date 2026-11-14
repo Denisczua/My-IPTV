@@ -1,6 +1,6 @@
 {
   "source": "https://iptv-org.github.io/api/feeds.json",
-  "retrieved_at": "2026-11-14T01:47:03.001543+00:00",
+  "retrieved_at": "2026-11-14T07:18:27.508431+00:00",
   "feeds": {
     "002RadioTV.do@SD": [
       "spa"
@@ -7668,6 +7668,9 @@
     "AnixePlus.de@SD": [
       "deu"
     ],
+    "AnjaliTV.in@SD": [
+      "tel"
+    ],
     "AnjanTV.in@SD": [
       "hin"
     ],
@@ -8933,6 +8936,9 @@
     "ArenaSport6.rs@SD": [
       "srp"
     ],
+    "ArenaSport6BH.ba@SD": [
+      "srb"
+    ],
     "ArenaSport7.hr@SD": [
       "srp"
     ],
@@ -8941,6 +8947,9 @@
     ],
     "ArenaSport7.rs@SD": [
       "srp"
+    ],
+    "ArenaSport7BH.ba@SD": [
+      "srb"
     ],
     "ArenaSport8.hr@SD": [
       "srp"
@@ -8974,6 +8983,12 @@
     ],
     "ArenaSportPremium3BH.ba@HD": [
       "srp"
+    ],
+    "ArenaSportPremium4BH.ba@SD": [
+      "srb"
+    ],
+    "ArenaSportPremium5BH.ba@SD": [
+      "srb"
     ],
     "ArenaSportPremiumM1.mk@SD": [
       "mak"
@@ -11248,6 +11263,9 @@
     ],
     "AysenTV.cl@SD": [
       "spa"
+    ],
+    "AyushNextCommunicationNetwork.in@SD": [
+      "hin"
     ],
     "AyushTV.in@SD": [
       "kan"
@@ -14194,6 +14212,9 @@
     "BhaktiDhara.in@SD": [
       "hin"
     ],
+    "BhaktiPlay.in@SD": [
+      "hin"
+    ],
     "BhaktiSagar.in@SD": [
       "hin"
     ],
@@ -15173,6 +15194,9 @@
     "BoaVontadeTV.br@SD": [
       "por"
     ],
+    "Bober.ru@International": [
+      "rus"
+    ],
     "Bober.ru@SD": [
       "rus"
     ],
@@ -15350,6 +15374,9 @@
     "BollywoodHD.ro@Russia": [
       "hin",
       "rus"
+    ],
+    "BollywoodMasala.in@SD": [
+      "hin"
     ],
     "BollywoodTV.ro@SD": [
       "ron"
@@ -46848,6 +46875,9 @@
     "GGTVGovernmentTelevision.us@SD": [
       "eng"
     ],
+    "GhaintPunjab.in@SD": [
+      "pan"
+    ],
     "GHAMTV.pe@SD": [
       "spa"
     ],
@@ -49895,6 +49925,9 @@
     ],
     "GuoxueChannel.cn@SD": [
       "zho"
+    ],
+    "GurbaniTV.in@SD": [
+      "hin"
     ],
     "GuriaTV.ge@SD": [
       "kat"
@@ -58958,6 +58991,9 @@
     "JizzaxMTRK.uz@SD": [
       "uzb"
     ],
+    "JJTVNews.in@SD": [
+      "tam"
+    ],
     "JK24x7News.in@SD": [
       "hin"
     ],
@@ -61388,6 +61424,9 @@
     "KinoKazka.es@SD": [
       "ukr"
     ],
+    "Kinokniga.ru@SD": [
+      "rus"
+    ],
     "Kinokomedija.ru@HD": [
       "rus"
     ],
@@ -61454,13 +61493,16 @@
     "Kinopremyera.ru@HD": [
       "rus"
     ],
-    "Kinopremyera.ru@SD": [
+    "Kinopremyera.ru@International": [
       "rus"
     ],
     "KinoSat.ru@SD": [
       "rus"
     ],
     "Kinosemja.ru@HD": [
+      "rus"
+    ],
+    "Kinosemja.ru@International": [
       "rus"
     ],
     "Kinosemja.ru@SD": [
@@ -64277,6 +64319,9 @@
     ],
     "LakewoodChannel8.us@SD": [
       "eng"
+    ],
+    "LakshyaTV.in@SD": [
+      "guj"
     ],
     "LakuMall.my@SD": [
       "msa"
@@ -67610,7 +67655,9 @@
       "fra"
     ],
     "MaiTV.fj@SD": [
-      "eng"
+      "eng",
+      "hin",
+      "fij"
     ],
     "MajanTV.om@SD": [
       "ara"
@@ -73849,6 +73896,9 @@
     "MoyaPlaneta.ru@HD": [
       "rus"
     ],
+    "MoyaPlaneta.ru@International": [
+      "rus"
+    ],
     "MoyaPlaneta.ru@SD": [
       "rus"
     ],
@@ -74943,6 +74993,9 @@
     "Multilandia.ru@HD": [
       "rus"
     ],
+    "Multilandia.ru@International": [
+      "rus"
+    ],
     "Multilandia.ru@SD": [
       "rus"
     ],
@@ -75471,6 +75524,9 @@
       "por"
     ],
     "Muzhskoekino.ru@HD": [
+      "rus"
+    ],
+    "Muzhskoekino.ru@International": [
       "rus"
     ],
     "Muzhskoekino.ru@SD": [
@@ -77008,6 +77064,9 @@
     ],
     "Naughty.si@SD": [
       "eng"
+    ],
+    "Nauka.ru@International": [
+      "rus"
     ],
     "Nauka.ru@SD": [
       "rus"
@@ -83319,6 +83378,10 @@
     "OFTVOffenbach.de@SD": [
       "deu"
     ],
+    "OggyandtheCockroaches.us@SD": [
+      "fra",
+      "eng"
+    ],
     "OggyeasBaratasTontas.us@BR": [
       "por"
     ],
@@ -84107,6 +84170,9 @@
     "ONGolf.vn@SD": [
       "vie"
     ],
+    "ONHomeShopping.vn@SD": [
+      "vie"
+    ],
     "ONInfoTV.vn@SD": [
       "vie"
     ],
@@ -84345,6 +84411,9 @@
     ],
     "OnuaTV.gh@SD": [
       "eng"
+    ],
+    "ONVFamily.vn@SD": [
+      "vie"
     ],
     "ONVieDramas.vn@SD": [
       "vie"
@@ -86308,6 +86377,9 @@
     ],
     "ParvanaTV.ge@SD": [
       "rus"
+    ],
+    "ParvasiTV.in@HD": [
+      "hin"
     ],
     "ParwardayiTV.iq@SD": [
       "ara"
@@ -89490,6 +89562,9 @@
     ],
     "PickboxTV.hr@SD": [
       "hrv"
+    ],
+    "PickleballNow.in@SD": [
+      "eng"
     ],
     "PickleballTV.us@HD": [
       "eng"
@@ -102759,6 +102834,9 @@
     "SanjhaPunjab.ca@SD": [
       "pan"
     ],
+    "SanjhaTV.in@SD": [
+      "pan"
+    ],
     "SanJoseTV.cr@SD": [
       "spa"
     ],
@@ -102933,6 +103011,9 @@
       "rus"
     ],
     "Saphire.ru@SD": [
+      "rus"
+    ],
+    "Sarafan.ru@International": [
       "rus"
     ],
     "Sarafan.ru@SD": [
@@ -105895,6 +105976,9 @@
     "SikhChannel.uk@SD": [
       "pan"
     ],
+    "SikhRatnavali.in@SD": [
+      "hin"
+    ],
     "SikhSpiritualCentreRexdale.ca@SD": [
       "pan"
     ],
@@ -106192,6 +106276,9 @@
     ],
     "SiTV.hn@SD": [
       "spa"
+    ],
+    "SivanTempleTV.in@SD": [
+      "tam"
     ],
     "SivanTV.ch@SD": [
       "tam"
@@ -107877,6 +107964,9 @@
     ],
     "SkyVisionLearningChannel.id@SD": [
       "ind"
+    ],
+    "SkyVoices.it@SD": [
+      "ita"
     ],
     "SkyWitness.ie@HD": [
       "eng"
@@ -113834,6 +113924,9 @@
     "SuperTennis.it@SD": [
       "ita"
     ],
+    "SuperTennisPlus.it@SD": [
+      "ita"
+    ],
     "SuperToons.bg@SD": [
       "bul"
     ],
@@ -116701,6 +116794,9 @@
     "TelemadridINT.es@SD": [
       "spa"
     ],
+    "TeleMag.ru@SD": [
+      "rus"
+    ],
     "Telemagino.ca@SD": [
       "fra"
     ],
@@ -119056,6 +119152,9 @@
     "TheBoldtheBeautiful.us@UK": [
       "eng"
     ],
+    "TheBonus.in@SD": [
+      "hin"
+    ],
     "TheBox.uk@SD": [
       "eng"
     ],
@@ -120050,6 +120149,9 @@
       "zho"
     ],
     "TheGrid.us@SD": [
+      "eng"
+    ],
+    "TheGrioTV.us@FAST": [
       "eng"
     ],
     "TheGrioTV.us@K25OMD": [
@@ -133633,6 +133735,9 @@
     ],
     "VigilTV.pe@SD": [
       "spa"
+    ],
+    "ViiMEDIA.in@SD": [
+      "hin"
     ],
     "VijaySuper.in@Digital": [
       "tam"
