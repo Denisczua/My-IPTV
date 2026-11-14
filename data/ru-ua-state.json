@@ -3963,7 +3963,7 @@
         "ukr"
       ],
       "evidence": "IPTV-org feeds.languages",
-      "in_source": true,
+      "in_source": false,
       "content_decision": "allow",
       "content_evidence": "No evidence of specialized erotic or pornographic channel"
     },
@@ -12810,25 +12810,41 @@
       "in_source": true,
       "content_decision": "allow",
       "content_evidence": "No evidence of specialized erotic or pornographic channel"
+    },
+    "b7dc1b9bb9a42bc4da2c32dbcf0a82a0763fe6cba31815646c1fa5f9f9336240": {
+      "block": [
+        "#EXTINF:-1 tvg-id=\"FilmUADrama.ua@SD\" tvg-logo=\"https://i.imgur.com/Hnwsh5d.png\" group-title=\"Movies;Series\",FilmUADrama",
+        "https://dash2.antik.sk/live/test_film_drama_atktv/playlist.m3u8"
+      ],
+      "history": [],
+      "status": "UNKNOWN_CZ",
+      "languages": [
+        "rus",
+        "ukr"
+      ],
+      "evidence": "IPTV-org feeds.languages",
+      "in_source": true,
+      "content_decision": "allow",
+      "content_evidence": "No evidence of specialized erotic or pornographic channel"
     }
   },
   "cycle": null,
   "counts": {
-    "processed": 11449,
+    "processed": 11457,
     "excluded_specialized_all_languages": 0,
     "unresolved": 94,
     "no_language_evidence": 0,
-    "other_or_review": 10743,
+    "other_or_review": 10751,
     "multilingual_review": 94,
-    "known_other": 10649,
+    "known_other": 10657,
     "russian": 560,
     "ukrainian": 165,
     "both": 19,
     "excluded_specialized_ru_ua": 0,
     "specialization_review_ru_ua": 0
   },
-  "source_sha256": "9bc587e578aa8456980424afe8d62b9058e69d115086046c0202e848d218a7ab",
-  "catalogued_at": "2026-11-13T19:37:03.521118+00:00",
+  "source_sha256": "fee8d42c5e7f826f4bbb20624738d11110138b10237db117ffe4f733daf9b4b2",
+  "catalogued_at": "2026-11-14T01:17:47.329230+00:00",
   "review_needed": {
     "language": [
       {
