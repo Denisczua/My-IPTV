@@ -1977,7 +1977,7 @@
         "rus"
       ],
       "evidence": "IPTV-org feeds.languages",
-      "in_source": true,
+      "in_source": false,
       "content_decision": "allow",
       "content_evidence": "No evidence of specialized erotic or pornographic channel"
     },
@@ -2065,7 +2065,7 @@
         "rus"
       ],
       "evidence": "IPTV-org feeds.languages",
-      "in_source": true,
+      "in_source": false,
       "content_decision": "allow",
       "content_evidence": "No evidence of specialized erotic or pornographic channel"
     },
@@ -2256,7 +2256,7 @@
         "rus"
       ],
       "evidence": "IPTV-org feeds.languages",
-      "in_source": true,
+      "in_source": false,
       "content_decision": "allow",
       "content_evidence": "No evidence of specialized erotic or pornographic channel"
     },
@@ -5055,7 +5055,7 @@
         "rus"
       ],
       "evidence": "IPTV-org language playlists",
-      "in_source": true,
+      "in_source": false,
       "content_decision": "allow",
       "content_evidence": "No evidence of specialized erotic or pornographic channel"
     },
@@ -5070,7 +5070,7 @@
         "rus"
       ],
       "evidence": "IPTV-org feeds.languages",
-      "in_source": true,
+      "in_source": false,
       "content_decision": "allow",
       "content_evidence": "No evidence of specialized erotic or pornographic channel"
     },
@@ -8404,7 +8404,7 @@
         "rus"
       ],
       "evidence": "IPTV-org feeds.languages",
-      "in_source": true,
+      "in_source": false,
       "content_decision": "allow",
       "content_evidence": "No evidence of specialized erotic or pornographic channel"
     },
@@ -10090,7 +10090,7 @@
         "rus"
       ],
       "evidence": "IPTV-org feeds.languages",
-      "in_source": true,
+      "in_source": false,
       "content_decision": "allow",
       "content_evidence": "No evidence of specialized erotic or pornographic channel"
     },
@@ -12826,25 +12826,70 @@
       "in_source": true,
       "content_decision": "allow",
       "content_evidence": "No evidence of specialized erotic or pornographic channel"
+    },
+    "906181da49eef84ffd4dd9a7f86a8862db9c64659d2a89fa8f38c87f5d939e67": {
+      "block": [
+        "#EXTINF:-1 tvg-id=\"Channel5International.ru@SD\" tvg-logo=\"https://i.imgur.com/KPXMa3U.png\" http-user-agent=\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36\" group-title=\"General\",Channel 5 International (576i)",
+        "https://cdn4.skygo.mn/live/disk1/Channel_5/HLSv3-FTA/Channel_5.m3u8"
+      ],
+      "history": [],
+      "status": "UNKNOWN_CZ",
+      "languages": [
+        "rus"
+      ],
+      "evidence": "IPTV-org feeds.languages",
+      "in_source": true,
+      "content_decision": "allow",
+      "content_evidence": "No evidence of specialized erotic or pornographic channel"
+    },
+    "9795f01ddeba1c21530ce9e2415daed3f1fed32445b93db75ab3acc8bc21258b": {
+      "block": [
+        "#EXTINF:-1 tvg-id=\"Che.ru@SD\" tvg-logo=\"https://i.imgur.com/ZOcDGpB.png\" group-title=\"Entertainment\",Che! (576p)",
+        "http://flussonic.linkintel.ru/che/index.m3u8"
+      ],
+      "history": [],
+      "status": "UNKNOWN_CZ",
+      "languages": [
+        "rus"
+      ],
+      "evidence": "IPTV-org feeds.languages",
+      "in_source": true,
+      "content_decision": "allow",
+      "content_evidence": "No evidence of specialized erotic or pornographic channel"
+    },
+    "2c961352fada26df04b255bd8d47156014f0f1c90b3741840eb91aea4eb15cbe": {
+      "block": [
+        "#EXTINF:-1 tvg-id=\"Kinopremyera.ru@HD\" tvg-logo=\"https://i.imgur.com/s0UYT8T.png\" group-title=\"Movies\",Kinopremyera (1080p)",
+        "https://fs.uplink.kz/kinopremiera_hd/mono.m3u8?token=onlinetv"
+      ],
+      "history": [],
+      "status": "UNKNOWN_CZ",
+      "languages": [
+        "rus"
+      ],
+      "evidence": "IPTV-org feeds.languages",
+      "in_source": true,
+      "content_decision": "allow",
+      "content_evidence": "No evidence of specialized erotic or pornographic channel"
     }
   },
   "cycle": null,
   "counts": {
-    "processed": 11457,
+    "processed": 11487,
     "excluded_specialized_all_languages": 0,
     "unresolved": 94,
     "no_language_evidence": 0,
-    "other_or_review": 10751,
+    "other_or_review": 10785,
     "multilingual_review": 94,
-    "known_other": 10657,
-    "russian": 560,
+    "known_other": 10691,
+    "russian": 556,
     "ukrainian": 165,
     "both": 19,
     "excluded_specialized_ru_ua": 0,
     "specialization_review_ru_ua": 0
   },
-  "source_sha256": "fee8d42c5e7f826f4bbb20624738d11110138b10237db117ffe4f733daf9b4b2",
-  "catalogued_at": "2026-11-14T19:25:49.135316+00:00",
+  "source_sha256": "43408ebd102324dcb00606b9bc83e822d176d50fc52eb18b065128912f63d60d",
+  "catalogued_at": "2026-11-15T01:22:41.909077+00:00",
   "review_needed": {
     "language": [
       {
