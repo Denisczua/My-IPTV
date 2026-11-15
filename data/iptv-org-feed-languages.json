@@ -1,6 +1,6 @@
 {
   "source": "https://iptv-org.github.io/api/feeds.json",
-  "retrieved_at": "2026-11-15T13:36:11.316607+00:00",
+  "retrieved_at": "2026-11-15T18:59:03.841895+00:00",
   "feeds": {
     "002RadioTV.do@SD": [
       "spa"
@@ -4248,7 +4248,7 @@
       "cnr"
     ],
     "AdriaTV.me@SD": [
-      "srp"
+      "cnr"
     ],
     "ADULive.uy@SD": [
       "spa"
@@ -40587,7 +40587,7 @@
       "ita"
     ],
     "EuronewsMontenegro.me@SD": [
-      "mne"
+      "cnr"
     ],
     "EuronewsPortuguese.fr@SD": [
       "por"
@@ -81812,7 +81812,7 @@
     "NovaTV.hr@SD": [
       "hrv"
     ],
-    "NovaTV.me@SD": [
+    "NovaTV.me@HD": [
       "cnr"
     ],
     "NovaTV.rs@SD": [
@@ -96393,7 +96393,7 @@
       "hrv"
     ],
     "RadiotelevizijaRozaje.me@SD": [
-      "srp"
+      "cnr"
     ],
     "RadioTelevizijaVogosca.ba@SD": [
       "bos"
@@ -118316,7 +118316,7 @@
     "TelevizijaDalmacija.hr@SD": [
       "hrv"
     ],
-    "TelevizijaE.me@SD": [
+    "TelevizijaE.me@HD": [
       "cnr"
     ],
     "TelevizijaFokus.rs@SD": [
@@ -118341,7 +118341,7 @@
       "hrv"
     ],
     "TelevizijaTV7.me@SD": [
-      "srp"
+      "cnr"
     ],
     "TelevizijaUrslja.si@SD": [
       "slv"
@@ -126357,17 +126357,17 @@
     "TVCentroHD.hn@SD": [
       "spa"
     ],
-    "TVCG1.me@SD": [
-      "srp"
+    "TVCG1.me@HD": [
+      "cnr"
     ],
-    "TVCG2.me@SD": [
-      "srp"
+    "TVCG2.me@HD": [
+      "cnr"
     ],
-    "TVCG3.me@SD": [
-      "srp"
+    "TVCG3.me@HD": [
+      "cnr"
     ],
-    "TVCGMNE.me@SD": [
-      "srp"
+    "TVCGMNE.me@HD": [
+      "cnr"
     ],
     "TVChacoCanal4.ec@SD": [
       "spa"
@@ -128148,7 +128148,8 @@
     "TVNica.cr@SD": [
       "spa"
     ],
-    "TVNiksic.me@SD": [
+    "TVNiksic.me@HD": [
+      "cnr",
       "srp"
     ],
     "TVNitricka.sk@SD": [
@@ -128694,6 +128695,7 @@
       "est"
     ],
     "TVPljevlja.me@SD": [
+      "cnr",
       "srp"
     ],
     "TVPLosMochis.mx@SD": [
@@ -129781,8 +129783,8 @@
     "TVTerceiroAnjo.br@SD": [
       "por"
     ],
-    "TVTeuta.me@SD": [
-      "cnr"
+    "TVTeuta.me@HD": [
+      "sqi"
     ],
     "TVThathi.br@SD": [
       "por"
@@ -130059,7 +130061,7 @@
       "por"
     ],
     "TVVijesti.me@SD": [
-      "srp"
+      "cnr"
     ],
     "TVVilaReal.br@SD": [
       "por"
@@ -137642,7 +137644,7 @@
       "spa"
     ],
     "WOWMontenegro.me@SD": [
-      "mne"
+      "cnr"
     ],
     "WOWmxTV.mx@SD": [
       "spa"
