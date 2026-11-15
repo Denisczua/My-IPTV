@@ -1,6 +1,6 @@
 {
   "source": "https://iptv-org.github.io/api/feeds.json",
-  "retrieved_at": "2026-11-15T01:49:52.358261+00:00",
+  "retrieved_at": "2026-11-15T07:19:45.920286+00:00",
   "feeds": {
     "002RadioTV.do@SD": [
       "spa"
@@ -9587,6 +9587,9 @@
       "mal"
     ],
     "Asianet.in@SD": [
+      "mal"
+    ],
+    "AsianetCinema.in@SD": [
       "mal"
     ],
     "AsianetMiddleEast.in@SD": [
@@ -28060,6 +28063,9 @@
     "ComedyCentral.es@SD": [
       "spa"
     ],
+    "ComedyCentral.fr@HD": [
+      "fra"
+    ],
     "ComedyCentral.fr@SD": [
       "fra"
     ],
@@ -37507,6 +37513,9 @@
     "EBCGeneralEducation.kh@SD": [
       "khm"
     ],
+    "EBCLifelongLearning.kh@SD": [
+      "khm"
+    ],
     "EBCMovie.tw@SD": [
       "zho"
     ],
@@ -38272,6 +38281,9 @@
     ],
     "eldoTV.lu@SD": [
       "ltz"
+    ],
+    "Elec2rakTV.th@SD": [
+      "tha"
     ],
     "ElectricNow.us@SD": [
       "eng"
@@ -42634,6 +42646,10 @@
     "FILMBOXPlusFestival.pl@Poland": [
       "pol"
     ],
+    "FILMBOXPlusFestival.pl@Romania": [
+      "eng",
+      "ron"
+    ],
     "FILMBOXPlusFestival.pl@Russia": [
       "rus"
     ],
@@ -43621,6 +43637,12 @@
     ],
     "Formula1AntenaPlay.ro@SD": [
       "eng"
+    ],
+    "Formula2AntenaPlay.ro@SD": [
+      "ron"
+    ],
+    "FormulaAcademyAntenaPlay.ro@SD": [
+      "ron"
     ],
     "Foro.mx@SD": [
       "spa"
@@ -52110,6 +52132,9 @@
     ],
     "HiMusicTV.mk@SD": [
       "mkd"
+    ],
+    "HindiHits.in@HD": [
+      "hin"
     ],
     "HindiHits.in@SD": [
       "hin"
@@ -77140,6 +77165,9 @@
     "NazranaMusic.in@SD": [
       "hin"
     ],
+    "NBAAntenaPlay.ro@SD": [
+      "ron"
+    ],
     "NBALeaguePass.us@SD": [
       "eng"
     ],
@@ -81516,6 +81544,15 @@
     "Noticias247.pr@HD": [
       "spa"
     ],
+    "Noticias247.pr@WLIIDT": [
+      "spa"
+    ],
+    "Noticias247.pr@WOLEDT": [
+      "spa"
+    ],
+    "Noticias247.pr@WSURDT": [
+      "eng"
+    ],
     "NoticiasCaracolEnVivo.co@SD": [
       "spa"
     ],
@@ -81876,6 +81913,9 @@
     ],
     "NovosadskaTV.rs@SD": [
       "srp"
+    ],
+    "NovosilkyTV.ua@SD": [
+      "rus"
     ],
     "NovoTempo.br@SD": [
       "por"
@@ -98309,6 +98349,9 @@
     "RepublicBharat.in@SD": [
       "hin"
     ],
+    "RepublicBusiness.in@SD": [
+      "eng"
+    ],
     "RepublicKannada.in@SD": [
       "kan"
     ],
@@ -102466,6 +102509,9 @@
     ],
     "SaktiTV.id@SD": [
       "ind"
+    ],
+    "SakuranboTV.jp@JOCYDTV": [
+      "jpn"
     ],
     "SalaamTV.in@SD": [
       "urd"
@@ -108147,6 +108193,9 @@
     "Smartzone.ee@SD": [
       "est"
     ],
+    "SmashRadioTT.tt@HD": [
+      "eng"
+    ],
     "SmashTV.mt@SD": [
       "mlt",
       "eng"
@@ -108666,6 +108715,9 @@
     ],
     "SongdewTV.in@SD": [
       "hin"
+    ],
+    "SongTV.us@SD": [
+      "eng"
     ],
     "SONGTVArmenia.am@SD": [
       "hye"
@@ -139132,6 +139184,9 @@
     ],
     "YTNWorld.kr@SD": [
       "kor"
+    ],
+    "YTSYamagataTV.jp@JOYIDTV": [
+      "jpn"
     ],
     "YTV.bw@SD": [
       "eng",
