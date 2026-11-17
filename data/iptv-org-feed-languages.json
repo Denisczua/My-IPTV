@@ -1,6 +1,6 @@
 {
   "source": "https://iptv-org.github.io/api/feeds.json",
-  "retrieved_at": "2026-11-16T19:40:06.627825+00:00",
+  "retrieved_at": "2026-11-17T01:27:40.215110+00:00",
   "feeds": {
     "002RadioTV.do@SD": [
       "spa"
@@ -60089,7 +60089,7 @@
       "rus",
       "est"
     ],
-    "Kanal8.mk@SD": [
+    "Kanal8.mk@HD": [
       "mkd"
     ],
     "Kanal9.ch@SD": [

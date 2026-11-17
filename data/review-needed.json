@@ -310,6 +310,19 @@
     },
     {
       "block": [
+        "#EXTINF:-1 tvg-id=\"ChassePeche.fr@SD\" tvg-logo=\"https://i.imgur.com/ZIS2ZQ1.png\" group-title=\"Outdoor\",Chasse & Peche (540p)",
+        "https://r.eu.cdn-redge.media/livehls/oeu/mt/live/chasse_et_peche/live.livx/playlist.m3u8"
+      ],
+      "reason": "multilingual: review predominance",
+      "feed_languages": [
+        "bul",
+        "tur",
+        "fra",
+        "rus"
+      ]
+    },
+    {
+      "block": [
         "#EXTINF:-1 tvg-id=\"ChemodanTV.ua@SD\" tvg-logo=\"https://i.imgur.com/1WjGN8u.png\" http-user-agent=\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36\" group-title=\"Documentary;Education\",Chemodan TV (1080p)",
         "http://stream.mcquack.net/399/index.m3u8"
       ],
@@ -694,8 +707,8 @@
     },
     {
       "block": [
-        "#EXTINF:-1 tvg-id=\"MyZenTV.fr@SD\" tvg-logo=\"https://i.imgur.com/fIi8o0C.png\" group-title=\"Relax\",MyZen TV (1080p)",
-        "https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg01255-secomcofites-my-myzen-en-plex/playlist.m3u8"
+        "#EXTINF:-1 tvg-id=\"MyZenTV.fr@SD\" tvg-logo=\"https://i.imgur.com/fIi8o0C.png\" group-title=\"Relax\",MyZen TV (720p)",
+        "https://r.eu.cdn-redge.media/livehls/oeu/mt/live/myzen_tv/live.livx/playlist.m3u8"
       ],
       "reason": "multilingual: review predominance",
       "feed_languages": [
@@ -1048,54 +1061,6 @@
         "rus",
         "kir"
       ]
-    },
-    {
-      "block": [
-        "#EXTINF:-1 tvg-id=\"TVNiksic.me@SD\" tvg-logo=\"https://i.imgur.com/51fGwzn.png\" group-title=\"Undefined\",TV Niksic (720p)",
-        "https://tv.rtv-niksic.me/hls/stream.m3u8"
-      ],
-      "reason": "unresolved",
-      "feed_languages": []
-    },
-    {
-      "block": [
-        "#EXTINF:-1 tvg-id=\"TVTeuta.me@SD\" tvg-logo=\"https://i.imgur.com/sWVqBuW.png\" group-title=\"General\",TV Teuta",
-        "http://143.244.204.5/tvteuta/tracks-v1a1/mono.m3u8"
-      ],
-      "reason": "unresolved",
-      "feed_languages": []
-    },
-    {
-      "block": [
-        "#EXTINF:-1 tvg-id=\"TVCG1.me@SD\" tvg-logo=\"https://i.imgur.com/QORHrXu.png\" group-title=\"Undefined\",TVCG 1 (1080p) [Geo-blocked]",
-        "https://rtcg-live-open-geo.morescreens.com/RTCG_1_001/playlist.m3u8"
-      ],
-      "reason": "unresolved",
-      "feed_languages": []
-    },
-    {
-      "block": [
-        "#EXTINF:-1 tvg-id=\"TVCG2.me@SD\" tvg-logo=\"https://i.imgur.com/WECmUKH.png\" group-title=\"Undefined\",TVCG 2 (1080p) [Geo-blocked]",
-        "https://rtcg-live-open-geo.morescreens.com/RTCG_1_002/playlist.m3u8"
-      ],
-      "reason": "unresolved",
-      "feed_languages": []
-    },
-    {
-      "block": [
-        "#EXTINF:-1 tvg-id=\"TVCG3.me@SD\" tvg-logo=\"https://i.imgur.com/0ZT3Bc2.png\" group-title=\"Legislative\",TVCG 3 (1080p) [Geo-blocked]",
-        "https://rtcg-live-open-geo.morescreens.com/RTCG_1_003/playlist.m3u8"
-      ],
-      "reason": "unresolved",
-      "feed_languages": []
-    },
-    {
-      "block": [
-        "#EXTINF:-1 tvg-id=\"TVCGMNE.me@SD\" tvg-logo=\"https://i.imgur.com/pf8VEwf.png\" group-title=\"Undefined\",TVCG MNE (1080p)",
-        "https://rtcg-live-open.morescreens.com/RTCG_1_004/playlist.m3u8"
-      ],
-      "reason": "unresolved",
-      "feed_languages": []
     },
     {
       "block": [
