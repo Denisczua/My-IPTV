@@ -413,7 +413,7 @@
         "rus"
       ],
       "evidence": "IPTV-org feeds.languages",
-      "in_source": true,
+      "in_source": false,
       "content_decision": "allow",
       "content_evidence": "No evidence of specialized erotic or pornographic channel"
     },
@@ -1316,7 +1316,7 @@
         "rus"
       ],
       "evidence": "IPTV-org feeds.languages",
-      "in_source": true,
+      "in_source": false,
       "content_decision": "allow",
       "content_evidence": "No evidence of specialized erotic or pornographic channel"
     },
@@ -4319,7 +4319,7 @@
       "status": "UNKNOWN_CZ",
       "languages": [],
       "evidence": "multilingual: review predominance",
-      "in_source": true,
+      "in_source": false,
       "content_decision": "allow",
       "content_evidence": "No evidence of specialized erotic or pornographic channel"
     },
@@ -5876,7 +5876,7 @@
         "rus"
       ],
       "evidence": "IPTV-org feeds.languages",
-      "in_source": true,
+      "in_source": false,
       "content_decision": "allow",
       "content_evidence": "No evidence of specialized erotic or pornographic channel"
     },
@@ -6834,7 +6834,7 @@
       "status": "UNKNOWN_CZ",
       "languages": [],
       "evidence": "multilingual: review predominance",
-      "in_source": true,
+      "in_source": false,
       "content_decision": "allow",
       "content_evidence": "No evidence of specialized erotic or pornographic channel"
     },
@@ -7752,7 +7752,7 @@
         "rus"
       ],
       "evidence": "IPTV-org feeds.languages",
-      "in_source": true,
+      "in_source": false,
       "content_decision": "allow",
       "content_evidence": "No evidence of specialized erotic or pornographic channel"
     },
@@ -7916,7 +7916,7 @@
         "rus"
       ],
       "evidence": "IPTV-org feeds.languages",
-      "in_source": true,
+      "in_source": false,
       "content_decision": "allow",
       "content_evidence": "No evidence of specialized erotic or pornographic channel"
     },
@@ -12283,7 +12283,7 @@
         "rus"
       ],
       "evidence": "IPTV-org feeds.languages",
-      "in_source": true,
+      "in_source": false,
       "content_decision": "allow",
       "content_evidence": "No evidence of specialized erotic or pornographic channel"
     },
@@ -12599,7 +12599,7 @@
         "rus"
       ],
       "evidence": "IPTV-org feeds.languages",
-      "in_source": true,
+      "in_source": false,
       "content_decision": "allow",
       "content_evidence": "No evidence of specialized erotic or pornographic channel"
     },
@@ -12732,7 +12732,7 @@
         "rus"
       ],
       "evidence": "IPTV-org feeds.languages",
-      "in_source": true,
+      "in_source": false,
       "content_decision": "allow",
       "content_evidence": "No evidence of specialized erotic or pornographic channel"
     },
@@ -12871,25 +12871,145 @@
       "in_source": true,
       "content_decision": "allow",
       "content_evidence": "No evidence of specialized erotic or pornographic channel"
+    },
+    "bcf741074d44ed5f3992961c6e12f96836a15fe4f19e1429debb945b4e000fe9": {
+      "block": [
+        "#EXTINF:-1 tvg-id=\"black.ru@SD\" tvg-logo=\"https://i.imgur.com/Q4A6ci4.png\" group-title=\"Entertainment\",.black (576p)",
+        "http://s1.merlive.am/black/index.m3u8"
+      ],
+      "history": [],
+      "status": "UNKNOWN_CZ",
+      "languages": [
+        "rus"
+      ],
+      "evidence": "IPTV-org feeds.languages",
+      "in_source": true,
+      "content_decision": "allow",
+      "content_evidence": "No evidence of specialized erotic or pornographic channel"
+    },
+    "1efa01ba640b15d611fe0edd34bd7d32cf4f90694b4c702e936e9ee5a500fa31": {
+      "block": [
+        "#EXTINF:-1 tvg-id=\"Belarus4.by@Gomel\" tvg-logo=\"https://i.imgur.com/XNkQrMr.png\" group-title=\"General\",Belarus-4 Gomel (1080p)",
+        "https://live.dc.beltelecom.by/trkgomel/trkgomel.stream/playlist.m3u8"
+      ],
+      "history": [],
+      "status": "UNKNOWN_CZ",
+      "languages": [
+        "rus"
+      ],
+      "evidence": "IPTV-org feeds.languages",
+      "in_source": true,
+      "content_decision": "allow",
+      "content_evidence": "No evidence of specialized erotic or pornographic channel"
+    },
+    "976dda2d197d0db2f906a77429d616e46176bc8e26efd1d533b2e2692c329279": {
+      "block": [
+        "#EXTINF:-1 tvg-id=\"FONTV.ru@HD\" tvg-logo=\"https://play-lh.googleusercontent.com/J0YeRB884koVfecR2mp43Y2mbNtRVTSSOiq2U1gkITJ9IxzIM4VA71Rqbh3UlREI4mCnlxGHm4wxoujt5ZH1AQ\" group-title=\"Sports\",FON TV (1080p)",
+        "https://fonstreams.mediacdn.ru/stream/fontvclear/playlist.m3u8"
+      ],
+      "history": [],
+      "status": "UNKNOWN_CZ",
+      "languages": [
+        "rus"
+      ],
+      "evidence": "IPTV-org feeds.languages",
+      "in_source": true,
+      "content_decision": "allow",
+      "content_evidence": "No evidence of specialized erotic or pornographic channel"
+    },
+    "60533710ca167f7274baa068682ee1d244ea109c44cf6c3d8fb44df145ad868a": {
+      "block": [
+        "#EXTINF:-1 tvg-id=\"MatchPlaneta.ru@SD\" tvg-logo=\"https://i.imgur.com/vhyMb9D.png\" group-title=\"Sports\",Match! Planeta (576p)",
+        "http://s1.merlive.am/matchplaneta/index.m3u8"
+      ],
+      "history": [],
+      "status": "UNKNOWN_CZ",
+      "languages": [
+        "rus"
+      ],
+      "evidence": "IPTV-org feeds.languages",
+      "in_source": true,
+      "content_decision": "allow",
+      "content_evidence": "No evidence of specialized erotic or pornographic channel"
+    },
+    "f5691cc5d259d294426d464f3090f03bfce5aa391e386ab5704b7a76627e5e4c": {
+      "block": [
+        "#EXTINF:-1 tvg-id=\"OTVPrim.ru@SD\" tvg-logo=\"https://i.imgur.com/2zd8trG.png\" group-title=\"Entertainment\",OTV-Prim (720p)",
+        "https://jz2lo90hnpy.a.trbcdn.net/livemaster/yo8gr_live-5gorrrfpouq.smil/playlist.m3u8"
+      ],
+      "history": [],
+      "status": "UNKNOWN_CZ",
+      "languages": [
+        "rus"
+      ],
+      "evidence": "IPTV-org feeds.languages",
+      "in_source": true,
+      "content_decision": "allow",
+      "content_evidence": "No evidence of specialized erotic or pornographic channel"
+    },
+    "d17f5bb800ca6b896169631d392c1c64875101486be790bdd450d79799af486b": {
+      "block": [
+        "#EXTINF:-1 tvg-id=\"PervyyRespublikanskiy.ru@SD\" tvg-logo=\"https://i.imgur.com/ti4OMBv.png\" group-title=\"News\",Pervyy Respublikanskiy (576p)",
+        "https://streaming.televizor-24-tochka.ru/live/27.m3u8"
+      ],
+      "history": [],
+      "status": "UNKNOWN_CZ",
+      "languages": [
+        "rus"
+      ],
+      "evidence": "IPTV-org feeds.languages",
+      "in_source": true,
+      "content_decision": "allow",
+      "content_evidence": "No evidence of specialized erotic or pornographic channel"
+    },
+    "5f1fc9056668ed114a8b14a603f724fd31df50127b4b1fc7cd30d317b8df8139": {
+      "block": [
+        "#EXTINF:-1 tvg-id=\"Vitebsk.by@SD\" tvg-logo=\"https://i.imgur.com/qr26qQn.png\" group-title=\"Undefined\",Vitebsk (720p)",
+        "https://live.dc.beltelecom.by/vtv/vitebsk.stream/playlist.m3u8"
+      ],
+      "history": [],
+      "status": "UNKNOWN_CZ",
+      "languages": [
+        "rus"
+      ],
+      "evidence": "IPTV-org feeds.languages",
+      "in_source": true,
+      "content_decision": "allow",
+      "content_evidence": "No evidence of specialized erotic or pornographic channel"
+    },
+    "3f49a1db40cee6e956b307103631fdd13740589a5bf6f2551c9ef23c8bb7c270": {
+      "block": [
+        "#EXTINF:-1 tvg-id=\"Zhivayapriroda.ru@HD\" tvg-logo=\"https://i.imgur.com/9lHQPdN.png\" group-title=\"Undefined\",Zhivaya priroda HD (1080p)",
+        "http://s1.merlive.am/Jivaiapriroda/index.m3u8"
+      ],
+      "history": [],
+      "status": "UNKNOWN_CZ",
+      "languages": [
+        "rus"
+      ],
+      "evidence": "IPTV-org feeds.languages",
+      "in_source": true,
+      "content_decision": "allow",
+      "content_evidence": "No evidence of specialized erotic or pornographic channel"
     }
   },
   "cycle": null,
   "counts": {
-    "processed": 11546,
+    "processed": 11542,
     "excluded_specialized_all_languages": 0,
-    "unresolved": 95,
+    "unresolved": 94,
     "no_language_evidence": 0,
-    "other_or_review": 10844,
-    "multilingual_review": 95,
-    "known_other": 10749,
+    "other_or_review": 10840,
+    "multilingual_review": 94,
+    "known_other": 10746,
     "russian": 556,
     "ukrainian": 165,
     "both": 19,
     "excluded_specialized_ru_ua": 0,
     "specialization_review_ru_ua": 0
   },
-  "source_sha256": "9bb4a062336baa619da05e62d733eebc5e20c3c28cb168ec4d184d35e575e514",
-  "catalogued_at": "2026-11-18T01:58:31.871726+00:00",
+  "source_sha256": "55a9de2b5b6f4459f19db29b544c434c2ba1a42e5a0f635b648abeca51511bbf",
+  "catalogued_at": "2026-11-18T07:31:21.860344+00:00",
   "review_needed": {
     "language": [
       {
@@ -13326,7 +13446,7 @@
       },
       {
         "block": [
-          "#EXTINF:-1 tvg-id=\"HitFM.md@SD\" tvg-logo=\"https://i.imgur.com/QwqM5j6.png\" group-title=\"Music\",Hit FM",
+          "#EXTINF:-1 tvg-id=\"HitFM.md@SD\" tvg-logo=\"https://i.imgur.com/QwqM5j6.png\" group-title=\"Music\",Hit FM (1080p)",
           "https://hitfm.nfthost.net/hls/hitfm/live_all/playlist.m3u8"
         ],
         "reason": "multilingual: review predominance",
@@ -13610,18 +13730,6 @@
           "spa",
           "tur",
           "bul"
-        ]
-      },
-      {
-        "block": [
-          "#EXTINF:-1 tvg-id=\"NaxcivanTV.az@SD\" tvg-logo=\"https://i.imgur.com/8yLFkdE.png\" group-title=\"General\",Naxcivan TV (720p)",
-          "https://str2.yodacdn.net/ntv/video.m3u8"
-        ],
-        "reason": "multilingual: review predominance",
-        "feed_languages": [
-          "aze",
-          "rus",
-          "eng"
         ]
       },
       {

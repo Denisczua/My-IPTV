@@ -434,7 +434,7 @@
     },
     {
       "block": [
-        "#EXTINF:-1 tvg-id=\"HitFM.md@SD\" tvg-logo=\"https://i.imgur.com/QwqM5j6.png\" group-title=\"Music\",Hit FM",
+        "#EXTINF:-1 tvg-id=\"HitFM.md@SD\" tvg-logo=\"https://i.imgur.com/QwqM5j6.png\" group-title=\"Music\",Hit FM (1080p)",
         "https://hitfm.nfthost.net/hls/hitfm/live_all/playlist.m3u8"
       ],
       "reason": "multilingual: review predominance",
@@ -718,18 +718,6 @@
         "spa",
         "tur",
         "bul"
-      ]
-    },
-    {
-      "block": [
-        "#EXTINF:-1 tvg-id=\"NaxcivanTV.az@SD\" tvg-logo=\"https://i.imgur.com/8yLFkdE.png\" group-title=\"General\",Naxcivan TV (720p)",
-        "https://str2.yodacdn.net/ntv/video.m3u8"
-      ],
-      "reason": "multilingual: review predominance",
-      "feed_languages": [
-        "aze",
-        "rus",
-        "eng"
       ]
     },
     {

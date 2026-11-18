@@ -1,6 +1,6 @@
 {
   "source": "https://iptv-org.github.io/api/feeds.json",
-  "retrieved_at": "2026-11-18T01:58:31.485486+00:00",
+  "retrieved_at": "2026-11-18T07:31:21.342187+00:00",
   "feeds": {
     "002RadioTV.do@SD": [
       "spa"
@@ -1572,6 +1572,9 @@
       "rus"
     ],
     "5Live.il@SD": [
+      "heb"
+    ],
+    "5Max.il@SD": [
       "heb"
     ],
     "5minuttishiny.ru@SD": [
@@ -20264,6 +20267,9 @@
     "CanalGuanevision.co@SD": [
       "spa"
     ],
+    "CanalGuapa.py@SD": [
+      "spa"
+    ],
     "CanalGuiaABE.bo@SD": [
       "spa"
     ],
@@ -21196,6 +21202,9 @@
     ],
     "CanalWoyla.cm@SD": [
       "fra"
+    ],
+    "CanalX2.do@HD": [
+      "spa"
     ],
     "CanalXFN.ar@SD": [
       "spa"
@@ -27974,6 +27983,9 @@
     ],
     "ColorsTamil.in@US": [
       "tam"
+    ],
+    "ColorVision.do@HD": [
+      "spa"
     ],
     "ColorVision.do@SD": [
       "spa"
@@ -34860,6 +34872,9 @@
     ],
     "DigiSport4.ro@SD": [
       "ron"
+    ],
+    "Digital15.do@HD": [
+      "spa"
     ],
     "Digital15.do@SD": [
       "spa"
@@ -69258,6 +69273,9 @@
     "MediaTV.th@SD": [
       "tha"
     ],
+    "MediavisionTV.in@SD": [
+      "mal"
+    ],
     "MediBizTV.in@SD": [
       "eng"
     ],
@@ -81637,6 +81655,9 @@
     "Nova.es@SD": [
       "spa"
     ],
+    "Nova.me@HD": [
+      "cnr"
+    ],
     "Nova.rs@SD": [
       "srp"
     ],
@@ -81811,9 +81832,6 @@
     ],
     "NovaTV.hr@SD": [
       "hrv"
-    ],
-    "Nova.me@HD": [
-      "cnr"
     ],
     "NovaTV.rs@SD": [
       "srp"
@@ -94712,6 +94730,9 @@
     "Qudaah.jo@SD": [
       "ara"
     ],
+    "QudsunaTV.ps@HD": [
+      "arb"
+    ],
     "QueensUnitedTV.us@SD": [
       "por"
     ],
@@ -95749,6 +95770,9 @@
     ],
     "RadioClasicaTV.bo@SD": [
       "spa"
+    ],
+    "RADIOCLUBDJTV.pl@HD": [
+      "pol"
     ],
     "RadioClubedeLamego.pt@Main": [
       "por"
@@ -97898,6 +97922,9 @@
       "por"
     ],
     "RedeGospel.br@SD": [
+      "por"
+    ],
+    "RedeImpactoGospelTV.br@HD": [
       "por"
     ],
     "RedeInternacionaldeTV.br@SD": [
@@ -100961,6 +100988,9 @@
       "deu"
     ],
     "RTLZwei.de@HD": [
+      "deu"
+    ],
+    "RTLZwei.de@Schweiz": [
       "deu"
     ],
     "RTLZwei.de@SD": [
@@ -116272,6 +116302,9 @@
     "TeleAmistad.ni@SD": [
       "spa"
     ],
+    "TeleAndes.co@SD": [
+      "spa"
+    ],
     "TeleAndinaCanal23.ec@SD": [
       "spa"
     ],
@@ -116279,6 +116312,9 @@
       "spa"
     ],
     "TeleangolRadio.cl@SD": [
+      "spa"
+    ],
+    "TeleAntillas.do@HD": [
       "spa"
     ],
     "TeleAntillas.do@SD": [
@@ -116453,6 +116489,9 @@
       "spa"
     ],
     "Telecentro.bo@SD": [
+      "spa"
+    ],
+    "Telecentro.do@HD": [
       "spa"
     ],
     "Telecentro.do@SD": [
@@ -117778,6 +117817,9 @@
       "ita"
     ],
     "Telesistema.cr@SD": [
+      "spa"
+    ],
+    "Telesistema11.do@HD": [
       "spa"
     ],
     "Telesistema11.do@SD": [
