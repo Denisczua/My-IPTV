@@ -1,0 +1,17 @@
+{
+  "[\"https://stream.smotrim.ru/hls/fasttv03/playlist_3.m3u8\", \"https://stream.smotrim.ru/hls/fasttv03/playlist_3.m3u8\", \"ru\", [1920, 1080], \"playlist.m3u · [HLS на домене Смотрим](https://stream.smotrim.ru/hls/fasttv03/playlist_3.m3u8) · [интервью руководителя платформы ВГТРК](https://www.kinometro.ru/interview/show/name/int_sherozia_03072026)\", \"Руководитель платформы ВГТРК относит канал к собственным бесплатным FAST-каналам. Эфирная сетка преимущественно состоит из русскоязычных советских фильмов, с отдельными телеспектаклями и архивными передачами. Проверенный HLS на домене платформы открывается без авторизации.\"]": [
+    {
+      "at": "2026-11-18T10:54:05.056892+00:00",
+      "ok": true,
+      "detail": ""
+    }
+  ],
+  "[\"https://stream.smotrim.ru/hls/fasttv03/playlist_2.m3u8\", \"https://stream.smotrim.ru/hls/fasttv03/playlist_2.m3u8\", \"ru\", [1280, 720], \"[Прямой HD-вариант из HLS вещателя](https://stream.smotrim.ru/hls/fasttv03/playlist_2.m3u8) · [подтверждение бесплатного FAST-эфира от ВГТРК](https://www.kinometro.ru/interview/show/name/int_sherozia_03072026)\", \"Альтернативный прямой вариант того же официального бесплатного FAST-канала. FFprobe подтвердил 1280×720 и одну аудиодорожку; ссылка открывается без авторизации.\"]": [
+    {
+      "at": "2026-11-18T10:56:59.999999+00:00",
+      "ok": true,
+      "detail": "",
+      "timestamp_source": "First FFmpeg run; only the report minute was retained. Stored the latest possible time in that minute for conservative interval gating."
+    }
+  ]
+}
