@@ -2,7 +2,7 @@
 
 Проверка проведена 18 ноября 2026 года. Время замеров в таблицах указано по Чехии (CET, UTC+1).
 
-**Включено каналов — 1. HD — 0, Full HD — 1.** При выборе качества отброшено альтернативных прошедших версий того же эфира — 1.
+**По первой серии проверок включён 1 канал Full HD.** При выборе качества отброшено альтернативных прошедших версий того же эфира — 1.
 
 ## Источники поиска
 
@@ -58,3 +58,35 @@ Silk Way Cinema найден в IPTV-org, а происхождение подт
 | Общетематические, новостные, музыкальные, спортивные, сериальные каналы и 18+ | Исключены по сетке, описанию вещателя или категории до проверки воспроизведения. |
 
 Формат и кодеки сверены с документацией Samsung. Воспроизведение после импорта именно в IPTV-плеер на Samsung Tizen ещё предстоит подтвердить. [HLS на Samsung Tizen](https://developer.samsung.com/smarttv/develop/specifications/general-specifications.html), [кодеки Samsung Smart TV](https://developer.samsung.com/smarttv/develop/specifications/media-specifications.html).
+
+## Расширенный поиск и повторная проверка · 18 ноября 2026
+
+| Новый источник | Результат |
+|---|---|
+| [MaximKiselev/iptv](https://github.com/MaximKiselev/iptv) | 685 строк каналов. Среди 162 записей фильмовых, сериальных и смешанных групп было 160 уникальных URL. Дополнительные адреса преимущественно вели на сторонние зеркала, кабельные шлюзы или подписные каналы. |
+| [BDIX-IPTV](https://github.com/saeidrahmanbd/BDIX-IPTV) | 1 378 строк каналов. Обнаруженный адрес 4ever Cinema совпал с уже рассмотренным сторонним потоком. |
+| [MSX · потоки ВГТРК/НТВ](https://gist.github.com/Petrikin83/96b3905abd20c1d464eaa519461e8e35) | 54 позиции. Для «Смотрим 100% Классика» каталог указывает тот же адрес на домене ВГТРК. «Смотрим 100% Любовь» и «Смотрим 100% Мужское» проверены по сетке, где много сериалов или передач. |
+| [TVAtlas](https://tvatlas.app/country/ru/movies), [Public IPTV](https://publiciptv.com/countries/ru/categories/movies), [Doubo](https://doubo.tv/en/lists/iptv-org-ru/), [ChannelPeek](https://channelpeek.com/browse?cat=movies&lang=rus) | Использованы для поиска названий и вариантов. Doubo основан на IPTV-org. Бесплатное открытое вещание найденных сторонних адресов «Русский роман», «Кино ТВ» и «Кинопоказ» не подтверждено. |
+| [naTV](https://natv.su/), [VitsTV](https://vits.tv/ru/tv/klassika-kino/), [RuTuner](https://rutuner.ru/watch/komediynyy-kanal) | Найдены «Советское кино», «Классика кино» и «Русская комедия». Для указанных источников не найден подтверждённый открытый HD-адрес вещателя. naTV прямо указывает на неофициальное происхождение потоков. |
+| [FAST TV](https://fast-tv.ru/), [КИНОТВ](https://kinotv.ru/), [Cinéma](https://cinetv.ru/), [Победа](https://pobeda.tv/), [Русский роман](https://rusroman.ru/program) | Проверены страницы вещателей и официальных дистрибьюторов. Не найден публичный HLS этих каналов, пригодный для импорта из Чехии. |
+| [«Наше Наследие» на KION](https://kion.ru/tv/channel/381516024), [анонс Билайна](https://astrakhan.beeline.ru/customers/press/news/details/vstrechayte-noviy-telekanal-nashe-nasledie/) | Подтверждён фильмовой эфир. Публичный адрес для внешнего плеера не найден. |
+| [Parabola.cz · открытые спутниковые киноканалы](https://www.parabola.cz/prehledy/tematicke-kanaly-filmy/), [«Родное кино» у НТВ-ПЛЮС](https://tester.ntvplus.ru/channel/rodnoe-kino-20) | Среди русскоязычных позиций найдены уже проверенный Silk Way Cinema и «Родное кино». Для «Родного кино» у интернет-оператора указан доступ по подписке. Открытый спутниковый сигнал не даёт URL для IPTV. |
+
+### Альтернативные адреса «Смотрим 100% Классика»
+
+Проверены адреса одного вещателя с путями `/hls/`, `/hls2/` и `/hls3/`. Для одного и того же качества манифесты ссылаются на сегменты из `/hls3/fasttv03/`. Три адреса Full HD используют один источник звука. Общий `playlist.m3u8` вернул HTTP 403 при прямом запросе из Чехии. FFprobe измерил у `playlist_1.m3u8` 854×480, H.264 и AAC.
+
+| Поток | Размер | Первый запуск CET | Второй запуск CET |
+|---|---|---|---|
+| [hls/fasttv03/playlist_2.m3u8](https://stream.smotrim.ru/hls/fasttv03/playlist_2.m3u8) | 1280×720 | 13:29:28 · FFmpeg не подтвердил 60 с непрерывного видео и звука заданного разрешения | 13:44:39 · FFmpeg не подтвердил 60 с непрерывного видео и звука заданного разрешения |
+| [hls/fasttv03/playlist_3.m3u8](https://stream.smotrim.ru/hls/fasttv03/playlist_3.m3u8) | 1920×1080 | 13:29:28 · 61 с видео и звука | 13:44:39 · 61 с видео и звука |
+| [Silk Way Cinema](https://stream.qazcdn.net/ex6r514/silkwaycinema/tracks-v3a2/mono.ts.m3u8) | 1920×1080 | 13:29:28 · 61 с видео и звука | 13:44:39 · 61 с видео и звука |
+| [hls3/fasttv03/playlist_2.m3u8](https://stream.smotrim.ru/hls3/fasttv03/playlist_2.m3u8) | 1280×720 | 13:31:24 · 61 с видео и звука | 13:46:40 · FFmpeg обнаружил тишину от 5 с |
+| [hls3/fasttv03/playlist_3.m3u8](https://stream.smotrim.ru/hls3/fasttv03/playlist_3.m3u8) | 1920×1080 | 13:31:24 · 61 с видео и звука | 13:46:40 · FFmpeg обнаружил тишину от 5 с |
+| [hls2/fasttv03/playlist_3.m3u8](https://stream.smotrim.ru/hls2/fasttv03/playlist_3.m3u8) | 1920×1080 | 13:31:24 · 61 с видео и звука | 13:46:40 · FFprobe завершился ошибкой |
+
+Дополнительная трёхминутная проверка Full HD началась в 13:33:33 CET. FFmpeg декодировал 181.0 с. Результат — silence_start: 145.763479, silence_end: 181.031854 | silence_duration: 35.268375.
+
+Запасной [Silk Way Cinema HD](https://stream.qazcdn.net/ex6r514/silkwaycinema/tracks-v2a2/mono.ts.m3u8) перепроверен в 13:41:34 CET. FFmpeg не подтвердил 60 с непрерывного видео и звука заданного разрешения.
+
+**Текущий результат — 1 каналов Full HD.** Silk Way Cinema повторно прошёл оба запуска. «Смотрим 100% Классика» остался вне плейлиста. Повторные проверки не подтвердили устойчивый Full HD со звуком.
