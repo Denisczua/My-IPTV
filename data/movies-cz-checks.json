@@ -17,6 +17,11 @@
       "ok": true,
       "detail": "",
       "timestamp_source": "First FFmpeg run; only the report minute was retained. Stored the latest possible time in that minute for conservative interval gating."
+    },
+    {
+      "at": "2026-11-18T11:07:06.071273+00:00",
+      "ok": true,
+      "detail": ""
     }
   ]
 }
