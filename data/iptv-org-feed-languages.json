@@ -1,6 +1,6 @@
 {
   "source": "https://iptv-org.github.io/api/feeds.json",
-  "retrieved_at": "2026-11-19T07:59:35.014813+00:00",
+  "retrieved_at": "2026-11-19T13:31:29.735911+00:00",
   "feeds": {
     "002RadioTV.do@SD": [
       "spa"
@@ -26296,7 +26296,7 @@
       "hrv"
     ],
     "CineStarTV1.rs@SD": [
-      "hrv"
+      "srp"
     ],
     "CineStarTV1.si@SD": [
       "slv",
@@ -26307,7 +26307,7 @@
       "hrv"
     ],
     "CineStarTV2.rs@SD": [
-      "hrv"
+      "srp"
     ],
     "CineStarTV2.si@SD": [
       "slv",
@@ -26317,7 +26317,7 @@
       "hrv"
     ],
     "CineStarTVAction.rs@SD": [
-      "hrv"
+      "srp"
     ],
     "CineStarTVAction.si@SD": [
       "slv",
@@ -26327,7 +26327,7 @@
       "hrv"
     ],
     "CineStarTVComedy.rs@SD": [
-      "hrv"
+      "srp"
     ],
     "CineStarTVComedy.si@SD": [
       "slv",
@@ -26338,7 +26338,7 @@
       "srp"
     ],
     "CineStarTVFantasy.rs@SD": [
-      "hrv"
+      "srp"
     ],
     "CineStarTVFantasy.si@SD": [
       "slv",
@@ -26349,7 +26349,7 @@
       "hrv"
     ],
     "CineStarTVPremiere1.rs@SD": [
-      "hrv"
+      "srp"
     ],
     "CineStarTVPremiere1.si@SD": [
       "slv",
@@ -26360,7 +26360,7 @@
       "hrv"
     ],
     "CineStarTVPremiere2.rs@SD": [
-      "hrv"
+      "srp"
     ],
     "CineStarTVPremiere2.si@SD": [
       "slv",
@@ -48301,6 +48301,9 @@
     "Grand.rs@SD": [
       "srp"
     ],
+    "Grand2.rs@SD": [
+      "srp"
+    ],
     "GrandCinema.tr@SD": [
       "fas"
     ],
@@ -48324,6 +48327,9 @@
     ],
     "GrandIslandTelevision.us@SD": [
       "eng"
+    ],
+    "GrandNostalgija.rs@SD": [
+      "srp"
     ],
     "GrandPrairieTV.us@SD": [
       "eng"
@@ -60446,7 +60452,7 @@
       "rus"
     ],
     "KATV.rs@SD": [
-      "eng"
+      "srp"
     ],
     "Katyusha.ru@SD": [
       "rus",
@@ -80408,7 +80414,7 @@
       "ron"
     ],
     "Nickelodeon.rs@SD": [
-      "eng"
+      "srp"
     ],
     "Nickelodeon.ru@HD": [
       "rus"
@@ -80606,7 +80612,7 @@
       "eng"
     ],
     "NickJr.rs@SD": [
-      "eng"
+      "srp"
     ],
     "NickJr.ru@SD": [
       "rus"
@@ -82660,7 +82666,7 @@
       "spa"
     ],
     "NTV.rs@SD": [
-      "eng"
+      "srp"
     ],
     "NTV.ru@HD": [
       "rus"
@@ -101357,8 +101363,7 @@
       "nld"
     ],
     "RTV1.rs@SD": [
-      "srp",
-      "swe"
+      "srp"
     ],
     "RTV1Amstelveen.nl@SD": [
       "nld"
@@ -101419,7 +101424,7 @@
       "tam"
     ],
     "RTVBosphorus.rs@SD": [
-      "eng"
+      "srp"
     ],
     "RTVBPK.ba@SD": [
       "bos"
@@ -101528,7 +101533,7 @@
       "sqi"
     ],
     "RTVGEM.rs@SD": [
-      "eng"
+      "srp"
     ],
     "RTVGlasDrine.ba@SD": [
       "bos"
@@ -105707,7 +105712,7 @@
       "deu"
     ],
     "ShoppsterTV.rs@SD": [
-      "slv"
+      "srp"
     ],
     "ShopShow.ru@SD": [
       "rus"
@@ -110894,6 +110899,9 @@
     "StarLife.pt@SD": [
       "por"
     ],
+    "StarLife.rs@SD": [
+      "srp"
+    ],
     "StarLife.si@HD": [
       "slv"
     ],
@@ -113995,6 +114003,9 @@
       "ita"
     ],
     "SUPERSTAR2.rs@SD": [
+      "srp"
+    ],
+    "SUPERSTAR3.rs@SD": [
       "srp"
     ],
     "SUPERSTARTV.rs@SD": [
@@ -126129,6 +126140,9 @@
     "TVBrno1.cz@SD": [
       "ces"
     ],
+    "TVBrus.rs@SD": [
+      "srp"
+    ],
     "TVBrusque.br@SD": [
       "por"
     ],
@@ -127112,6 +127126,9 @@
     "TVGolfoUraba.co@SD": [
       "spa"
     ],
+    "TVGolija.rs@SD": [
+      "srp"
+    ],
     "TVGPequerrechos.es@SD": [
       "glg"
     ],
@@ -127270,7 +127287,7 @@
       "spa"
     ],
     "TVInfo24.rs@SD": [
-      "eng"
+      "srp"
     ],
     "TVInfo24plus.rs@SD": [
       "srp"
@@ -127598,7 +127615,7 @@
       "spa"
     ],
     "TVLavPlus.rs@SD": [
-      "eng"
+      "srp"
     ],
     "TVLegislativa.cr@SD": [
       "spa"
@@ -128623,9 +128640,6 @@
     "TVPassoFundo.br@SD": [
       "por"
     ],
-    "TVPCanal.rs@SD": [
-      "srp"
-    ],
     "TVPCuliacan.mx@SD": [
       "spa"
     ],
@@ -128853,6 +128867,9 @@
     ],
     "TVPrecabura.br@SD": [
       "por"
+    ],
+    "TVPresevo.rs@SD": [
+      "sqi"
     ],
     "TVPriboj.rs@SD": [
       "srp"
@@ -130045,7 +130062,7 @@
       "por"
     ],
     "TVVAPlus.rs@SD": [
-      "eng"
+      "srp"
     ],
     "TVVarezaGrande.br@SD": [
       "por"
@@ -130132,6 +130149,9 @@
     ],
     "TVVlaanderen.be@SD": [
       "nld"
+    ],
+    "TVVlasotince.rs@SD": [
+      "srp"
     ],
     "TVVraca.bg@SD": [
       "bul"
@@ -139397,16 +139417,16 @@
       "kin"
     ],
     "ZadrugaLive1.rs@SD": [
-      "eng"
+      "srp"
     ],
     "ZadrugaLive2.rs@SD": [
-      "eng"
+      "srp"
     ],
     "ZadrugaLive3.rs@SD": [
-      "eng"
+      "srp"
     ],
     "ZadrugaLive4.rs@SD": [
-      "eng"
+      "srp"
     ],
     "ZadTV.sa@SD": [
       "ara"
