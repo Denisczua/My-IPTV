@@ -10893,7 +10893,7 @@
       "status": "UNKNOWN_CZ",
       "languages": [],
       "evidence": "IPTV-org feeds.languages",
-      "in_source": true,
+      "in_source": false,
       "content_decision": "allow",
       "content_evidence": "No evidence of specialized erotic or pornographic channel"
     },
@@ -12313,7 +12313,7 @@
         "rus"
       ],
       "evidence": "IPTV-org feeds.languages",
-      "in_source": true,
+      "in_source": false,
       "content_decision": "allow",
       "content_evidence": "No evidence of specialized erotic or pornographic channel"
     },
@@ -12991,25 +12991,40 @@
       "in_source": true,
       "content_decision": "allow",
       "content_evidence": "No evidence of specialized erotic or pornographic channel"
+    },
+    "7da1c0d27988c392469d00c1f7c7e8feea384eedc2ef06e4498c10c112c0ad6e": {
+      "block": [
+        "#EXTINF:-1 tvg-id=\"VIVARussia.ru@SD\" tvg-logo=\"https://i.imgur.com/OFhQQCD.png\" group-title=\"Music\",VIVA Russia (1080p)",
+        "https://183.giatvcdn.com/ssh101/ssh101/vivarussia/playlist.m3u8"
+      ],
+      "history": [],
+      "status": "UNKNOWN_CZ",
+      "languages": [
+        "rus"
+      ],
+      "evidence": "IPTV-org feeds.languages",
+      "in_source": true,
+      "content_decision": "allow",
+      "content_evidence": "No evidence of specialized erotic or pornographic channel"
     }
   },
   "cycle": null,
   "counts": {
-    "processed": 11542,
+    "processed": 11598,
     "excluded_specialized_all_languages": 0,
     "unresolved": 94,
     "no_language_evidence": 0,
-    "other_or_review": 10840,
+    "other_or_review": 10896,
     "multilingual_review": 94,
-    "known_other": 10746,
+    "known_other": 10802,
     "russian": 556,
     "ukrainian": 165,
     "both": 19,
     "excluded_specialized_ru_ua": 0,
     "specialization_review_ru_ua": 0
   },
-  "source_sha256": "55a9de2b5b6f4459f19db29b544c434c2ba1a42e5a0f635b648abeca51511bbf",
-  "catalogued_at": "2026-11-19T01:57:16.671957+00:00",
+  "source_sha256": "94ae372953079d97393c43f7dd61d1fc09c386c7687ec6b7d0627871d3c3584d",
+  "catalogued_at": "2026-11-19T07:34:18.820965+00:00",
   "review_needed": {
     "language": [
       {
