@@ -1,6 +1,6 @@
 {
   "source": "https://iptv-org.github.io/api/feeds.json",
-  "retrieved_at": "2026-11-20T01:54:26.492243+00:00",
+  "retrieved_at": "2026-11-20T07:32:17.242106+00:00",
   "feeds": {
     "002RadioTV.do@SD": [
       "spa"
@@ -13865,18 +13865,6 @@
       "eng",
       "swe"
     ],
-    "BestofTheDrewBarrymoreShow.se@DK": [
-      "eng",
-      "dan"
-    ],
-    "BestofTheDrewBarrymoreShow.se@NO": [
-      "eng",
-      "nor"
-    ],
-    "BestofTheDrewBarrymoreShow.se@SE": [
-      "eng",
-      "swe"
-    ],
     "BestofTheDrewBarrymoreShow.us@CA": [
       "eng"
     ],
@@ -15454,22 +15442,6 @@
     ],
     "BonDiaTV.es@SD": [
       "cat"
-    ],
-    "BondiRescue.se@DK": [
-      "eng",
-      "dan"
-    ],
-    "BondiRescue.se@FI": [
-      "eng",
-      "fin"
-    ],
-    "BondiRescue.se@NO": [
-      "eng",
-      "nor"
-    ],
-    "BondiRescue.se@SE": [
-      "eng",
-      "swe"
     ],
     "BondiRescue.us@CA": [
       "eng"
@@ -21478,22 +21450,6 @@
     "CarasTV.ar@SD": [
       "spa"
     ],
-    "CarChase.se@DK": [
-      "eng",
-      "dan"
-    ],
-    "CarChase.se@FI": [
-      "eng",
-      "fin"
-    ],
-    "CarChase.se@NO": [
-      "eng",
-      "nor"
-    ],
-    "CarChase.se@SE": [
-      "eng",
-      "swe"
-    ],
     "CarChase.us@SD": [
       "eng"
     ],
@@ -25337,14 +25293,6 @@
     ],
     "CheddarU.us@SD": [
       "eng"
-    ],
-    "Cheers.se@FI": [
-      "eng",
-      "fin"
-    ],
-    "Cheers.se@NO": [
-      "eng",
-      "nor"
     ],
     "Cheers.us@CA": [
       "eng"
@@ -31160,10 +31108,6 @@
     "CSHorror.cz@SD": [
       "ces"
     ],
-    "CSI.se@DK": [
-      "eng",
-      "dan"
-    ],
     "CSI.us@SD": [
       "eng"
     ],
@@ -34667,22 +34611,6 @@
     "DiadoraTV.hr@SD": [
       "hrv"
     ],
-    "DiagnosisMurder.se@DK": [
-      "eng",
-      "dan"
-    ],
-    "DiagnosisMurder.se@FI": [
-      "eng",
-      "fin"
-    ],
-    "DiagnosisMurder.se@NO": [
-      "eng",
-      "nor"
-    ],
-    "DiagnosisMurder.se@SE": [
-      "eng",
-      "swe"
-    ],
     "DiagnosisMurder.us@CA": [
       "eng"
     ],
@@ -36267,14 +36195,6 @@
     ],
     "Docevision.cl@SD": [
       "spa"
-    ],
-    "DocMartin.se@NO": [
-      "eng",
-      "nor"
-    ],
-    "DocMartin.se@SE": [
-      "eng",
-      "swe"
     ],
     "DocMartin.us@CA": [
       "eng"
@@ -41609,18 +41529,6 @@
     "FamilySwap.us@SD": [
       "eng"
     ],
-    "FamilyTies.se@DK": [
-      "eng",
-      "dan"
-    ],
-    "FamilyTies.se@NO": [
-      "eng",
-      "nor"
-    ],
-    "FamilyTies.se@SE": [
-      "eng",
-      "swe"
-    ],
     "FamilyTies.us@SD": [
       "eng"
     ],
@@ -45196,14 +45104,6 @@
     ],
     "FrankenFernsehen.de@SD": [
       "deu"
-    ],
-    "Frasier.se@DK": [
-      "eng",
-      "dan"
-    ],
-    "Frasier.se@FI": [
-      "eng",
-      "fin"
     ],
     "Frasier.us@CA": [
       "eng"
@@ -50429,18 +50329,6 @@
     "HappyColorChannel.cn@SD": [
       "zho"
     ],
-    "HappyDays.se@DK": [
-      "eng",
-      "dan"
-    ],
-    "HappyDays.se@NO": [
-      "eng",
-      "nor"
-    ],
-    "HappyDays.se@SE": [
-      "eng",
-      "swe"
-    ],
     "HappyDays.us@CA": [
       "eng"
     ],
@@ -54606,18 +54494,6 @@
     "ICAMPublicChannel.us@SD": [
       "eng"
     ],
-    "iCarly.se@DK": [
-      "eng",
-      "dan"
-    ],
-    "iCarly.se@NO": [
-      "eng",
-      "nor"
-    ],
-    "iCarly.se@SE": [
-      "eng",
-      "swe"
-    ],
     "iCarly.us@BR": [
       "por"
     ],
@@ -58116,18 +57992,6 @@
       "yue",
       "zho"
     ],
-    "JAG.se@DK": [
-      "eng",
-      "dan"
-    ],
-    "JAG.se@NO": [
-      "eng",
-      "nor"
-    ],
-    "JAG.se@SE": [
-      "eng",
-      "swe"
-    ],
     "JAG.us@CA": [
       "eng"
     ],
@@ -58521,18 +58385,6 @@
     ],
     "JericoTelevision.co@SD": [
       "spa"
-    ],
-    "JerseyShore.se@DK": [
-      "eng",
-      "dan"
-    ],
-    "JerseyShore.se@NO": [
-      "eng",
-      "nor"
-    ],
-    "JerseyShore.se@SE": [
-      "eng",
-      "swe"
     ],
     "JerseyShore.us@SD": [
       "eng"
@@ -67348,18 +67200,6 @@
     "MacauCulturalChannel.hk@SD": [
       "yue"
     ],
-    "MacGyver.se@DK": [
-      "eng",
-      "dan"
-    ],
-    "MacGyver.se@NO": [
-      "eng",
-      "nor"
-    ],
-    "MacGyver.se@SE": [
-      "eng",
-      "swe"
-    ],
     "MacGyver.us@BR": [
       "por"
     ],
@@ -68558,22 +68398,6 @@
     ],
     "Matkanalen.no@SD": [
       "nor"
-    ],
-    "Matlock.se@DK": [
-      "eng",
-      "dan"
-    ],
-    "Matlock.se@FI": [
-      "eng",
-      "fin"
-    ],
-    "Matlock.se@NO": [
-      "eng",
-      "nor"
-    ],
-    "Matlock.se@SE": [
-      "eng",
-      "swe"
     ],
     "Matlock.us@CA": [
       "eng"
@@ -71612,18 +71436,6 @@
     "MissionErweckungderWelt.de@SD": [
       "deu"
     ],
-    "MissionImpossible.se@DK": [
-      "eng",
-      "dan"
-    ],
-    "MissionImpossible.se@NO": [
-      "eng",
-      "nor"
-    ],
-    "MissionImpossible.se@SE": [
-      "eng",
-      "swe"
-    ],
     "MissionImpossible.us@CA": [
       "eng"
     ],
@@ -74463,10 +74275,6 @@
     "MTVAitio.fi@HD": [
       "fin"
     ],
-    "MTVAreYouTheOne.se@FI": [
-      "eng",
-      "fin"
-    ],
     "MTVAreyoutheOne.us@BR": [
       "por"
     ],
@@ -74506,22 +74314,6 @@
     ],
     "MTVBrave.us@Spain": [
       "spa"
-    ],
-    "MTVCatfish.se@DK": [
-      "eng",
-      "dan"
-    ],
-    "MTVCatfish.se@FI": [
-      "eng",
-      "fin"
-    ],
-    "MTVCatfish.se@NO": [
-      "eng",
-      "nor"
-    ],
-    "MTVCatfish.se@SE": [
-      "eng",
-      "swe"
     ],
     "MTVCatfish.us@BR": [
       "por"
@@ -74573,22 +74365,6 @@
     ],
     "MTVCribs.de@ESPlus": [
       "spa"
-    ],
-    "MTVDating.se@DK": [
-      "eng",
-      "dan"
-    ],
-    "MTVDating.se@FI": [
-      "eng",
-      "fin"
-    ],
-    "MTVDating.se@NO": [
-      "eng",
-      "nor"
-    ],
-    "MTVDating.se@SE": [
-      "eng",
-      "swe"
     ],
     "MTVDating.us@BR": [
       "por"
@@ -74698,10 +74474,6 @@
     "MTVJerseys.de@ES": [
       "spa"
     ],
-    "MTVJerseyShore.se@FI": [
-      "eng",
-      "fin"
-    ],
     "MTVJerseyShore.us@CA": [
       "eng"
     ],
@@ -74783,22 +74555,6 @@
     "MTVRealities.us@Spain": [
       "spa"
     ],
-    "MTVReality.se@DK": [
-      "eng",
-      "dan"
-    ],
-    "MTVReality.se@FI": [
-      "eng",
-      "fin"
-    ],
-    "MTVReality.se@NO": [
-      "eng",
-      "nor"
-    ],
-    "MTVReality.se@SE": [
-      "eng",
-      "swe"
-    ],
     "MTVReality.us@BR": [
       "por"
     ],
@@ -74810,22 +74566,6 @@
     ],
     "MTVRetro.au@AU": [
       "eng"
-    ],
-    "MTVRidiculousness.se@DK": [
-      "eng",
-      "dan"
-    ],
-    "MTVRidiculousness.se@FI": [
-      "eng",
-      "fin"
-    ],
-    "MTVRidiculousness.se@NO": [
-      "eng",
-      "nor"
-    ],
-    "MTVRidiculousness.se@SE": [
-      "eng",
-      "swe"
     ],
     "MTVRidiculousness.us@BR": [
       "por"
@@ -74882,22 +74622,6 @@
     ],
     "MTVTattooados.de@ES": [
       "spa"
-    ],
-    "MTVTeenMom.se@DK": [
-      "eng",
-      "dan"
-    ],
-    "MTVTeenMom.se@FI": [
-      "eng",
-      "fin"
-    ],
-    "MTVTeenMom.se@NO": [
-      "eng",
-      "nor"
-    ],
-    "MTVTeenMom.se@SE": [
-      "eng",
-      "swe"
     ],
     "MTVTeenMom.us@LatAm": [
       "spa"
@@ -78576,14 +78300,6 @@
     "NCI.ci@SD": [
       "fra"
     ],
-    "NCIS.se@DK": [
-      "eng",
-      "dan"
-    ],
-    "NCIS.se@FI": [
-      "eng",
-      "fin"
-    ],
     "NCIS.us@BR": [
       "por"
     ],
@@ -78604,10 +78320,6 @@
     "NCISGibbsinparhaat.se@FI": [
       "eng",
       "fin"
-    ],
-    "NCISLosAngeles.se@DK": [
-      "eng",
-      "dan"
     ],
     "NCISLosAngeles.us@CA": [
       "eng"
@@ -82949,18 +82661,6 @@
     "NukaTV.ec@SD": [
       "spa"
     ],
-    "Numb3rs.se@FI": [
-      "eng",
-      "fin"
-    ],
-    "Numb3rs.se@NO": [
-      "eng",
-      "nor"
-    ],
-    "Numb3rs.se@SE": [
-      "eng",
-      "swe"
-    ],
     "Number1Ask.tr@SD": [
       "tur"
     ],
@@ -82975,10 +82675,6 @@
     ],
     "Number1TV.tr@SD": [
       "tur"
-    ],
-    "Numbers.se@DK": [
-      "eng",
-      "dan"
     ],
     "Numbers.us@BR": [
       "por"
@@ -89835,22 +89531,6 @@
     "PIMEDIATV.bo@SD": [
       "spa"
     ],
-    "PimpMyRide.se@DK": [
-      "eng",
-      "dan"
-    ],
-    "PimpMyRide.se@FI": [
-      "eng",
-      "fin"
-    ],
-    "PimpMyRide.se@NO": [
-      "eng",
-      "nor"
-    ],
-    "PimpMyRide.se@SE": [
-      "eng",
-      "swe"
-    ],
     "PimpmyRide.us@UK": [
       "eng"
     ],
@@ -90541,18 +90221,6 @@
     ],
     "PlutoTV90sClassics.de@FR": [
       "fra"
-    ],
-    "PlutoTVAction.se@DK": [
-      "eng",
-      "dan"
-    ],
-    "PlutoTVAction.se@NO": [
-      "eng",
-      "nor"
-    ],
-    "PlutoTVAction.se@SE": [
-      "eng",
-      "swe"
     ],
     "PlutoTVAction.us@US": [
       "eng"
@@ -91322,18 +90990,6 @@
     "PlutoTVHometownDrama.us@SD": [
       "eng"
     ],
-    "PlutoTVHorror.se@DK": [
-      "eng",
-      "dan"
-    ],
-    "PlutoTVHorror.se@NO": [
-      "eng",
-      "nor"
-    ],
-    "PlutoTVHorror.se@SE": [
-      "eng",
-      "swe"
-    ],
     "PlutoTVHorror.us@CA": [
       "eng"
     ],
@@ -91342,9 +90998,6 @@
     ],
     "PlutoTVHorrorSerien.de@DACH": [
       "deu"
-    ],
-    "PlutoTVHumor.se@DK": [
-      "dan"
     ],
     "PlutoTVHumor.us@LatAm": [
       "spa"
@@ -91725,14 +91378,6 @@
       "eng",
       "fin"
     ],
-    "PlutoTVParanormal.se@DK": [
-      "eng",
-      "dan"
-    ],
-    "PlutoTVParanormal.se@SE": [
-      "eng",
-      "swe"
-    ],
     "PlutoTVParanormal.us@CA": [
       "eng"
     ],
@@ -91861,22 +91506,6 @@
     ],
     "PlutoTVScience.us@US": [
       "eng"
-    ],
-    "PlutoTVSciFi.se@DK": [
-      "eng",
-      "dan"
-    ],
-    "PlutoTVSciFi.se@FI": [
-      "eng",
-      "fin"
-    ],
-    "PlutoTVSciFi.se@NO": [
-      "eng",
-      "nor"
-    ],
-    "PlutoTVSciFi.se@SE": [
-      "eng",
-      "swe"
     ],
     "PlutoTVSciFi.us@CA": [
       "eng"
@@ -92178,22 +91807,6 @@
     "PlutoTVTrendingNow.us@SD": [
       "eng"
     ],
-    "PlutoTVTrueCrime.se@DK": [
-      "eng",
-      "dan"
-    ],
-    "PlutoTVTrueCrime.se@FI": [
-      "eng",
-      "fin"
-    ],
-    "PlutoTVTrueCrime.se@NO": [
-      "eng",
-      "nor"
-    ],
-    "PlutoTVTrueCrime.se@SE": [
-      "eng",
-      "swe"
-    ],
     "PlutoTVTrueCrime.us@CA": [
       "eng"
     ],
@@ -92298,9 +91911,6 @@
     ],
     "PlutoTVWestern.de@IT": [
       "ita"
-    ],
-    "PlutoTVWesterns.de@GB": [
-      "eng"
     ],
     "PlutoTVWesterns.us@CA": [
       "eng"
@@ -96370,6 +95980,10 @@
     "RadioTeleSuperStar.ht@SD": [
       "fra"
     ],
+    "RadioTeleUnistar.ht@SD": [
+      "fra",
+      "hat"
+    ],
     "RadioTeleVictoire.ht@SD": [
       "fra"
     ],
@@ -97221,22 +96835,6 @@
     ],
     "Rawdah.sa@SD": [
       "ara"
-    ],
-    "Rawhide.se@DK": [
-      "eng",
-      "dan"
-    ],
-    "Rawhide.se@FI": [
-      "eng",
-      "fin"
-    ],
-    "Rawhide.se@NO": [
-      "eng",
-      "nor"
-    ],
-    "Rawhide.se@SE": [
-      "eng",
-      "swe"
     ],
     "Rawhide.us@CA": [
       "eng"
@@ -99210,9 +98808,6 @@
     ],
     "RideTV.us@SD": [
       "eng"
-    ],
-    "Ridiculousness.de@FR": [
-      "fra"
     ],
     "Ridiculousness.us@SD": [
       "eng"
@@ -101825,9 +101420,6 @@
     ],
     "RugenTV.de@SD": [
       "deu"
-    ],
-    "Rugrats.de@ES": [
-      "spa"
     ],
     "Rugrats.us@LatAm": [
       "spa"
@@ -108358,18 +107950,6 @@
     "SmithsonianChannelPlutoTV.us@LatAm": [
       "spa"
     ],
-    "SmithsonianChannelSelects.se@DK": [
-      "eng",
-      "dan"
-    ],
-    "SmithsonianChannelSelects.se@FI": [
-      "eng",
-      "fin"
-    ],
-    "SmithsonianChannelSelects.se@SE": [
-      "eng",
-      "swe"
-    ],
     "SmithsonianChannelSelects.us@SD": [
       "eng"
     ],
@@ -109184,31 +108764,6 @@
     "SouthHavenGovernmentAccess.us@SD": [
       "eng"
     ],
-    "SouthPark.de@ES": [
-      "spa"
-    ],
-    "SouthPark.de@GB": [
-      "eng"
-    ],
-    "SouthPark.de@IT": [
-      "ita"
-    ],
-    "SouthPark.se@DK": [
-      "eng",
-      "dan"
-    ],
-    "SouthPark.se@FI": [
-      "eng",
-      "fin"
-    ],
-    "SouthPark.se@NO": [
-      "eng",
-      "nor"
-    ],
-    "SouthPark.se@SE": [
-      "eng",
-      "swe"
-    ],
     "SouthPark.us@CA": [
       "eng"
     ],
@@ -109239,21 +108794,6 @@
       "nor"
     ],
     "SouthParkButtersCollection.se@SE": [
-      "eng",
-      "swe"
-    ],
-    "SouthParkCartmanCollection.de@DACH": [
-      "deu"
-    ],
-    "SouthParkCartmanCollection.se@DK": [
-      "eng",
-      "dan"
-    ],
-    "SouthParkCartmanCollection.se@NO": [
-      "eng",
-      "nor"
-    ],
-    "SouthParkCartmanCollection.se@SE": [
       "eng",
       "swe"
     ],
@@ -109299,38 +108839,8 @@
       "eng",
       "swe"
     ],
-    "SouthParkKennyCollection.de@DACH": [
-      "deu"
-    ],
-    "SouthParkKennyCollection.se@DK": [
-      "eng",
-      "dan"
-    ],
-    "SouthParkKennyCollection.se@NO": [
-      "eng",
-      "nor"
-    ],
-    "SouthParkKennyCollection.se@SE": [
-      "eng",
-      "swe"
-    ],
     "SouthParkKennyCollection.us@CA": [
       "eng"
-    ],
-    "SouthParkKyleCollection.de@DACH": [
-      "deu"
-    ],
-    "SouthParkKyleCollection.se@DK": [
-      "eng",
-      "dan"
-    ],
-    "SouthParkKyleCollection.se@NO": [
-      "eng",
-      "nor"
-    ],
-    "SouthParkKyleCollection.se@SE": [
-      "eng",
-      "swe"
     ],
     "SouthParkKyleCollection.us@CA": [
       "eng"
@@ -109352,21 +108862,6 @@
     ],
     "SouthParkRocks.de@DACH": [
       "deu"
-    ],
-    "SouthParkStanCollection.de@DACH": [
-      "deu"
-    ],
-    "SouthParkStanCollection.se@DK": [
-      "eng",
-      "dan"
-    ],
-    "SouthParkStanCollection.se@NO": [
-      "eng",
-      "nor"
-    ],
-    "SouthParkStanCollection.se@SE": [
-      "eng",
-      "swe"
     ],
     "SouthParkStanCollection.us@CA": [
       "eng"
@@ -111258,16 +110753,6 @@
       "eng",
       "swe"
     ],
-    "StarTrekTheNextGeneration.de@DACH": [
-      "deu"
-    ],
-    "StarTrekTheNextGeneration.de@ES": [
-      "spa"
-    ],
-    "StarTrekTheNextGeneration.se@FI": [
-      "eng",
-      "fin"
-    ],
     "StarTrekTheNextGeneration.us@SD": [
       "eng"
     ],
@@ -111292,16 +110777,6 @@
     "StarTrekTheOriginalSeries.se@SE": [
       "eng",
       "swe"
-    ],
-    "StarTrekVoyager.de@ES": [
-      "spa"
-    ],
-    "StarTrekVoyager.de@IT": [
-      "ita"
-    ],
-    "StarTrekVoyager.se@FI": [
-      "eng",
-      "fin"
     ],
     "StarTrekVoyager.us@SD": [
       "eng"
@@ -113425,27 +112900,6 @@
     ],
     "SummerofMovies.us@CA": [
       "eng"
-    ],
-    "SUMOParis2026.de@DACH": [
-      "deu"
-    ],
-    "SUMOParis2026.de@FR": [
-      "fra"
-    ],
-    "SUMOParis2026.de@GB": [
-      "eng"
-    ],
-    "SUMOParis2026.se@DK": [
-      "eng",
-      "dan"
-    ],
-    "SUMOParis2026.se@NO": [
-      "eng",
-      "nor"
-    ],
-    "SUMOParis2026.se@SE": [
-      "eng",
-      "swe"
     ],
     "SUMOParis2026.us@CA": [
       "eng"
@@ -116085,15 +115539,6 @@
       "eng"
     ],
     "TeenageMutantNinjaTurtles.de@IT": [
-      "ita"
-    ],
-    "TeenMom.de@FR": [
-      "fra"
-    ],
-    "TeenMom.de@GB": [
-      "eng"
-    ],
-    "TeenMom.de@IT": [
       "ita"
     ],
     "TeenMom.us@SD": [
@@ -120686,21 +120131,6 @@
     "TheNest.us@WYDO": [
       "eng"
     ],
-    "TheNewDetectives.de@GB": [
-      "eng"
-    ],
-    "TheNewDetectives.se@DK": [
-      "eng",
-      "dan"
-    ],
-    "TheNewDetectives.se@NO": [
-      "eng",
-      "nor"
-    ],
-    "TheNewDetectives.se@SE": [
-      "eng",
-      "swe"
-    ],
     "TheNewDetectives.us@CA": [
       "eng"
     ],
@@ -121004,22 +120434,6 @@
     ],
     "TheWendyWilliamsShow.us@SD": [
       "eng"
-    ],
-    "TheWildWildWest.se@DK": [
-      "eng",
-      "dan"
-    ],
-    "TheWildWildWest.se@FI": [
-      "eng",
-      "fin"
-    ],
-    "TheWildWildWest.se@NO": [
-      "eng",
-      "nor"
-    ],
-    "TheWildWildWest.se@SE": [
-      "eng",
-      "swe"
     ],
     "TheWildWildWest.us@SD": [
       "eng"
@@ -122281,6 +121695,9 @@
     "TommyTeleshopping.nl@SD": [
       "nld"
     ],
+    "TomSingsMegaCompilation.it@HD": [
+      "eng"
+    ],
     "TomSingsTV.us@HD": [
       "eng"
     ],
@@ -122549,23 +121966,8 @@
     "Torrevision.es@SD": [
       "spa"
     ],
-    "TortuesNinjaTV.de@FR": [
-      "fra"
-    ],
     "TortuesNinjaTV.us@CA": [
       "eng"
-    ],
-    "Tosh0.se@DK": [
-      "eng",
-      "dan"
-    ],
-    "Tosh0.se@NO": [
-      "eng",
-      "nor"
-    ],
-    "Tosh0.se@SE": [
-      "eng",
-      "swe"
     ],
     "Tosh0.us@SD": [
       "eng"
@@ -122591,28 +121993,6 @@
     ],
     "TotalDanceTV.hu@SD": [
       "hun"
-    ],
-    "TotallyTurtles.de@DACH": [
-      "deu"
-    ],
-    "TotallyTurtles.de@GB": [
-      "eng"
-    ],
-    "TotallyTurtles.se@DK": [
-      "eng",
-      "dan"
-    ],
-    "TotallyTurtles.se@FI": [
-      "eng",
-      "fin"
-    ],
-    "TotallyTurtles.se@NO": [
-      "eng",
-      "nor"
-    ],
-    "TotallyTurtles.se@SE": [
-      "eng",
-      "swe"
     ],
     "TotallyTurtles.us@CA": [
       "eng"

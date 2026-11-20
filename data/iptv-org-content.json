@@ -1,7 +1,7 @@
 {
   "source": "https://iptv-org.github.io/api/channels.json",
-  "retrieved_at": "2026-11-20T01:54:26.828775+00:00",
-  "total_channels": 31858,
+  "retrieved_at": "2026-11-20T07:32:17.464299+00:00",
+  "total_channels": 31797,
   "flagged_channels": {
     "21Sextury.us": {
       "categories": [
