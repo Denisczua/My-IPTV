@@ -1,6 +1,6 @@
 {
   "source": "https://iptv-org.github.io/api/feeds.json",
-  "retrieved_at": "2026-11-21T07:53:26.956277+00:00",
+  "retrieved_at": "2026-11-21T13:13:34.402189+00:00",
   "feeds": {
     "002RadioTV.do@SD": [
       "spa"
@@ -7438,6 +7438,9 @@
     "AnimalPlanet.ca@SD": [
       "eng"
     ],
+    "AnimalPlanet.co@SD": [
+      "spa"
+    ],
     "AnimalPlanet.cz@SD": [
       "ces"
     ],
@@ -10553,6 +10556,10 @@
     ],
     "ATVPlus8.tr@SD": [
       "tur"
+    ],
+    "ATVRwanda.rw@SD": [
+      "eng",
+      "kin"
     ],
     "ATVSat.us@SD": [
       "ara"
@@ -16414,6 +16421,9 @@
     "BRIDGEClassic.ru@SD": [
       "rus"
     ],
+    "BRIDGEDance.ru@SD": [
+      "rus"
+    ],
     "BRIDGEDeluxe.ru@HD": [
       "rus"
     ],
@@ -16429,6 +16439,15 @@
     "BRIDGEHits.ru@SD": [
       "rus"
     ],
+    "BRIDGEJazz.ru@SD": [
+      "rus"
+    ],
+    "BRIDGERap.ru@SD": [
+      "rus"
+    ],
+    "BRIDGERNB.ru@SD": [
+      "rus"
+    ],
     "BRIDGERock.ru@SD": [
       "rus"
     ],
@@ -16438,10 +16457,19 @@
     "BRIDGESchlager.ru@SD": [
       "rus"
     ],
+    "BRIDGESoul.ru@SD": [
+      "rus"
+    ],
+    "BRIDGESymphony.ru@SD": [
+      "rus"
+    ],
     "BRIDGETVDance.ru@SD": [
       "rus"
     ],
     "BridgeTVQazaqstan.ru@SD": [
+      "rus"
+    ],
+    "BRIDGEVostok.ru@SD": [
       "rus"
     ],
     "BrigadaNewsTV.ph@SD": [
@@ -24344,6 +24372,9 @@
     ],
     "Channel34.ua@SD": [
       "ukr"
+    ],
+    "Channel4.ru@SD": [
+      "rus"
     ],
     "Channel4.uk@IrelandHD": [
       "eng"
@@ -37815,6 +37846,9 @@
     "EdgeTV.zm@SD": [
       "eng"
     ],
+    "EdimDomasYuliyeyVysotskoy.ru@SD": [
+      "rus"
+    ],
     "EdisonTV.us@SD": [
       "eng"
     ],
@@ -49866,6 +49900,9 @@
     "Gunsmoke.us@SD": [
       "eng"
     ],
+    "GunsnRosesFans.us@SD": [
+      "eng"
+    ],
     "GuoxueChannel.cn@SD": [
       "zho"
     ],
@@ -50728,6 +50765,9 @@
     ],
     "HBOHitsAsia.sg@SD": [
       "eng"
+    ],
+    "HBOLatinAmerica.us@HD": [
+      "spa"
     ],
     "HBOLatinAmerica.us@SD": [
       "spa"
@@ -53873,8 +53913,8 @@
     "HTV.ua@HD": [
       "ukr"
     ],
-    "HTV.us@Argentina": [
-      "spa"
+    "HTV.us@Brazil": [
+      "por"
     ],
     "HTV.us@SD": [
       "spa"
@@ -57907,6 +57947,10 @@
       "tur",
       "fas"
     ],
+    "iTVUganda.ug@SD": [
+      "eng",
+      "lug"
+    ],
     "iTVUrbanMusic.ca@HD": [
       "eng",
       "fas"
@@ -61767,6 +61811,9 @@
     "Kluch.ru@SD": [
       "rus"
     ],
+    "KlukvaTV.ru@SD": [
+      "rus"
+    ],
     "KLUZTV146.us@SD": [
       "spa"
     ],
@@ -61883,6 +61930,9 @@
     ],
     "KnockTV.in@SD": [
       "pan"
+    ],
+    "KnopkaTV.ru@SD": [
+      "rus"
     ],
     "KNOVCD411.us@HD": [
       "eng"
@@ -67110,6 +67160,9 @@
       "fra",
       "mlg"
     ],
+    "M3UWorld4K.bd@HD": [
+      "ben"
+    ],
     "M4Sport.hu@SD": [
       "hun"
     ],
@@ -67922,7 +67975,7 @@
       "guj"
     ],
     "MantraTV.in@SD": [
-      "hin"
+      "tam"
     ],
     "ManuChat.iq@SD": [
       "ara"
@@ -68245,6 +68298,9 @@
     ],
     "MasperoZaman.eg@SD": [
       "ara"
+    ],
+    "MasRadioTV.cl@SD": [
+      "spa"
     ],
     "MasrOmEldonia.eg@SD": [
       "ara"
@@ -68995,6 +69051,9 @@
     ],
     "Me.za@SD": [
       "eng"
+    ],
+    "ME24Tamil.in@SD": [
+      "tam"
     ],
     "MeaningfulTelevision.gd@SD": [
       "eng"
@@ -71106,6 +71165,9 @@
     "MinhajTV.pk@SD": [
       "urd",
       "eng"
+    ],
+    "MiniDisco.ru@SD": [
+      "rus"
     ],
     "MiniiNutag.mn@SD": [
       "mon"
@@ -74169,6 +74231,9 @@
     "MTV.in@HD": [
       "hin"
     ],
+    "MTV.in@International": [
+      "eng"
+    ],
     "MTV.in@SD": [
       "hin"
     ],
@@ -76381,6 +76446,9 @@
     ],
     "NationalGeographic.ca@SD": [
       "eng"
+    ],
+    "NationalGeographic.co@SD": [
+      "spa"
     ],
     "NationalGeographic.cz@SD": [
       "ces"
@@ -79002,6 +79070,9 @@
     ],
     "News9Live.in@SD": [
       "eng"
+    ],
+    "NewsAdda.in@SD": [
+      "tel"
     ],
     "NEWSamTV.am@SD": [
       "hye"
@@ -85670,6 +85741,9 @@
       "spa"
     ],
     "PalmitaRadioTV.ec@SD": [
+      "spa"
+    ],
+    "PalMundoFM.cl@SD": [
       "spa"
     ],
     "PalomarCollegeTV.us@SD": [
@@ -94005,6 +94079,9 @@
     "QACTV.us@SD": [
       "eng"
     ],
+    "QADAMTV.kz@SD": [
+      "kaz"
+    ],
     "QafqazTV.az@SD": [
       "aze"
     ],
@@ -95327,6 +95404,9 @@
       "spa",
       "cat"
     ],
+    "RadioBohemiaTV.cl@SD": [
+      "spa"
+    ],
     "RadioBonita1067.ec@SD": [
       "spa"
     ],
@@ -95487,6 +95567,9 @@
       "spa"
     ],
     "RadioFiestadeMilagrosTV.hn@SD": [
+      "spa"
+    ],
+    "RadioFMDance.cl@SD": [
       "spa"
     ],
     "RadioFMTrujui.ar@SD": [
@@ -104734,14 +104817,26 @@
     "ShemarooBollywood.us@US": [
       "eng"
     ],
+    "ShemarooComedy.in@SD": [
+      "hin"
+    ],
     "ShemarooFilmiGaane.in@HD": [
       "hin"
     ],
     "ShemarooJosh.in@SD": [
       "hin"
     ],
+    "ShemarooKids.in@SD": [
+      "hin"
+    ],
     "ShemarooMarathiBana.in@SD": [
       "mar"
+    ],
+    "ShemarooMovies.in@SD": [
+      "hin"
+    ],
+    "ShemarooMusicHits.in@SD": [
+      "hin"
     ],
     "ShemarooTV.in@SD": [
       "hin"
@@ -104828,6 +104923,9 @@
     ],
     "ShivaLiveTV.ch@SD": [
       "deu"
+    ],
+    "Shkolnoetelevidenie.ru@SD": [
+      "rus"
     ],
     "ShoghakatTV.am@SD": [
       "hye"
@@ -113745,6 +113843,9 @@
     "SuyapaTV.hn@SD": [
       "spa"
     ],
+    "SV6News.in@SD": [
+      "tel"
+    ],
     "SvampBobFyrkant.se@SE": [
       "eng",
       "swe"
@@ -121698,7 +121799,13 @@
     "TomSingsMegaCompilation.it@HD": [
       "eng"
     ],
+    "TomSingsSpookyTV.us@HD": [
+      "eng"
+    ],
     "TomSingsTV.us@HD": [
+      "eng"
+    ],
+    "TomSingsTVMini.us@HD": [
       "eng"
     ],
     "TongchuanEducationalChannel.cn@SD": [
@@ -129334,6 +129441,9 @@
     "TVUAZ.mx@SD": [
       "spa"
     ],
+    "TVUCochabamba.bo@SD": [
+      "spa"
+    ],
     "TVUCT.cl@SD": [
       "spa"
     ],
@@ -129413,6 +129523,9 @@
     "TVUP.ph@SD": [
       "fil",
       "eng"
+    ],
+    "TVUPando.bo@SD": [
+      "spa"
     ],
     "TVUsach.cl@SD": [
       "spa"
@@ -131713,6 +131826,9 @@
     "ValemountCommunityTV.ca@SD": [
       "eng"
     ],
+    "ValentaTV.kz@SD": [
+      "kaz"
+    ],
     "ValentinoEtno.ba@SD": [
       "bos"
     ],
@@ -132232,6 +132348,9 @@
     "VeraTV.it@SD": [
       "ita"
     ],
+    "Verba.ru@SD": [
+      "rus"
+    ],
     "VerbenaTV.es@SD": [
       "spa"
     ],
@@ -132462,6 +132581,9 @@
       "rus"
     ],
     "VHSkadetskiy.ru@HD": [
+      "rus"
+    ],
+    "VHSkaNauchpop.ru@SD": [
       "rus"
     ],
     "VHSkaRusskoekino.ru@HD": [
@@ -138735,6 +138857,9 @@
     ],
     "YuppThirai.in@SD": [
       "tam"
+    ],
+    "YuppTVVeda.in@SD": [
+      "tel"
     ],
     "Yurgan.ru@SD": [
       "rus"
