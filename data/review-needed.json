@@ -445,14 +445,6 @@
     },
     {
       "block": [
-        "#EXTINF:-1 tvg-id=\"HTV.us@Argentina\" tvg-logo=\"https://i.imgur.com/NlKFNHS.png\" group-title=\"Music\",HTV Argentina (720p)",
-        "http://45.134.141.161:2200/ARG/HTV/index.m3u8"
-      ],
-      "reason": "unresolved",
-      "feed_languages": []
-    },
-    {
-      "block": [
         "#EXTINF:-1 tvg-id=\"HuzurTV.ru@SD\" tvg-logo=\"https://i.imgur.com/Abg1fct.png\" group-title=\"Religious\",Huzur TV (1080p) [Not 24/7]",
         "https://hls-mycdn08724960135.cdnvideo.ru/mycdn08724960135/stream1/playlist.m3u8"
       ],

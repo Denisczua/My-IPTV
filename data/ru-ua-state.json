@@ -529,7 +529,7 @@
         "rus"
       ],
       "evidence": "IPTV-org feeds.languages",
-      "in_source": true,
+      "in_source": false,
       "content_decision": "allow",
       "content_evidence": "No evidence of specialized erotic or pornographic channel"
     },
@@ -1932,7 +1932,7 @@
         "rus"
       ],
       "evidence": "IPTV-org feeds.languages",
-      "in_source": true,
+      "in_source": false,
       "content_decision": "allow",
       "content_evidence": "No evidence of specialized erotic or pornographic channel"
     },
@@ -13696,25 +13696,55 @@
       "in_source": true,
       "content_decision": "allow",
       "content_evidence": "No evidence of specialized erotic or pornographic channel"
+    },
+    "af31925d113ee3f14a9b3a9f7208c6bf095343fdc4c262356e484ad3248266b2": {
+      "block": [
+        "#EXTINF:-1 tvg-id=\"AbazaTV.ru@SD\" tvg-logo=\"https://i.imgur.com/7Jo7UAf.png\" group-title=\"General\",Abaza TV",
+        "https://public.apsny.camera/tv_abaza_tv_to_site/index.m3u8"
+      ],
+      "history": [],
+      "status": "UNKNOWN_CZ",
+      "languages": [
+        "rus"
+      ],
+      "evidence": "IPTV-org feeds.languages",
+      "in_source": true,
+      "content_decision": "allow",
+      "content_evidence": "No evidence of specialized erotic or pornographic channel"
+    },
+    "a1e36f6e97ef189b9e2de31bea53e0f72386c2bee2b137ed4e6a9e101fd86aa5": {
+      "block": [
+        "#EXTINF:-1 tvg-id=\"CGTNRussian.cn@SD\" tvg-logo=\"https://i.imgur.com/nDWkCmL.png\" group-title=\"News\",CGTN Russian (576p)",
+        "https://news.cgtn.com/resource/live/russian/cgtn-r.m3u8"
+      ],
+      "history": [],
+      "status": "UNKNOWN_CZ",
+      "languages": [
+        "rus"
+      ],
+      "evidence": "IPTV-org feeds.languages",
+      "in_source": true,
+      "content_decision": "allow",
+      "content_evidence": "No evidence of specialized erotic or pornographic channel"
     }
   },
   "cycle": null,
   "counts": {
-    "processed": 11554,
+    "processed": 11499,
     "excluded_specialized_all_languages": 0,
-    "unresolved": 95,
-    "no_language_evidence": 1,
-    "other_or_review": 10843,
+    "unresolved": 94,
+    "no_language_evidence": 0,
+    "other_or_review": 10789,
     "multilingual_review": 94,
-    "known_other": 10749,
+    "known_other": 10695,
     "russian": 564,
     "ukrainian": 165,
     "both": 19,
     "excluded_specialized_ru_ua": 0,
     "specialization_review_ru_ua": 0
   },
-  "source_sha256": "9ca37e864504fc21b327bc05d5ece3bf340e490ae0568b250202a30649973c63",
-  "catalogued_at": "2026-11-21T19:29:53.652312+00:00",
+  "source_sha256": "27801e5c182e3921d5e8791321a7072f23fabf76358bba00e212c29ac067e2fd",
+  "catalogued_at": "2026-11-22T01:25:06.195323+00:00",
   "review_needed": {
     "language": [
       {
@@ -14159,14 +14189,6 @@
           "ron",
           "rus"
         ]
-      },
-      {
-        "block": [
-          "#EXTINF:-1 tvg-id=\"HTV.us@Argentina\" tvg-logo=\"https://i.imgur.com/NlKFNHS.png\" group-title=\"Music\",HTV Argentina (720p)",
-          "http://45.134.141.161:2200/ARG/HTV/index.m3u8"
-        ],
-        "reason": "unresolved",
-        "feed_languages": []
       },
       {
         "block": [
