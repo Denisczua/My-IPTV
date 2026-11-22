@@ -445,6 +445,22 @@
     },
     {
       "block": [
+        "#EXTINF:-1 tvg-id=\"HTV2.vn@SD\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/d/d2/HTV2_-_Vie_Channel.png\" group-title=\"Entertainment;General\",HTV2 (720p)",
+        "https://dethich.pw/htv2/index.m3u8"
+      ],
+      "reason": "unresolved",
+      "feed_languages": []
+    },
+    {
+      "block": [
+        "#EXTINF:-1 tvg-id=\"HTV4.vn@SD\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/HTV4_logo.webp/960px-HTV4_logo.webp.png\" group-title=\"Education\",HTV4 (1080p)",
+        "https://freem3u.xyz/api/live/play.m3u8?vid=9"
+      ],
+      "reason": "unresolved",
+      "feed_languages": []
+    },
+    {
+      "block": [
         "#EXTINF:-1 tvg-id=\"HuzurTV.ru@SD\" tvg-logo=\"https://i.imgur.com/Abg1fct.png\" group-title=\"Religious\",Huzur TV (1080p) [Not 24/7]",
         "https://hls-mycdn08724960135.cdnvideo.ru/mycdn08724960135/stream1/playlist.m3u8"
       ],

@@ -13732,11 +13732,11 @@
   "counts": {
     "processed": 11499,
     "excluded_specialized_all_languages": 0,
-    "unresolved": 94,
-    "no_language_evidence": 0,
-    "other_or_review": 10789,
+    "unresolved": 96,
+    "no_language_evidence": 2,
+    "other_or_review": 10787,
     "multilingual_review": 94,
-    "known_other": 10695,
+    "known_other": 10693,
     "russian": 564,
     "ukrainian": 165,
     "both": 19,
@@ -13744,7 +13744,7 @@
     "specialization_review_ru_ua": 0
   },
   "source_sha256": "27801e5c182e3921d5e8791321a7072f23fabf76358bba00e212c29ac067e2fd",
-  "catalogued_at": "2026-11-22T01:52:04.318657+00:00",
+  "catalogued_at": "2026-11-22T07:26:35.916483+00:00",
   "review_needed": {
     "language": [
       {
@@ -14189,6 +14189,22 @@
           "ron",
           "rus"
         ]
+      },
+      {
+        "block": [
+          "#EXTINF:-1 tvg-id=\"HTV2.vn@SD\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/d/d2/HTV2_-_Vie_Channel.png\" group-title=\"Entertainment;General\",HTV2 (720p)",
+          "https://dethich.pw/htv2/index.m3u8"
+        ],
+        "reason": "unresolved",
+        "feed_languages": []
+      },
+      {
+        "block": [
+          "#EXTINF:-1 tvg-id=\"HTV4.vn@SD\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/HTV4_logo.webp/960px-HTV4_logo.webp.png\" group-title=\"Education\",HTV4 (1080p)",
+          "https://freem3u.xyz/api/live/play.m3u8?vid=9"
+        ],
+        "reason": "unresolved",
+        "feed_languages": []
       },
       {
         "block": [

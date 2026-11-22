@@ -1,6 +1,6 @@
 {
   "source": "https://iptv-org.github.io/api/feeds.json",
-  "retrieved_at": "2026-11-22T01:52:03.495174+00:00",
+  "retrieved_at": "2026-11-22T07:26:35.354085+00:00",
   "feeds": {
     "002RadioTV.do@SD": [
       "spa"
@@ -20659,6 +20659,9 @@
     "CanalPlusFamily.se@SD": [
       "swe"
     ],
+    "CanalPlusFamilyAfrique.fr@SD": [
+      "fra"
+    ],
     "CanalPlusFamilyCentre.fr@SD": [
       "fra"
     ],
@@ -21622,6 +21625,9 @@
     "CarthagePlus.tn@SD": [
       "ara",
       "fra"
+    ],
+    "CartoonCartoons.us@SD": [
+      "eng"
     ],
     "CartoonChannelPH.ph@SD": [
       "tgl"
@@ -31920,6 +31926,9 @@
     "CutleryCornerNetwork.us@SD": [
       "eng"
     ],
+    "CutupuTV.do@HD": [
+      "spa"
+    ],
     "CV10HDMercedes.uy@SD": [
       "spa"
     ],
@@ -36268,6 +36277,9 @@
     ],
     "DocuBox.nl@HD": [
       "eng"
+    ],
+    "DocuBox.nl@Polska": [
+      "pol"
     ],
     "DocuBox.nl@Russia": [
       "rus"
@@ -46271,6 +46283,9 @@
     "Gametoon.nl@HD": [
       "eng"
     ],
+    "Gametoon.nl@Polska": [
+      "pol"
+    ],
     "Gametoon.nl@SD": [
       "eng"
     ],
@@ -50509,6 +50524,9 @@
     "HaTinhTV.vn@SD": [
       "vie"
     ],
+    "HatoDelYaqueTV.do@HD": [
+      "spa"
+    ],
     "Hatoscsatorna.hu@SD": [
       "hun"
     ],
@@ -53925,7 +53943,7 @@
     "HTV1HoustonTelevision.us@SD": [
       "eng"
     ],
-    "HTV2.vn@SD": [
+    "HTV2.vn@HD": [
       "vie"
     ],
     "HTV2HoustonTelevision.us@SD": [
@@ -53934,7 +53952,7 @@
     "HTV3.vn@SD": [
       "vie"
     ],
-    "HTV4.vn@SD": [
+    "HTV4.vn@HD": [
       "vie"
     ],
     "HTV5.vn@HD": [
@@ -55304,6 +55322,9 @@
     ],
     "IndiaScience.in@SD": [
       "eng"
+    ],
+    "IndiaSuperfast.in@SD": [
+      "hin"
     ],
     "IndiaTalkies.in@SD": [
       "hin"
@@ -66334,6 +66355,9 @@
     "LokalTVUddevalla.se@SD": [
       "swe"
     ],
+    "LokmatBharat.in@SD": [
+      "hin"
+    ],
     "LokSabhaTV.in@SD": [
       "eng"
     ],
@@ -76903,6 +76927,9 @@
     "NATV.fr@SD": [
       "fra"
     ],
+    "Nauchpop.ru@SD": [
+      "rus"
+    ],
     "Naughty.si@SD": [
       "eng"
     ],
@@ -80793,6 +80820,9 @@
     ],
     "NissiTelevision.ke@SD": [
       "eng"
+    ],
+    "Nistha.in@HD": [
+      "pan"
     ],
     "NisvilleTV.rs@SD": [
       "srp"
@@ -98372,6 +98402,9 @@
     "RetroTVPalmares.cr@SD": [
       "spa"
     ],
+    "RetrovisionTV.do@HD": [
+      "spa"
+    ],
     "RetroxTV.cr@SD": [
       "spa"
     ],
@@ -114449,6 +114482,9 @@
     "TahitiWebRadioTV.pf@SD": [
       "fra"
     ],
+    "TainoLiveTV.do@HD": [
+      "spa"
+    ],
     "TaivasTV7.fi@SD": [
       "fin"
     ],
@@ -115914,6 +115950,9 @@
       "nld",
       "pap",
       "eng",
+      "spa"
+    ],
+    "TeleAzul.do@HD": [
       "spa"
     ],
     "Telebachillerato.mx@SD": [
@@ -122891,6 +122930,9 @@
     "TRT.ve@SD": [
       "spa"
     ],
+    "TRT1.tr@HD": [
+      "tur"
+    ],
     "TRT1.tr@SD": [
       "tur"
     ],
@@ -125717,6 +125759,9 @@
     "TVCachoeira.br@SD": [
       "por"
     ],
+    "TVCAJUIWEB.br@HD": [
+      "por"
+    ],
     "TVCamara.br@SD": [
       "por"
     ],
@@ -127717,6 +127762,9 @@
       "zho",
       "ind",
       "tha"
+    ],
+    "TVNNews.in@SD": [
+      "hin"
     ],
     "TVNoe.cz@SD": [
       "ces"
