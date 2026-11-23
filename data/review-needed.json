@@ -90,7 +90,7 @@
     },
     {
       "block": [
-        "#EXTINF:-1 tvg-id=\"Aqlvoy.uz@SD\" tvg-logo=\"https://i.imgur.com/ekF5cAi.png\" group-title=\"Kids\",Aqlvoy",
+        "#EXTINF:-1 tvg-id=\"Aqlvoy.uz@SD\" tvg-logo=\"https://i.imgur.com/ekF5cAi.png\" group-title=\"Kids\",Aqlvoy (1080p)",
         "https://stream8.cinerama.uz/1205/tracks-v1a1/mono.m3u8"
       ],
       "reason": "multilingual: review predominance",
@@ -445,22 +445,6 @@
     },
     {
       "block": [
-        "#EXTINF:-1 tvg-id=\"HTV2.vn@SD\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/d/d2/HTV2_-_Vie_Channel.png\" group-title=\"Entertainment;General\",HTV2 (720p)",
-        "https://dethich.pw/htv2/index.m3u8"
-      ],
-      "reason": "unresolved",
-      "feed_languages": []
-    },
-    {
-      "block": [
-        "#EXTINF:-1 tvg-id=\"HTV4.vn@SD\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/HTV4_logo.webp/960px-HTV4_logo.webp.png\" group-title=\"Education\",HTV4 (1080p)",
-        "https://freem3u.xyz/api/live/play.m3u8?vid=9"
-      ],
-      "reason": "unresolved",
-      "feed_languages": []
-    },
-    {
-      "block": [
         "#EXTINF:-1 tvg-id=\"HuzurTV.ru@SD\" tvg-logo=\"https://i.imgur.com/Abg1fct.png\" group-title=\"Religious\",Huzur TV (1080p) [Not 24/7]",
         "https://hls-mycdn08724960135.cdnvideo.ru/mycdn08724960135/stream1/playlist.m3u8"
       ],
@@ -646,7 +630,7 @@
     {
       "block": [
         "#EXTINF:-1 tvg-id=\"MMATVcom.ru@SD\" tvg-logo=\"https://i.imgur.com/QhdxNsB.png\" group-title=\"Sports\",MMA-TV.com (1080p)",
-        "https://streams2.sofast.tv/vglive-sk-462904/playlist.m3u8"
+        "https://stream8.cinerama.uz/1226/tracks-v1a1/mono.m3u8"
       ],
       "reason": "multilingual: review predominance",
       "feed_languages": [
@@ -749,6 +733,17 @@
     },
     {
       "block": [
+        "#EXTINF:-1 tvg-id=\"Nickelodeon.pl@SD\" tvg-logo=\"https://i.imgur.com/E84jnP8.png\" group-title=\"Kids\",Nickelodeon (Poland)",
+        "https://vuvuu-geil-m3u8.yaskar661.workers.dev/?url=https%3A%2F%2Fvavoo.to%2Fvavoo-iptv%2Fplay%2F5189779876700e71d303b"
+      ],
+      "reason": "multilingual: review predominance",
+      "feed_languages": [
+        "pol",
+        "ukr"
+      ]
+    },
+    {
+      "block": [
         "#EXTINF:-1 tvg-id=\"Nickelodeon.ru@SD\" tvg-logo=\"https://i.imgur.com/w8iE8dV.png\" group-title=\"Kids\",Nickelodeon (Russia) (576p)",
         "http://stream.mcquack.net/443/index.m3u8"
       ],
@@ -794,8 +789,8 @@
     },
     {
       "block": [
-        "#EXTINF:-1 tvg-id=\"Okhotairybalka.ru@SD\" tvg-logo=\"https://i.imgur.com/nZwBaeW.png\" group-title=\"Outdoor\",Okhota i rybalka (576p)",
-        "http://stream.mcquack.net/155/index.m3u8"
+        "#EXTINF:-1 tvg-id=\"Okhotairybalka.ru@SD\" tvg-logo=\"https://i.imgur.com/nZwBaeW.png\" group-title=\"Outdoor\",Okhota i rybalka (1080p)",
+        "https://stream8.cinerama.uz/1038/tracks-v1a1/mono.m3u8"
       ],
       "reason": "multilingual: review predominance",
       "feed_languages": [
@@ -827,7 +822,7 @@
     },
     {
       "block": [
-        "#EXTINF:-1 tvg-id=\"QazaqstanInternational.kz@SD\" tvg-logo=\"https://cdn.qazaqstan.tv/qazaqstan.png?w=420&h=196&format=png&resize=aspectfill&g=centeralt=\" group-title=\"General\",Qazaqstan International",
+        "#EXTINF:-1 tvg-id=\"QazaqstanInternational.kz@SD\" tvg-logo=\"https://cdn.qazaqstan.tv/qazaqstan.png?w=420&h=196&format=png&resize=aspectfill&g=centeralt=\" group-title=\"General\",Qazaqstan International (1080p)",
         "https://stream8.cinerama.uz/1431/tracks-v1a1/mono.m3u8"
       ],
       "reason": "multilingual: review predominance",
@@ -1009,7 +1004,7 @@
     },
     {
       "block": [
-        "#EXTINF:-1 tvg-id=\"TaraqqiyotTV.uz@SD\" tvg-logo=\"https://i.imgur.com/V3rtPEl.jpg\" group-title=\"General\",Taraqqiyot TV",
+        "#EXTINF:-1 tvg-id=\"TaraqqiyotTV.uz@SD\" tvg-logo=\"https://i.imgur.com/V3rtPEl.jpg\" group-title=\"General\",Taraqqiyot TV (1080p)",
         "https://stream8.cinerama.uz/1204/tracks-v1a1/mono.m3u8"
       ],
       "reason": "multilingual: review predominance",
@@ -1068,7 +1063,7 @@
     },
     {
       "block": [
-        "#EXTINF:-1 tvg-id=\"Ulytau.kz@SD\" tvg-logo=\"https://i.imgur.com/jTL6TvC.png\" group-title=\"General\",Ulytau",
+        "#EXTINF:-1 tvg-id=\"Ulytau.kz@SD\" tvg-logo=\"https://i.imgur.com/jTL6TvC.png\" group-title=\"General\",Ulytau (720p)",
         "https://ulytau.tv/hls/master.m3u8"
       ],
       "reason": "multilingual: review predominance",
