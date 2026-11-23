@@ -1,6 +1,6 @@
 {
   "source": "https://iptv-org.github.io/api/feeds.json",
-  "retrieved_at": "2026-11-23T01:59:33.932116+00:00",
+  "retrieved_at": "2026-11-23T07:50:39.412419+00:00",
   "feeds": {
     "002RadioTV.do@SD": [
       "spa"
@@ -9526,6 +9526,9 @@
     "AsfiyahiTV.sn@SD": [
       "fra"
     ],
+    "ASFTV.tr@SD": [
+      "tur"
+    ],
     "Asgabat.tm@SD": [
       "tuk"
     ],
@@ -18143,6 +18146,9 @@
     "CamareroTelevision.pr@WJWNTV": [
       "spa"
     ],
+    "CamareroTelevision.pr@WKPVTV": [
+      "spa"
+    ],
     "CaMauTV.vn@SD": [
       "vie"
     ],
@@ -20569,6 +20575,9 @@
     "CanalPlusCaraibes.fr@SD": [
       "fra"
     ],
+    "CanalPlusCesko.cz@SD": [
+      "ces"
+    ],
     "CanalPlusChaTate.mm@SD": [
       "mya"
     ],
@@ -20590,8 +20599,14 @@
     "CanalPlusCinemas.fr@SD": [
       "fra"
     ],
+    "CanalPlusClassics.cz@SD": [
+      "ces"
+    ],
     "CanalPlusComedy.se@SD": [
       "swe"
+    ],
+    "CanalPlusCrime.cz@SD": [
+      "ces"
     ],
     "CanalPlusDecale.fr@SD": [
       "fra"
@@ -20613,6 +20628,9 @@
     ],
     "CanalPlusDrama.se@SD": [
       "swe"
+    ],
+    "CanalPlusDramaCzechia.cz@SD": [
+      "ces"
     ],
     "CanalPlusEllesCentre.fr@SD": [
       "fra"
@@ -26150,9 +26168,6 @@
     ],
     "CinemaxHits.us@WestHD": [
       "eng",
-      "spa"
-    ],
-    "CinemaxLatinAmerica.us@ColombiaPeru": [
       "spa"
     ],
     "CinemaxLatinAmerica.us@HD": [
@@ -34283,6 +34298,9 @@
       "eng",
       "deu"
     ],
+    "DEMAINOutremer.gp@SD": [
+      "fra"
+    ],
     "DemainTV.fr@SD": [
       "fra"
     ],
@@ -36725,9 +36743,6 @@
     ],
     "DreamWorksChannelLatinAmerica.us@Brazil": [
       "por"
-    ],
-    "DreamWorksChannelLatinAmerica.us@Colombia": [
-      "spa"
     ],
     "DreamWorksChannelLatinAmerica.us@Panregional": [
       "spa"
@@ -40444,7 +40459,8 @@
       "ita"
     ],
     "ETVRwanda.rw@SD": [
-      "eng"
+      "eng",
+      "kin"
     ],
     "ETVTelangana.in@SD": [
       "tel"
@@ -43531,9 +43547,6 @@
     ],
     "FoodNetworkLatinAmerica.us@Brazil": [
       "por"
-    ],
-    "FoodNetworkLatinAmerica.us@ColombiaPeru": [
-      "spa"
     ],
     "FoodNetworkLatinAmerica.us@Mexico": [
       "spa"
@@ -50749,9 +50762,6 @@
     "HBOFamilyAsia.sg@SD": [
       "eng"
     ],
-    "HBOFamilyLatinAmerica.us@ColombiaPeru": [
-      "spa"
-    ],
     "HBOFamilyLatinAmerica.us@HD": [
       "spa"
     ],
@@ -50812,9 +50822,6 @@
     "HBOMundiCaribbean.us@SD": [
       "eng"
     ],
-    "HBOMundiLatinAmerica.us@ColombiaPeru": [
-      "spa"
-    ],
     "HBOMundiLatinAmerica.us@SD": [
       "spa"
     ],
@@ -50826,9 +50833,6 @@
     ],
     "HBOPop.br@SD": [
       "por"
-    ],
-    "HBOPopLatinAmerica.us@ColombiaPeru": [
-      "spa"
     ],
     "HBOPopLatinAmerica.us@SD": [
       "spa"
@@ -50850,17 +50854,11 @@
     "HBOSignatureAsia.sg@SD": [
       "eng"
     ],
-    "HBOSignatureLatinAmerica.us@ColombiaPeru": [
-      "spa"
-    ],
     "HBOSignatureLatinAmerica.us@SD": [
       "eng"
     ],
     "HBOXtreme.br@SD": [
       "por"
-    ],
-    "HBOXtremeLatinAmerica.us@ColombiaPeru": [
-      "spa"
     ],
     "HBOXtremeLatinAmerica.us@SD": [
       "spa"
@@ -51955,13 +51953,7 @@
     "HGTVLatinAmerica.us@Brazil": [
       "por"
     ],
-    "HGTVLatinAmerica.us@BrazilHD": [
-      "por"
-    ],
     "HGTVLatinAmerica.us@Panregional": [
-      "spa"
-    ],
-    "HGTVLatinAmerica.us@PanregionalHD": [
       "spa"
     ],
     "HGTVSouthAfrica.za@SD": [
@@ -55874,9 +55866,6 @@
       "rus",
       "ara",
       "por"
-    ],
-    "InvestigationDiscoveryLatinAmerica.us@ColombiaPeru": [
-      "spa"
     ],
     "InvestigationDiscoveryLatinAmerica.us@Mexico": [
       "spa"
@@ -66084,6 +66073,9 @@
       "kor"
     ],
     "LivoniaTelevision.us@SD": [
+      "eng"
+    ],
+    "LixdofTV.gh@SD": [
       "eng"
     ],
     "LiyuanTV.cn@SD": [
@@ -82084,6 +82076,9 @@
     "NRTMexicoRegionSureste.mx@SD": [
       "spa"
     ],
+    "NRTSport.iq@HD": [
+      "ckb"
+    ],
     "NRTTV.iq@SD": [
       "kur"
     ],
@@ -82729,9 +82724,6 @@
     "NuevaRegionTV.cl@SD": [
       "spa"
     ],
-    "NuevaVidaFM.pr@SD": [
-      "spa"
-    ],
     "Nuevavision.cu@SD": [
       "spa"
     ],
@@ -82842,6 +82834,9 @@
     ],
     "NVCCTV.us@SD": [
       "eng"
+    ],
+    "NVision.in@SD": [
+      "mal"
     ],
     "NVKSakha.ru@SD": [
       "sah",
@@ -130884,6 +130879,9 @@
     "Unitv.ec@SD": [
       "spa"
     ],
+    "UniTV.mm@SD": [
+      "mya"
+    ],
     "UniTV.ve@SD": [
       "spa"
     ],
@@ -135456,9 +135454,6 @@
     "WCCB181.us@HD": [
       "eng"
     ],
-    "WCCVTV541.pr@HD": [
-      "spa"
-    ],
     "WCEALD.us@SD": [
       "spa"
     ],
@@ -135585,7 +135580,7 @@
     "WDWL361.pr@HD": [
       "spa"
     ],
-    "WDWL582.pr@HD": [
+    "WDWL362.pr@HD": [
       "spa"
     ],
     "We.am@SD": [
@@ -135673,7 +135668,7 @@
       "ara",
       "fra"
     ],
-    "WECN.pr@SD": [
+    "WECN641.pr@SD": [
       "spa"
     ],
     "WeddingatFirstSightChannel.il@SD": [
@@ -136440,9 +136435,6 @@
     ],
     "WLCT96.us@SD": [
       "eng"
-    ],
-    "WLIIDT112.pr@HD": [
-      "spa"
     ],
     "WLLA641.us@HD": [
       "eng"
