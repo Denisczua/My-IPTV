@@ -1,6 +1,6 @@
 {
   "source": "https://iptv-org.github.io/api/feeds.json",
-  "retrieved_at": "2026-11-24T08:05:45.156022+00:00",
+  "retrieved_at": "2026-11-24T13:31:13.060435+00:00",
   "feeds": {
     "002RadioTV.do@SD": [
       "spa"
@@ -651,6 +651,10 @@
     "313Digital.sn@SD": [
       "fra"
     ],
+    "316Channel.sa@SD": [
+      "ara",
+      "eng"
+    ],
     "31Kanal.kz@HD": [
       "kaz",
       "rus"
@@ -682,6 +686,10 @@
     "360AfricaTV.ss@SD": [
       "eng",
       "pga"
+    ],
+    "360Anime.vn@SD": [
+      "vie",
+      "eng"
     ],
     "360Bundesliga.vn@SD": [
       "vie",
@@ -11846,6 +11854,9 @@
     "BalatonTV.hu@SD": [
       "hun"
     ],
+    "BalcanMusicTV.ro@HD": [
+      "ron"
+    ],
     "BalchiTV.aw@SD": [
       "nld",
       "pap"
@@ -14466,6 +14477,9 @@
     "BijoyTV.bd@SD": [
       "ben"
     ],
+    "BiKanal.tr@SD": [
+      "tur"
+    ],
     "BikeChannel.it@HD": [
       "ita"
     ],
@@ -15597,6 +15611,9 @@
       "spa"
     ],
     "BoricuaTV.pr@SD": [
+      "spa"
+    ],
+    "BoricuaTV.pr@WWXYLD": [
       "spa"
     ],
     "BorjanadeTelevision.bo@SD": [
@@ -18474,6 +18491,9 @@
       "spa"
     ],
     "Canal13ChimoreTV.bo@SD": [
+      "spa"
+    ],
+    "Canal13Chiquimula.gt@HD": [
       "spa"
     ],
     "Canal13Esquipulas.gt@SD": [
@@ -23766,6 +23786,9 @@
     "CCTVHealth.cn@SD": [
       "zho"
     ],
+    "CCTVKunnamkulam.in@SD": [
+      "mal"
+    ],
     "CCTVNostalgiaTheater.cn@HD": [
       "zho"
     ],
@@ -23859,6 +23882,12 @@
     "CDMInternacional.pr@SD": [
       "spa",
       "eng"
+    ],
+    "CDMInternacional.pr@WCCVTV": [
+      "spa"
+    ],
+    "CDMInternacional.pr@WVSNTV": [
+      "spa"
     ],
     "CDN.do@HD": [
       "spa"
@@ -26559,6 +26588,9 @@
     "CityChannelDubuque.us@SD": [
       "eng"
     ],
+    "CityChannelHD.in@SD": [
+      "mal"
+    ],
     "CityChannelPittsburgh.us@SD": [
       "eng"
     ],
@@ -26814,6 +26846,9 @@
     ],
     "CityTVWhittier.us@SD": [
       "eng"
+    ],
+    "CityVisionKannur.in@SD": [
+      "mal"
     ],
     "CiudadanoRadio.cl@SD": [
       "spa"
@@ -35435,9 +35470,6 @@
     "DiscoveryScienceLatinAmerica.us@Brazil": [
       "por"
     ],
-    "DiscoveryScienceLatinAmerica.us@ColombiaPeru": [
-      "spa"
-    ],
     "DiscoveryScienceLatinAmerica.us@SD": [
       "spa"
     ],
@@ -35453,9 +35485,6 @@
     ],
     "DiscoveryTheater.br@SD": [
       "por"
-    ],
-    "DiscoveryTheaterLatinAmerica.us@ColombiaPeru": [
-      "spa"
     ],
     "DiscoveryTheaterLatinAmerica.us@SD": [
       "spa"
@@ -35492,9 +35521,6 @@
     ],
     "DiscoveryTurboLatinAmerica.us@Brazil": [
       "por"
-    ],
-    "DiscoveryTurboLatinAmerica.us@ColombiaPeru": [
-      "spa"
     ],
     "DiscoveryTurboLatinAmerica.us@Panregional": [
       "spa"
@@ -36775,6 +36801,12 @@
     "DrinkTV.us@SD": [
       "eng"
     ],
+    "DrishyaTV.in@SD": [
+      "mal"
+    ],
+    "DrisyaTV.in@SD": [
+      "mal"
+    ],
     "DritaTV.ch@SD": [
       "sqi"
     ],
@@ -37032,6 +37064,9 @@
     ],
     "DuckHuntingTV.us@SD": [
       "eng"
+    ],
+    "DuckTV.ro@SD": [
+      "ron"
     ],
     "ducktv.ru@SD": [
       "rus"
@@ -60309,6 +60344,9 @@
       "eng",
       "twi"
     ],
+    "KasargodVision.in@SD": [
+      "mal"
+    ],
     "KasetChannel.th@SD": [
       "tha"
     ],
@@ -60590,6 +60628,9 @@
     "KCMNLD426.us@SD": [
       "eng"
     ],
+    "KCNKasargod.in@SD": [
+      "mal"
+    ],
     "KCNTV4.ai@SD": [
       "eng"
     ],
@@ -60801,6 +60842,9 @@
       "eng"
     ],
     "Keralabhumi.in@SD": [
+      "mal"
+    ],
+    "KeralaTodayTV.in@SD": [
       "mal"
     ],
     "KeralaVision.in@SD": [
@@ -67703,6 +67747,9 @@
     "MalabarNews.in@SD": [
       "mal"
     ],
+    "MalabarPlus.in@SD": [
+      "mal"
+    ],
     "MalabarVision.in@SD": [
       "mal"
     ],
@@ -67720,6 +67767,9 @@
       "tam"
     ],
     "MalanaduTV.in@SD": [
+      "mal"
+    ],
+    "MalappuramCableVision.in@SD": [
       "mal"
     ],
     "MalappuramChannel.in@SD": [
@@ -79395,6 +79445,9 @@
     "NewVision.uk@SD": [
       "urd"
     ],
+    "NewVisionHD.in@SD": [
+      "mal"
+    ],
     "NewVisionTV.lb@SD": [
       "ara"
     ],
@@ -80911,6 +80964,9 @@
     ],
     "NMBTV.us@SD": [
       "eng"
+    ],
+    "NMMediaChannelHD.in@SD": [
+      "mal"
     ],
     "NMTV.us@SD": [
       "eng"
@@ -82632,6 +82688,9 @@
     ],
     "NTVTelugu.in@SD": [
       "tel"
+    ],
+    "NTVUAEHD.ae@SD": [
+      "mal"
     ],
     "NTVUganda.ug@SD": [
       "eng"
@@ -84422,6 +84481,9 @@
     ],
     "OrangeGovernmentAccessTV.us@SD": [
       "eng"
+    ],
+    "OrangeInfo.ro@SD": [
+      "ron"
     ],
     "OrangeSport1.ro@SD": [
       "ron"
@@ -86321,6 +86383,9 @@
     ],
     "PatientChannel.us@SD": [
       "eng"
+    ],
+    "PatiTV.tr@SD": [
+      "tur"
     ],
     "PatnagarNetworkNews.in@SD": [
       "guj"
@@ -89062,6 +89127,9 @@
     "Perheonparas.se@FI": [
       "eng",
       "fin"
+    ],
+    "PeriyarVision.in@SD": [
+      "mal"
     ],
     "PerlaTV.ni@SD": [
       "spa"
@@ -92822,6 +92890,9 @@
     "PowervisionTV.in@SD": [
       "mal"
     ],
+    "PowranMedia.in@SD": [
+      "mal"
+    ],
     "PoyoTV.kr@SD": [
       "kor"
     ],
@@ -93174,6 +93245,10 @@
     "PrimaFree.it@SD": [
       "ita"
     ],
+    "PrimaHistory.ro@SD": [
+      "ron",
+      "eng"
+    ],
     "PrimaKrimi.cz@SD": [
       "ces"
     ],
@@ -93239,6 +93314,9 @@
     ],
     "PrimaSportCzechia.cz@SD": [
       "cze"
+    ],
+    "PrimaSportMoldova.md@SD": [
+      "ron"
     ],
     "PrimaSportPPV1.ro@SD": [
       "ron"
@@ -97304,6 +97382,9 @@
       "eng"
     ],
     "RealLife.us@SD": [
+      "eng"
+    ],
+    "RealLifeNetwork.us@HD": [
       "eng"
     ],
     "RealLifeonVerizon.us@SD": [
@@ -109007,6 +109088,9 @@
     "SouthStation.in@HD": [
       "hin"
     ],
+    "SouthVision.in@SD": [
+      "mal"
+    ],
     "SouthwestMediaNetwork.et@SD": [
       "amh"
     ],
@@ -113708,6 +113792,9 @@
     "SurpriseTV.us@SD": [
       "eng",
       "spa"
+    ],
+    "SurprizeTV.md@SD": [
+      "ron"
     ],
     "SURTV.bo@SD": [
       "spa"
@@ -118639,6 +118726,9 @@
     ],
     "ThanhHoaTV.vn@SD": [
       "vie"
+    ],
+    "Thanima.in@SD": [
+      "mal"
     ],
     "ThanthiOne.in@SD": [
       "tam"
@@ -131321,6 +131411,9 @@
     "UNTVNewsRecue.us@SD": [
       "eng"
     ],
+    "UNUTV.md@SD": [
+      "ron"
+    ],
     "UNWebTV.us@SD": [
       "eng"
     ],
@@ -131692,6 +131785,9 @@
     "UTVHD.in@HD": [
       "hin",
       "eng"
+    ],
+    "UTVHD24x7.in@SD": [
+      "mal"
     ],
     "UTVMovies.in@SD": [
       "hin"
@@ -134175,6 +134271,9 @@
     "VOD208.pl@SD": [
       "pol"
     ],
+    "VodafoneInfo.ro@SD": [
+      "ron"
+    ],
     "VodafoneTV.de@SD": [
       "deu"
     ],
@@ -135337,6 +135436,12 @@
     "WayanadVision.in@SD": [
       "mal"
     ],
+    "WayanadVisionMovies.in@SD": [
+      "mal"
+    ],
+    "WayanadVisionPlus.in@SD": [
+      "mal"
+    ],
     "WaypointTV.us@SD": [
       "eng"
     ],
@@ -136415,9 +136520,6 @@
     "WKNXTV71.us@HD": [
       "eng"
     ],
-    "WKPV203.pr@SD": [
-      "spa"
-    ],
     "WKTBCD471.us@SD": [
       "eng"
     ],
@@ -136569,9 +136671,6 @@
       "amh",
       "eng",
       "wal"
-    ],
-    "WOLEDT122.pr@HD": [
-      "spa"
     ],
     "WolvesValleyTV.tw@SD": [
       "zho"
@@ -137652,9 +137751,6 @@
     ],
     "WWTV.de@SD": [
       "deu"
-    ],
-    "WWXYLD191.pr@SD": [
-      "spa"
     ],
     "WWXYLD193.pr@SD": [
       "spa"
@@ -139674,9 +139770,6 @@
     ],
     "Zeste.ca@SD": [
       "fra"
-    ],
-    "Zeta93.pr@SD": [
-      "spa"
     ],
     "ZFBTV.bm@SD": [
       "eng"
