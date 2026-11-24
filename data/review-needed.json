@@ -1121,14 +1121,6 @@
     },
     {
       "block": [
-        "#EXTINF:-1 tvg-id=\"WECN.pr@SD\" tvg-logo=\"https://i.imgur.com/NYBZBY0.png\" group-title=\"Religious\",WECN (1080p)",
-        "https://59825a54e4454.streamlock.net:8443/pastorairisn394/pastorairisn394/master.m3u8"
-      ],
-      "reason": "unresolved",
-      "feed_languages": []
-    },
-    {
-      "block": [
         "#EXTINF:-1 tvg-id=\"ZorTV.uz@SD\" tvg-logo=\"https://i.imgur.com/NuzyhVM.png\" group-title=\"Entertainment;Music\",Zo'r TV (576p)",
         "https://stream8.cinerama.uz/1016/tracks-v1a1/mono.m3u8"
       ],
