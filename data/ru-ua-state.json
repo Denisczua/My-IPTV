@@ -14513,21 +14513,21 @@
   },
   "cycle": null,
   "counts": {
-    "processed": 11460,
+    "processed": 11484,
     "excluded_specialized_all_languages": 0,
-    "unresolved": 96,
-    "no_language_evidence": 1,
-    "other_or_review": 10739,
+    "unresolved": 95,
+    "no_language_evidence": 0,
+    "other_or_review": 10764,
     "multilingual_review": 95,
-    "known_other": 10644,
+    "known_other": 10669,
     "russian": 574,
     "ukrainian": 166,
     "both": 20,
     "excluded_specialized_ru_ua": 0,
     "specialization_review_ru_ua": 0
   },
-  "source_sha256": "04c3e59d2cdf798c796bcafb98669c0b2127662e13ac825ab7a387c7c48cb54c",
-  "catalogued_at": "2026-11-24T19:44:20.133233+00:00",
+  "source_sha256": "ad5ffe401545d7572f3ee764358f70077a8653c9728b5dc49367ec74756f3c9c",
+  "catalogued_at": "2026-11-25T01:32:58.090942+00:00",
   "review_needed": {
     "language": [
       {
@@ -14894,14 +14894,6 @@
           "uzb",
           "rus"
         ]
-      },
-      {
-        "block": [
-          "#EXTINF:-1 tvg-id=\"DiscoveryScienceLatinAmerica.us@ColombiaPeru\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Discovery_science_new_logo_2017.png/960px-Discovery_science_new_logo_2017.png\" group-title=\"Science\",Discovery Science Latin America ColombiaPeru (720p)",
-          "http://45.134.141.161:2200/ARG/Discovery_Science_HD/index.m3u8"
-        ],
-        "reason": "unresolved",
-        "feed_languages": []
       },
       {
         "block": [
@@ -15624,7 +15616,7 @@
       },
       {
         "block": [
-          "#EXTINF:-1 tvg-id=\"ViasatKino.ua@SD\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/2/2b/Viasat_Kino_Logo_2025.svg\" group-title=\"Movies\",Viasat Kino (576p)",
+          "#EXTINF:-1 tvg-id=\"ViasatKino.ua@SD\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/2/2b/Viasat_Kino_Logo_2025.svg\" group-title=\"Movies\",Viasat Kino (Ukraine) (576p)",
           "http://dtv.vol.net.ua/Viasat_Kino/index.m3u8"
         ],
         "reason": "multilingual: review predominance",

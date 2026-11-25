@@ -367,14 +367,6 @@
     },
     {
       "block": [
-        "#EXTINF:-1 tvg-id=\"DiscoveryScienceLatinAmerica.us@ColombiaPeru\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Discovery_science_new_logo_2017.png/960px-Discovery_science_new_logo_2017.png\" group-title=\"Science\",Discovery Science Latin America ColombiaPeru (720p)",
-        "http://45.134.141.161:2200/ARG/Discovery_Science_HD/index.m3u8"
-      ],
-      "reason": "unresolved",
-      "feed_languages": []
-    },
-    {
-      "block": [
         "#EXTINF:-1 tvg-id=\"EbS.be@SD\" tvg-logo=\"https://i.imgur.com/DIIRPNN.png\" group-title=\"Legislative\",EbS (1080p)",
         "https://streams.prd.commavservices.eu/live/ebs/index.m3u8"
       ],
@@ -1094,7 +1086,7 @@
     },
     {
       "block": [
-        "#EXTINF:-1 tvg-id=\"ViasatKino.ua@SD\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/2/2b/Viasat_Kino_Logo_2025.svg\" group-title=\"Movies\",Viasat Kino (576p)",
+        "#EXTINF:-1 tvg-id=\"ViasatKino.ua@SD\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/2/2b/Viasat_Kino_Logo_2025.svg\" group-title=\"Movies\",Viasat Kino (Ukraine) (576p)",
         "http://dtv.vol.net.ua/Viasat_Kino/index.m3u8"
       ],
       "reason": "multilingual: review predominance",
