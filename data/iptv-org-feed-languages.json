@@ -1,6 +1,6 @@
 {
   "source": "https://iptv-org.github.io/api/feeds.json",
-  "retrieved_at": "2026-11-25T07:40:16.859545+00:00",
+  "retrieved_at": "2026-11-25T08:09:29.649181+00:00",
   "feeds": {
     "002RadioTV.do@SD": [
       "spa"
@@ -23577,6 +23577,9 @@
     "CCMTelevision.co@SD": [
       "spa"
     ],
+    "CCNET.in@SD": [
+      "und"
+    ],
     "CCNTV6.tt@SD": [
       "spa"
     ],
@@ -25501,7 +25504,8 @@
       "zho"
     ],
     "ChifTV.td@SD": [
-      "fra"
+      "fra",
+      "ara"
     ],
     "Chikitoonz.pe@SD": [
       "spa"
@@ -36804,6 +36808,9 @@
     "DrishyaTV.in@SD": [
       "mal"
     ],
+    "DrisyaNewsPala.in@SD": [
+      "und"
+    ],
     "DrisyaTV.in@SD": [
       "mal"
     ],
@@ -38323,7 +38330,8 @@
       "srp"
     ],
     "ElectronTV.td@SD": [
-      "fra"
+      "fra",
+      "ara"
     ],
     "ElektrikaTV.cz@SD": [
       "ces"
@@ -59703,6 +59711,9 @@
     "K6.cn@SD": [
       "zho"
     ],
+    "K7KeralamChannel.in@SD": [
+      "und"
+    ],
     "KAAPLD305.us@SD": [
       "vie"
     ],
@@ -67371,6 +67382,9 @@
     "MadhimugamTV.in@SD": [
       "tam"
     ],
+    "MadhuraTV.lk@SD": [
+      "sin"
+    ],
     "MadininaTV.mq@SD": [
       "fra"
     ],
@@ -69211,6 +69225,9 @@
     ],
     "MediationTV.gh@SD": [
       "eng"
+    ],
+    "MediaTodayNewsHD.in@SD": [
+      "und"
     ],
     "MediaTurkTV.az@SD": [
       "aze"
@@ -78847,6 +78864,9 @@
     "Network10.in@SD": [
       "hin"
     ],
+    "NetworkPayyanur.in@SD": [
+      "und"
+    ],
     "NetXXL.si@SD": [
       "eng"
     ],
@@ -79389,6 +79409,9 @@
     ],
     "NewsTamil24x7.in@SD": [
       "tam"
+    ],
+    "NewStar.in@SD": [
+      "und"
     ],
     "NewsTimeBangla.in@SD": [
       "ben"
@@ -102263,7 +102286,8 @@
       "hin"
     ],
     "SaharaTV.td@SD": [
-      "fra"
+      "fra",
+      "ara"
     ],
     "SaharAzeri.ir@SD": [
       "aze"
