@@ -1,0 +1,19 @@
+{
+  "at": "2026-11-26T11:23:21.389972+00:00",
+  "checked": [
+    {
+      "channel": "Smotrim100Klassika.ru",
+      "variant": "d665b803995020c825741772b8d0d5225f03b597c5f6b2824134c4d5eefc4854",
+      "result": "unknown",
+      "reason": "Russian audio language tag absent: needs listening/manual evidence; decoded sample is not language proof"
+    },
+    {
+      "channel": "SilkWayCinema.kz",
+      "variant": "0d2189f8bc69e1ebd0025df135f371a936b084f881aaef46382d6cf05f830436",
+      "result": "ok",
+      "reason": ""
+    }
+  ],
+  "remaining": 5,
+  "region": "CZ"
+}
