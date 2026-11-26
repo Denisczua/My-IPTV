@@ -1,6 +1,6 @@
 # Киноканалы в существующем playlist.m3u
 
-Обновлено: 2026-11-26T11:23:36.297457+00:00 (UTC).
+Обновлено: 2026-11-26T13:37:06.632875+00:00 (UTC).
 
 Постоянный URL: https://raw.githubusercontent.com/Denisczua/My-IPTV/main/playlist.m3u
 
