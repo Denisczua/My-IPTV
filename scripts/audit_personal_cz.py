@@ -14,7 +14,7 @@ from urllib.parse import urlsplit
 import filter_ru_ua as common
 import main_catalogue as main
 from check_main_movies import direct_cz
-from probe_runtime import awake,isolated_check,progress_lock
+from probe_runtime import awake,isolated_check,progress_lock,ProbeBusy
 from check_ru_ua import connection
 
 
@@ -30,7 +30,7 @@ def candidates(db,policy):
     rows=[]
     for ident,ch in db['channels'].items():
         if ch.get('adult_specialization'):continue
-        if ident not in allowed and not (ch.get('movie_candidate') and 'rus' in ch.get('catalogue_languages',[])):continue
+        if ident not in allowed and not (ch.get('movie_candidate') and ('rus' in ch.get('catalogue_languages',[]) or any(v.get('rights_evidence') for v in ch['variants'].values()))):continue
         preferred=db.get('selected',{}).get(ident) or db.get('current',{}).get(ident)
         for key,v in ch['variants'].items():
             rows.append((-1 if v.get('rights_evidence') else 0 if key==preferred else 1,0 if ident in allowed else 1,ident,key))
@@ -181,7 +181,13 @@ if __name__=='__main__':
     p.add_argument('--max-streams',type=int,default=2000);p.add_argument('--passes',type=int,choices=range(1,10),default=3)
     p.add_argument('--budget-seconds',type=int,default=1500)
     p.add_argument('--official-only',action='store_true',help='Finish known official free candidates first')
+    p.add_argument('--channel',help='Check one canonical channel and its archived variants')
+    p.add_argument('--movies-only',action='store_true')
+    p.add_argument('--skip-if-busy',action='store_true',help='Scheduled job reuses accepted checkpoints if a manual audit is active')
     p.add_argument('--progress-dir',default=os.environ.get('MYIPTV_PROGRESS_DIR',str(Path(os.environ.get('LOCALAPPDATA',common.ROOT/'.tools'))/'MyIPTV-CZ-runner'/'progress')))
     a=p.parse_args()
     if a.budget_seconds<201 or a.max_streams<1:p.error('Invalid limits')
-    run(a)
+    try:run(a)
+    except ProbeBusy:
+        if not a.skip_if_busy:raise
+        print(json.dumps({'probe_active_elsewhere':True,'new_checks_this_job':0,'action':'export previously accepted checkpoints only'}))

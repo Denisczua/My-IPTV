@@ -384,6 +384,9 @@ def run(refresh=False,publish=True):
     if personal_policy.exists() and json.loads(personal_policy.read_text(encoding='utf-8')).get('preserve_full_playlist'):
         publish=False
         summary['full_playlist_preserved']=True
+        summary.update(before_channels=db['scan']['before_entries'],after_channels=db['scan']['before_entries'],
+                       archived_stream_variants=sum(len(ch['variants']) for ch in db['channels'].values()),
+                       movie_channels_found=sum(ch['movie_confirmed'] and 'rus' in ch['catalogue_languages'] for ch in db['channels'].values()))
     if publish:
         text,details=choose(db,metadata)
         summary.update(details,published=True)

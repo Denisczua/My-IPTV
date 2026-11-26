@@ -41,13 +41,14 @@ jobs:
             $env:MYIPTV_ASR_PYTHON = $asr
             $env:MYIPTV_ASR_MODEL = $model
           }
-          python scripts/audit_personal_cz.py --max-streams $env:MAX_STREAMS --budget-seconds $env:BUDGET --workers 2
+          $streams = [Math]::Min(120, [Math]::Max(1, [int]$env:MAX_STREAMS))
+          $budget = [Math]::Min(1500, [Math]::Max(201, [int]$env:BUDGET))
+          python scripts/audit_personal_cz.py --max-streams $streams --budget-seconds $budget --workers 2 --skip-if-busy
       - name: Export already accepted durable checkpoints even after failure
         if: always()
         shell: powershell
         run: |
-          $journal = Join-Path $env:LOCALAPPDATA 'MyIPTV-CZ-runner\progress\observations.jsonl'
-          if (Test-Path $journal) { Copy-Item -LiteralPath $journal -Destination personal-observations.jsonl }
+          python scripts/export_cz_journal.py
       - uses: actions/upload-artifact@v4
         id: upload
         if: always()

@@ -17,14 +17,21 @@ def category(ident,channel,policy):
 def confirmed(ident,channel,variant,group,policy,discoveries):
     # Cached status strings and old measurements are not publication evidence.
     history=[h for h in variant['history'] if h.get('measurement_version')==3]
-    if main.status({**variant,'history':history})!='STABLE_CZ':return False,'not_stable_cz'
+    spaced=[];now=datetime.now(timezone.utc).timestamp()
+    for h in sorted(history,key=lambda h:h['at']):
+        at=datetime.fromisoformat(h['at']).timestamp()
+        if h.get('region')!='CZ' or not h.get('egress_sha256') or not 0<=now-at<=main.MAX_AGE:continue
+        if not spaced or at-datetime.fromisoformat(spaced[-1]['at']).timestamp()>=main.MIN_INTERVAL:spaced.append(h)
+    outcomes=[h['result'] for h in spaced if h['result']!='unknown']
+    proven_before=any(outcomes[i:i+3]==['ok']*3 for i in range(max(0,len(outcomes)-2)))
+    if main.status({**variant,'history':history,'was_stable':proven_before})!='STABLE_CZ':return False,'not_stable_cz'
     h=next((h for h in reversed(history) if h.get('result')=='ok'),{})
     if not h.get('audio_decoded') or not h.get('video_continuous') or not h.get('audio_continuous'):
         return False,'decode_not_confirmed'
     media=h.get('media',{})
     if not media.get('width') or not media.get('height'):return False,'resolution_unknown'
     language=str(media.get('audio_language','')).lower()
-    allowed={'uk','ukr','ukrainian'} if group=='Новости Украины' else {'ru','rus','russian'}
+    allowed={'uk','ukr','ukrainian','ru','rus','russian'} if group=='Новости Украины' else {'ru','rus','russian'}
     if language not in allowed and not (group!='Новости Украины' and h.get('russian_audio_confirmed')):
         return False,'audio_language_unconfirmed'
     # OTTPlayer on Tizen follows default tracks; an alternate Russian track alone
@@ -47,7 +54,7 @@ def display_name(ident,channel,policy,names,media):
 
 
 def export(catalogue,policy,names,discoveries,oled):
-    groups={};excluded=Counter();rows=[];checked=set();working=set();replacements=0;movies=[]
+    groups={};excluded=Counter();rows=[];checked=set();working=set();replacements=0;movies=[];observations=set();offline_streams=set()
     for ident,ch in catalogue['channels'].items():
         group=category(ident,ch,policy)
         if not group:continue
@@ -55,6 +62,8 @@ def export(catalogue,policy,names,discoveries,oled):
         for key,v in ch['variants'].items():
             history=[h for h in v['history'] if h.get('measurement_version')==3 and h.get('region')=='CZ' and h.get('egress_sha256')]
             if history:checked.add(ident)
+            observations.update(h.get('observation_id',ident+key+h['at']) for h in history)
+            if main.status({**v,'history':history,'was_stable':False})=='OFFLINE':offline_streams.add((ident,v['block'][-1]))
             if any(h.get('result')=='ok' for h in history):working.add(ident)
             ok,reason=confirmed(ident,ch,v,group,policy,discoveries)
             if ok:candidates.append((key,v))
@@ -91,6 +100,7 @@ def export(catalogue,policy,names,discoveries,oled):
     body=('#EXTM3U\n'+'\n'.join('\n'.join(block) for _,block in rows)+'\n').encode('utf-8')
     if len(common.parse(body.decode()))!=len({r['id'] for r,_ in rows}):raise ValueError('Duplicate personal channels')
     report={'at':common.now(),'channels':len(rows),'bytes':len(body),'unique_channels_checked':len(checked),
+            'independent_observations':len(observations),'confirmed_offline_streams':len(offline_streams),
             'channels_with_decoded_sample':len(working),'working_replacements':replacements,
             'excluded_stream_reasons':dict(excluded),'groups':dict(Counter(r['group'] for r,_ in rows)),
             'oled':sum(r['group']=='OLED' for r,_ in rows),'movies':movies,'channel_list':[r for r,_ in rows],

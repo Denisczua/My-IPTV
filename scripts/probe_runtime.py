@@ -10,6 +10,10 @@ import sys
 import tempfile
 
 
+class ProbeBusy(RuntimeError):
+    pass
+
+
 @contextmanager
 def awake():
     kernel=ctypes.windll.kernel32 if os.name=='nt' else None
@@ -25,15 +29,17 @@ def progress_lock(root):
     """One probe across desktop checkouts and the runner's separate checkout."""
     root.mkdir(parents=True,exist_ok=True)
     with (root/'.probe.lock').open('a+b') as f:
+        if os.fstat(f.fileno()).st_size==0:f.write(b'0');f.flush()
         f.seek(0)
-        if not f.read(1):f.write(b'0');f.flush()
-        f.seek(0)
-        if os.name=='nt':
-            import msvcrt
-            msvcrt.locking(f.fileno(),msvcrt.LK_NBLCK,1)
-        else:
-            import fcntl
-            fcntl.flock(f.fileno(),fcntl.LOCK_EX|fcntl.LOCK_NB)
+        try:
+            if os.name=='nt':
+                import msvcrt
+                msvcrt.locking(f.fileno(),msvcrt.LK_NBLCK,1)
+            else:
+                import fcntl
+                fcntl.flock(f.fileno(),fcntl.LOCK_EX|fcntl.LOCK_NB)
+        except (BlockingIOError,PermissionError):
+            raise ProbeBusy('Another direct-CZ check owns the shared progress journal') from None
         try:yield
         finally:
             if os.name=='nt':
