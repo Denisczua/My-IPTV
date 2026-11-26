@@ -1,28 +1,15 @@
 name: RU UA catalogue and CZ checks
 
+# Automatic refresh is coordinated by main.yml; keep manual diagnostics available.
 on:
-  workflow_run:
-    workflows: [Update IPTV Playlist]
-    types: [completed]
-  push:
-    branches: [main]
-    paths:
-      - playlist.m3u
-      - playlist-ru-ua-manual.m3u
-      - data/language-overrides.json
-      - data/category-overrides.json
-      - data/oled-channels.json
-      - data/content-overrides.json
   workflow_dispatch:
-  schedule:
-    - cron: '47 */6 * * *'
 
 permissions:
   contents: write
 
 # Independent queue; do not cancel pending runs of the original updater.
 concurrency:
-  group: iptv-ru-ua-update
+  group: iptv-playlist-update
   cancel-in-progress: false
 
 jobs:

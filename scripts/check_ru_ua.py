@@ -125,7 +125,8 @@ def connection(block):
     return url, headers
 
 
-def hls_sample(body, base, headers, deadline, depth=0):
+def hls_sample(body, base, headers, deadline, depth=0, fetcher=None):
+    get = fetcher or fetch
     if depth > 4:
         raise ValueError('HLS nesting exceeds limit')
     lines = body.decode('utf-8-sig').splitlines()
@@ -146,8 +147,8 @@ def hls_sample(body, base, headers, deadline, depth=0):
     if variants:
         # Select advertised best rendition; only FFprobe can confirm actual 4K/HDR.
         target = urllib.parse.urljoin(base, max(variants)[2])
-        nested, resolved, _ = fetch(target, headers, deadline=deadline)
-        return hls_sample(nested, resolved, headers, deadline, depth+1)
+        nested, resolved, _ = get(target, headers, deadline=deadline)
+        return hls_sample(nested, resolved, headers, deadline, depth+1, fetcher=fetcher)
     segments = []
     resources = set()
     for line in lines:
@@ -159,7 +160,7 @@ def hls_sample(body, base, headers, deadline, depth=0):
                 raise ValueError('HLS key URI missing')
             target = urllib.parse.urljoin(base, match[1])
             if target not in resources:
-                key, _, _ = fetch(target, headers, limit=17, deadline=deadline)
+                key, _, _ = get(target, headers, limit=17, deadline=deadline)
                 if len(key) != 16:
                     raise ValueError('Invalid AES-128 key')
                 resources.add(target)
@@ -169,7 +170,7 @@ def hls_sample(body, base, headers, deadline, depth=0):
                 raise ValueError('HLS initialization URI missing')
             target = urllib.parse.urljoin(base, match[1])
             if target not in resources:
-                data, _, _ = fetch(target, headers, deadline=deadline)
+                data, _, _ = get(target, headers, deadline=deadline)
                 if not data:
                     raise ValueError('Empty HLS initialization data')
                 resources.add(target)
@@ -179,7 +180,7 @@ def hls_sample(body, base, headers, deadline, depth=0):
         raise Inconclusive('Fewer than three distinct HLS segments available')
     total, elapsed = 0, 0.0
     for segment in segments[-3:]:
-        data, _, seconds = fetch(segment, headers, limit=1_000_000, deadline=deadline)
+        data, _, seconds = get(segment, headers, limit=1_000_000, deadline=deadline)
         if len(data) < 188:
             raise ValueError('Empty or truncated HLS media segment')
         total += len(data)

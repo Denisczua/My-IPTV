@@ -1,0 +1,51 @@
+{
+  "providers": [
+    {
+      "name": "IPTV Nexus",
+      "repository": "dearbulut/iptv",
+      "urls": [
+        "https://dearbulut.github.io/iptv/playlists/index.m3u",
+        "https://dearbulut.github.io/iptv/playlists/country/ru.m3u",
+        "https://dearbulut.github.io/iptv/playlists/country/ua.m3u",
+        "https://dearbulut.github.io/iptv/playlists/online.m3u",
+        "https://dearbulut.github.io/iptv/playlists/best.m3u"
+      ]
+    },
+    {
+      "name": "Nexonic IPTV",
+      "repository": "nexonic-technologies/nexonic-iptv",
+      "urls": [
+        "https://nexonic-technologies.github.io/nexonic-iptv/playlists/all.m3u",
+        "https://nexonic-technologies.github.io/nexonic-iptv/playlists/verified.m3u",
+        "https://nexonic-technologies.github.io/nexonic-iptv/playlists/quality/1080p.m3u"
+      ]
+    },
+    {
+      "name": "DuckKota IPTV",
+      "repository": "DuckKota/iptv",
+      "urls": [
+        "https://DuckKota.github.io/iptv/playlists/index.m3u",
+        "https://DuckKota.github.io/iptv/playlists/country/ru.m3u",
+        "https://DuckKota.github.io/iptv/playlists/country/ua.m3u",
+        "https://DuckKota.github.io/iptv/playlists/online.m3u"
+      ]
+    },
+    {
+      "name": "IPTV-ORG",
+      "repository": "iptv-org/iptv",
+      "urls": [
+        "https://iptv-org.github.io/iptv/index.m3u",
+        "https://iptv-org.github.io/iptv/languages/rus.m3u",
+        "https://iptv-org.github.io/iptv/languages/ukr.m3u",
+        "https://iptv-org.github.io/iptv/categories/movies.m3u"
+      ]
+    },
+    {
+      "name": "Free-TV IPTV",
+      "repository": "Free-TV/IPTV",
+      "urls": [
+        "https://raw.githubusercontent.com/Free-TV/IPTV/master/playlist.m3u8"
+      ]
+    }
+  ]
+}

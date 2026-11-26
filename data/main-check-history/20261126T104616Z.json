@@ -1,0 +1,13 @@
+{
+  "at": "2026-11-26T10:46:16.863372+00:00",
+  "checked": [
+    {
+      "channel": "SilkWayCinema.kz",
+      "variant": "893d64baeef04d95e778ef41b9186a53cd938a3fcbb2f0d3b9f4204d9523dab4",
+      "result": "fail",
+      "reason": "Less than 19 seconds of continuous video and audio"
+    }
+  ],
+  "remaining": 0,
+  "region": "CZ"
+}

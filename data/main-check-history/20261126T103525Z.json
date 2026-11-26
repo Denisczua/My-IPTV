@@ -1,0 +1,49 @@
+{
+  "at": "2026-11-26T10:35:25.911263+00:00",
+  "checked": [
+    {
+      "channel": "SilkWayCinema.kz",
+      "variant": "0d2189f8bc69e1ebd0025df135f371a936b084f881aaef46382d6cf05f830436",
+      "result": "fail",
+      "reason": "HTTP 404"
+    },
+    {
+      "channel": "Smotrim100Klassika.ru",
+      "variant": "0cc3288e1b32fb29d73c21bd95fe48d93423178b6f081f79734ef31f623d5c8d",
+      "result": "unknown",
+      "reason": "Russian audio language tag absent: needs listening/manual evidence; decoded sample is not language proof"
+    },
+    {
+      "channel": "SilkWayCinema.kz",
+      "variant": "893d64baeef04d95e778ef41b9186a53cd938a3fcbb2f0d3b9f4204d9523dab4",
+      "result": "ok",
+      "reason": ""
+    },
+    {
+      "channel": "Smotrim100Klassika.ru",
+      "variant": "4739f9b9df2ca7242af94ac7e3b0394966837f9b7a8af9c72325692e38b096aa",
+      "result": "unknown",
+      "reason": "Russian audio language tag absent: needs listening/manual evidence; decoded sample is not language proof"
+    },
+    {
+      "channel": "Smotrim100Klassika.ru",
+      "variant": "648bd901774b1e7f9a70f95172199a768ff69502808aa96cd5b1330b1d7ecda2",
+      "result": "unknown",
+      "reason": "Russian audio language tag absent: needs listening/manual evidence; decoded sample is not language proof"
+    },
+    {
+      "channel": "1001Noites.br",
+      "variant": "229fd6104b4c777f7071ef4d2fd58ea339ed36b398eec968c080ed13afcc3001",
+      "result": "fail",
+      "reason": "HTTP 404"
+    },
+    {
+      "channel": "Smotrim100Klassika.ru",
+      "variant": "a6dac9e0d2e75ce130675e4c7efde43a9fa4629ad0f33f3cccc613af3411a60f",
+      "result": "unknown",
+      "reason": "Russian audio language tag absent: needs listening/manual evidence; decoded sample is not language proof"
+    }
+  ],
+  "remaining": 11453,
+  "region": "CZ"
+}

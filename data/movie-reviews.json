@@ -1,0 +1,35 @@
+{
+  "aliases": {},
+  "channels": {
+    "Smotrim100Klassika.ru": {
+      "movie": true,
+      "name": "Смотрим 100% Классика",
+      "rights": [
+        {
+          "urls": [
+            "https://stream.smotrim.ru/hls/fasttv03/playlist_3.m3u8",
+            "https://stream.smotrim.ru/hls/fasttv03/playlist_2.m3u8"
+          ],
+          "evidence": "https://www.kinometro.ru/interview/show/name/int_sherozia_03072026 ; reviewed official broadcaster FAST endpoints, previous review data/movies-sources.json"
+        }
+      ]
+    },
+    "SilkWayCinema.kz": {
+      "movie": true,
+      "rights": [
+        {
+          "urls": [
+            "https://stream.qazcdn.net/ex6r514/silkwaycinema/tracks-v3a2/mono.ts.m3u8",
+            "https://stream.qazcdn.net/ex6r514/silkwaycinema/tracks-v2a2/mono.ts.m3u8"
+          ],
+          "evidence": "https://silkwaycinema.tv/ ; official Qazaqstan network free live stream, previously reviewed in playlist-movies-hd-report.md"
+        }
+      ]
+    },
+    "FilmUALive.ua": {
+      "movie": false,
+      "excluded": true,
+      "evidence": "https://film.ua/uk/broadcasting ; prior review data/movies-sources.json, 2026-11-18: backstage, trailers and educational material rather than feature-film programming"
+    }
+  }
+}
