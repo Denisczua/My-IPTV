@@ -1,6 +1,8 @@
 name: Publish main playlist mirror
 
 on:
+  schedule:
+    - cron: "37 */6 * * *"
   workflow_call:
   workflow_dispatch:
   push:
@@ -8,6 +10,9 @@ on:
     paths:
       - playlist.m3u
       - scripts/build_playlist_site.py
+      - scripts/ottplayer_export.py
+      - data/main-catalogue.json
+      - data/iptv-org-feed-languages.json
       - .github/workflows/pages.yml
 
 permissions:
