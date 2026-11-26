@@ -443154,7 +443154,19 @@
             "#EXTINF:-1 tvg-id=\"Trofei.ua@SD\" tvg-logo=\"https://i.imgur.com/VDt4mKB.png\" http-user-agent=\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36\" group-title=\"Outdoor\",Trofei (1080p)",
             "http://stream.mcquack.net/357/index.m3u8"
           ],
-          "history": [],
+          "history": [
+            {
+              "at": "2026-11-26T18:16:12.537429+00:00",
+              "region": "CZ",
+              "result": "fail",
+              "measurement_version": 3,
+              "reason": "HTTP 403",
+              "http_status": 403,
+              "elapsed_seconds": 0.158,
+              "egress_sha256": "a130ed9d3515ef5e2bacc3ad41b71e272eb3d62b789b71bcd8d69272e5ab298f",
+              "observation_id": "e24dfd1217d8172b57888906c68f7335a5f3c0e0a972d15cbc542779a41db63d"
+            }
+          ],
           "sources": [
             {
               "provider": "existing playlist.m3u",
@@ -443173,7 +443185,19 @@
             "#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36",
             "http://stream.mcquack.net/357/index.m3u8"
           ],
-          "history": [],
+          "history": [
+            {
+              "at": "2026-11-26T18:16:12.537429+00:00",
+              "region": "CZ",
+              "result": "fail",
+              "measurement_version": 3,
+              "reason": "HTTP 403",
+              "http_status": 403,
+              "elapsed_seconds": 0.158,
+              "egress_sha256": "a130ed9d3515ef5e2bacc3ad41b71e272eb3d62b789b71bcd8d69272e5ab298f",
+              "observation_id": "e24dfd1217d8172b57888906c68f7335a5f3c0e0a972d15cbc542779a41db63d"
+            }
+          ],
           "sources": [
             {
               "provider": "IPTV-ORG",
