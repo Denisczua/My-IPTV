@@ -1,0 +1,366 @@
+{
+  "at": "2026-11-26T18:44:32.493198+00:00",
+  "websites_surveyed": 29,
+  "scope": "Public broadcaster HTML and linked live pages; missing HLS does not prove absence of legal distribution",
+  "websites": [
+    {
+      "id": "Okhotairybalka.ru",
+      "group": "Рыбалка и охота",
+      "website": "http://ohotarybalka.tv/",
+      "error": "URLError",
+      "http_status": null
+    },
+    {
+      "id": "Ohotnikirybolov.ru",
+      "group": "Рыбалка и охота",
+      "website": "https://oirtv.ru/",
+      "status": 200,
+      "resolved": "https://oirtv.ru/",
+      "hls": [],
+      "iframes": [],
+      "live_pages": []
+    },
+    {
+      "id": "Rybolov.ru",
+      "group": "Рыбалка и охота",
+      "website": "https://oirtv.ru/",
+      "status": 200,
+      "resolved": "https://oirtv.ru/",
+      "hls": [],
+      "iframes": [],
+      "live_pages": []
+    },
+    {
+      "id": "Dikayaokhota.ru",
+      "group": "Рыбалка и охота",
+      "website": "https://dikoe.tv/channels/dikaya-okhota-hd.html",
+      "status": 200,
+      "resolved": "https://dikoe.tv/channels/dikaya-okhota-hd.html",
+      "hls": [],
+      "iframes": [],
+      "live_pages": []
+    },
+    {
+      "id": "Rybalkaiokhota.ru",
+      "group": "Рыбалка и охота",
+      "website": "http://tv-stream.ru/tv/rybalka-i-okhota",
+      "error": "HTTPError",
+      "http_status": 404
+    },
+    {
+      "id": "Rybalka.ua",
+      "group": "Рыбалка и охота",
+      "website": "https://rybalka.net.ua/",
+      "status": 200,
+      "resolved": "https://rybalka.net.ua/",
+      "hls": [],
+      "iframes": [],
+      "live_pages": []
+    },
+    {
+      "id": "Dikayarybalka.ru",
+      "group": "Рыбалка и охота",
+      "website": "https://dikoe.tv/channels/dikaya-rybalka-hd.html",
+      "status": 200,
+      "resolved": "https://dikoe.tv/channels/dikaya-rybalka-hd.html",
+      "hls": [],
+      "iframes": [],
+      "live_pages": []
+    },
+    {
+      "id": "RTGTV.ru",
+      "group": "Путешествия и природа",
+      "website": "http://www.rtgtv.ru/channels/rtgtv",
+      "status": 200,
+      "resolved": "http://www.rtgtv.ru/channels/rtgtv",
+      "hls": [],
+      "iframes": [],
+      "live_pages": []
+    },
+    {
+      "id": "Trofei.ua",
+      "group": "Рыбалка и охота",
+      "website": "http://trofey.tv/",
+      "status": 200,
+      "resolved": "https://trofey.tv/",
+      "hls": [],
+      "iframes": [
+        "https://www.googletagmanager.com/ns.html?id=GTM-5B2V686",
+        "https://www.youtube.com/embed/tt85nvPEa4U"
+      ],
+      "live_pages": [
+        "https://trofey.tv/"
+      ]
+    },
+    {
+      "id": "MoyaPlaneta.ru",
+      "group": "Путешествия и природа",
+      "website": "https://www.moya-planeta.ru/",
+      "status": 200,
+      "resolved": "https://moya-planeta.ru/",
+      "hls": [],
+      "iframes": [],
+      "live_pages": []
+    },
+    {
+      "id": "Teleputeshestviya.ru",
+      "group": "Путешествия и природа",
+      "website": "http://www.teletravel.tv/",
+      "status": 200,
+      "resolved": "https://www.teletravel.tv/",
+      "hls": [],
+      "iframes": [],
+      "live_pages": []
+    },
+    {
+      "id": "TheExplorers.ru",
+      "group": "Путешествия и природа",
+      "website": "https://skymediatv.ru/the-explorers/",
+      "status": 200,
+      "resolved": "https://skymediatv.ru/the-explorers/",
+      "hls": [],
+      "iframes": [],
+      "live_pages": []
+    },
+    {
+      "id": "vijuNature.ru",
+      "group": "Путешествия и природа",
+      "website": "https://viju.ru/telekanaly/viju-nature/",
+      "error": "HTTPError",
+      "http_status": 404
+    },
+    {
+      "id": "TravelPlusAdventure.ru",
+      "group": "Путешествия и природа",
+      "website": "http://tplusa.ru/",
+      "status": 200,
+      "resolved": "http://tplusa.ru/",
+      "hls": [],
+      "iframes": [],
+      "live_pages": []
+    },
+    {
+      "id": "LoveNature.ca",
+      "group": "Путешествия и природа",
+      "website": "https://tv.lovenature.com/",
+      "status": 200,
+      "resolved": "https://tv.lovenature.com/",
+      "hls": [],
+      "iframes": [
+        "https://www.googletagmanager.com/ns.html?id=GTM-PBTNPPW",
+        "https://player.vimeo.com/video/1074438524?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
+        "https://player.vimeo.com/video/1074424084?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
+        "https://player.vimeo.com/video/1074422591?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
+        "https://player.vimeo.com/video/1074421887?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
+        "https://player.vimeo.com/video/1074421290?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
+        "https://player.vimeo.com/video/1074420462?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
+        "https://player.vimeo.com/video/1058620612?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+      ],
+      "live_pages": []
+    },
+    {
+      "id": "GlazamiTurista.ru",
+      "group": "Путешествия и природа",
+      "website": "https://www.glazamiturista.ru/",
+      "status": 200,
+      "resolved": "https://www.glazamiturista.ru/",
+      "hls": [],
+      "iframes": [],
+      "live_pages": []
+    },
+    {
+      "id": "AnimalPlanet.ru",
+      "group": "Путешествия и природа",
+      "website": "https://www.animalplanet.com/",
+      "status": 200,
+      "resolved": "https://www.animalplanet.com/",
+      "hls": [],
+      "iframes": [
+        "https://www.googletagmanager.com/ns.html?id=GTM-544SVFJ"
+      ],
+      "live_pages": []
+    },
+    {
+      "id": "Travelxp.in",
+      "group": "Путешествия и природа",
+      "website": "http://www.travelxp.tv/",
+      "status": 200,
+      "resolved": "https://www.travelxp.tv/",
+      "hls": [],
+      "iframes": [],
+      "live_pages": []
+    },
+    {
+      "id": "NashaTema.ru",
+      "group": "Путешествия и природа",
+      "website": "https://nashatema.tv/",
+      "status": 200,
+      "resolved": "https://nashatema.tv/",
+      "hls": [],
+      "iframes": [],
+      "live_pages": [
+        "https://nashatema.tv/online/"
+      ]
+    },
+    {
+      "id": "Moyastikhiya.ru",
+      "group": "Путешествия и природа",
+      "website": "https://xn----ptbankthz9fg.xn--p1ai/",
+      "error": "URLError",
+      "http_status": null
+    },
+    {
+      "id": "24Kanal.ua",
+      "group": "Новости Украины",
+      "website": "https://24tv.ua/online/",
+      "status": 200,
+      "resolved": "https://24tv.ua/online/",
+      "hls": [],
+      "iframes": [],
+      "live_pages": [
+        "https://24tv.ua/online/24-kanal",
+        "https://24tv.ua/online"
+      ]
+    },
+    {
+      "id": "EspresoTV.ua",
+      "group": "Новости Украины",
+      "website": "https://espreso.tv/",
+      "status": 200,
+      "resolved": "https://espreso.tv/",
+      "hls": [],
+      "iframes": [
+        "https://www.googletagmanager.com/ns.html?id=GTM-M3JGJJ"
+      ],
+      "live_pages": [
+        "https://espreso.tv/stream"
+      ]
+    },
+    {
+      "id": "NationalGeographicWild.ru",
+      "group": "Путешествия и природа",
+      "website": "http://natgeotv.com/ru/wild",
+      "status": 200,
+      "resolved": "https://www.natgeotv.com/",
+      "hls": [],
+      "iframes": [],
+      "live_pages": []
+    },
+    {
+      "id": "NovynyLive.ua",
+      "group": "Новости Украины",
+      "website": null
+    },
+    {
+      "id": "FREEDOM.ua",
+      "group": "Новости Украины",
+      "website": "https://tvfreedom.io/",
+      "error": "HTTPError",
+      "http_status": 403
+    },
+    {
+      "id": "MyUkrainaTV.ua",
+      "group": "Новости Украины",
+      "website": "https://weukraine.tv/",
+      "status": 200,
+      "resolved": "https://weukraine.tv/",
+      "hls": [],
+      "iframes": [
+        "https://www.youtube.com/embed/${id}?autoplay=1"
+      ],
+      "live_pages": []
+    },
+    {
+      "id": "Channel5.ua",
+      "group": "Новости Украины",
+      "website": "http://5.ua/",
+      "status": 200,
+      "resolved": "https://www.5.ua/",
+      "hls": [],
+      "iframes": [
+        "https://www.googletagmanager.com/ns.html?id=GTM-TKCD28"
+      ],
+      "live_pages": [
+        "https://www.5.ua/live/"
+      ]
+    },
+    {
+      "id": "Kyiv.ua",
+      "group": "Новости Украины",
+      "website": "https://tv.kyiv.media/",
+      "error": "HTTPError",
+      "http_status": 403
+    },
+    {
+      "id": "ApostropheTV.ua",
+      "group": "Новости Украины",
+      "website": "https://apostrophe.ua/ua/tv",
+      "status": 200,
+      "resolved": "https://apostrophe.ua/ua/tv",
+      "hls": [],
+      "iframes": [],
+      "live_pages": []
+    }
+  ],
+  "live_pages": [
+    {
+      "channel": "Trofei.ua",
+      "url": "https://trofey.tv/",
+      "at": "2026-11-26T18:44:30.620565+00:00",
+      "status": 200,
+      "hls": [],
+      "iframes": [
+        "https://www.googletagmanager.com/ns.html?id=GTM-5B2V686",
+        "https://www.youtube.com/embed/tt85nvPEa4U"
+      ]
+    },
+    {
+      "channel": "NashaTema.ru",
+      "url": "https://nashatema.tv/online/",
+      "at": "2026-11-26T18:44:31.347199+00:00",
+      "status": 200,
+      "hls": [
+        "http://live-1.otcnet.ru:80/nashatema1/index.m3u8"
+      ],
+      "iframes": []
+    },
+    {
+      "channel": "24Kanal.ua",
+      "url": "https://24tv.ua/online/24-kanal",
+      "at": "2026-11-26T18:44:31.644119+00:00",
+      "status": 200,
+      "hls": [],
+      "iframes": []
+    },
+    {
+      "channel": "24Kanal.ua",
+      "url": "https://24tv.ua/online",
+      "at": "2026-11-26T18:44:31.772080+00:00",
+      "status": 200,
+      "hls": [],
+      "iframes": []
+    },
+    {
+      "channel": "EspresoTV.ua",
+      "url": "https://espreso.tv/stream",
+      "at": "2026-11-26T18:44:31.926970+00:00",
+      "status": 200,
+      "hls": [],
+      "iframes": [
+        "https://www.googletagmanager.com/ns.html?id=GTM-M3JGJJ",
+        "https://www.youtube.com/embed/ScdUZNkwcYc"
+      ]
+    },
+    {
+      "channel": "Channel5.ua",
+      "url": "https://www.5.ua/live/",
+      "at": "2026-11-26T18:44:32.042485+00:00",
+      "status": 200,
+      "hls": [],
+      "iframes": [
+        "https://www.googletagmanager.com/ns.html?id=GTM-TKCD28",
+        "https://dyvy.tv/api/v1/partner/776067/5/embed-player"
+      ]
+    }
+  ]
+}
