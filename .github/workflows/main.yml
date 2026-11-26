@@ -27,10 +27,6 @@ on:
 permissions:
   contents: write
 
-concurrency:
-  group: iptv-playlist-update
-  cancel-in-progress: false
-
 jobs:
   validate:
     runs-on: ubuntu-latest
@@ -42,6 +38,9 @@ jobs:
           python-version: '3.12'
       - run: python -m unittest discover -s tests -v
   update:
+    concurrency:
+      group: iptv-main-writer
+      cancel-in-progress: false
     needs: validate
     if: github.ref_name == github.event.repository.default_branch
     runs-on: ubuntu-latest
@@ -80,72 +79,6 @@ jobs:
             data/reports/*failed.json
           retention-days: 7
 
-  check-cz:
-    needs: update
-    if: vars.CZ_CHECKS_ENABLED == 'true' && github.event_name != 'push'
-    runs-on: [self-hosted, Windows, X64, iptv-cz]
-    timeout-minutes: 35
-    steps:
-      - uses: actions/checkout@v4
-        with:
-          ref: ${{ github.event.repository.default_branch }}
-          fetch-depth: 0
-      - name: Check video and audio directly from Czechia in a bounded batch
-        id: probe
-        shell: powershell
-        env:
-          MAX_STREAMS: ${{ format('{0}', inputs.max_streams) || '40' }}
-          CHECK_BUDGET: ${{ format('{0}', inputs.budget_seconds) || '1500' }}
-          MOVIES_ONLY: ${{ inputs.movies_only || false }}
-        run: |
-          $probeArgs = @('--confirm-direct-cz', '--max-streams', $env:MAX_STREAMS, '--budget-seconds', $env:CHECK_BUDGET)
-          if ($env:MOVIES_ONLY -eq 'true') { $probeArgs += '--movies-only' }
-          python scripts/check_main_movies.py @probeArgs
-      - name: Select verified reserves and publish to the same main playlist
-        shell: powershell
-        run: python scripts/update_playlist.py
-      - name: Refresh existing RU UA views from shared evidence
-        shell: powershell
-        run: python scripts/filter_ru_ua.py
-      - name: Save progress and validated output
-        shell: powershell
-        run: |
-          git add -- playlist.m3u backups data playlist-movies-report.md playlist-ru-ua-testing.m3u
-          if (Test-Path playlist-ru-ua.m3u) { git add -- playlist-ru-ua.m3u }
-          if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
-          git diff --cached --quiet
-          if ($LASTEXITCODE -eq 0) { exit 0 }
-          git config user.name 'github-actions[bot]'
-          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git commit -m 'Save direct-CZ media checks and main playlist failover'
-          if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
-          git pull --rebase origin '${{ github.event.repository.default_branch }}'
-          if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
-          git push origin HEAD:${{ github.event.repository.default_branch }}
-      - name: Save accepted evidence without publishing a failed playlist update
-        if: failure() && steps.probe.outcome == 'success'
-        shell: powershell
-        run: |
-          git restore --staged -- .
-          git add -- data/main-catalogue.json data/main-probe-report.json data/main-check-history data/ru-ua-state.json
-          if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
-          git diff --cached --quiet
-          if ($LASTEXITCODE -eq 0) { exit 0 }
-          git -c user.name='github-actions[bot]' -c user.email='41898282+github-actions[bot]@users.noreply.github.com' commit -m 'Preserve accepted CZ evidence; playlist publication failed'
-          if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
-          git push origin HEAD:${{ github.event.repository.default_branch }}
-      - name: Preserve CZ diagnostics on failure
-        if: failure()
-        uses: actions/upload-artifact@v4
-        with:
-          name: main-cz-failure-${{ github.run_id }}-${{ github.run_attempt }}
-          path: |
-            data/*report.json
-            data/main-catalogue.json
-            data/main-check-history/
-            data/reports/*failed.json
-          retention-days: 3
-
   publish-pages:
     needs: update
     if: needs.update.result == 'success'
@@ -156,12 +89,3 @@ jobs:
       id-token: write
     uses: ./.github/workflows/pages.yml
 
-  publish-pages-after-cz:
-    needs: check-cz
-    if: needs.check-cz.result == 'success'
-    permissions:
-      contents: read
-      actions: read
-      pages: write
-      id-token: write
-    uses: ./.github/workflows/pages.yml

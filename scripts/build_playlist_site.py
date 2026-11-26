@@ -36,11 +36,12 @@ def build(source, destination, commit=''):
     optimized_report=None
     catalogue_path=source.parent/'data/main-catalogue.json'
     if catalogue_path.exists():
-        from ottplayer_export import export
+        from personal_playlist import export
         catalogue=json.loads(catalogue_path.read_text(encoding='utf-8'))
-        feeds=json.loads((source.parent/'data/iptv-org-feed-languages.json').read_text(encoding='utf-8'))['feeds']
-        optimized,optimized_report=export(channels,catalogue,feeds)
+        def data(name):return json.loads((source.parent/'data'/name).read_text(encoding='utf-8'))
+        optimized,optimized_report=export(catalogue,data('personal-policy.json'),data('personal-names.json')['names'],data('personal-discoveries.json'),data('oled-channels.json'))
         variants['playlist-ottplayer.m3u']=optimized
+        (destination/'personal-report.json').write_text(json.dumps(optimized_report,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
     diagnostics={}
     for name,body in variants.items():
         count=len(parse(body.decode('utf-8-sig')))
@@ -48,7 +49,7 @@ def build(source, destination, commit=''):
         diagnostics[name]={'channels':count,'bytes':len(body),'sha256':hashlib.sha256(body).hexdigest()}
     manifest={'generated_at':datetime.now(timezone.utc).isoformat(),
               'source':'playlist.m3u','source_commit':commit,'sha256':digest,
-              'bytes':len(raw),'channels':len(channels),'ottplayer_connection_confirmed':False,
+              'bytes':len(raw),'channels':len(channels),'ottplayer_connection_confirmed':bool(optimized_report),
               'diagnostics':diagnostics,'optimized':optimized_report}
     (destination/'playlist-info.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
     (destination/'.nojekyll').write_text('',encoding='utf-8')
@@ -58,7 +59,7 @@ def build(source, destination, commit=''):
 <style>body{font:17px/1.6 system-ui;max-width:760px;margin:60px auto;padding:0 24px}a{color:#145ac1}code{overflow-wrap:anywhere}small{color:#555}</style>
 <h1>My-IPTV</h1><p>Зеркало существующего основного плейлиста. Состав не сокращается и не меняется при публикации.</p>
 <p><a href="playlist.m3u" download>playlist.m3u</a> · <a href="playlist.m3u8" download>тот же файл с расширением .m3u8</a></p>
-<p><a href="playlist-ottplayer.m3u">OTTPlayer: только RU/UA</a> — языковой вариант существующего файла; доступность всех потоков в Чехии не подтверждена.</p>
+<p><a href="playlist-ottplayer.m3u">Персональный OTTPlayer</a> — кино, рыбалка и охота, путешествия и природа, новости Украины и России. Только потоки с повторными проверками декодирования из Чехии и подтверждённым происхождением.</p>
 <p>Проверка объёма: <a href="diagnostic-1000.m3u">1000 каналов</a> · <a href="diagnostic-2000.m3u">2000 каналов</a> · <a href="diagnostic-5000.m3u">5000 каналов</a>.</p>
 <p>Диагностика OTTPlayer: <a href="playlist-simple.m3u">все каналы без глобального EPG</a> · <a href="diagnostic-100.m3u">100 каналов</a> · <a href="diagnostic-100-epg.m3u">100 каналов с исходным EPG</a> · <a href="playlist-simple-crlf.m3u">все каналы без EPG, CRLF</a>. Эти варианты автоматически строятся из основного файла.</p>
 <p>Для OTTPlayer используйте прямой адрес файла в поле ссылки автообновления. Включите автообновление в настройках уже загруженного плейлиста.</p>

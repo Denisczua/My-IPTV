@@ -194,8 +194,8 @@ GitHub-hosted job только собирает источники, тестир
 
 ```powershell
 python scripts/update_playlist.py
-python scripts/check_main_movies.py --confirm-direct-cz --movies-only --max-streams 10 --budget-seconds 600
-python scripts/main_catalogue.py
+python scripts/audit_personal_cz.py --max-streams 60 --budget-seconds 1500
+python scripts/build_playlist_site.py
 ```
 
 Нужны Python 3.12+, FFmpeg с FFprobe, Git и curl в PATH. Можно использовать
@@ -221,3 +221,6 @@ python scripts/main_catalogue.py
 Проверка из GitHub другой страны никогда не маркируется как CZ. База и отчёты
 явно различают язык по каталогу, фактический тег дорожки, рабочие измерения и
 пока не проверенные существующие каналы.
+
+
+Актуальная персональная подборка, критерии допуска и новая раздельная автоматизация: [PERSONAL-PLAYLIST.md](PERSONAL-PLAYLIST.md). Старые общие отчёты не доказывают качество персонального плейлиста.

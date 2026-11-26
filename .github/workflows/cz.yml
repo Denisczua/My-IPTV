@@ -1,0 +1,101 @@
+name: Personal playlist direct CZ checks
+
+on:
+  workflow_dispatch:
+    inputs:
+      max_streams:
+        type: number
+        default: 60
+      budget_seconds:
+        type: number
+        default: 1500
+  schedule:
+    - cron: "27 */6 * * *"
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    if: vars.CZ_CHECKS_ENABLED == 'true'
+    runs-on: [self-hosted, Windows, X64, iptv-cz]
+    timeout-minutes: 32
+    concurrency:
+      group: iptv-cz-probe
+      cancel-in-progress: false
+    outputs:
+      artifact: ${{ steps.upload.outputs.artifact-id }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - name: Resume isolated video and audio checks from Czechia
+        shell: powershell
+        env:
+          MAX_STREAMS: ${{ inputs.max_streams || 60 }}
+          BUDGET: ${{ inputs.budget_seconds || 1500 }}
+        run: |
+          $asr = Join-Path $env:LOCALAPPDATA 'MyIPTV-CZ-runner\asr\Scripts\python.exe'
+          $model = Join-Path $env:LOCALAPPDATA 'MyIPTV-CZ-runner\asr-model'
+          if ((Test-Path $asr) -and (Test-Path $model)) {
+            $env:MYIPTV_ASR_PYTHON = $asr
+            $env:MYIPTV_ASR_MODEL = $model
+          }
+          python scripts/audit_personal_cz.py --max-streams $env:MAX_STREAMS --budget-seconds $env:BUDGET --workers 2
+      - name: Export already accepted durable checkpoints even after failure
+        if: always()
+        shell: powershell
+        run: |
+          $journal = Join-Path $env:LOCALAPPDATA 'MyIPTV-CZ-runner\progress\observations.jsonl'
+          if (Test-Path $journal) { Copy-Item -LiteralPath $journal -Destination personal-observations.jsonl }
+      - uses: actions/upload-artifact@v4
+        id: upload
+        if: always()
+        with:
+          name: cz-observations
+          path: personal-observations.jsonl
+          if-no-files-found: ignore
+          retention-days: 7
+
+  save:
+    needs: check
+    if: always() && needs.check.outputs.artifact != ''
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    permissions:
+      contents: write
+      actions: read
+    concurrency:
+      group: iptv-main-writer
+      cancel-in-progress: false
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/download-artifact@v4
+        with:
+          name: cz-observations
+          path: .tools/accepted-cz
+      - run: python scripts/import_personal_evidence.py .tools/accepted-cz/personal-observations.jsonl
+      - name: Preserve evidence without changing the full main playlist
+        shell: bash
+        run: |
+          git add data/main-catalogue.json data/personal-import-report.json
+          if git diff --cached --quiet; then exit 0; fi
+          git -c user.name='github-actions[bot]' -c user.email='41898282+github-actions[bot]@users.noreply.github.com' commit -m 'Preserve resumable direct CZ personal channel evidence'
+          git pull --rebase origin main
+          git push origin HEAD:main
+
+  publish:
+    needs: save
+    if: needs.save.result == 'success'
+    permissions:
+      contents: read
+      actions: read
+      pages: write
+      id-token: write
+    uses: ./.github/workflows/pages.yml

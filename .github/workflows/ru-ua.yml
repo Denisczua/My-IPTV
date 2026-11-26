@@ -9,7 +9,7 @@ permissions:
 
 # Independent queue; do not cancel pending runs of the original updater.
 concurrency:
-  group: iptv-playlist-update
+  group: iptv-main-writer
   cancel-in-progress: false
 
 jobs:

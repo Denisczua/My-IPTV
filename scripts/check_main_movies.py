@@ -1,6 +1,5 @@
 """Bounded direct-CZ checks of decoded video AND audio; no proxy or region bypass."""
 import argparse
-from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timezone
 import hashlib
 import ipaddress
@@ -98,10 +97,12 @@ def inspect_stream(url,headers,ffprobe):
 
 def decode(url,headers,video,audio,ffmpeg):
     command=[ffmpeg,'-nostdin','-hide_banner','-nostats','-v','info','-xerror','-err_detect','explode',
+             '-threads','2','-filter_threads','1',
              '-protocol_whitelist',PROTOCOLS,'-rw_timeout','10000000',
              '-headers',''.join(f'{k}: {v}\r\n' for k,v in headers.items()),
              '-re','-i',url,'-t','25','-map',f'0:{video}','-map',f'0:{audio}',
-             '-vf','showinfo,freezedetect=n=-60dB:d=15','-af','ashowinfo,silencedetect=n=-55dB:d=15',
+             '-vf','setpts=PTS-STARTPTS,showinfo,freezedetect=n=-60dB:d=15',
+             '-af','asetpts=PTS-STARTPTS,ashowinfo,silencedetect=n=-55dB:d=15',
              '-progress','pipe:1','-f','null','-']
     started=time.monotonic()
     first_frame=[]
@@ -128,6 +129,7 @@ def decode(url,headers,video,audio,ffmpeg):
     silence='silence_start:' in text
     freeze='freeze_start:' in text
     return {'startup_seconds':round(first_frame[0],3) if first_frame else None,
+            'timestamp_origin_normalized':True,
             'audio_decoded':bool(audio_pts),'decoded_video_seconds':round(video_pts[-1]-video_pts[0],3) if video_pts else 0,
             'decoded_audio_seconds':round(audio_pts[-1]-audio_pts[0],3) if audio_pts else 0,
             'video_continuous':continuous(video_pts),'audio_continuous':continuous(audio_pts),
@@ -198,51 +200,16 @@ def shared_ru_evidence(db,checked):
 
 
 def run(args):
-    if not args.confirm_direct_cz:raise RuntimeError('--confirm-direct-cz required; use a direct CZ connection without VPN/proxy')
-    ffmpeg,ffprobe=shutil.which(args.ffmpeg),shutil.which(args.ffprobe)
-    if not ffmpeg or not ffprobe:raise RuntimeError('FFmpeg and FFprobe required')
-    identity=direct_cz()
-    db=main.load()
-    queue=[]
-    for ident,ch in db['channels'].items():
-        if args.channel and ident!=args.channel:continue
-        if args.movies_only and not ch['movie_candidate']:continue
-        for key,v in ch['variants'].items():
-            allowed=(ch['movie_candidate'] and v.get('rights_evidence')) or (not ch['movie_candidate'] and v.get('existing'))
-            if not allowed or ch['adult_specialization']:continue
-            age=time.time()-datetime.fromisoformat(v['history'][-1]['at']).timestamp() if v['history'] else float('inf')
-            if age<main.MIN_INTERVAL:continue
-            if not ch['movie_candidate'] and v.get('status') in ('STABLE_CZ','OFFLINE','GEO_BLOCKED_CZ') and age<86400:continue
-            recent=[h for h in v['history'] if time.time()-datetime.fromisoformat(h['at']).timestamp()<=main.MAX_AGE]
-            priority=(0 if ch['movie_candidate'] else 1 if 0<len(recent)<3 else 2 if len(ch['variants'])>1 else 3)
-            queue.append((priority,len(recent),v['history'][-1]['at'] if v['history'] else '',ident,key))
-    queue.sort()
-    started=time.monotonic(); checked=[]
-    with ThreadPoolExecutor(max_workers=args.workers) as pool:
-        while queue and len(checked)<args.max_streams and time.monotonic()-started<args.budget_seconds-200:
-            batch=[];hosts=set()
-            for item in queue:
-                ident,key=item[-2:]
-                host=urlsplit(db['channels'][ident]['variants'][key]['block'][-1]).hostname
-                if host not in hosts:
-                    hosts.add(host);batch.append(item)
-                if len(batch)>=min(args.workers,args.max_streams-len(checked)):break
-            records=list(pool.map(lambda item:check(db['channels'][item[-2]],db['channels'][item[-2]]['variants'][item[-1]],ffmpeg,ffprobe),batch))
-            for item,h in zip(batch,records):
-                ident,key=item[-2:];v=db['channels'][ident]['variants'][key]
-                h['egress_sha256']=identity;v['history'].append(h);v['status']=main.status(v)
-                if v['status']=='STABLE_CZ':v['was_stable']=True
-                checked.append({'channel':ident,'variant':key,'result':h['result'],'reason':h.get('reason','')})
-                queue.remove(item)
-            time.sleep(1)
-    if direct_cz()!=identity:raise RuntimeError('Public CZ egress changed: retaining all previous files')
-    report={'at':common.now(),'checked':checked,'remaining':len(queue),'region':'CZ'}
-    files={main.STATE:common.json_text(db),common.DATA/'main-probe-report.json':common.json_text(report),
-           common.DATA/'main-check-history'/ (datetime.now(timezone.utc).strftime('%Y%m%dT%H%M%SZ')+'.json'):common.json_text(report)}
-    ru=shared_ru_evidence(db,checked)
-    if ru is not None:files[common.DB]=common.json_text(ru)
-    common.transaction(files)
-    print(json.dumps(report,ensure_ascii=True,indent=2))
+    # Keep the old CLI usable, but route it through hard worker deadlines,
+    # per-result checkpoints and a lock shared by all checkouts.
+    if not args.confirm_direct_cz:
+        raise RuntimeError('--confirm-direct-cz required')
+    from audit_personal_cz import run as durable_run
+    from pathlib import Path
+    args.passes=3
+    args.official_only=False
+    args.progress_dir=os.environ.get('MYIPTV_PROGRESS_DIR',str(Path(os.environ.get('LOCALAPPDATA',common.ROOT/'.tools'))/'MyIPTV-CZ-runner'/'progress'))
+    durable_run(args)
 
 
 if __name__=='__main__':
@@ -256,7 +223,7 @@ if __name__=='__main__':
     a=p.parse_args()
     if a.max_streams<1 or a.budget_seconds<201:p.error('Invalid limits')
     try:
-        with common.lock():run(a)
+        run(a)
     except Exception as error:
         common.record_failure('main-cz-checks',error)
         raise

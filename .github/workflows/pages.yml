@@ -11,6 +11,9 @@ on:
       - playlist.m3u
       - scripts/build_playlist_site.py
       - scripts/ottplayer_export.py
+      - scripts/personal_playlist.py
+      - data/personal-*.json
+      - data/oled-channels.json
       - data/main-catalogue.json
       - data/iptv-org-feed-languages.json
       - .github/workflows/pages.yml

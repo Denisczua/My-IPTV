@@ -1,0 +1,103 @@
+[
+  {
+    "file": "Worker_20261126-133717-utc.log",
+    "bytes": 284737,
+    "lines": 5139,
+    "sha256": "b7e17645e10478717f1e0b4f70a1df9200782bd38f9ab498cab2cd3686d523a9",
+    "gaps": [
+      {
+        "from": "2026-11-26T13:43:50+00:00",
+        "to": "2026-11-26T15:17:30+00:00",
+        "seconds": 5620.0
+      }
+    ],
+    "selected_events": [
+      "  \"startTime\": \"2026-11-26T13:37:20.0340181Z\",",
+      "  \"startTime\": \"2026-11-26T13:37:20.0346389Z\",",
+      "  \"startTime\": \"2026-11-26T13:37:20.0347305Z\",",
+      "  \"startTime\": \"2026-11-26T13:37:20.0348756Z\",",
+      "  \"startTime\": \"2026-11-26T13:37:20.0355724Z\",",
+      "  \"startTime\": \"2026-11-26T13:37:20.0358879Z\",",
+      "  \"startTime\": \"2026-11-26T13:37:20.0362979Z\",",
+      "  \"startTime\": \"2026-11-26T13:37:20.0371074Z\",",
+      "[2026-11-26 15:18:33Z INFO JobRunner] Job result after all job steps finish: Failed",
+      "[2026-11-26 15:18:33Z INFO JobRunner] Completing the job execution context.",
+      "[2026-11-26 15:18:33Z INFO JobRunner] Shutting down the job server queue.",
+      "[2026-11-26 15:18:35Z INFO JobRunner] Raising job completed against run service",
+      "[2026-11-26 15:18:35Z ERR  JobRunner] Catch exception while attempting to complete job e26cc06a-b479-5220-9b5f-f49c1aa79206, job request 0.",
+      "[2026-11-26 15:18:35Z ERR  JobRunner] GitHub.Services.Common.VssUnauthorizedException: You are not authorized to access [URL]",
+      "[2026-11-26 15:18:35Z INFO Worker] Job completed.",
+      "[2026-11-26 15:18:35Z ERR  Worker] System.AggregateException: One or more errors occurred. (You are not authorized to access [URL]",
+      "[2026-11-26 15:18:35Z ERR  Worker] #####################################################",
+      "[2026-11-26 15:18:35Z ERR  Worker] GitHub.Services.Common.VssUnauthorizedException: You are not authorized to access [URL]"
+    ]
+  },
+  {
+    "file": "Runner_20261126-105513-utc.log",
+    "bytes": 76507,
+    "lines": 656,
+    "sha256": "48ee8a7f468828c9602df2136aa7871b1bb415849c295a552cc41b02e2e33e0d",
+    "gaps": [
+      {
+        "from": "2026-11-26T10:55:15+00:00",
+        "to": "2026-11-26T11:22:24+00:00",
+        "seconds": 1629.0
+      },
+      {
+        "from": "2026-11-26T11:23:48+00:00",
+        "to": "2026-11-26T11:45:32+00:00",
+        "seconds": 1304.0
+      },
+      {
+        "from": "2026-11-26T11:45:32+00:00",
+        "to": "2026-11-26T12:38:34+00:00",
+        "seconds": 3182.0
+      },
+      {
+        "from": "2026-11-26T12:38:48+00:00",
+        "to": "2026-11-26T13:29:51+00:00",
+        "seconds": 3063.0
+      },
+      {
+        "from": "2026-11-26T13:29:51+00:00",
+        "to": "2026-11-26T13:37:15+00:00",
+        "seconds": 444.0
+      },
+      {
+        "from": "2026-11-26T13:43:18+00:00",
+        "to": "2026-11-26T15:17:30+00:00",
+        "seconds": 5652.0
+      },
+      {
+        "from": "2026-11-26T15:18:36+00:00",
+        "to": "2026-11-26T16:08:34+00:00",
+        "seconds": 2998.0
+      },
+      {
+        "from": "2026-11-26T16:08:35+00:00",
+        "to": "2026-11-26T16:50:16+00:00",
+        "seconds": 2501.0
+      }
+    ],
+    "selected_events": [
+      "[2026-11-26 13:37:17Z INFO JobDispatcher] Successfully renew job e26cc06a-b479-5220-9b5f-f49c1aa79206, job is valid till 26.11.2026 13:47:17",
+      "[2026-11-26 13:37:17Z INFO HostContext] Well known directory 'Bin': 'C:\\Users\\ds373\\AppData\\Local\\MyIPTV-CZ-runner\\bin'",
+      "[2026-11-26 13:37:17Z INFO ProcessInvokerWrapper] Starting process:",
+      "[2026-11-26 13:37:17Z INFO ProcessInvokerWrapper]   File name: 'C:\\Users\\ds373\\AppData\\Local\\MyIPTV-CZ-runner\\bin\\Runner.Worker.exe'",
+      "[2026-11-26 13:37:17Z INFO ProcessInvokerWrapper]   Arguments: 'spawnclient 2120 1764'",
+      "[2026-11-26 13:37:17Z INFO ProcessInvokerWrapper]   Working directory: 'C:\\Users\\ds373\\AppData\\Local\\MyIPTV-CZ-runner\\bin'",
+      "[2026-11-26 13:37:17Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'",
+      "[2026-11-26 13:37:17Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''",
+      "[2026-11-26 13:37:17Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'True'",
+      "[2026-11-26 13:37:17Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'",
+      "[2026-11-26 13:37:17Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'",
+      "[2026-11-26 13:37:17Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'",
+      "[2026-11-26 13:37:17Z INFO ProcessInvokerWrapper]   High priority process: 'True'",
+      "[2026-11-26 13:37:17Z INFO ProcessInvokerWrapper] Process started with process id 11928, waiting for process exit.",
+      "[2026-11-26 13:37:17Z INFO JobDispatcher] Send job request message to worker for job e26cc06a-b479-5220-9b5f-f49c1aa79206.",
+      "[2026-11-26 13:37:17Z INFO ProcessChannel] Sending message of length 24391, with hash 'a84cb8760776a496bee6cd483263e0961dc594a517cdc41b84d6fc704de718b9'",
+      "[2026-11-26 13:37:17Z INFO JobNotification] Entering JobStarted Notification",
+      "[2026-11-26 13:37:17Z INFO JobNotification] Entering StartMonitor"
+    ]
+  }
+]

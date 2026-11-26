@@ -56,6 +56,8 @@ class Metadata:
             self.feeds[feed['channel']+'@'+feed['id']] = feed['languages']
             self.languages[feed['channel']].update(feed['languages'])
         self.reviews = json.loads(REVIEWS.read_text(encoding='utf-8'))
+        discoveries=DATA/'personal-discoveries.json'
+        self.discoveries=json.loads(discoveries.read_text(encoding='utf-8')) if discoveries.exists() else {}
 
     def identity(self, block):
         attrs = common.attrs(block[0])
@@ -123,7 +125,11 @@ def latest(variant):
 
 def rights(ident, variant, metadata):
     rules = metadata.reviews.get('channels',{}).get(ident,{}).get('rights',[])
-    return next((r['evidence'] for r in rules if r.get('evidence') and variant['block'][-1] in r.get('urls',[])), '')
+    evidence=next((r['evidence'] for r in rules if r.get('evidence') and variant['block'][-1] in r.get('urls',[])), '')
+    if not evidence:
+        records=getattr(metadata,'discoveries',{}).get(ident,[])
+        evidence=next((r['evidence'] for r in records if r.get('evidence') and r.get('reviewed_at') and r.get('url')==variant['block'][-1]),'')
+    return evidence
 
 
 def add(db, metadata, block, provider, source_url='', baseline=False, header=''):
@@ -148,6 +154,9 @@ def add(db, metadata, block, provider, source_url='', baseline=False, header='')
 
 def collect(refresh=False):
     audit = sources.refresh() if refresh else json.loads(sources.AUDIT.read_text(encoding='utf-8'))
+    if refresh:
+        import personal_sources
+        personal_sources.refresh()
     metadata, db = Metadata(), load()
     migrated={}
     for old_id,channel in db['channels'].items():
@@ -202,6 +211,16 @@ def collect(refresh=False):
                     original = next(iter(channel['variants'].values()))['block']
                     block = original[:-1]+[url]
                     add(db,metadata,block,'documented broadcaster variant',rule['evidence'])
+    discoveries=DATA/'personal-discoveries.json'
+    if discoveries.exists():
+        for ident,records in json.loads(discoveries.read_text(encoding='utf-8')).items():
+            if ident not in db['channels']:continue
+            for record in records:
+                if not record.get('evidence') or not record.get('reviewed_at'):continue
+                ch=db['channels'][ident]
+                logo=next((common.attrs(v['block'][0]).get('tvg-logo') for v in ch['variants'].values() if common.attrs(v['block'][0]).get('tvg-logo')),'')
+                block=[f'#EXTINF:-1 tvg-id="{ident}" tvg-logo="{logo}" tvg-language="{record["language"]}",{ch["name"]}',record['url']]
+                add(db,metadata,block,'official public player',record['evidence'])
     # Re-evaluate manual reviews for retained/temporarily missing alternatives as well.
     for ident,channel in db['channels'].items():
         for variant in channel['variants'].values():
@@ -361,6 +380,10 @@ def run(refresh=False,publish=True):
     db,metadata=collect(refresh)
     files={}
     summary={'published':False,**db['scan']}
+    personal_policy=DATA/'personal-policy.json'
+    if personal_policy.exists() and json.loads(personal_policy.read_text(encoding='utf-8')).get('preserve_full_playlist'):
+        publish=False
+        summary['full_playlist_preserved']=True
     if publish:
         text,details=choose(db,metadata)
         summary.update(details,published=True)

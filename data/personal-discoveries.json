@@ -1,0 +1,50 @@
+{
+  "NashaTema.ru": [
+    {
+      "url": "http://live-1.otcnet.ru:80/nashatema1/index.m3u8",
+      "evidence": "https://nashatema.tv/online/index.html",
+      "language": "rus",
+      "reviewed_at": "2026-11-26",
+      "method": "Exact HLS URL in public broadcaster live player HTML"
+    }
+  ],
+  "CurrentTimeTV.cz": [
+    {
+      "url": "https://rferl-ingest.akamaized.net/hls/live/2121657/tvmc05/playlist.m3u8",
+      "evidence": "https://www.currenttime.tv/live/video/92",
+      "language": "rus",
+      "reviewed_at": "2026-11-26",
+      "method": "Exact HLS URL in public broadcaster live player HTML"
+    }
+  ],
+  "Russia24.ru": [
+    {
+      "url": "https://live.smotrim.ru/vgtrk/0/russia24-hd/index.m3u8",
+      "evidence": "https://player-api.smotrim.ru/api/v1/channel/3",
+      "page": "https://smotrim.ru/channel/3",
+      "language": "rus",
+      "reviewed_at": "2026-11-26T18:00:20.636056+00:00",
+      "method": "Anonymous official player API, exact title and isEnabledToEmbed=true"
+    }
+  ],
+  "360News.ru": [
+    {
+      "url": "https://live-vgtrksmotrim.cdnvideo.ru/vgtrksmotrim/smotrim-live-04-srt.smil/playlist.m3u8",
+      "evidence": "https://player-api.smotrim.ru/api/v1/channel/374",
+      "page": "https://smotrim.ru/channel/374",
+      "language": "rus",
+      "reviewed_at": "2026-11-26T18:00:20.792212+00:00",
+      "method": "Anonymous official player API, exact title and isEnabledToEmbed=true"
+    }
+  ],
+  "Smotrim100Klassika.ru": [
+    {
+      "url": "https://stream.smotrim.ru/hls3/fasttv03/playlist.m3u8?entity=channel&id=396&sign=cdfd92654242e9941ad31b03459fd34b",
+      "evidence": "https://player-api.smotrim.ru/api/v1/channel/396",
+      "page": "https://smotrim.ru/channel/396",
+      "language": "rus",
+      "reviewed_at": "2026-11-26T18:00:20.918165+00:00",
+      "method": "Anonymous official player API, exact title and isEnabledToEmbed=true"
+    }
+  ]
+}
