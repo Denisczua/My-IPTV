@@ -59,7 +59,8 @@ def fetch(url, headers=None, limit=2_000_000, deadline=None):
                 raise StreamFailure('HTML response instead of media')
             return result, response.geturl(), time.monotonic() - started
     except urllib.error.HTTPError as error:
-        body = error.read(8192)
+        with error:
+            body = error.read(8192)
         if error.code == 451 or (error.code == 403 and geo_message(body)):
             raise GeoBlocked(f'HTTP {error.code}: regional restriction') from None
         # A bare 403 may be authentication, expiry or hotlink protection, not geo.

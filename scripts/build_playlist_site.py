@@ -10,7 +10,7 @@ import subprocess
 from filter_ru_ua import ROOT, parse
 
 
-def build(source, destination, commit=''):
+def build(source, destination, commit='', require_personal=False):
     raw=source.read_bytes()
     text=raw.decode('utf-8-sig')
     channels=parse(text)
@@ -18,6 +18,8 @@ def build(source, destination, commit=''):
         raise ValueError('NUL bytes in M3U')
     if not channels:
         raise ValueError('Empty playlists cannot replace a deployed site')
+    if require_personal and not (source.parent/'data/main-catalogue.json').exists():
+        raise ValueError('Personal catalogue missing; retain previous deployment and URL')
     digest=hashlib.sha256(raw).hexdigest()
     destination.mkdir(parents=True,exist_ok=True)
     # Both extensions refer to exactly the same bytes/channels/HTTP directives.
@@ -75,4 +77,4 @@ if __name__=='__main__':
     p.add_argument('--output',type=Path,default=ROOT/'_site')
     a=p.parse_args()
     commit=subprocess.check_output(['git','rev-parse','HEAD'],cwd=ROOT,text=True).strip()
-    print(json.dumps(build(ROOT/'playlist.m3u',a.output,commit),ensure_ascii=True,indent=2))
+    print(json.dumps(build(ROOT/'playlist.m3u',a.output,commit,require_personal=True),ensure_ascii=True,indent=2))

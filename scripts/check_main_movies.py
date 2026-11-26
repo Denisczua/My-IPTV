@@ -85,6 +85,7 @@ def inspect_stream(url,headers,ffprobe):
     media={'width':video.get('width',0),'height':video.get('height',0),
            'video_codec':video.get('codec_name'),'audio_codec':audio.get('codec_name'),
            'audio_language':audio.get('tags',{}).get('language','und'),
+           'audio_language_tag':audio.get('tags',{}).get('language','und'),
            'russian_default':bool(russian) and default_audio['index']==audio['index'],
            'audio_tracks':len(audios),'field_order':video.get('field_order','unknown'),
            'selected_audio_index':audio['index'],'default_audio_index':default_audio['index'],

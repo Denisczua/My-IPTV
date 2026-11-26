@@ -14,7 +14,7 @@ from urllib.parse import urlsplit
 import filter_ru_ua as common
 import main_catalogue as main
 from check_main_movies import direct_cz
-from probe_runtime import awake,isolated_check,progress_lock,ProbeBusy
+from probe_runtime import awake,isolated_check,progress_lock,ProbeBusy,verify_tools
 from check_ru_ua import connection
 
 
@@ -69,7 +69,10 @@ def replay(db,journal):
         if not v or main.stream_key(v['block'])!=r['variant'] or not h.get('egress_sha256'):continue
         for target in variants.values():
             if transport_key(target)!=transport_key(v):continue
-            if not any(old.get('observation_id')==h['observation_id'] for old in target['history']):
+            old=next((old for old in target['history'] if old.get('observation_id')==h['observation_id']),None)
+            if old is not None and h.get('invalidated_reason'):
+                old.update(h)
+            elif old is None:
                 target['history'].append(h);target['history'].sort(key=lambda x:x['at']);accepted+=1
             target['status']=main.status(target)
             if target['status']=='STABLE_CZ':target['was_stable']=True
@@ -91,7 +94,7 @@ def repair_journal_tail(path):
 
 
 def spaced_checks(variant,identity):
-    recent=[h for h in variant['history'] if h.get('measurement_version')==3 and h.get('egress_sha256')==identity
+    recent=[h for h in variant['history'] if not h.get('invalidated_reason') and h.get('measurement_version')==3 and h.get('egress_sha256')==identity
             and 0<=time.time()-datetime.fromisoformat(h['at']).timestamp()<=main.MAX_AGE]
     spaced=[]
     for h in sorted(recent,key=lambda h:h['at']):
@@ -103,6 +106,7 @@ def spaced_checks(variant,identity):
 def run(a):
     ffmpeg=shutil.which(a.ffmpeg);ffprobe=shutil.which(a.ffprobe)
     if not ffmpeg or not ffprobe:raise RuntimeError('FFmpeg and FFprobe required')
+    verify_tools(ffmpeg,ffprobe)
     policy=json.loads((common.DATA/'personal-policy.json').read_text(encoding='utf-8'))
     root=Path(a.progress_dir);root.mkdir(parents=True,exist_ok=True)
     journal=root/'observations.jsonl'
@@ -162,7 +166,7 @@ def run(a):
                     report={'at':common.now(),'checks_this_run':done,'candidate_streams':len(rows),
                             'unique_candidates':len({i[-2] for i in rows}),
                             'streams_with_v3_check':sum(any(h.get('measurement_version')==3 for h in db['channels'][i[-2]]['variants'][i[-1]]['history']) for i in rows),
-                            'results':dict(Counter(json.loads(line)['observation']['result'] for line in journal.read_text(encoding='utf-8').splitlines() if line.strip())),
+                            'results':dict(Counter(r['observation']['result'] for line in journal.read_text(encoding='utf-8').splitlines() if line.strip() for r in [json.loads(line)] if not r['observation'].get('invalidated_reason'))),
                             'last_channel':ident,'last_result':h['result'],'elapsed_seconds':round(time.monotonic()-started)}
                     common.save_json(root/'progress.json',report)
                     print(json.dumps({'checked':done,'channel':ident,'result':h['result'],'reason':h.get('reason','')},ensure_ascii=True),flush=True)

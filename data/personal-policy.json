@@ -6,10 +6,60 @@
   "minimum_successes": 3,
   "minimum_interval_seconds": 600,
   "groups": {
-    "Рыбалка и охота": {"limit": 4, "ids": ["Ohotnikirybolov.ru", "Okhotairybalka.ru", "Dikayaokhota.ru", "Dikayarybalka.ru", "Rybolov.ru", "Rybalkaiokhota.ru", "Rybalka.ua", "Trofei.ua"]},
-    "Путешествия и природа": {"limit": 5, "ids": ["MoyaPlaneta.ru", "RTGTV.ru", "GlazamiTurista.ru", "Teleputeshestviya.ru", "TravelPlusAdventure.ru", "TheExplorers.ru", "vijuNature.ru", "NationalGeographicWild.ru", "LoveNature.ca", "AnimalPlanet.ru", "NashaTema.ru", "Travelxp.in", "Moyastikhiya.ru"]},
-    "Новости Украины": {"limit": 4, "ids": ["24Kanal.ua", "Channel5.ua", "EspresoTV.ua", "MyUkrainaTV.ua", "NovynyLive.ua", "FREEDOM.ua", "Kyiv.ua", "ApostropheTV.ua"]},
-    "Новости России": {"limit": 4, "ids": ["Russia24.ru", "Izvestia.ru", "360News.ru", "Mir24.ru", "CurrentTimeTV.cz"]}
+    "Рыбалка и охота": {
+      "limit": 4,
+      "ids": [
+        "Ohotnikirybolov.ru",
+        "Okhotairybalka.ru",
+        "Dikayaokhota.ru",
+        "Dikayarybalka.ru",
+        "Rybolov.ru",
+        "Rybalkaiokhota.ru",
+        "Rybalka.ua",
+        "Trofei.ua"
+      ]
+    },
+    "Путешествия и природа": {
+      "limit": 5,
+      "ids": [
+        "MoyaPlaneta.ru",
+        "RTGTV.ru",
+        "GlazamiTurista.ru",
+        "Teleputeshestviya.ru",
+        "TravelPlusAdventure.ru",
+        "TheExplorers.ru",
+        "vijuNature.ru",
+        "NationalGeographicWild.ru",
+        "LoveNature.ca",
+        "AnimalPlanet.ru",
+        "NashaTema.ru",
+        "Travelxp.in",
+        "Moyastikhiya.ru"
+      ]
+    },
+    "Новости Украины": {
+      "limit": 4,
+      "ids": [
+        "24Kanal.ua",
+        "Channel5.ua",
+        "EspresoTV.ua",
+        "MyUkrainaTV.ua",
+        "NovynyLive.ua",
+        "FREEDOM.ua",
+        "Kyiv.ua",
+        "ApostropheTV.ua"
+      ]
+    },
+    "Новости России": {
+      "limit": 4,
+      "ids": [
+        "Russia24.ru",
+        "Izvestia.ru",
+        "360News.ru",
+        "Mir24.ru",
+        "CurrentTimeTV.cz"
+      ]
+    }
   },
   "names": {
     "SilkWayCinema.kz": "Silk Way Cinema",

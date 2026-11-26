@@ -33,6 +33,14 @@ class PlaylistMirrorTests(unittest.TestCase):
             with self.assertRaises(ValueError):build(source,site)
             self.assertEqual((site/'playlist.m3u').read_bytes(),b'old working version')
 
+    def test_missing_catalogue_cannot_publish_a_site_without_the_personal_url(self):
+        with tempfile.TemporaryDirectory(dir=Path(__file__).parent) as d:
+            root=Path(d);source=root/'main.m3u';site=root/'site';site.mkdir()
+            (site/'playlist-ottplayer.m3u').write_bytes(b'previous personal list')
+            source.write_text('#EXTM3U\n#EXTINF:-1,Example\nhttps://example.org/live\n',encoding='utf-8')
+            with self.assertRaises(ValueError):build(source,site,require_personal=True)
+            self.assertEqual((site/'playlist-ottplayer.m3u').read_bytes(),b'previous personal list')
+
     def test_diagnostics_isolate_header_size_and_newlines(self):
         with tempfile.TemporaryDirectory(dir=Path(__file__).parent) as d:
             root=Path(d);source=root/'main.m3u';site=root/'site'

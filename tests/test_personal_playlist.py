@@ -16,6 +16,7 @@ def fixture(count=3,rights=True):
     history=[{'at':(now-timedelta(seconds=1800-i*600)).isoformat(),'result':'ok','region':'CZ',
               'egress_sha256':'a'*64,'measurement_version':3,'audio_decoded':True,
               'video_continuous':True,'audio_continuous':True,'russian_audio_confirmed':True,
+              'speech_language':{'language':'ru','probability':.99,'speech_seconds':12,'characters':100},
               'media':{'width':1280,'height':720,'audio_language':'rus','selected_audio_index':1,'default_audio_index':1}}
              for i in range(count)]
     variant={'block':block,'history':history,'status':'STABLE_CZ','rights_evidence':'https://example.org/live' if rights else ''}
@@ -51,6 +52,21 @@ class PersonalTests(unittest.TestCase):
     def test_old_checks_and_wrong_default_audio_cannot_publish(self):
         db,policy,v=fixture()
         for h in v['history']:h['measurement_version']=2
+        with self.assertRaises(ValueError):export(db,policy,{}, {},{})
+
+    def test_music_scene_uses_recent_exact_stream_language_proof(self):
+        db,policy,v=fixture()
+        v['history'][-1]['media']['audio_language']='und'
+        v['history'][-1]['russian_audio_confirmed']=False
+        v['history'][-1]['speech_language']={'language':'en','probability':.5,'speech_seconds':0,'characters':0}
+        _,report=export(db,policy,{}, {},{})
+        self.assertEqual(report['channels'],1)
+        self.assertEqual(report['channel_list'][0]['audio_language_checked_at'],v['history'][-2]['at'])
+
+    def test_old_cached_stability_cannot_create_new_three_pass_proof(self):
+        db,policy,v=fixture(2)
+        failure=copy.deepcopy(v['history'][-1]);failure.update(at=datetime.now(timezone.utc).isoformat(),result='fail')
+        v['history'].append(failure);v['was_stable']=True
         with self.assertRaises(ValueError):export(db,policy,{}, {},{})
         db,policy,v=fixture()
         for h in v['history']:h['media']['default_audio_index']=2

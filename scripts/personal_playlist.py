@@ -14,9 +14,29 @@ def category(ident,channel,policy):
     return next((group for group,rules in policy['groups'].items() if ident in rules['ids']),None)
 
 
+def audio_proof(variant,group):
+    current=main.latest(variant).get('media',{})
+    allowed={'uk','ukr','ukrainian','ru','rus','russian'} if group=='Новости Украины' else {'ru','rus','russian'}
+    language=str(current.get('audio_language','und')).lower()
+    if language not in allowed|{'und','none',''}:return None
+    now=datetime.now(timezone.utc).timestamp()
+    for h in reversed(variant['history']):
+        media=h.get('media',{})
+        if h.get('invalidated_reason') or h.get('measurement_version')!=3 or h.get('result')!='ok' or not h.get('egress_sha256') or h.get('region')!='CZ':continue
+        if not 0<=now-datetime.fromisoformat(h['at']).timestamp()<=86400:continue
+        if media.get('selected_audio_index')!=current.get('selected_audio_index') or media.get('default_audio_index')!=current.get('default_audio_index'):continue
+        if group=='Кино':
+            speech=h.get('speech_language',{})
+            measured=(speech.get('language')=='ru' and speech.get('probability',0)>=.95 and speech.get('speech_seconds',0)>=5 and speech.get('characters',0)>=30)
+            listened=h.get('russian_audio_confirmed') and h.get('audio_language_evidence','').startswith('Dated manual listening')
+            if not (measured or listened):continue
+        if str(media.get('audio_language','')).lower() in allowed or (h.get('russian_audio_confirmed') and 'rus' in allowed):return h
+    return None
+
+
 def confirmed(ident,channel,variant,group,policy,discoveries):
     # Cached status strings and old measurements are not publication evidence.
-    history=[h for h in variant['history'] if h.get('measurement_version')==3]
+    history=[h for h in variant['history'] if h.get('measurement_version')==3 and not h.get('invalidated_reason')]
     spaced=[];now=datetime.now(timezone.utc).timestamp()
     for h in sorted(history,key=lambda h:h['at']):
         at=datetime.fromisoformat(h['at']).timestamp()
@@ -30,9 +50,7 @@ def confirmed(ident,channel,variant,group,policy,discoveries):
         return False,'decode_not_confirmed'
     media=h.get('media',{})
     if not media.get('width') or not media.get('height'):return False,'resolution_unknown'
-    language=str(media.get('audio_language','')).lower()
-    allowed={'uk','ukr','ukrainian','ru','rus','russian'} if group=='Новости Украины' else {'ru','rus','russian'}
-    if language not in allowed and not (group!='Новости Украины' and h.get('russian_audio_confirmed')):
+    if audio_proof(variant,group) is None:
         return False,'audio_language_unconfirmed'
     # OTTPlayer on Tizen follows default tracks; an alternate Russian track alone
     # is insufficient until a dedicated rendition is checked.
@@ -55,12 +73,17 @@ def display_name(ident,channel,policy,names,media):
 
 def export(catalogue,policy,names,discoveries,oled):
     groups={};excluded=Counter();rows=[];checked=set();working=set();replacements=0;movies=[];observations=set();offline_streams=set()
+    all_checked=set();all_observations=set()
     for ident,ch in catalogue['channels'].items():
+        for v in ch['variants'].values():
+            valid=[h for h in v['history'] if not h.get('invalidated_reason') and h.get('measurement_version')==3 and h.get('region')=='CZ' and h.get('egress_sha256')]
+            if valid:all_checked.add(ident)
+            all_observations.update(h.get('observation_id',ident+main.stream_key(v['block'])+h['at']) for h in valid)
         group=category(ident,ch,policy)
         if not group:continue
         candidates=[]
         for key,v in ch['variants'].items():
-            history=[h for h in v['history'] if h.get('measurement_version')==3 and h.get('region')=='CZ' and h.get('egress_sha256')]
+            history=[h for h in v['history'] if not h.get('invalidated_reason') and h.get('measurement_version')==3 and h.get('region')=='CZ' and h.get('egress_sha256')]
             if history:checked.add(ident)
             observations.update(h.get('observation_id',ident+key+h['at']) for h in history)
             if main.status({**v,'history':history,'was_stable':False})=='OFFLINE':offline_streams.add((ident,v['block'][-1]))
@@ -90,7 +113,9 @@ def export(catalogue,policy,names,discoveries,oled):
             if old_key and old_key!=key:replacements+=1
             row={'id':ident,'name':name,'group':group_for_row,'theme':original_group,
                  'resolution':f"{media['width']}×{media['height']}",'status':'STABLE_CZ',
-                 'last_check':h['at'],'audio_language':media.get('audio_language','und'),
+                 'last_check':h['at'],'audio_language':audio_proof(v,original_group)['media'].get('audio_language','rus'),
+                 'audio_language_checked_at':audio_proof(v,original_group)['at'],
+                 'audio_language_method':audio_proof(v,original_group).get('audio_language_evidence','FFprobe track language tag'),
                  'rights_evidence':v.get('rights_evidence') or next(r['evidence'] for r in discoveries[ident] if r['url']==v['block'][-1])}
             rows.append((row,block))
             if original_group=='Кино':movies.append(row)
@@ -100,6 +125,7 @@ def export(catalogue,policy,names,discoveries,oled):
     body=('#EXTM3U\n'+'\n'.join('\n'.join(block) for _,block in rows)+'\n').encode('utf-8')
     if len(common.parse(body.decode()))!=len({r['id'] for r,_ in rows}):raise ValueError('Duplicate personal channels')
     report={'at':common.now(),'channels':len(rows),'bytes':len(body),'unique_channels_checked':len(checked),
+            'total_unique_channels_checked':len(all_checked),'total_independent_observations':len(all_observations),
             'independent_observations':len(observations),'confirmed_offline_streams':len(offline_streams),
             'channels_with_decoded_sample':len(working),'working_replacements':replacements,
             'excluded_stream_reasons':dict(excluded),'groups':dict(Counter(r['group'] for r,_ in rows)),

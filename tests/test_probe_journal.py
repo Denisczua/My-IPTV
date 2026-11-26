@@ -8,7 +8,9 @@ import unittest
 sys.path.insert(0,str(Path(__file__).resolve().parents[1]/'scripts'))
 from audit_personal_cz import replay,repair_journal_tail,spaced_checks
 from main_catalogue import stream_key
-from probe_runtime import progress_lock,ProbeBusy
+from probe_runtime import progress_lock,ProbeBusy,verify_tools
+from unittest.mock import patch
+from types import SimpleNamespace
 from export_cz_journal import snapshot
 
 
@@ -48,3 +50,7 @@ class JournalTests(unittest.TestCase):
             source.write_text('{"accepted":true}\n{"writing":',encoding='utf-8')
             self.assertEqual(snapshot(source,target),1)
             self.assertEqual(json.loads(target.read_text()),{'accepted':True})
+
+    def test_ffprobe_cannot_be_mistaken_for_ffmpeg(self):
+        with patch('probe_runtime.subprocess.run',return_value=SimpleNamespace(returncode=0,stdout=b'ffprobe version 9.1')):
+            with self.assertRaises(RuntimeError):verify_tools('wrong','ffprobe')

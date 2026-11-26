@@ -76,6 +76,7 @@ class EvidenceTests(unittest.TestCase):
         self.assertEqual(m.status({'history':history(['ok']*3+['fail']*2),'was_stable':True},100000),'UNSTABLE_CZ')
         self.assertEqual(m.status({'history':history(['fail']*3)},100000),'OFFLINE')
         self.assertEqual(m.status({'history':history(['geo']*2)},100000),'GEO_BLOCKED_CZ')
+        self.assertNotEqual(m.status({'history':history(['ok']*3+['fail']*3+['ok','fail']),'was_stable':True},100000),'STABLE_CZ')
 
     def test_burst_or_non_cz_or_old_success_not_proof(self):
         v={'history':history(['ok']*3)}

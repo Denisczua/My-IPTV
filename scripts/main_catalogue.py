@@ -102,7 +102,7 @@ def load():
 
 def status(variant, clock=None):
     clock = datetime.now(timezone.utc).timestamp() if clock is None else clock
-    observations = [h for h in variant['history'] if h.get('region')=='CZ' and h.get('egress_sha256')
+    observations = [h for h in variant['history'] if not h.get('invalidated_reason') and h.get('region')=='CZ' and h.get('egress_sha256')
                     and 0 <= clock-datetime.fromisoformat(h['at']).timestamp() <= MAX_AGE]
     spaced = []
     for h in sorted(observations,key=lambda h:h['at']):
@@ -112,7 +112,7 @@ def status(variant, clock=None):
     if outcomes[-3:]==['ok']*3: return 'STABLE_CZ'
     if outcomes[-3:]==['fail']*3: return 'OFFLINE'
     if outcomes[-2:]==['geo']*2: return 'GEO_BLOCKED_CZ'
-    if variant.get('was_stable') and outcomes and outcomes[-1] in ('fail','geo','quality_fail') and len(outcomes)>1 and outcomes[-2]=='ok':
+    if variant.get('was_stable') and outcomes and outcomes[-1] in ('fail','geo','quality_fail') and outcomes[-4:-1]==['ok']*3:
         return 'STABLE_CZ'
     if 'quality_fail' in outcomes:return 'UNSTABLE_CZ'
     if 'ok' in outcomes and any(s in ('fail','geo') for s in outcomes): return 'UNSTABLE_CZ'
@@ -120,7 +120,7 @@ def status(variant, clock=None):
 
 
 def latest(variant):
-    return next((h for h in reversed(variant['history']) if h['result']=='ok'), {})
+    return next((h for h in reversed(variant['history']) if h['result']=='ok' and not h.get('invalidated_reason')), {})
 
 
 def rights(ident, variant, metadata):
@@ -238,7 +238,7 @@ def collect(refresh=False):
 def quality(variant):
     evidence = latest(variant)
     media = evidence.get('media',{})
-    samples = variant['history'][-6:]
+    samples = [h for h in variant['history'] if not h.get('invalidated_reason') and h['result']!='unknown'][-6:]
     reliability = sum(h['result']=='ok' for h in samples)/max(1,len(samples))
     compatible = media.get('video_codec') in ('h264','hevc','mpeg2video') and media.get('audio_codec') in ('aac','mp3','ac3','eac3','mp2')
     return (reliability, media.get('width',0)*media.get('height',0), compatible,

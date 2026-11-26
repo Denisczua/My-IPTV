@@ -1,16 +1,18 @@
 {
-  "at": "2026-11-26T18:12:26.471858+00:00",
-  "checks_this_run": 9,
+  "at": "2026-11-26T18:32:43.359496+00:00",
+  "checks_this_run": 18,
   "candidate_streams": 9,
   "unique_candidates": 6,
   "streams_with_v3_check": 9,
   "results": {
-    "fail": 22,
-    "quality_fail": 12,
-    "ok": 23,
+    "fail": 28,
+    "quality_fail": 15,
+    "ok": 33,
     "unknown": 2
   },
   "last_channel": "SilkWayCinema.kz",
   "last_result": "ok",
-  "elapsed_seconds": 300
+  "elapsed_seconds": 777,
+  "invalidated_observations": 3,
+  "total_unique_channels_checked": 35
 }

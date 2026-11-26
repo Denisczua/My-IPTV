@@ -14,6 +14,13 @@ class ProbeBusy(RuntimeError):
     pass
 
 
+def verify_tools(ffmpeg,ffprobe):
+    for binary,expected in ((ffmpeg,b'ffmpeg version'),(ffprobe,b'ffprobe version')):
+        result=subprocess.run([binary,'-version'],capture_output=True,timeout=5)
+        if result.returncode or not result.stdout.lower().startswith(expected):
+            raise RuntimeError('Media tool identity mismatch: expected '+expected.decode())
+
+
 @contextmanager
 def awake():
     kernel=ctypes.windll.kernel32 if os.name=='nt' else None
@@ -109,7 +116,7 @@ if __name__=='__main__':
     result=check(data['channel'],data['variant'],data['ffmpeg'],data['ffprobe'])
     # Only paid/public licensing decisions remain outside this technical worker.
     # When tags are missing, measure speech instead of guessing from the title.
-    if result.get('audio_decoded') and result.get('media',{}).get('audio_language') in ('und',None,''):
+    if result.get('audio_decoded'):
         asr=os.environ.get('MYIPTV_ASR_PYTHON');model=os.environ.get('MYIPTV_ASR_MODEL')
         if asr and model:
             from check_ru_ua import connection
@@ -129,6 +136,10 @@ if __name__=='__main__':
                     result['media']['audio_language']='rus' if speech['language']=='ru' else 'ukr'
                     result['russian_audio_confirmed']=speech['language']=='ru'
                     result['media']['russian_default']=speech['language']=='ru' and audio==result['media']['default_audio_index']
+                elif speech['probability']>=.95 and speech['speech_seconds']>=5 and speech['characters']>=30:
+                    result['media']['audio_language']=speech['language']
+                    result['russian_audio_confirmed']=False
+                    result['audio_language_evidence']=speech['method']
             except Exception as error:result['speech_language_error']=type(error).__name__
             finally:wav.unlink(missing_ok=True)
     result['measurement_version']=3
