@@ -1,6 +1,6 @@
 {
   "source": "https://iptv-org.github.io/api/feeds.json",
-  "retrieved_at": "2026-11-26T01:33:23.509512+00:00",
+  "retrieved_at": "2026-11-26T02:00:33.022286+00:00",
   "feeds": {
     "002RadioTV.do@SD": [
       "spa"
@@ -21694,6 +21694,9 @@
     "Cartoonito.uk@SD": [
       "eng"
     ],
+    "CartoonitoAsia.sg@HD": [
+      "eng"
+    ],
     "CartoonitoAsia.sg@SD": [
       "eng"
     ],
@@ -36329,6 +36332,10 @@
     "DocuBox.nl@Polska": [
       "pol"
     ],
+    "DocuBox.nl@Romania": [
+      "ron",
+      "eng"
+    ],
     "DocuBox.nl@Russia": [
       "rus"
     ],
@@ -41986,6 +41993,10 @@
     "FashionBox.nl@HD": [
       "eng"
     ],
+    "FashionBox.nl@Romania": [
+      "ron",
+      "eng"
+    ],
     "FashionBox.nl@SD": [
       "eng"
     ],
@@ -42096,6 +42107,10 @@
     ],
     "Fast1.in@SD": [
       "pan"
+    ],
+    "FastFunBox.nl@Romania": [
+      "ron",
+      "eng"
     ],
     "FastFunBox.nl@SD": [
       "eng"
@@ -138087,6 +138102,9 @@
     "XITE60s70sGroove.nl@US": [
       "eng"
     ],
+    "XITE80sFlashback.nl@US": [
+      "eng"
+    ],
     "XITE90sThrowback.us@SD": [
       "eng"
     ],
@@ -138096,7 +138114,16 @@
     "XITECelebrates.us@SD": [
       "eng"
     ],
+    "XITEChristianHits.nl@US": [
+      "eng"
+    ],
     "XITEClassicCountry.nl@SD": [
+      "eng"
+    ],
+    "XITECountryToday.nl@US": [
+      "eng"
+    ],
+    "XITEGospel.nl@US": [
       "eng"
     ],
     "XITEHipHopEvolution.us@SD": [
@@ -138128,6 +138155,9 @@
       "por"
     ],
     "XITERapGame.us@SD": [
+      "eng"
+    ],
+    "XITERBClassicJams.nl@US": [
       "eng"
     ],
     "XITERBFeels.us@SD": [
