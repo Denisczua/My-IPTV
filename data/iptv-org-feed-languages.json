@@ -1,6 +1,6 @@
 {
   "source": "https://iptv-org.github.io/api/feeds.json",
-  "retrieved_at": "2026-11-18T07:57:20.227056+00:00",
+  "retrieved_at": "2026-11-26T08:08:29.502938+00:00",
   "feeds": {
     "002RadioTV.do@SD": [
       "spa"
@@ -651,6 +651,10 @@
     "313Digital.sn@SD": [
       "fra"
     ],
+    "316Channel.sa@SD": [
+      "ara",
+      "eng"
+    ],
     "31Kanal.kz@HD": [
       "kaz",
       "rus"
@@ -682,6 +686,10 @@
     "360AfricaTV.ss@SD": [
       "eng",
       "pga"
+    ],
+    "360Anime.vn@SD": [
+      "vie",
+      "eng"
     ],
     "360Bundesliga.vn@SD": [
       "vie",
@@ -7438,6 +7446,9 @@
     "AnimalPlanet.ca@SD": [
       "eng"
     ],
+    "AnimalPlanet.co@SD": [
+      "spa"
+    ],
     "AnimalPlanet.cz@SD": [
       "ces"
     ],
@@ -9523,6 +9534,9 @@
     "AsfiyahiTV.sn@SD": [
       "fra"
     ],
+    "ASFTV.tr@SD": [
+      "tur"
+    ],
     "Asgabat.tm@SD": [
       "tuk"
     ],
@@ -10553,6 +10567,10 @@
     ],
     "ATVPlus8.tr@SD": [
       "tur"
+    ],
+    "ATVRwanda.rw@SD": [
+      "eng",
+      "kin"
     ],
     "ATVSat.us@SD": [
       "ara"
@@ -11835,6 +11853,9 @@
     ],
     "BalatonTV.hu@SD": [
       "hun"
+    ],
+    "BalcanMusicTV.ro@HD": [
+      "ron"
     ],
     "BalchiTV.aw@SD": [
       "nld",
@@ -13865,18 +13886,6 @@
       "eng",
       "swe"
     ],
-    "BestofTheDrewBarrymoreShow.se@DK": [
-      "eng",
-      "dan"
-    ],
-    "BestofTheDrewBarrymoreShow.se@NO": [
-      "eng",
-      "nor"
-    ],
-    "BestofTheDrewBarrymoreShow.se@SE": [
-      "eng",
-      "swe"
-    ],
     "BestofTheDrewBarrymoreShow.us@CA": [
       "eng"
     ],
@@ -14467,6 +14476,9 @@
     ],
     "BijoyTV.bd@SD": [
       "ben"
+    ],
+    "BiKanal.tr@SD": [
+      "tur"
     ],
     "BikeChannel.it@HD": [
       "ita"
@@ -15455,22 +15467,6 @@
     "BonDiaTV.es@SD": [
       "cat"
     ],
-    "BondiRescue.se@DK": [
-      "eng",
-      "dan"
-    ],
-    "BondiRescue.se@FI": [
-      "eng",
-      "fin"
-    ],
-    "BondiRescue.se@NO": [
-      "eng",
-      "nor"
-    ],
-    "BondiRescue.se@SE": [
-      "eng",
-      "swe"
-    ],
     "BondiRescue.us@CA": [
       "eng"
     ],
@@ -15615,6 +15611,9 @@
       "spa"
     ],
     "BoricuaTV.pr@SD": [
+      "spa"
+    ],
+    "BoricuaTV.pr@WWXYLD": [
       "spa"
     ],
     "BorjanadeTelevision.bo@SD": [
@@ -16442,6 +16441,9 @@
     "BRIDGEClassic.ru@SD": [
       "rus"
     ],
+    "BRIDGEDance.ru@SD": [
+      "rus"
+    ],
     "BRIDGEDeluxe.ru@HD": [
       "rus"
     ],
@@ -16457,6 +16459,15 @@
     "BRIDGEHits.ru@SD": [
       "rus"
     ],
+    "BRIDGEJazz.ru@SD": [
+      "rus"
+    ],
+    "BRIDGERap.ru@SD": [
+      "rus"
+    ],
+    "BRIDGERNB.ru@SD": [
+      "rus"
+    ],
     "BRIDGERock.ru@SD": [
       "rus"
     ],
@@ -16466,10 +16477,19 @@
     "BRIDGESchlager.ru@SD": [
       "rus"
     ],
+    "BRIDGESoul.ru@SD": [
+      "rus"
+    ],
+    "BRIDGESymphony.ru@SD": [
+      "rus"
+    ],
     "BRIDGETVDance.ru@SD": [
       "rus"
     ],
     "BridgeTVQazaqstan.ru@SD": [
+      "rus"
+    ],
+    "BRIDGEVostok.ru@SD": [
       "rus"
     ],
     "BrigadaNewsTV.ph@SD": [
@@ -18143,6 +18163,9 @@
     "CamareroTelevision.pr@WJWNTV": [
       "spa"
     ],
+    "CamareroTelevision.pr@WKPVTV": [
+      "spa"
+    ],
     "CaMauTV.vn@SD": [
       "vie"
     ],
@@ -18468,6 +18491,9 @@
       "spa"
     ],
     "Canal13ChimoreTV.bo@SD": [
+      "spa"
+    ],
+    "Canal13Chiquimula.gt@HD": [
       "spa"
     ],
     "Canal13Esquipulas.gt@SD": [
@@ -20569,6 +20595,9 @@
     "CanalPlusCaraibes.fr@SD": [
       "fra"
     ],
+    "CanalPlusCesko.cz@SD": [
+      "ces"
+    ],
     "CanalPlusChaTate.mm@SD": [
       "mya"
     ],
@@ -20590,8 +20619,14 @@
     "CanalPlusCinemas.fr@SD": [
       "fra"
     ],
+    "CanalPlusClassics.cz@SD": [
+      "ces"
+    ],
     "CanalPlusComedy.se@SD": [
       "swe"
+    ],
+    "CanalPlusCrime.cz@SD": [
+      "ces"
     ],
     "CanalPlusDecale.fr@SD": [
       "fra"
@@ -20613,6 +20648,9 @@
     ],
     "CanalPlusDrama.se@SD": [
       "swe"
+    ],
+    "CanalPlusDramaCzechia.cz@SD": [
+      "ces"
     ],
     "CanalPlusEllesCentre.fr@SD": [
       "fra"
@@ -20658,6 +20696,9 @@
     ],
     "CanalPlusFamily.se@SD": [
       "swe"
+    ],
+    "CanalPlusFamilyAfrique.fr@SD": [
+      "fra"
     ],
     "CanalPlusFamilyCentre.fr@SD": [
       "fra"
@@ -21478,22 +21519,6 @@
     "CarasTV.ar@SD": [
       "spa"
     ],
-    "CarChase.se@DK": [
-      "eng",
-      "dan"
-    ],
-    "CarChase.se@FI": [
-      "eng",
-      "fin"
-    ],
-    "CarChase.se@NO": [
-      "eng",
-      "nor"
-    ],
-    "CarChase.se@SE": [
-      "eng",
-      "swe"
-    ],
     "CarChase.us@SD": [
       "eng"
     ],
@@ -21639,6 +21664,9 @@
       "ara",
       "fra"
     ],
+    "CartoonCartoons.us@SD": [
+      "eng"
+    ],
     "CartoonChannelPH.ph@SD": [
       "tgl"
     ],
@@ -21664,6 +21692,9 @@
       "eng"
     ],
     "Cartoonito.uk@SD": [
+      "eng"
+    ],
+    "CartoonitoAsia.sg@HD": [
       "eng"
     ],
     "CartoonitoAsia.sg@SD": [
@@ -23549,6 +23580,9 @@
     "CCMTelevision.co@SD": [
       "spa"
     ],
+    "CCNET.in@SD": [
+      "und"
+    ],
     "CCNTV6.tt@SD": [
       "spa"
     ],
@@ -23758,6 +23792,9 @@
     "CCTVHealth.cn@SD": [
       "zho"
     ],
+    "CCTVKunnamkulam.in@SD": [
+      "mal"
+    ],
     "CCTVNostalgiaTheater.cn@HD": [
       "zho"
     ],
@@ -23851,6 +23888,12 @@
     "CDMInternacional.pr@SD": [
       "spa",
       "eng"
+    ],
+    "CDMInternacional.pr@WCCVTV": [
+      "spa"
+    ],
+    "CDMInternacional.pr@WVSNTV": [
+      "spa"
     ],
     "CDN.do@HD": [
       "spa"
@@ -24388,6 +24431,9 @@
     ],
     "Channel34.ua@SD": [
       "ukr"
+    ],
+    "Channel4.ru@SD": [
+      "rus"
     ],
     "Channel4.uk@IrelandHD": [
       "eng"
@@ -25338,14 +25384,6 @@
     "CheddarU.us@SD": [
       "eng"
     ],
-    "Cheers.se@FI": [
-      "eng",
-      "fin"
-    ],
-    "Cheers.se@NO": [
-      "eng",
-      "nor"
-    ],
     "Cheers.us@CA": [
       "eng"
     ],
@@ -25469,7 +25507,8 @@
       "zho"
     ],
     "ChifTV.td@SD": [
-      "fra"
+      "fra",
+      "ara"
     ],
     "Chikitoonz.pe@SD": [
       "spa"
@@ -26167,9 +26206,6 @@
       "eng",
       "spa"
     ],
-    "CinemaxLatinAmerica.us@ColombiaPeru": [
-      "spa"
-    ],
     "CinemaxLatinAmerica.us@HD": [
       "spa"
     ],
@@ -26296,7 +26332,7 @@
       "hrv"
     ],
     "CineStarTV1.rs@SD": [
-      "hrv"
+      "srp"
     ],
     "CineStarTV1.si@SD": [
       "slv",
@@ -26307,7 +26343,7 @@
       "hrv"
     ],
     "CineStarTV2.rs@SD": [
-      "hrv"
+      "srp"
     ],
     "CineStarTV2.si@SD": [
       "slv",
@@ -26317,7 +26353,7 @@
       "hrv"
     ],
     "CineStarTVAction.rs@SD": [
-      "hrv"
+      "srp"
     ],
     "CineStarTVAction.si@SD": [
       "slv",
@@ -26327,7 +26363,7 @@
       "hrv"
     ],
     "CineStarTVComedy.rs@SD": [
-      "hrv"
+      "srp"
     ],
     "CineStarTVComedy.si@SD": [
       "slv",
@@ -26338,7 +26374,7 @@
       "srp"
     ],
     "CineStarTVFantasy.rs@SD": [
-      "hrv"
+      "srp"
     ],
     "CineStarTVFantasy.si@SD": [
       "slv",
@@ -26349,7 +26385,7 @@
       "hrv"
     ],
     "CineStarTVPremiere1.rs@SD": [
-      "hrv"
+      "srp"
     ],
     "CineStarTVPremiere1.si@SD": [
       "slv",
@@ -26360,7 +26396,7 @@
       "hrv"
     ],
     "CineStarTVPremiere2.rs@SD": [
-      "hrv"
+      "srp"
     ],
     "CineStarTVPremiere2.si@SD": [
       "slv",
@@ -26558,6 +26594,9 @@
     ],
     "CityChannelDubuque.us@SD": [
       "eng"
+    ],
+    "CityChannelHD.in@SD": [
+      "mal"
     ],
     "CityChannelPittsburgh.us@SD": [
       "eng"
@@ -26814,6 +26853,9 @@
     ],
     "CityTVWhittier.us@SD": [
       "eng"
+    ],
+    "CityVisionKannur.in@SD": [
+      "mal"
     ],
     "CiudadanoRadio.cl@SD": [
       "spa"
@@ -31160,10 +31202,6 @@
     "CSHorror.cz@SD": [
       "ces"
     ],
-    "CSI.se@DK": [
-      "eng",
-      "dan"
-    ],
     "CSI.us@SD": [
       "eng"
     ],
@@ -31944,6 +31982,9 @@
     ],
     "CutleryCornerNetwork.us@SD": [
       "eng"
+    ],
+    "CutupuTV.do@HD": [
+      "spa"
     ],
     "CV10HDMercedes.uy@SD": [
       "spa"
@@ -34299,6 +34340,9 @@
       "eng",
       "deu"
     ],
+    "DEMAINOutremer.gp@SD": [
+      "fra"
+    ],
     "DemainTV.fr@SD": [
       "fra"
     ],
@@ -34666,22 +34710,6 @@
     ],
     "DiadoraTV.hr@SD": [
       "hrv"
-    ],
-    "DiagnosisMurder.se@DK": [
-      "eng",
-      "dan"
-    ],
-    "DiagnosisMurder.se@FI": [
-      "eng",
-      "fin"
-    ],
-    "DiagnosisMurder.se@NO": [
-      "eng",
-      "nor"
-    ],
-    "DiagnosisMurder.se@SE": [
-      "eng",
-      "swe"
     ],
     "DiagnosisMurder.us@CA": [
       "eng"
@@ -35449,9 +35477,6 @@
     "DiscoveryScienceLatinAmerica.us@Brazil": [
       "por"
     ],
-    "DiscoveryScienceLatinAmerica.us@ColombiaPeru": [
-      "spa"
-    ],
     "DiscoveryScienceLatinAmerica.us@SD": [
       "spa"
     ],
@@ -35467,9 +35492,6 @@
     ],
     "DiscoveryTheater.br@SD": [
       "por"
-    ],
-    "DiscoveryTheaterLatinAmerica.us@ColombiaPeru": [
-      "spa"
     ],
     "DiscoveryTheaterLatinAmerica.us@SD": [
       "spa"
@@ -35506,9 +35528,6 @@
     ],
     "DiscoveryTurboLatinAmerica.us@Brazil": [
       "por"
-    ],
-    "DiscoveryTurboLatinAmerica.us@ColombiaPeru": [
-      "spa"
     ],
     "DiscoveryTurboLatinAmerica.us@Panregional": [
       "spa"
@@ -36268,14 +36287,6 @@
     "Docevision.cl@SD": [
       "spa"
     ],
-    "DocMartin.se@NO": [
-      "eng",
-      "nor"
-    ],
-    "DocMartin.se@SE": [
-      "eng",
-      "swe"
-    ],
     "DocMartin.us@CA": [
       "eng"
     ],
@@ -36316,6 +36327,13 @@
       "eng"
     ],
     "DocuBox.nl@HD": [
+      "eng"
+    ],
+    "DocuBox.nl@Polska": [
+      "pol"
+    ],
+    "DocuBox.nl@Romania": [
+      "ron",
       "eng"
     ],
     "DocuBox.nl@Russia": [
@@ -36763,9 +36781,6 @@
     "DreamWorksChannelLatinAmerica.us@Brazil": [
       "por"
     ],
-    "DreamWorksChannelLatinAmerica.us@Colombia": [
-      "spa"
-    ],
     "DreamWorksChannelLatinAmerica.us@Panregional": [
       "spa"
     ],
@@ -36796,6 +36811,15 @@
     ],
     "DrinkTV.us@SD": [
       "eng"
+    ],
+    "DrishyaTV.in@SD": [
+      "mal"
+    ],
+    "DrisyaNewsPala.in@SD": [
+      "und"
+    ],
+    "DrisyaTV.in@SD": [
+      "mal"
     ],
     "DritaTV.ch@SD": [
       "sqi"
@@ -37054,6 +37078,9 @@
     ],
     "DuckHuntingTV.us@SD": [
       "eng"
+    ],
+    "DuckTV.ro@SD": [
+      "ron"
     ],
     "ducktv.ru@SD": [
       "rus"
@@ -37895,6 +37922,9 @@
     "EdgeTV.zm@SD": [
       "eng"
     ],
+    "EdimDomasYuliyeyVysotskoy.ru@SD": [
+      "rus"
+    ],
     "EdisonTV.us@SD": [
       "eng"
     ],
@@ -38307,7 +38337,8 @@
       "srp"
     ],
     "ElectronTV.td@SD": [
-      "fra"
+      "fra",
+      "ara"
     ],
     "ElektrikaTV.cz@SD": [
       "ces"
@@ -40478,7 +40509,8 @@
       "ita"
     ],
     "ETVRwanda.rw@SD": [
-      "eng"
+      "eng",
+      "kin"
     ],
     "ETVTelangana.in@SD": [
       "tel"
@@ -41609,18 +41641,6 @@
     "FamilySwap.us@SD": [
       "eng"
     ],
-    "FamilyTies.se@DK": [
-      "eng",
-      "dan"
-    ],
-    "FamilyTies.se@NO": [
-      "eng",
-      "nor"
-    ],
-    "FamilyTies.se@SE": [
-      "eng",
-      "swe"
-    ],
     "FamilyTies.us@SD": [
       "eng"
     ],
@@ -41973,6 +41993,10 @@
     "FashionBox.nl@HD": [
       "eng"
     ],
+    "FashionBox.nl@Romania": [
+      "ron",
+      "eng"
+    ],
     "FashionBox.nl@SD": [
       "eng"
     ],
@@ -42083,6 +42107,10 @@
     ],
     "Fast1.in@SD": [
       "pan"
+    ],
+    "FastFunBox.nl@Romania": [
+      "ron",
+      "eng"
     ],
     "FastFunBox.nl@SD": [
       "eng"
@@ -43577,9 +43605,6 @@
     ],
     "FoodNetworkLatinAmerica.us@Brazil": [
       "por"
-    ],
-    "FoodNetworkLatinAmerica.us@ColombiaPeru": [
-      "spa"
     ],
     "FoodNetworkLatinAmerica.us@Mexico": [
       "spa"
@@ -45197,14 +45222,6 @@
     "FrankenFernsehen.de@SD": [
       "deu"
     ],
-    "Frasier.se@DK": [
-      "eng",
-      "dan"
-    ],
-    "Frasier.se@FI": [
-      "eng",
-      "fin"
-    ],
     "Frasier.us@CA": [
       "eng"
     ],
@@ -46336,6 +46353,9 @@
     ],
     "Gametoon.nl@HD": [
       "eng"
+    ],
+    "Gametoon.nl@Polska": [
+      "pol"
     ],
     "Gametoon.nl@SD": [
       "eng"
@@ -48301,6 +48321,9 @@
     "Grand.rs@SD": [
       "srp"
     ],
+    "Grand2.rs@SD": [
+      "srp"
+    ],
     "GrandCinema.tr@SD": [
       "fas"
     ],
@@ -48324,6 +48347,9 @@
     ],
     "GrandIslandTelevision.us@SD": [
       "eng"
+    ],
+    "GrandNostalgija.rs@SD": [
+      "srp"
     ],
     "GrandPrairieTV.us@SD": [
       "eng"
@@ -49960,6 +49986,9 @@
     "Gunsmoke.us@SD": [
       "eng"
     ],
+    "GunsnRosesFans.us@SD": [
+      "eng"
+    ],
     "GuoxueChannel.cn@SD": [
       "zho"
     ],
@@ -50423,18 +50452,6 @@
     "HappyColorChannel.cn@SD": [
       "zho"
     ],
-    "HappyDays.se@DK": [
-      "eng",
-      "dan"
-    ],
-    "HappyDays.se@NO": [
-      "eng",
-      "nor"
-    ],
-    "HappyDays.se@SE": [
-      "eng",
-      "swe"
-    ],
     "HappyDays.us@CA": [
       "eng"
     ],
@@ -50577,6 +50594,9 @@
     ],
     "HaTinhTV.vn@SD": [
       "vie"
+    ],
+    "HatoDelYaqueTV.do@HD": [
+      "spa"
     ],
     "Hatoscsatorna.hu@SD": [
       "hun"
@@ -50800,9 +50820,6 @@
     "HBOFamilyAsia.sg@SD": [
       "eng"
     ],
-    "HBOFamilyLatinAmerica.us@ColombiaPeru": [
-      "spa"
-    ],
     "HBOFamilyLatinAmerica.us@HD": [
       "spa"
     ],
@@ -50835,6 +50852,9 @@
     "HBOHitsAsia.sg@SD": [
       "eng"
     ],
+    "HBOLatinAmerica.us@HD": [
+      "spa"
+    ],
     "HBOLatinAmerica.us@SD": [
       "spa"
     ],
@@ -50860,9 +50880,6 @@
     "HBOMundiCaribbean.us@SD": [
       "eng"
     ],
-    "HBOMundiLatinAmerica.us@ColombiaPeru": [
-      "spa"
-    ],
     "HBOMundiLatinAmerica.us@SD": [
       "spa"
     ],
@@ -50874,9 +50891,6 @@
     ],
     "HBOPop.br@SD": [
       "por"
-    ],
-    "HBOPopLatinAmerica.us@ColombiaPeru": [
-      "spa"
     ],
     "HBOPopLatinAmerica.us@SD": [
       "spa"
@@ -50898,17 +50912,11 @@
     "HBOSignatureAsia.sg@SD": [
       "eng"
     ],
-    "HBOSignatureLatinAmerica.us@ColombiaPeru": [
-      "spa"
-    ],
     "HBOSignatureLatinAmerica.us@SD": [
       "eng"
     ],
     "HBOXtreme.br@SD": [
       "por"
-    ],
-    "HBOXtremeLatinAmerica.us@ColombiaPeru": [
-      "spa"
     ],
     "HBOXtremeLatinAmerica.us@SD": [
       "spa"
@@ -52003,13 +52011,7 @@
     "HGTVLatinAmerica.us@Brazil": [
       "por"
     ],
-    "HGTVLatinAmerica.us@BrazilHD": [
-      "por"
-    ],
     "HGTVLatinAmerica.us@Panregional": [
-      "spa"
-    ],
-    "HGTVLatinAmerica.us@PanregionalHD": [
       "spa"
     ],
     "HGTVSouthAfrica.za@SD": [
@@ -53979,8 +53981,8 @@
     "HTV.ua@HD": [
       "ukr"
     ],
-    "HTV.us@Argentina": [
-      "spa"
+    "HTV.us@Brazil": [
+      "por"
     ],
     "HTV.us@SD": [
       "spa"
@@ -53991,7 +53993,7 @@
     "HTV1HoustonTelevision.us@SD": [
       "eng"
     ],
-    "HTV2.vn@SD": [
+    "HTV2.vn@HD": [
       "vie"
     ],
     "HTV2HoustonTelevision.us@SD": [
@@ -54000,7 +54002,7 @@
     "HTV3.vn@SD": [
       "vie"
     ],
-    "HTV4.vn@SD": [
+    "HTV4.vn@HD": [
       "vie"
     ],
     "HTV5.vn@HD": [
@@ -54599,18 +54601,6 @@
     ],
     "ICAMPublicChannel.us@SD": [
       "eng"
-    ],
-    "iCarly.se@DK": [
-      "eng",
-      "dan"
-    ],
-    "iCarly.se@NO": [
-      "eng",
-      "nor"
-    ],
-    "iCarly.se@SE": [
-      "eng",
-      "swe"
     ],
     "iCarly.us@BR": [
       "por"
@@ -55383,6 +55373,9 @@
     "IndiaScience.in@SD": [
       "eng"
     ],
+    "IndiaSuperfast.in@SD": [
+      "hin"
+    ],
     "IndiaTalkies.in@SD": [
       "hin"
     ],
@@ -55931,9 +55924,6 @@
       "rus",
       "ara",
       "por"
-    ],
-    "InvestigationDiscoveryLatinAmerica.us@ColombiaPeru": [
-      "spa"
     ],
     "InvestigationDiscoveryLatinAmerica.us@Mexico": [
       "spa"
@@ -58025,6 +58015,10 @@
       "tur",
       "fas"
     ],
+    "iTVUganda.ug@SD": [
+      "eng",
+      "lug"
+    ],
     "iTVUrbanMusic.ca@HD": [
       "eng",
       "fas"
@@ -58109,18 +58103,6 @@
     "Jade.hk@SD": [
       "yue",
       "zho"
-    ],
-    "JAG.se@DK": [
-      "eng",
-      "dan"
-    ],
-    "JAG.se@NO": [
-      "eng",
-      "nor"
-    ],
-    "JAG.se@SE": [
-      "eng",
-      "swe"
     ],
     "JAG.us@CA": [
       "eng"
@@ -58515,18 +58497,6 @@
     ],
     "JericoTelevision.co@SD": [
       "spa"
-    ],
-    "JerseyShore.se@DK": [
-      "eng",
-      "dan"
-    ],
-    "JerseyShore.se@NO": [
-      "eng",
-      "nor"
-    ],
-    "JerseyShore.se@SE": [
-      "eng",
-      "swe"
     ],
     "JerseyShore.us@SD": [
       "eng"
@@ -59756,6 +59726,9 @@
     "K6.cn@SD": [
       "zho"
     ],
+    "K7KeralamChannel.in@SD": [
+      "und"
+    ],
     "KAAPLD305.us@SD": [
       "vie"
     ],
@@ -60397,6 +60370,9 @@
       "eng",
       "twi"
     ],
+    "KasargodVision.in@SD": [
+      "mal"
+    ],
     "KasetChannel.th@SD": [
       "tha"
     ],
@@ -60446,7 +60422,7 @@
       "rus"
     ],
     "KATV.rs@SD": [
-      "eng"
+      "srp"
     ],
     "Katyusha.ru@SD": [
       "rus",
@@ -60678,6 +60654,9 @@
     "KCMNLD426.us@SD": [
       "eng"
     ],
+    "KCNKasargod.in@SD": [
+      "mal"
+    ],
     "KCNTV4.ai@SD": [
       "eng"
     ],
@@ -60889,6 +60868,9 @@
       "eng"
     ],
     "Keralabhumi.in@SD": [
+      "mal"
+    ],
+    "KeralaTodayTV.in@SD": [
       "mal"
     ],
     "KeralaVision.in@SD": [
@@ -61909,6 +61891,9 @@
     "Kluch.ru@SD": [
       "rus"
     ],
+    "KlukvaTV.ru@SD": [
+      "rus"
+    ],
     "KLUZTV146.us@SD": [
       "spa"
     ],
@@ -62025,6 +62010,9 @@
     ],
     "KnockTV.in@SD": [
       "pan"
+    ],
+    "KnopkaTV.ru@SD": [
+      "rus"
     ],
     "KNOVCD411.us@HD": [
       "eng"
@@ -66157,6 +66145,9 @@
     "LivoniaTelevision.us@SD": [
       "eng"
     ],
+    "LixdofTV.gh@SD": [
+      "eng"
+    ],
     "LiyuanTV.cn@SD": [
       "zho"
     ],
@@ -66425,6 +66416,9 @@
     ],
     "LokalTVUddevalla.se@SD": [
       "swe"
+    ],
+    "LokmatBharat.in@SD": [
+      "hin"
     ],
     "LokSabhaTV.in@SD": [
       "eng"
@@ -67252,6 +67246,9 @@
       "fra",
       "mlg"
     ],
+    "M3UWorld4K.bd@HD": [
+      "ben"
+    ],
     "M4Sport.hu@SD": [
       "hun"
     ],
@@ -67342,18 +67339,6 @@
     "MacauCulturalChannel.hk@SD": [
       "yue"
     ],
-    "MacGyver.se@DK": [
-      "eng",
-      "dan"
-    ],
-    "MacGyver.se@NO": [
-      "eng",
-      "nor"
-    ],
-    "MacGyver.se@SE": [
-      "eng",
-      "swe"
-    ],
     "MacGyver.us@BR": [
       "por"
     ],
@@ -67411,6 +67396,9 @@
     ],
     "MadhimugamTV.in@SD": [
       "tam"
+    ],
+    "MadhuraTV.lk@SD": [
+      "sin"
     ],
     "MadininaTV.mq@SD": [
       "fra"
@@ -67788,6 +67776,9 @@
     "MalabarNews.in@SD": [
       "mal"
     ],
+    "MalabarPlus.in@SD": [
+      "mal"
+    ],
     "MalabarVision.in@SD": [
       "mal"
     ],
@@ -67805,6 +67796,9 @@
       "tam"
     ],
     "MalanaduTV.in@SD": [
+      "mal"
+    ],
+    "MalappuramCableVision.in@SD": [
       "mal"
     ],
     "MalappuramChannel.in@SD": [
@@ -68076,7 +68070,7 @@
       "guj"
     ],
     "MantraTV.in@SD": [
-      "hin"
+      "tam"
     ],
     "ManuChat.iq@SD": [
       "ara"
@@ -68400,6 +68394,9 @@
     "MasperoZaman.eg@SD": [
       "ara"
     ],
+    "MasRadioTV.cl@SD": [
+      "spa"
+    ],
     "MasrOmEldonia.eg@SD": [
       "ara"
     ],
@@ -68552,22 +68549,6 @@
     ],
     "Matkanalen.no@SD": [
       "nor"
-    ],
-    "Matlock.se@DK": [
-      "eng",
-      "dan"
-    ],
-    "Matlock.se@FI": [
-      "eng",
-      "fin"
-    ],
-    "Matlock.se@NO": [
-      "eng",
-      "nor"
-    ],
-    "Matlock.se@SE": [
-      "eng",
-      "swe"
     ],
     "Matlock.us@CA": [
       "eng"
@@ -69166,6 +69147,9 @@
     "Me.za@SD": [
       "eng"
     ],
+    "ME24Tamil.in@SD": [
+      "tam"
+    ],
     "MeaningfulTelevision.gd@SD": [
       "eng"
     ],
@@ -69256,6 +69240,9 @@
     ],
     "MediationTV.gh@SD": [
       "eng"
+    ],
+    "MediaTodayNewsHD.in@SD": [
+      "und"
     ],
     "MediaTurkTV.az@SD": [
       "aze"
@@ -71277,6 +71264,9 @@
       "urd",
       "eng"
     ],
+    "MiniDisco.ru@SD": [
+      "rus"
+    ],
     "MiniiNutag.mn@SD": [
       "mon"
     ],
@@ -71605,18 +71595,6 @@
     ],
     "MissionErweckungderWelt.de@SD": [
       "deu"
-    ],
-    "MissionImpossible.se@DK": [
-      "eng",
-      "dan"
-    ],
-    "MissionImpossible.se@NO": [
-      "eng",
-      "nor"
-    ],
-    "MissionImpossible.se@SE": [
-      "eng",
-      "swe"
     ],
     "MissionImpossible.us@CA": [
       "eng"
@@ -74351,6 +74329,9 @@
     "MTV.in@HD": [
       "hin"
     ],
+    "MTV.in@International": [
+      "eng"
+    ],
     "MTV.in@SD": [
       "hin"
     ],
@@ -74457,10 +74438,6 @@
     "MTVAitio.fi@HD": [
       "fin"
     ],
-    "MTVAreYouTheOne.se@FI": [
-      "eng",
-      "fin"
-    ],
     "MTVAreyoutheOne.us@BR": [
       "por"
     ],
@@ -74500,22 +74477,6 @@
     ],
     "MTVBrave.us@Spain": [
       "spa"
-    ],
-    "MTVCatfish.se@DK": [
-      "eng",
-      "dan"
-    ],
-    "MTVCatfish.se@FI": [
-      "eng",
-      "fin"
-    ],
-    "MTVCatfish.se@NO": [
-      "eng",
-      "nor"
-    ],
-    "MTVCatfish.se@SE": [
-      "eng",
-      "swe"
     ],
     "MTVCatfish.us@BR": [
       "por"
@@ -74567,22 +74528,6 @@
     ],
     "MTVCribs.de@ESPlus": [
       "spa"
-    ],
-    "MTVDating.se@DK": [
-      "eng",
-      "dan"
-    ],
-    "MTVDating.se@FI": [
-      "eng",
-      "fin"
-    ],
-    "MTVDating.se@NO": [
-      "eng",
-      "nor"
-    ],
-    "MTVDating.se@SE": [
-      "eng",
-      "swe"
     ],
     "MTVDating.us@BR": [
       "por"
@@ -74692,10 +74637,6 @@
     "MTVJerseys.de@ES": [
       "spa"
     ],
-    "MTVJerseyShore.se@FI": [
-      "eng",
-      "fin"
-    ],
     "MTVJerseyShore.us@CA": [
       "eng"
     ],
@@ -74777,22 +74718,6 @@
     "MTVRealities.us@Spain": [
       "spa"
     ],
-    "MTVReality.se@DK": [
-      "eng",
-      "dan"
-    ],
-    "MTVReality.se@FI": [
-      "eng",
-      "fin"
-    ],
-    "MTVReality.se@NO": [
-      "eng",
-      "nor"
-    ],
-    "MTVReality.se@SE": [
-      "eng",
-      "swe"
-    ],
     "MTVReality.us@BR": [
       "por"
     ],
@@ -74804,22 +74729,6 @@
     ],
     "MTVRetro.au@AU": [
       "eng"
-    ],
-    "MTVRidiculousness.se@DK": [
-      "eng",
-      "dan"
-    ],
-    "MTVRidiculousness.se@FI": [
-      "eng",
-      "fin"
-    ],
-    "MTVRidiculousness.se@NO": [
-      "eng",
-      "nor"
-    ],
-    "MTVRidiculousness.se@SE": [
-      "eng",
-      "swe"
     ],
     "MTVRidiculousness.us@BR": [
       "por"
@@ -74876,22 +74785,6 @@
     ],
     "MTVTattooados.de@ES": [
       "spa"
-    ],
-    "MTVTeenMom.se@DK": [
-      "eng",
-      "dan"
-    ],
-    "MTVTeenMom.se@FI": [
-      "eng",
-      "fin"
-    ],
-    "MTVTeenMom.se@NO": [
-      "eng",
-      "nor"
-    ],
-    "MTVTeenMom.se@SE": [
-      "eng",
-      "swe"
     ],
     "MTVTeenMom.us@LatAm": [
       "spa"
@@ -76652,6 +76545,9 @@
     "NationalGeographic.ca@SD": [
       "eng"
     ],
+    "NationalGeographic.co@SD": [
+      "spa"
+    ],
     "NationalGeographic.cz@SD": [
       "ces"
     ],
@@ -77104,6 +77000,9 @@
     ],
     "NATV.fr@SD": [
       "fra"
+    ],
+    "Nauchpop.ru@SD": [
+      "rus"
     ],
     "Naughty.si@SD": [
       "eng"
@@ -78570,14 +78469,6 @@
     "NCI.ci@SD": [
       "fra"
     ],
-    "NCIS.se@DK": [
-      "eng",
-      "dan"
-    ],
-    "NCIS.se@FI": [
-      "eng",
-      "fin"
-    ],
     "NCIS.us@BR": [
       "por"
     ],
@@ -78598,10 +78489,6 @@
     "NCISGibbsinparhaat.se@FI": [
       "eng",
       "fin"
-    ],
-    "NCISLosAngeles.se@DK": [
-      "eng",
-      "dan"
     ],
     "NCISLosAngeles.us@CA": [
       "eng"
@@ -78992,6 +78879,9 @@
     "Network10.in@SD": [
       "hin"
     ],
+    "NetworkPayyanur.in@SD": [
+      "und"
+    ],
     "NetXXL.si@SD": [
       "eng"
     ],
@@ -79285,6 +79175,9 @@
     "News9Live.in@SD": [
       "eng"
     ],
+    "NewsAdda.in@SD": [
+      "tel"
+    ],
     "NEWSamTV.am@SD": [
       "hye"
     ],
@@ -79532,6 +79425,9 @@
     "NewsTamil24x7.in@SD": [
       "tam"
     ],
+    "NewStar.in@SD": [
+      "und"
+    ],
     "NewsTimeBangla.in@SD": [
       "ben"
     ],
@@ -79586,6 +79482,9 @@
     ],
     "NewVision.uk@SD": [
       "urd"
+    ],
+    "NewVisionHD.in@SD": [
+      "mal"
     ],
     "NewVisionTV.lb@SD": [
       "ara"
@@ -80408,7 +80307,7 @@
       "ron"
     ],
     "Nickelodeon.rs@SD": [
-      "eng"
+      "srp"
     ],
     "Nickelodeon.ru@HD": [
       "rus"
@@ -80606,7 +80505,7 @@
       "eng"
     ],
     "NickJr.rs@SD": [
-      "eng"
+      "srp"
     ],
     "NickJr.ru@SD": [
       "rus"
@@ -81005,6 +80904,9 @@
     "NissiTelevision.ke@SD": [
       "eng"
     ],
+    "Nistha.in@HD": [
+      "pan"
+    ],
     "NisvilleTV.rs@SD": [
       "srp"
     ],
@@ -81100,6 +81002,9 @@
     ],
     "NMBTV.us@SD": [
       "eng"
+    ],
+    "NMMediaChannelHD.in@SD": [
+      "mal"
     ],
     "NMTV.us@SD": [
       "eng"
@@ -82265,6 +82170,9 @@
     "NRTMexicoRegionSureste.mx@SD": [
       "spa"
     ],
+    "NRTSport.iq@HD": [
+      "ckb"
+    ],
     "NRTTV.iq@SD": [
       "kur"
     ],
@@ -82660,7 +82568,7 @@
       "spa"
     ],
     "NTV.rs@SD": [
-      "eng"
+      "srp"
     ],
     "NTV.ru@HD": [
       "rus"
@@ -82819,6 +82727,9 @@
     "NTVTelugu.in@SD": [
       "tel"
     ],
+    "NTVUAEHD.ae@SD": [
+      "mal"
+    ],
     "NTVUganda.ug@SD": [
       "eng"
     ],
@@ -82910,9 +82821,6 @@
     "NuevaRegionTV.cl@SD": [
       "spa"
     ],
-    "NuevaVidaFM.pr@SD": [
-      "spa"
-    ],
     "Nuevavision.cu@SD": [
       "spa"
     ],
@@ -82943,18 +82851,6 @@
     "NukaTV.ec@SD": [
       "spa"
     ],
-    "Numb3rs.se@FI": [
-      "eng",
-      "fin"
-    ],
-    "Numb3rs.se@NO": [
-      "eng",
-      "nor"
-    ],
-    "Numb3rs.se@SE": [
-      "eng",
-      "swe"
-    ],
     "Number1Ask.tr@SD": [
       "tur"
     ],
@@ -82969,10 +82865,6 @@
     ],
     "Number1TV.tr@SD": [
       "tur"
-    ],
-    "Numbers.se@DK": [
-      "eng",
-      "dan"
     ],
     "Numbers.us@BR": [
       "por"
@@ -83039,6 +82931,9 @@
     ],
     "NVCCTV.us@SD": [
       "eng"
+    ],
+    "NVision.in@SD": [
+      "mal"
     ],
     "NVKSakha.ru@SD": [
       "sah",
@@ -83305,6 +83200,9 @@
     ],
     "OChannel.id@SD": [
       "ind"
+    ],
+    "OcioNewsTV.es@HD": [
+      "spa"
     ],
     "Ocko.cz@SD": [
       "ces"
@@ -84621,6 +84519,9 @@
     ],
     "OrangeGovernmentAccessTV.us@SD": [
       "eng"
+    ],
+    "OrangeInfo.ro@SD": [
+      "ron"
     ],
     "OrangeSport1.ro@SD": [
       "ron"
@@ -85970,6 +85871,9 @@
     "PalmitaRadioTV.ec@SD": [
       "spa"
     ],
+    "PalMundoFM.cl@SD": [
+      "spa"
+    ],
     "PalomarCollegeTV.us@SD": [
       "eng",
       "spa"
@@ -86517,6 +86421,9 @@
     ],
     "PatientChannel.us@SD": [
       "eng"
+    ],
+    "PatiTV.tr@SD": [
+      "tur"
     ],
     "PatnagarNetworkNews.in@SD": [
       "guj"
@@ -89259,6 +89166,9 @@
       "eng",
       "fin"
     ],
+    "PeriyarVision.in@SD": [
+      "mal"
+    ],
     "PerlaTV.ni@SD": [
       "spa"
     ],
@@ -89828,22 +89738,6 @@
     ],
     "PIMEDIATV.bo@SD": [
       "spa"
-    ],
-    "PimpMyRide.se@DK": [
-      "eng",
-      "dan"
-    ],
-    "PimpMyRide.se@FI": [
-      "eng",
-      "fin"
-    ],
-    "PimpMyRide.se@NO": [
-      "eng",
-      "nor"
-    ],
-    "PimpMyRide.se@SE": [
-      "eng",
-      "swe"
     ],
     "PimpmyRide.us@UK": [
       "eng"
@@ -90535,18 +90429,6 @@
     ],
     "PlutoTV90sClassics.de@FR": [
       "fra"
-    ],
-    "PlutoTVAction.se@DK": [
-      "eng",
-      "dan"
-    ],
-    "PlutoTVAction.se@NO": [
-      "eng",
-      "nor"
-    ],
-    "PlutoTVAction.se@SE": [
-      "eng",
-      "swe"
     ],
     "PlutoTVAction.us@US": [
       "eng"
@@ -91316,18 +91198,6 @@
     "PlutoTVHometownDrama.us@SD": [
       "eng"
     ],
-    "PlutoTVHorror.se@DK": [
-      "eng",
-      "dan"
-    ],
-    "PlutoTVHorror.se@NO": [
-      "eng",
-      "nor"
-    ],
-    "PlutoTVHorror.se@SE": [
-      "eng",
-      "swe"
-    ],
     "PlutoTVHorror.us@CA": [
       "eng"
     ],
@@ -91336,9 +91206,6 @@
     ],
     "PlutoTVHorrorSerien.de@DACH": [
       "deu"
-    ],
-    "PlutoTVHumor.se@DK": [
-      "dan"
     ],
     "PlutoTVHumor.us@LatAm": [
       "spa"
@@ -91719,14 +91586,6 @@
       "eng",
       "fin"
     ],
-    "PlutoTVParanormal.se@DK": [
-      "eng",
-      "dan"
-    ],
-    "PlutoTVParanormal.se@SE": [
-      "eng",
-      "swe"
-    ],
     "PlutoTVParanormal.us@CA": [
       "eng"
     ],
@@ -91855,22 +91714,6 @@
     ],
     "PlutoTVScience.us@US": [
       "eng"
-    ],
-    "PlutoTVSciFi.se@DK": [
-      "eng",
-      "dan"
-    ],
-    "PlutoTVSciFi.se@FI": [
-      "eng",
-      "fin"
-    ],
-    "PlutoTVSciFi.se@NO": [
-      "eng",
-      "nor"
-    ],
-    "PlutoTVSciFi.se@SE": [
-      "eng",
-      "swe"
     ],
     "PlutoTVSciFi.us@CA": [
       "eng"
@@ -92172,22 +92015,6 @@
     "PlutoTVTrendingNow.us@SD": [
       "eng"
     ],
-    "PlutoTVTrueCrime.se@DK": [
-      "eng",
-      "dan"
-    ],
-    "PlutoTVTrueCrime.se@FI": [
-      "eng",
-      "fin"
-    ],
-    "PlutoTVTrueCrime.se@NO": [
-      "eng",
-      "nor"
-    ],
-    "PlutoTVTrueCrime.se@SE": [
-      "eng",
-      "swe"
-    ],
     "PlutoTVTrueCrime.us@CA": [
       "eng"
     ],
@@ -92292,9 +92119,6 @@
     ],
     "PlutoTVWestern.de@IT": [
       "ita"
-    ],
-    "PlutoTVWesterns.de@GB": [
-      "eng"
     ],
     "PlutoTVWesterns.us@CA": [
       "eng"
@@ -93104,6 +92928,9 @@
     "PowervisionTV.in@SD": [
       "mal"
     ],
+    "PowranMedia.in@SD": [
+      "mal"
+    ],
     "PoyoTV.kr@SD": [
       "kor"
     ],
@@ -93456,6 +93283,10 @@
     "PrimaFree.it@SD": [
       "ita"
     ],
+    "PrimaHistory.ro@SD": [
+      "ron",
+      "eng"
+    ],
     "PrimaKrimi.cz@SD": [
       "ces"
     ],
@@ -93521,6 +93352,9 @@
     ],
     "PrimaSportCzechia.cz@SD": [
       "cze"
+    ],
+    "PrimaSportMoldova.md@SD": [
+      "ron"
     ],
     "PrimaSportPPV1.ro@SD": [
       "ron"
@@ -94388,6 +94222,9 @@
     ],
     "QACTV.us@SD": [
       "eng"
+    ],
+    "QADAMTV.kz@SD": [
+      "kaz"
     ],
     "QafqazTV.az@SD": [
       "aze"
@@ -95711,6 +95548,9 @@
       "spa",
       "cat"
     ],
+    "RadioBohemiaTV.cl@SD": [
+      "spa"
+    ],
     "RadioBonita1067.ec@SD": [
       "spa"
     ],
@@ -95871,6 +95711,9 @@
       "spa"
     ],
     "RadioFiestadeMilagrosTV.hn@SD": [
+      "spa"
+    ],
+    "RadioFMDance.cl@SD": [
       "spa"
     ],
     "RadioFMTrujui.ar@SD": [
@@ -96363,6 +96206,10 @@
     ],
     "RadioTeleSuperStar.ht@SD": [
       "fra"
+    ],
+    "RadioTeleUnistar.ht@SD": [
+      "fra",
+      "hat"
     ],
     "RadioTeleVictoire.ht@SD": [
       "fra"
@@ -97216,22 +97063,6 @@
     "Rawdah.sa@SD": [
       "ara"
     ],
-    "Rawhide.se@DK": [
-      "eng",
-      "dan"
-    ],
-    "Rawhide.se@FI": [
-      "eng",
-      "fin"
-    ],
-    "Rawhide.se@NO": [
-      "eng",
-      "nor"
-    ],
-    "Rawhide.se@SE": [
-      "eng",
-      "swe"
-    ],
     "Rawhide.us@CA": [
       "eng"
     ],
@@ -97589,6 +97420,9 @@
       "eng"
     ],
     "RealLife.us@SD": [
+      "eng"
+    ],
+    "RealLifeNetwork.us@HD": [
       "eng"
     ],
     "RealLifeonVerizon.us@SD": [
@@ -98682,6 +98516,9 @@
     "RetroTVPalmares.cr@SD": [
       "spa"
     ],
+    "RetrovisionTV.do@HD": [
+      "spa"
+    ],
     "RetroxTV.cr@SD": [
       "spa"
     ],
@@ -99204,9 +99041,6 @@
     ],
     "RideTV.us@SD": [
       "eng"
-    ],
-    "Ridiculousness.de@FR": [
-      "fra"
     ],
     "Ridiculousness.us@SD": [
       "eng"
@@ -101357,8 +101191,7 @@
       "nld"
     ],
     "RTV1.rs@SD": [
-      "srp",
-      "swe"
+      "srp"
     ],
     "RTV1Amstelveen.nl@SD": [
       "nld"
@@ -101419,7 +101252,7 @@
       "tam"
     ],
     "RTVBosphorus.rs@SD": [
-      "eng"
+      "srp"
     ],
     "RTVBPK.ba@SD": [
       "bos"
@@ -101528,7 +101361,7 @@
       "sqi"
     ],
     "RTVGEM.rs@SD": [
-      "eng"
+      "srp"
     ],
     "RTVGlasDrine.ba@SD": [
       "bos"
@@ -101820,9 +101653,6 @@
     ],
     "RugenTV.de@SD": [
       "deu"
-    ],
-    "Rugrats.de@ES": [
-      "spa"
     ],
     "Rugrats.us@LatAm": [
       "spa"
@@ -102471,7 +102301,8 @@
       "hin"
     ],
     "SaharaTV.td@SD": [
-      "fra"
+      "fra",
+      "ara"
     ],
     "SaharAzeri.ir@SD": [
       "aze"
@@ -105137,14 +104968,26 @@
     "ShemarooBollywood.us@US": [
       "eng"
     ],
+    "ShemarooComedy.in@SD": [
+      "hin"
+    ],
     "ShemarooFilmiGaane.in@HD": [
       "hin"
     ],
     "ShemarooJosh.in@SD": [
       "hin"
     ],
+    "ShemarooKids.in@SD": [
+      "hin"
+    ],
     "ShemarooMarathiBana.in@SD": [
       "mar"
+    ],
+    "ShemarooMovies.in@SD": [
+      "hin"
+    ],
+    "ShemarooMusicHits.in@SD": [
+      "hin"
     ],
     "ShemarooTV.in@SD": [
       "hin"
@@ -105231,6 +105074,9 @@
     ],
     "ShivaLiveTV.ch@SD": [
       "deu"
+    ],
+    "Shkolnoetelevidenie.ru@SD": [
+      "rus"
     ],
     "ShoghakatTV.am@SD": [
       "hye"
@@ -105707,7 +105553,7 @@
       "deu"
     ],
     "ShoppsterTV.rs@SD": [
-      "slv"
+      "srp"
     ],
     "ShopShow.ru@SD": [
       "rus"
@@ -108353,18 +108199,6 @@
     "SmithsonianChannelPlutoTV.us@LatAm": [
       "spa"
     ],
-    "SmithsonianChannelSelects.se@DK": [
-      "eng",
-      "dan"
-    ],
-    "SmithsonianChannelSelects.se@FI": [
-      "eng",
-      "fin"
-    ],
-    "SmithsonianChannelSelects.se@SE": [
-      "eng",
-      "swe"
-    ],
     "SmithsonianChannelSelects.us@SD": [
       "eng"
     ],
@@ -109179,31 +109013,6 @@
     "SouthHavenGovernmentAccess.us@SD": [
       "eng"
     ],
-    "SouthPark.de@ES": [
-      "spa"
-    ],
-    "SouthPark.de@GB": [
-      "eng"
-    ],
-    "SouthPark.de@IT": [
-      "ita"
-    ],
-    "SouthPark.se@DK": [
-      "eng",
-      "dan"
-    ],
-    "SouthPark.se@FI": [
-      "eng",
-      "fin"
-    ],
-    "SouthPark.se@NO": [
-      "eng",
-      "nor"
-    ],
-    "SouthPark.se@SE": [
-      "eng",
-      "swe"
-    ],
     "SouthPark.us@CA": [
       "eng"
     ],
@@ -109234,21 +109043,6 @@
       "nor"
     ],
     "SouthParkButtersCollection.se@SE": [
-      "eng",
-      "swe"
-    ],
-    "SouthParkCartmanCollection.de@DACH": [
-      "deu"
-    ],
-    "SouthParkCartmanCollection.se@DK": [
-      "eng",
-      "dan"
-    ],
-    "SouthParkCartmanCollection.se@NO": [
-      "eng",
-      "nor"
-    ],
-    "SouthParkCartmanCollection.se@SE": [
       "eng",
       "swe"
     ],
@@ -109294,38 +109088,8 @@
       "eng",
       "swe"
     ],
-    "SouthParkKennyCollection.de@DACH": [
-      "deu"
-    ],
-    "SouthParkKennyCollection.se@DK": [
-      "eng",
-      "dan"
-    ],
-    "SouthParkKennyCollection.se@NO": [
-      "eng",
-      "nor"
-    ],
-    "SouthParkKennyCollection.se@SE": [
-      "eng",
-      "swe"
-    ],
     "SouthParkKennyCollection.us@CA": [
       "eng"
-    ],
-    "SouthParkKyleCollection.de@DACH": [
-      "deu"
-    ],
-    "SouthParkKyleCollection.se@DK": [
-      "eng",
-      "dan"
-    ],
-    "SouthParkKyleCollection.se@NO": [
-      "eng",
-      "nor"
-    ],
-    "SouthParkKyleCollection.se@SE": [
-      "eng",
-      "swe"
     ],
     "SouthParkKyleCollection.us@CA": [
       "eng"
@@ -109348,21 +109112,6 @@
     "SouthParkRocks.de@DACH": [
       "deu"
     ],
-    "SouthParkStanCollection.de@DACH": [
-      "deu"
-    ],
-    "SouthParkStanCollection.se@DK": [
-      "eng",
-      "dan"
-    ],
-    "SouthParkStanCollection.se@NO": [
-      "eng",
-      "nor"
-    ],
-    "SouthParkStanCollection.se@SE": [
-      "eng",
-      "swe"
-    ],
     "SouthParkStanCollection.us@CA": [
       "eng"
     ],
@@ -109377,6 +109126,9 @@
     ],
     "SouthStation.in@HD": [
       "hin"
+    ],
+    "SouthVision.in@SD": [
+      "mal"
     ],
     "SouthwestMediaNetwork.et@SD": [
       "amh"
@@ -110894,6 +110646,9 @@
     "StarLife.pt@SD": [
       "por"
     ],
+    "StarLife.rs@SD": [
+      "srp"
+    ],
     "StarLife.si@HD": [
       "slv"
     ],
@@ -111250,16 +111005,6 @@
       "eng",
       "swe"
     ],
-    "StarTrekTheNextGeneration.de@DACH": [
-      "deu"
-    ],
-    "StarTrekTheNextGeneration.de@ES": [
-      "spa"
-    ],
-    "StarTrekTheNextGeneration.se@FI": [
-      "eng",
-      "fin"
-    ],
     "StarTrekTheNextGeneration.us@SD": [
       "eng"
     ],
@@ -111284,16 +111029,6 @@
     "StarTrekTheOriginalSeries.se@SE": [
       "eng",
       "swe"
-    ],
-    "StarTrekVoyager.de@ES": [
-      "spa"
-    ],
-    "StarTrekVoyager.de@IT": [
-      "ita"
-    ],
-    "StarTrekVoyager.se@FI": [
-      "eng",
-      "fin"
     ],
     "StarTrekVoyager.us@SD": [
       "eng"
@@ -113418,27 +113153,6 @@
     "SummerofMovies.us@CA": [
       "eng"
     ],
-    "SUMOParis2026.de@DACH": [
-      "deu"
-    ],
-    "SUMOParis2026.de@FR": [
-      "fra"
-    ],
-    "SUMOParis2026.de@GB": [
-      "eng"
-    ],
-    "SUMOParis2026.se@DK": [
-      "eng",
-      "dan"
-    ],
-    "SUMOParis2026.se@NO": [
-      "eng",
-      "nor"
-    ],
-    "SUMOParis2026.se@SE": [
-      "eng",
-      "swe"
-    ],
     "SUMOParis2026.us@CA": [
       "eng"
     ],
@@ -113997,6 +113711,9 @@
     "SUPERSTAR2.rs@SD": [
       "srp"
     ],
+    "SUPERSTAR3.rs@SD": [
+      "srp"
+    ],
     "SUPERSTARTV.rs@SD": [
       "srp"
     ],
@@ -114114,6 +113831,9 @@
     "SurpriseTV.us@SD": [
       "eng",
       "spa"
+    ],
+    "SurprizeTV.md@SD": [
+      "ron"
     ],
     "SURTV.bo@SD": [
       "spa"
@@ -114279,6 +113999,9 @@
     ],
     "SuyapaTV.hn@SD": [
       "spa"
+    ],
+    "SV6News.in@SD": [
+      "tel"
     ],
     "SvampBobFyrkant.se@SE": [
       "eng",
@@ -114879,6 +114602,9 @@
     ],
     "TahitiWebRadioTV.pf@SD": [
       "fra"
+    ],
+    "TainoLiveTV.do@HD": [
+      "spa"
     ],
     "TaivasTV7.fi@SD": [
       "fin"
@@ -116076,15 +115802,6 @@
     "TeenageMutantNinjaTurtles.de@IT": [
       "ita"
     ],
-    "TeenMom.de@FR": [
-      "fra"
-    ],
-    "TeenMom.de@GB": [
-      "eng"
-    ],
-    "TeenMom.de@IT": [
-      "ita"
-    ],
     "TeenMom.us@SD": [
       "eng"
     ],
@@ -116354,6 +116071,9 @@
       "nld",
       "pap",
       "eng",
+      "spa"
+    ],
+    "TeleAzul.do@HD": [
       "spa"
     ],
     "Telebachillerato.mx@SD": [
@@ -119046,6 +118766,9 @@
     "ThanhHoaTV.vn@SD": [
       "vie"
     ],
+    "Thanima.in@SD": [
+      "mal"
+    ],
     "ThanthiOne.in@SD": [
       "tam"
     ],
@@ -120675,21 +120398,6 @@
     "TheNest.us@WYDO": [
       "eng"
     ],
-    "TheNewDetectives.de@GB": [
-      "eng"
-    ],
-    "TheNewDetectives.se@DK": [
-      "eng",
-      "dan"
-    ],
-    "TheNewDetectives.se@NO": [
-      "eng",
-      "nor"
-    ],
-    "TheNewDetectives.se@SE": [
-      "eng",
-      "swe"
-    ],
     "TheNewDetectives.us@CA": [
       "eng"
     ],
@@ -120993,22 +120701,6 @@
     ],
     "TheWendyWilliamsShow.us@SD": [
       "eng"
-    ],
-    "TheWildWildWest.se@DK": [
-      "eng",
-      "dan"
-    ],
-    "TheWildWildWest.se@FI": [
-      "eng",
-      "fin"
-    ],
-    "TheWildWildWest.se@NO": [
-      "eng",
-      "nor"
-    ],
-    "TheWildWildWest.se@SE": [
-      "eng",
-      "swe"
     ],
     "TheWildWildWest.us@SD": [
       "eng"
@@ -122270,7 +121962,16 @@
     "TommyTeleshopping.nl@SD": [
       "nld"
     ],
+    "TomSingsMegaCompilation.it@HD": [
+      "eng"
+    ],
+    "TomSingsSpookyTV.us@HD": [
+      "eng"
+    ],
     "TomSingsTV.us@HD": [
+      "eng"
+    ],
+    "TomSingsTVMini.us@HD": [
       "eng"
     ],
     "TongchuanEducationalChannel.cn@SD": [
@@ -122538,23 +122239,8 @@
     "Torrevision.es@SD": [
       "spa"
     ],
-    "TortuesNinjaTV.de@FR": [
-      "fra"
-    ],
     "TortuesNinjaTV.us@CA": [
       "eng"
-    ],
-    "Tosh0.se@DK": [
-      "eng",
-      "dan"
-    ],
-    "Tosh0.se@NO": [
-      "eng",
-      "nor"
-    ],
-    "Tosh0.se@SE": [
-      "eng",
-      "swe"
     ],
     "Tosh0.us@SD": [
       "eng"
@@ -122580,28 +122266,6 @@
     ],
     "TotalDanceTV.hu@SD": [
       "hun"
-    ],
-    "TotallyTurtles.de@DACH": [
-      "deu"
-    ],
-    "TotallyTurtles.de@GB": [
-      "eng"
-    ],
-    "TotallyTurtles.se@DK": [
-      "eng",
-      "dan"
-    ],
-    "TotallyTurtles.se@FI": [
-      "eng",
-      "fin"
-    ],
-    "TotallyTurtles.se@NO": [
-      "eng",
-      "nor"
-    ],
-    "TotallyTurtles.se@SE": [
-      "eng",
-      "swe"
     ],
     "TotallyTurtles.us@CA": [
       "eng"
@@ -123389,6 +123053,9 @@
     ],
     "TRT.ve@SD": [
       "spa"
+    ],
+    "TRT1.tr@HD": [
+      "tur"
     ],
     "TRT1.tr@SD": [
       "tur"
@@ -126129,6 +125796,9 @@
     "TVBrno1.cz@SD": [
       "ces"
     ],
+    "TVBrus.rs@SD": [
+      "srp"
+    ],
     "TVBrusque.br@SD": [
       "por"
     ],
@@ -126211,6 +125881,9 @@
       "spa"
     ],
     "TVCachoeira.br@SD": [
+      "por"
+    ],
+    "TVCAJUIWEB.br@HD": [
       "por"
     ],
     "TVCamara.br@SD": [
@@ -127112,6 +126785,9 @@
     "TVGolfoUraba.co@SD": [
       "spa"
     ],
+    "TVGolija.rs@SD": [
+      "srp"
+    ],
     "TVGPequerrechos.es@SD": [
       "glg"
     ],
@@ -127270,7 +126946,7 @@
       "spa"
     ],
     "TVInfo24.rs@SD": [
-      "eng"
+      "srp"
     ],
     "TVInfo24plus.rs@SD": [
       "srp"
@@ -127598,7 +127274,7 @@
       "spa"
     ],
     "TVLavPlus.rs@SD": [
-      "eng"
+      "srp"
     ],
     "TVLegislativa.cr@SD": [
       "spa"
@@ -128211,6 +127887,9 @@
       "ind",
       "tha"
     ],
+    "TVNNews.in@SD": [
+      "hin"
+    ],
     "TVNoe.cz@SD": [
       "ces"
     ],
@@ -128623,9 +128302,6 @@
     "TVPassoFundo.br@SD": [
       "por"
     ],
-    "TVPCanal.rs@SD": [
-      "srp"
-    ],
     "TVPCuliacan.mx@SD": [
       "spa"
     ],
@@ -128853,6 +128529,9 @@
     ],
     "TVPrecabura.br@SD": [
       "por"
+    ],
+    "TVPresevo.rs@SD": [
+      "sqi"
     ],
     "TVPriboj.rs@SD": [
       "srp"
@@ -129937,6 +129616,9 @@
     "TVUAZ.mx@SD": [
       "spa"
     ],
+    "TVUCochabamba.bo@SD": [
+      "spa"
+    ],
     "TVUCT.cl@SD": [
       "spa"
     ],
@@ -130017,6 +129699,9 @@
       "fil",
       "eng"
     ],
+    "TVUPando.bo@SD": [
+      "spa"
+    ],
     "TVUsach.cl@SD": [
       "spa"
     ],
@@ -130045,7 +129730,7 @@
       "por"
     ],
     "TVVAPlus.rs@SD": [
-      "eng"
+      "srp"
     ],
     "TVVarezaGrande.br@SD": [
       "por"
@@ -130132,6 +129817,9 @@
     ],
     "TVVlaanderen.be@SD": [
       "nld"
+    ],
+    "TVVlasotince.rs@SD": [
+      "srp"
     ],
     "TVVraca.bg@SD": [
       "bul"
@@ -131320,6 +131008,9 @@
     "Unitv.ec@SD": [
       "spa"
     ],
+    "UniTV.mm@SD": [
+      "mya"
+    ],
     "UniTV.ve@SD": [
       "spa"
     ],
@@ -131759,6 +131450,9 @@
     "UNTVNewsRecue.us@SD": [
       "eng"
     ],
+    "UNUTV.md@SD": [
+      "ron"
+    ],
     "UNWebTV.us@SD": [
       "eng"
     ],
@@ -132131,6 +131825,9 @@
       "hin",
       "eng"
     ],
+    "UTVHD24x7.in@SD": [
+      "mal"
+    ],
     "UTVMovies.in@SD": [
       "hin"
     ],
@@ -132312,6 +132009,9 @@
     ],
     "ValemountCommunityTV.ca@SD": [
       "eng"
+    ],
+    "ValentaTV.kz@SD": [
+      "kaz"
     ],
     "ValentinoEtno.ba@SD": [
       "bos"
@@ -132832,6 +132532,9 @@
     "VeraTV.it@SD": [
       "ita"
     ],
+    "Verba.ru@SD": [
+      "rus"
+    ],
     "VerbenaTV.es@SD": [
       "spa"
     ],
@@ -133062,6 +132765,9 @@
       "rus"
     ],
     "VHSkadetskiy.ru@HD": [
+      "rus"
+    ],
+    "VHSkaNauchpop.ru@SD": [
       "rus"
     ],
     "VHSkaRusskoekino.ru@HD": [
@@ -134604,6 +134310,9 @@
     "VOD208.pl@SD": [
       "pol"
     ],
+    "VodafoneInfo.ro@SD": [
+      "ron"
+    ],
     "VodafoneTV.de@SD": [
       "deu"
     ],
@@ -135766,6 +135475,12 @@
     "WayanadVision.in@SD": [
       "mal"
     ],
+    "WayanadVisionMovies.in@SD": [
+      "mal"
+    ],
+    "WayanadVisionPlus.in@SD": [
+      "mal"
+    ],
     "WaypointTV.us@SD": [
       "eng"
     ],
@@ -135882,9 +135597,6 @@
     ],
     "WCCB181.us@HD": [
       "eng"
-    ],
-    "WCCVTV541.pr@HD": [
-      "spa"
     ],
     "WCEALD.us@SD": [
       "spa"
@@ -136012,7 +135724,7 @@
     "WDWL361.pr@HD": [
       "spa"
     ],
-    "WDWL582.pr@HD": [
+    "WDWL362.pr@HD": [
       "spa"
     ],
     "We.am@SD": [
@@ -136100,7 +135812,7 @@
       "ara",
       "fra"
     ],
-    "WECN.pr@SD": [
+    "WECN641.pr@SD": [
       "spa"
     ],
     "WeddingatFirstSightChannel.il@SD": [
@@ -136847,9 +136559,6 @@
     "WKNXTV71.us@HD": [
       "eng"
     ],
-    "WKPV203.pr@SD": [
-      "spa"
-    ],
     "WKTBCD471.us@SD": [
       "eng"
     ],
@@ -136867,9 +136576,6 @@
     ],
     "WLCT96.us@SD": [
       "eng"
-    ],
-    "WLIIDT112.pr@HD": [
-      "spa"
     ],
     "WLLA641.us@HD": [
       "eng"
@@ -137004,9 +136710,6 @@
       "amh",
       "eng",
       "wal"
-    ],
-    "WOLEDT122.pr@HD": [
-      "spa"
     ],
     "WolvesValleyTV.tw@SD": [
       "zho"
@@ -138088,9 +137791,6 @@
     "WWTV.de@SD": [
       "deu"
     ],
-    "WWXYLD191.pr@SD": [
-      "spa"
-    ],
     "WWXYLD193.pr@SD": [
       "spa"
     ],
@@ -138402,6 +138102,9 @@
     "XITE60s70sGroove.nl@US": [
       "eng"
     ],
+    "XITE80sFlashback.nl@US": [
+      "eng"
+    ],
     "XITE90sThrowback.us@SD": [
       "eng"
     ],
@@ -138411,7 +138114,16 @@
     "XITECelebrates.us@SD": [
       "eng"
     ],
+    "XITEChristianHits.nl@US": [
+      "eng"
+    ],
     "XITEClassicCountry.nl@SD": [
+      "eng"
+    ],
+    "XITECountryToday.nl@US": [
+      "eng"
+    ],
+    "XITEGospel.nl@US": [
       "eng"
     ],
     "XITEHipHopEvolution.us@SD": [
@@ -138443,6 +138155,9 @@
       "por"
     ],
     "XITERapGame.us@SD": [
+      "eng"
+    ],
+    "XITERBClassicJams.nl@US": [
       "eng"
     ],
     "XITERBFeels.us@SD": [
@@ -139336,6 +139051,9 @@
     "YuppThirai.in@SD": [
       "tam"
     ],
+    "YuppTVVeda.in@SD": [
+      "tel"
+    ],
     "Yurgan.ru@SD": [
       "rus"
     ],
@@ -139397,16 +139115,16 @@
       "kin"
     ],
     "ZadrugaLive1.rs@SD": [
-      "eng"
+      "srp"
     ],
     "ZadrugaLive2.rs@SD": [
-      "eng"
+      "srp"
     ],
     "ZadrugaLive3.rs@SD": [
-      "eng"
+      "srp"
     ],
     "ZadrugaLive4.rs@SD": [
-      "eng"
+      "srp"
     ],
     "ZadTV.sa@SD": [
       "ara"
@@ -140106,9 +139824,6 @@
     ],
     "Zeste.ca@SD": [
       "fra"
-    ],
-    "Zeta93.pr@SD": [
-      "spa"
     ],
     "ZFBTV.bm@SD": [
       "eng"

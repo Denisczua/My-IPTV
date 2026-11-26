@@ -102,7 +102,7 @@
         "rus"
       ],
       "evidence": "IPTV-org feeds.languages",
-      "in_source": true,
+      "in_source": false,
       "content_decision": "allow",
       "content_evidence": "No evidence of specialized erotic or pornographic channel"
     },
@@ -368,7 +368,7 @@
         "rus"
       ],
       "evidence": "IPTV-org feeds.languages",
-      "in_source": true,
+      "in_source": false,
       "content_decision": "allow",
       "content_evidence": "No evidence of specialized erotic or pornographic channel"
     },
@@ -585,7 +585,7 @@
       "status": "UNKNOWN_CZ",
       "languages": [],
       "evidence": "multilingual: review predominance",
-      "in_source": true,
+      "in_source": false,
       "content_decision": "allow",
       "content_evidence": "No evidence of specialized erotic or pornographic channel"
     },
@@ -898,7 +898,7 @@
       "status": "UNKNOWN_CZ",
       "languages": [],
       "evidence": "multilingual: review predominance",
-      "in_source": true,
+      "in_source": false,
       "content_decision": "allow",
       "content_evidence": "No evidence of specialized erotic or pornographic channel"
     },
@@ -1105,7 +1105,7 @@
         "rus"
       ],
       "evidence": "IPTV-org feeds.languages",
-      "in_source": true,
+      "in_source": false,
       "content_decision": "allow",
       "content_evidence": "No evidence of specialized erotic or pornographic channel"
     },
@@ -1712,7 +1712,7 @@
         "rus"
       ],
       "evidence": "IPTV-org feeds.languages",
-      "in_source": true,
+      "in_source": false,
       "content_decision": "allow",
       "content_evidence": "No evidence of specialized erotic or pornographic channel"
     },
@@ -1932,7 +1932,7 @@
         "rus"
       ],
       "evidence": "IPTV-org feeds.languages",
-      "in_source": true,
+      "in_source": false,
       "content_decision": "allow",
       "content_evidence": "No evidence of specialized erotic or pornographic channel"
     },
@@ -1947,7 +1947,7 @@
         "rus"
       ],
       "evidence": "IPTV-org feeds.languages",
-      "in_source": true,
+      "in_source": false,
       "content_decision": "allow",
       "content_evidence": "No evidence of specialized erotic or pornographic channel"
     },
@@ -1990,7 +1990,7 @@
       "status": "UNKNOWN_CZ",
       "languages": [],
       "evidence": "multilingual: review predominance",
-      "in_source": true,
+      "in_source": false,
       "content_decision": "allow",
       "content_evidence": "No evidence of specialized erotic or pornographic channel"
     },
@@ -2374,7 +2374,7 @@
         "rus"
       ],
       "evidence": "IPTV-org feeds.languages",
-      "in_source": true,
+      "in_source": false,
       "content_decision": "allow",
       "content_evidence": "No evidence of specialized erotic or pornographic channel"
     },
@@ -2719,7 +2719,7 @@
         "rus"
       ],
       "evidence": "IPTV-org feeds.languages",
-      "in_source": true,
+      "in_source": false,
       "content_decision": "allow",
       "content_evidence": "No evidence of specialized erotic or pornographic channel"
     },
@@ -2762,7 +2762,7 @@
         "rus"
       ],
       "evidence": "IPTV-org feeds.languages",
-      "in_source": true,
+      "in_source": false,
       "content_decision": "allow",
       "content_evidence": "No evidence of specialized erotic or pornographic channel"
     },
@@ -3027,7 +3027,7 @@
         "rus"
       ],
       "evidence": "IPTV-org feeds.languages",
-      "in_source": true,
+      "in_source": false,
       "content_decision": "allow",
       "content_evidence": "No evidence of specialized erotic or pornographic channel"
     },
@@ -3087,7 +3087,7 @@
         "rus"
       ],
       "evidence": "IPTV-org feeds.languages",
-      "in_source": true,
+      "in_source": false,
       "content_decision": "allow",
       "content_evidence": "No evidence of specialized erotic or pornographic channel"
     },
@@ -3102,7 +3102,7 @@
         "rus"
       ],
       "evidence": "IPTV-org feeds.languages",
-      "in_source": true,
+      "in_source": false,
       "content_decision": "allow",
       "content_evidence": "No evidence of specialized erotic or pornographic channel"
     },
@@ -3147,7 +3147,7 @@
         "rus"
       ],
       "evidence": "IPTV-org feeds.languages",
-      "in_source": true,
+      "in_source": false,
       "content_decision": "allow",
       "content_evidence": "No evidence of specialized erotic or pornographic channel"
     },
@@ -3450,7 +3450,7 @@
         "rus"
       ],
       "evidence": "IPTV-org feeds.languages",
-      "in_source": true,
+      "in_source": false,
       "content_decision": "allow",
       "content_evidence": "No evidence of specialized erotic or pornographic channel"
     },
@@ -3612,7 +3612,7 @@
       "status": "UNKNOWN_CZ",
       "languages": [],
       "evidence": "IPTV-org feeds.languages",
-      "in_source": true,
+      "in_source": false,
       "content_decision": "allow",
       "content_evidence": "No evidence of specialized erotic or pornographic channel"
     },
@@ -4216,7 +4216,7 @@
         "rus"
       ],
       "evidence": "IPTV-org feeds.languages",
-      "in_source": true,
+      "in_source": false,
       "content_decision": "allow",
       "content_evidence": "No evidence of specialized erotic or pornographic channel"
     },
@@ -4512,7 +4512,7 @@
         "rus"
       ],
       "evidence": "IPTV-org feeds.languages",
-      "in_source": true,
+      "in_source": false,
       "content_decision": "allow",
       "content_evidence": "No evidence of specialized erotic or pornographic channel"
     },
@@ -4804,7 +4804,7 @@
       "status": "UNKNOWN_CZ",
       "languages": [],
       "evidence": "multilingual: review predominance",
-      "in_source": true,
+      "in_source": false,
       "content_decision": "allow",
       "content_evidence": "No evidence of specialized erotic or pornographic channel"
     },
@@ -4965,7 +4965,7 @@
         "rus"
       ],
       "evidence": "IPTV-org feeds.languages",
-      "in_source": true,
+      "in_source": false,
       "content_decision": "allow",
       "content_evidence": "No evidence of specialized erotic or pornographic channel"
     },
@@ -5040,7 +5040,7 @@
         "rus"
       ],
       "evidence": "IPTV-org feeds.languages",
-      "in_source": true,
+      "in_source": false,
       "content_decision": "allow",
       "content_evidence": "No evidence of specialized erotic or pornographic channel"
     },
@@ -5130,7 +5130,7 @@
         "rus"
       ],
       "evidence": "IPTV-org feeds.languages",
-      "in_source": true,
+      "in_source": false,
       "content_decision": "allow",
       "content_evidence": "No evidence of specialized erotic or pornographic channel"
     },
@@ -5321,7 +5321,7 @@
         "rus"
       ],
       "evidence": "IPTV-org feeds.languages",
-      "in_source": true,
+      "in_source": false,
       "content_decision": "allow",
       "content_evidence": "No evidence of specialized erotic or pornographic channel"
     },
@@ -5627,7 +5627,7 @@
         "rus"
       ],
       "evidence": "IPTV-org feeds.languages",
-      "in_source": true,
+      "in_source": false,
       "content_decision": "allow",
       "content_evidence": "No evidence of specialized erotic or pornographic channel"
     },
@@ -6011,7 +6011,7 @@
         "rus"
       ],
       "evidence": "IPTV-org feeds.languages",
-      "in_source": true,
+      "in_source": false,
       "content_decision": "allow",
       "content_evidence": "No evidence of specialized erotic or pornographic channel"
     },
@@ -6026,7 +6026,7 @@
         "rus"
       ],
       "evidence": "IPTV-org feeds.languages",
-      "in_source": true,
+      "in_source": false,
       "content_decision": "allow",
       "content_evidence": "No evidence of specialized erotic or pornographic channel"
     },
@@ -6172,7 +6172,7 @@
       "status": "UNKNOWN_CZ",
       "languages": [],
       "evidence": "multilingual: review predominance",
-      "in_source": true,
+      "in_source": false,
       "content_decision": "allow",
       "content_evidence": "No evidence of specialized erotic or pornographic channel"
     },
@@ -6389,7 +6389,7 @@
         "rus"
       ],
       "evidence": "IPTV-org feeds.languages",
-      "in_source": true,
+      "in_source": false,
       "content_decision": "allow",
       "content_evidence": "No evidence of specialized erotic or pornographic channel"
     },
@@ -6432,7 +6432,7 @@
         "rus"
       ],
       "evidence": "IPTV-org feeds.languages",
-      "in_source": true,
+      "in_source": false,
       "content_decision": "allow",
       "content_evidence": "No evidence of specialized erotic or pornographic channel"
     },
@@ -6522,7 +6522,7 @@
         "rus"
       ],
       "evidence": "IPTV-org feeds.languages",
-      "in_source": true,
+      "in_source": false,
       "content_decision": "allow",
       "content_evidence": "No evidence of specialized erotic or pornographic channel"
     },
@@ -6538,7 +6538,7 @@
         "ukr"
       ],
       "evidence": "IPTV-org feeds.languages",
-      "in_source": true,
+      "in_source": false,
       "content_decision": "allow",
       "content_evidence": "No evidence of specialized erotic or pornographic channel"
     },
@@ -6730,7 +6730,7 @@
         "rus"
       ],
       "evidence": "IPTV-org feeds.languages",
-      "in_source": true,
+      "in_source": false,
       "content_decision": "allow",
       "content_evidence": "No evidence of specialized erotic or pornographic channel"
     },
@@ -7159,7 +7159,7 @@
         "rus"
       ],
       "evidence": "IPTV-org feeds.languages",
-      "in_source": true,
+      "in_source": false,
       "content_decision": "allow",
       "content_evidence": "No evidence of specialized erotic or pornographic channel"
     },
@@ -7483,7 +7483,7 @@
       "status": "UNKNOWN_CZ",
       "languages": [],
       "evidence": "multilingual: review predominance",
-      "in_source": true,
+      "in_source": false,
       "content_decision": "allow",
       "content_evidence": "No evidence of specialized erotic or pornographic channel"
     },
@@ -7631,7 +7631,7 @@
         "rus"
       ],
       "evidence": "IPTV-org feeds.languages",
-      "in_source": true,
+      "in_source": false,
       "content_decision": "allow",
       "content_evidence": "No evidence of specialized erotic or pornographic channel"
     },
@@ -7691,7 +7691,7 @@
         "rus"
       ],
       "evidence": "IPTV-org feeds.languages",
-      "in_source": true,
+      "in_source": false,
       "content_decision": "allow",
       "content_evidence": "No evidence of specialized erotic or pornographic channel"
     },
@@ -7782,7 +7782,7 @@
         "rus"
       ],
       "evidence": "IPTV-org feeds.languages",
-      "in_source": true,
+      "in_source": false,
       "content_decision": "allow",
       "content_evidence": "No evidence of specialized erotic or pornographic channel"
     },
@@ -8169,7 +8169,7 @@
       "status": "UNKNOWN_CZ",
       "languages": [],
       "evidence": "multilingual: review predominance",
-      "in_source": true,
+      "in_source": false,
       "content_decision": "allow",
       "content_evidence": "No evidence of specialized erotic or pornographic channel"
     },
@@ -8359,7 +8359,7 @@
         "rus"
       ],
       "evidence": "IPTV-org feeds.languages",
-      "in_source": true,
+      "in_source": false,
       "content_decision": "allow",
       "content_evidence": "No evidence of specialized erotic or pornographic channel"
     },
@@ -8449,7 +8449,7 @@
         "rus"
       ],
       "evidence": "IPTV-org feeds.languages",
-      "in_source": true,
+      "in_source": false,
       "content_decision": "allow",
       "content_evidence": "No evidence of specialized erotic or pornographic channel"
     },
@@ -8492,7 +8492,7 @@
         "rus"
       ],
       "evidence": "IPTV-org feeds.languages",
-      "in_source": true,
+      "in_source": false,
       "content_decision": "allow",
       "content_evidence": "No evidence of specialized erotic or pornographic channel"
     },
@@ -8741,7 +8741,7 @@
         "rus"
       ],
       "evidence": "IPTV-org feeds.languages",
-      "in_source": true,
+      "in_source": false,
       "content_decision": "allow",
       "content_evidence": "No evidence of specialized erotic or pornographic channel"
     },
@@ -8756,7 +8756,7 @@
         "rus"
       ],
       "evidence": "IPTV-org feeds.languages",
-      "in_source": true,
+      "in_source": false,
       "content_decision": "allow",
       "content_evidence": "No evidence of specialized erotic or pornographic channel"
     },
@@ -8771,7 +8771,7 @@
         "rus"
       ],
       "evidence": "IPTV-org feeds.languages",
-      "in_source": true,
+      "in_source": false,
       "content_decision": "allow",
       "content_evidence": "No evidence of specialized erotic or pornographic channel"
     },
@@ -8786,7 +8786,7 @@
         "rus"
       ],
       "evidence": "IPTV-org feeds.languages",
-      "in_source": true,
+      "in_source": false,
       "content_decision": "allow",
       "content_evidence": "No evidence of specialized erotic or pornographic channel"
     },
@@ -8801,7 +8801,7 @@
         "rus"
       ],
       "evidence": "IPTV-org feeds.languages",
-      "in_source": true,
+      "in_source": false,
       "content_decision": "allow",
       "content_evidence": "No evidence of specialized erotic or pornographic channel"
     },
@@ -8816,7 +8816,7 @@
         "rus"
       ],
       "evidence": "IPTV-org feeds.languages",
-      "in_source": true,
+      "in_source": false,
       "content_decision": "allow",
       "content_evidence": "No evidence of specialized erotic or pornographic channel"
     },
@@ -8831,7 +8831,7 @@
         "rus"
       ],
       "evidence": "IPTV-org feeds.languages",
-      "in_source": true,
+      "in_source": false,
       "content_decision": "allow",
       "content_evidence": "No evidence of specialized erotic or pornographic channel"
     },
@@ -8846,7 +8846,7 @@
         "rus"
       ],
       "evidence": "IPTV-org feeds.languages",
-      "in_source": true,
+      "in_source": false,
       "content_decision": "allow",
       "content_evidence": "No evidence of specialized erotic or pornographic channel"
     },
@@ -8861,7 +8861,7 @@
         "rus"
       ],
       "evidence": "IPTV-org feeds.languages",
-      "in_source": true,
+      "in_source": false,
       "content_decision": "allow",
       "content_evidence": "No evidence of specialized erotic or pornographic channel"
     },
@@ -8906,7 +8906,7 @@
         "rus"
       ],
       "evidence": "IPTV-org feeds.languages",
-      "in_source": true,
+      "in_source": false,
       "content_decision": "allow",
       "content_evidence": "No evidence of specialized erotic or pornographic channel"
     },
@@ -8921,7 +8921,7 @@
         "rus"
       ],
       "evidence": "IPTV-org feeds.languages",
-      "in_source": true,
+      "in_source": false,
       "content_decision": "allow",
       "content_evidence": "No evidence of specialized erotic or pornographic channel"
     },
@@ -8936,7 +8936,7 @@
         "rus"
       ],
       "evidence": "IPTV-org feeds.languages",
-      "in_source": true,
+      "in_source": false,
       "content_decision": "allow",
       "content_evidence": "No evidence of specialized erotic or pornographic channel"
     },
@@ -9041,7 +9041,7 @@
         "rus"
       ],
       "evidence": "IPTV-org feeds.languages",
-      "in_source": true,
+      "in_source": false,
       "content_decision": "allow",
       "content_evidence": "No evidence of specialized erotic or pornographic channel"
     },
@@ -9366,7 +9366,7 @@
         "rus"
       ],
       "evidence": "IPTV-org feeds.languages",
-      "in_source": true,
+      "in_source": false,
       "content_decision": "allow",
       "content_evidence": "No evidence of specialized erotic or pornographic channel"
     },
@@ -9601,7 +9601,7 @@
         "rus"
       ],
       "evidence": "IPTV-org feeds.languages",
-      "in_source": true,
+      "in_source": false,
       "content_decision": "allow",
       "content_evidence": "No evidence of specialized erotic or pornographic channel"
     },
@@ -9616,7 +9616,7 @@
         "rus"
       ],
       "evidence": "IPTV-org feeds.languages",
-      "in_source": true,
+      "in_source": false,
       "content_decision": "allow",
       "content_evidence": "No evidence of specialized erotic or pornographic channel"
     },
@@ -9631,7 +9631,7 @@
         "rus"
       ],
       "evidence": "IPTV-org feeds.languages",
-      "in_source": true,
+      "in_source": false,
       "content_decision": "allow",
       "content_evidence": "No evidence of specialized erotic or pornographic channel"
     },
@@ -9646,7 +9646,7 @@
         "rus"
       ],
       "evidence": "IPTV-org feeds.languages",
-      "in_source": true,
+      "in_source": false,
       "content_decision": "allow",
       "content_evidence": "No evidence of specialized erotic or pornographic channel"
     },
@@ -9661,7 +9661,7 @@
         "rus"
       ],
       "evidence": "IPTV-org feeds.languages",
-      "in_source": true,
+      "in_source": false,
       "content_decision": "allow",
       "content_evidence": "No evidence of specialized erotic or pornographic channel"
     },
@@ -9676,7 +9676,7 @@
         "rus"
       ],
       "evidence": "IPTV-org feeds.languages",
-      "in_source": true,
+      "in_source": false,
       "content_decision": "allow",
       "content_evidence": "No evidence of specialized erotic or pornographic channel"
     },
@@ -10045,7 +10045,7 @@
         "rus"
       ],
       "evidence": "IPTV-org feeds.languages",
-      "in_source": true,
+      "in_source": false,
       "content_decision": "allow",
       "content_evidence": "No evidence of specialized erotic or pornographic channel"
     },
@@ -10120,7 +10120,7 @@
         "rus"
       ],
       "evidence": "IPTV-org feeds.languages",
-      "in_source": true,
+      "in_source": false,
       "content_decision": "allow",
       "content_evidence": "No evidence of specialized erotic or pornographic channel"
     },
@@ -10343,7 +10343,7 @@
         "rus"
       ],
       "evidence": "IPTV-org feeds.languages",
-      "in_source": true,
+      "in_source": false,
       "content_decision": "allow",
       "content_evidence": "No evidence of specialized erotic or pornographic channel"
     },
@@ -10356,7 +10356,7 @@
       "status": "UNKNOWN_CZ",
       "languages": [],
       "evidence": "multilingual: review predominance",
-      "in_source": true,
+      "in_source": false,
       "content_decision": "allow",
       "content_evidence": "No evidence of specialized erotic or pornographic channel"
     },
@@ -10371,7 +10371,7 @@
         "rus"
       ],
       "evidence": "IPTV-org feeds.languages",
-      "in_source": true,
+      "in_source": false,
       "content_decision": "allow",
       "content_evidence": "No evidence of specialized erotic or pornographic channel"
     },
@@ -10401,7 +10401,7 @@
         "rus"
       ],
       "evidence": "IPTV-org feeds.languages",
-      "in_source": true,
+      "in_source": false,
       "content_decision": "allow",
       "content_evidence": "No evidence of specialized erotic or pornographic channel"
     },
@@ -10687,7 +10687,7 @@
         "rus"
       ],
       "evidence": "IPTV-org feeds.languages",
-      "in_source": true,
+      "in_source": false,
       "content_decision": "allow",
       "content_evidence": "No evidence of specialized erotic or pornographic channel"
     },
@@ -10762,7 +10762,7 @@
         "rus"
       ],
       "evidence": "IPTV-org feeds.languages",
-      "in_source": true,
+      "in_source": false,
       "content_decision": "allow",
       "content_evidence": "No evidence of specialized erotic or pornographic channel"
     },
@@ -10792,7 +10792,7 @@
         "rus"
       ],
       "evidence": "IPTV-org feeds.languages",
-      "in_source": true,
+      "in_source": false,
       "content_decision": "allow",
       "content_evidence": "No evidence of specialized erotic or pornographic channel"
     },
@@ -10893,7 +10893,7 @@
       "status": "UNKNOWN_CZ",
       "languages": [],
       "evidence": "IPTV-org feeds.languages",
-      "in_source": true,
+      "in_source": false,
       "content_decision": "allow",
       "content_evidence": "No evidence of specialized erotic or pornographic channel"
     },
@@ -11506,7 +11506,7 @@
       "status": "UNKNOWN_CZ",
       "languages": [],
       "evidence": "multilingual: review predominance",
-      "in_source": true,
+      "in_source": false,
       "content_decision": "allow",
       "content_evidence": "No evidence of specialized erotic or pornographic channel"
     },
@@ -11521,7 +11521,7 @@
         "ukr"
       ],
       "evidence": "IPTV-org feeds.languages",
-      "in_source": true,
+      "in_source": false,
       "content_decision": "allow",
       "content_evidence": "No evidence of specialized erotic or pornographic channel"
     },
@@ -11918,7 +11918,7 @@
       "status": "UNKNOWN_CZ",
       "languages": [],
       "evidence": "multilingual: review predominance",
-      "in_source": true,
+      "in_source": false,
       "content_decision": "allow",
       "content_evidence": "No evidence of specialized erotic or pornographic channel"
     },
@@ -11931,7 +11931,7 @@
       "status": "UNKNOWN_CZ",
       "languages": [],
       "evidence": "IPTV-org feeds.languages",
-      "in_source": true,
+      "in_source": false,
       "content_decision": "allow",
       "content_evidence": "No evidence of specialized erotic or pornographic channel"
     },
@@ -11944,7 +11944,7 @@
       "status": "UNKNOWN_CZ",
       "languages": [],
       "evidence": "IPTV-org feeds.languages",
-      "in_source": true,
+      "in_source": false,
       "content_decision": "allow",
       "content_evidence": "No evidence of specialized erotic or pornographic channel"
     },
@@ -11957,7 +11957,7 @@
       "status": "UNKNOWN_CZ",
       "languages": [],
       "evidence": "IPTV-org feeds.languages",
-      "in_source": true,
+      "in_source": false,
       "content_decision": "allow",
       "content_evidence": "No evidence of specialized erotic or pornographic channel"
     },
@@ -12073,7 +12073,7 @@
         "rus"
       ],
       "evidence": "IPTV-org feeds.languages",
-      "in_source": true,
+      "in_source": false,
       "content_decision": "allow",
       "content_evidence": "No evidence of specialized erotic or pornographic channel"
     },
@@ -12103,7 +12103,7 @@
         "rus"
       ],
       "evidence": "IPTV-org feeds.languages",
-      "in_source": true,
+      "in_source": false,
       "content_decision": "allow",
       "content_evidence": "No evidence of specialized erotic or pornographic channel"
     },
@@ -12148,7 +12148,7 @@
         "rus"
       ],
       "evidence": "IPTV-org feeds.languages",
-      "in_source": true,
+      "in_source": false,
       "content_decision": "allow",
       "content_evidence": "No evidence of specialized erotic or pornographic channel"
     },
@@ -12238,7 +12238,7 @@
         "rus"
       ],
       "evidence": "IPTV-org feeds.languages",
-      "in_source": true,
+      "in_source": false,
       "content_decision": "allow",
       "content_evidence": "No evidence of specialized erotic or pornographic channel"
     },
@@ -12313,7 +12313,7 @@
         "rus"
       ],
       "evidence": "IPTV-org feeds.languages",
-      "in_source": true,
+      "in_source": false,
       "content_decision": "allow",
       "content_evidence": "No evidence of specialized erotic or pornographic channel"
     },
@@ -12509,7 +12509,7 @@
         "ukr"
       ],
       "evidence": "IPTV-org feeds.languages",
-      "in_source": true,
+      "in_source": false,
       "content_decision": "allow",
       "content_evidence": "No evidence of specialized erotic or pornographic channel"
     },
@@ -12524,7 +12524,7 @@
         "rus"
       ],
       "evidence": "IPTV-org feeds.languages",
-      "in_source": true,
+      "in_source": false,
       "content_decision": "allow",
       "content_evidence": "No evidence of specialized erotic or pornographic channel"
     },
@@ -12614,7 +12614,7 @@
         "rus"
       ],
       "evidence": "IPTV-org feeds.languages",
-      "in_source": true,
+      "in_source": false,
       "content_decision": "allow",
       "content_evidence": "No evidence of specialized erotic or pornographic channel"
     },
@@ -12657,7 +12657,7 @@
         "ukr"
       ],
       "evidence": "IPTV-org feeds.languages",
-      "in_source": true,
+      "in_source": false,
       "content_decision": "allow",
       "content_evidence": "No evidence of specialized erotic or pornographic channel"
     },
@@ -12672,7 +12672,7 @@
         "rus"
       ],
       "evidence": "IPTV-org feeds.languages",
-      "in_source": true,
+      "in_source": false,
       "content_decision": "allow",
       "content_evidence": "No evidence of specialized erotic or pornographic channel"
     },
@@ -12838,7 +12838,7 @@
         "rus"
       ],
       "evidence": "IPTV-org feeds.languages",
-      "in_source": true,
+      "in_source": false,
       "content_decision": "allow",
       "content_evidence": "No evidence of specialized erotic or pornographic channel"
     },
@@ -12991,25 +12991,1543 @@
       "in_source": true,
       "content_decision": "allow",
       "content_evidence": "No evidence of specialized erotic or pornographic channel"
+    },
+    "7da1c0d27988c392469d00c1f7c7e8feea384eedc2ef06e4498c10c112c0ad6e": {
+      "block": [
+        "#EXTINF:-1 tvg-id=\"VIVARussia.ru@SD\" tvg-logo=\"https://i.imgur.com/OFhQQCD.png\" group-title=\"Music\",VIVA Russia (1080p)",
+        "https://183.giatvcdn.com/ssh101/ssh101/vivarussia/playlist.m3u8"
+      ],
+      "history": [],
+      "status": "UNKNOWN_CZ",
+      "languages": [
+        "rus"
+      ],
+      "evidence": "IPTV-org feeds.languages",
+      "in_source": true,
+      "content_decision": "allow",
+      "content_evidence": "No evidence of specialized erotic or pornographic channel"
+    },
+    "6fddf0870f35cf4f8538d89af8a065bd5a3cd20c9a7fa3068ce17f74e92dced6": {
+      "block": [
+        "#EXTINF:-1 tvg-id=\"2x2.ru@SD\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/2x2_TV_Logo.svg/1920px-2x2_TV_Logo.svg.png\" group-title=\"Entertainment\",2x2 (576p)",
+        "http://176.118.197.101/2x2/index.m3u8"
+      ],
+      "history": [],
+      "status": "UNKNOWN_CZ",
+      "languages": [
+        "rus"
+      ],
+      "evidence": "IPTV-org feeds.languages",
+      "in_source": true,
+      "content_decision": "allow",
+      "content_evidence": "No evidence of specialized erotic or pornographic channel"
+    },
+    "1dcfbcc3eb06f10e8bb3521a8cbf26a1e095ce7b59c818c4ac53f299c151cc8a": {
+      "block": [
+        "#EXTINF:-1 tvg-id=\"black.ru@SD\" tvg-logo=\"https://i.imgur.com/Q4A6ci4.png\" group-title=\"Entertainment\",.black (576p)",
+        "http://116.90.120.149:8000/play/a0s4/index.m3u8"
+      ],
+      "history": [],
+      "status": "UNKNOWN_CZ",
+      "languages": [
+        "rus"
+      ],
+      "evidence": "IPTV-org feeds.languages",
+      "in_source": false,
+      "content_decision": "allow",
+      "content_evidence": "No evidence of specialized erotic or pornographic channel"
+    },
+    "d07b22ca537beb256d82eb728c4a3d37745e3a899700c083031bf4fda3274100": {
+      "block": [
+        "#EXTINF:-1 tvg-id=\"black.ru@HD\" tvg-logo=\"https://i.imgur.com/Q4A6ci4.png\" group-title=\"Entertainment\",.black HD (1080p)",
+        "http://116.90.120.149:8000/play/a0ac/index.m3u8"
+      ],
+      "history": [],
+      "status": "UNKNOWN_CZ",
+      "languages": [
+        "rus"
+      ],
+      "evidence": "IPTV-org feeds.languages",
+      "in_source": false,
+      "content_decision": "allow",
+      "content_evidence": "No evidence of specialized erotic or pornographic channel"
+    },
+    "07c418d9a95bdbcbc9fed0d53d0ef1e292c6e19236b8c66282e3f298d40290cf": {
+      "block": [
+        "#EXTINF:-1 tvg-id=\"scifi.ru@SD\" tvg-logo=\"https://i.imgur.com/nSSUHcg.png\" group-title=\"Science\",.sci-fi (576p)",
+        "http://116.90.120.149:8000/play/a0ao/index.m3u8"
+      ],
+      "history": [],
+      "status": "UNKNOWN_CZ",
+      "languages": [
+        "rus"
+      ],
+      "evidence": "IPTV-org feeds.languages",
+      "in_source": false,
+      "content_decision": "allow",
+      "content_evidence": "No evidence of specialized erotic or pornographic channel"
+    },
+    "26d9cd254780ef8e3beeb77c515af30bd73a9c14e57b1aeb9af1c525c19a201a": {
+      "block": [
+        "#EXTINF:-1 tvg-id=\"Channel5.ru@SD\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/5-tv_logo_%282023%29.svg/960px-5-tv_logo_%282023%29.svg.png\" group-title=\"General\",Channel 5 (Russia) (576p)",
+        "http://31.148.5.241/kanal_5/index.m3u8"
+      ],
+      "history": [],
+      "status": "UNKNOWN_CZ",
+      "languages": [
+        "rus"
+      ],
+      "evidence": "IPTV-org feeds.languages",
+      "in_source": true,
+      "content_decision": "allow",
+      "content_evidence": "No evidence of specialized erotic or pornographic channel"
+    },
+    "17a4c1621190ed4987645f8619721a8ffec6487e5ef628d41067695e8e681fc0": {
+      "block": [
+        "#EXTINF:-1 tvg-id=\"Channel5International.ru@SD\" tvg-logo=\"https://i.imgur.com/8VKc2Ya.png\" http-user-agent=\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36\" group-title=\"General\",Channel 5 International (576i)",
+        "https://cdn4.skygo.mn/live/disk1/Channel_5/HLSv3-FTA/Channel_5.m3u8"
+      ],
+      "history": [],
+      "status": "UNKNOWN_CZ",
+      "languages": [
+        "rus"
+      ],
+      "evidence": "IPTV-org feeds.languages",
+      "in_source": true,
+      "content_decision": "allow",
+      "content_evidence": "No evidence of specialized erotic or pornographic channel"
+    },
+    "eb11e2f30b690ffc6006f95da63f3308766999e7d01485ad948d15f607ddb42e": {
+      "block": [
+        "#EXTINF:-1 tvg-id=\"DaVinci.ru@SD\" tvg-logo=\"https://i.imgur.com/V8AUJP6.png\" group-title=\"Education\",Da Vinci (Russia) (576p)",
+        "http://116.90.120.149:8000/play/a0s6/index.m3u8"
+      ],
+      "history": [],
+      "status": "UNKNOWN_CZ",
+      "languages": [
+        "rus"
+      ],
+      "evidence": "IPTV-org feeds.languages",
+      "in_source": false,
+      "content_decision": "allow",
+      "content_evidence": "No evidence of specialized erotic or pornographic channel"
+    },
+    "bc5e83dca2210541fd72f02af393fecabeff57b256e3372739376103ace5ac19": {
+      "block": [
+        "#EXTINF:-1 tvg-id=\"DomashnieZhivotnye.ru@SD\" tvg-logo=\"https://tv-stream.ru/uploads/D_Zh_ad21d48199.svg\" group-title=\"Lifestyle\",Domashnie Zhivotnye (576p)",
+        "https://fs.uplink.kz/domashnie_zhivotnie/mono.m3u8?token=onlinetv"
+      ],
+      "history": [],
+      "status": "UNKNOWN_CZ",
+      "languages": [
+        "rus"
+      ],
+      "evidence": "IPTV-org feeds.languages",
+      "in_source": true,
+      "content_decision": "allow",
+      "content_evidence": "No evidence of specialized erotic or pornographic channel"
+    },
+    "4751f2d545f704153014cee5dcc39d82f9afc70141013082ea6137ac0f2e1c43": {
+      "block": [
+        "#EXTINF:-1 tvg-id=\"Domashniy.ru@SD\" tvg-logo=\"https://i.imgur.com/WaLwOyt.jpeg\" group-title=\"Lifestyle\",Domashniy (576p)",
+        "http://31.148.5.241/kanal_14/index.m3u8"
+      ],
+      "history": [],
+      "status": "UNKNOWN_CZ",
+      "languages": [
+        "rus"
+      ],
+      "evidence": "IPTV-org feeds.languages",
+      "in_source": true,
+      "content_decision": "allow",
+      "content_evidence": "No evidence of specialized erotic or pornographic channel"
+    },
+    "cc10f237c2bb82ee70636cb5241da2f7fa943615e7213a5faf3883b61400cc25": {
+      "block": [
+        "#EXTINF:-1 tvg-id=\"Kuhnya.ru@SD\" tvg-logo=\"https://cdn2.red-media.ru/wp-content/uploads/2016/08/Kuhnya-mediakit.png\" group-title=\"Cooking\",Kuhnya (576p)",
+        "http://stream.mcquack.net/179/index.m3u8"
+      ],
+      "history": [],
+      "status": "UNKNOWN_CZ",
+      "languages": [
+        "rus"
+      ],
+      "evidence": "IPTV-org feeds.languages",
+      "in_source": true,
+      "content_decision": "allow",
+      "content_evidence": "No evidence of specialized erotic or pornographic channel"
+    },
+    "612ac502426ba040531da5799c167991f200610d3b20c52acc01494756c9820b": {
+      "block": [
+        "#EXTINF:-1 tvg-id=\"MuzykaLive.ru@SD\" tvg-logo=\"https://cdn2.red-media.ru/wp-content/uploads/2016/08/LOGO_MUSIC_LIVE.png\" group-title=\"Music\",Muzyka Live (576p)",
+        "http://stream.mcquack.net/303/index.m3u8"
+      ],
+      "history": [],
+      "status": "UNKNOWN_CZ",
+      "languages": [
+        "rus"
+      ],
+      "evidence": "IPTV-org feeds.languages",
+      "in_source": true,
+      "content_decision": "allow",
+      "content_evidence": "No evidence of specialized erotic or pornographic channel"
+    },
+    "3e0b0ece383a959e461f370d3c0a900b84074907f626524caf6715d1fb4f34ae": {
+      "block": [
+        "#EXTINF:-1 tvg-id=\"OTR.ru@SD\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/9/9c/OTR_2025_logo.svg\" group-title=\"General\",OTR (576p)",
+        "http://31.148.5.241/kanal_9/index.m3u8"
+      ],
+      "history": [],
+      "status": "UNKNOWN_CZ",
+      "languages": [
+        "rus"
+      ],
+      "evidence": "IPTV-org feeds.languages",
+      "in_source": true,
+      "content_decision": "allow",
+      "content_evidence": "No evidence of specialized erotic or pornographic channel"
+    },
+    "3a265c1543d31764cf9042040e2c94f657b586b4633b43f6b27872fa22aba3e6": {
+      "block": [
+        "#EXTINF:-1 tvg-id=\"PeretzInternational.ru@SD\" tvg-logo=\"https://i.imgur.com/Y84p1y6.png\" group-title=\"Entertainment\",Peretz International (576p)",
+        "http://stream.mcquack.net/121/index.m3u8"
+      ],
+      "history": [],
+      "status": "UNKNOWN_CZ",
+      "languages": [
+        "rus"
+      ],
+      "evidence": "IPTV-org feeds.languages",
+      "in_source": true,
+      "content_decision": "allow",
+      "content_evidence": "No evidence of specialized erotic or pornographic channel"
+    },
+    "1f0965289076dfc329922696f7437d289edbcfd5b3a38363eda6cbe0f5058830": {
+      "block": [
+        "#EXTINF:-1 tvg-id=\"Russia1.ru@Plus1\" tvg-logo=\"https://i.imgur.com/Osd2JHL.png\" group-title=\"General\",Russia-1 +1 (1080p)",
+        "https://stream.smotrim.ru/hls2/russia1_plus1/playlist_5.m3u8"
+      ],
+      "history": [],
+      "status": "UNKNOWN_CZ",
+      "languages": [
+        "rus"
+      ],
+      "evidence": "IPTV-org feeds.languages",
+      "in_source": true,
+      "content_decision": "allow",
+      "content_evidence": "No evidence of specialized erotic or pornographic channel"
+    },
+    "9eaabb640e54d41f9c5ef4f3ad8d4d1f844f62a1446213cbd853441f4da24c9e": {
+      "block": [
+        "#EXTINF:-1 tvg-id=\"Russia1.ru@Plus2\" tvg-logo=\"https://i.imgur.com/Osd2JHL.png\" group-title=\"General\",Russia-1 +2 (1080p)",
+        "https://stream.smotrim.ru/hls2/russia1_plus2/playlist_5.m3u8"
+      ],
+      "history": [],
+      "status": "UNKNOWN_CZ",
+      "languages": [
+        "rus"
+      ],
+      "evidence": "IPTV-org feeds.languages",
+      "in_source": true,
+      "content_decision": "allow",
+      "content_evidence": "No evidence of specialized erotic or pornographic channel"
+    },
+    "fae8f241bb2289a1ac7dabddf494dcf7a9b776a80072e4f9a11fa286083e02f4": {
+      "block": [
+        "#EXTINF:-1 tvg-id=\"Russia1.ru@Plus3\" tvg-logo=\"https://i.imgur.com/Osd2JHL.png\" group-title=\"General\",Russia-1 +3 (1080p)",
+        "https://stream.smotrim.ru/hls2/russia1_plus3/playlist_5.m3u8"
+      ],
+      "history": [],
+      "status": "UNKNOWN_CZ",
+      "languages": [
+        "rus"
+      ],
+      "evidence": "IPTV-org feeds.languages",
+      "in_source": true,
+      "content_decision": "allow",
+      "content_evidence": "No evidence of specialized erotic or pornographic channel"
+    },
+    "2b5927d0d16554da0a5dafc1e4cea58b7b8124c69097c0044f658018ab775d77": {
+      "block": [
+        "#EXTINF:-1 tvg-id=\"Russia1.ru@Plus4\" tvg-logo=\"https://i.imgur.com/Osd2JHL.png\" group-title=\"General\",Russia-1 +4 (1080p)",
+        "https://stream.smotrim.ru/hls2/russia1_plus4/playlist_5.m3u8"
+      ],
+      "history": [],
+      "status": "UNKNOWN_CZ",
+      "languages": [
+        "rus"
+      ],
+      "evidence": "IPTV-org feeds.languages",
+      "in_source": true,
+      "content_decision": "allow",
+      "content_evidence": "No evidence of specialized erotic or pornographic channel"
+    },
+    "2c0f3fae748d8636d6bc519be370c0dc583facb54b75070f69a4062f1ecc9cad": {
+      "block": [
+        "#EXTINF:-1 tvg-id=\"Russia1.ru@Plus5\" tvg-logo=\"https://i.imgur.com/Osd2JHL.png\" group-title=\"General\",Russia-1 +5 (1080p)",
+        "https://stream.smotrim.ru/hls2/russia1_plus5/playlist_5.m3u8"
+      ],
+      "history": [],
+      "status": "UNKNOWN_CZ",
+      "languages": [
+        "rus"
+      ],
+      "evidence": "IPTV-org feeds.languages",
+      "in_source": true,
+      "content_decision": "allow",
+      "content_evidence": "No evidence of specialized erotic or pornographic channel"
+    },
+    "a39000cee93ff31590686513db04e6426fc6d2541cd8cbec8a057956bec849f6": {
+      "block": [
+        "#EXTINF:-1 tvg-id=\"Russia1.ru@Plus6\" tvg-logo=\"https://i.imgur.com/Osd2JHL.png\" group-title=\"General\",Russia-1 +6 (1080p)",
+        "https://stream.smotrim.ru/hls2/russia1_plus6/playlist_5.m3u8"
+      ],
+      "history": [],
+      "status": "UNKNOWN_CZ",
+      "languages": [
+        "rus"
+      ],
+      "evidence": "IPTV-org feeds.languages",
+      "in_source": true,
+      "content_decision": "allow",
+      "content_evidence": "No evidence of specialized erotic or pornographic channel"
+    },
+    "ef196935504d3ddff75709037a020524d6067d40fc8366d7b7e2bcd1fa800dfe": {
+      "block": [
+        "#EXTINF:-1 tvg-id=\"Russia1.ru@Plus7\" tvg-logo=\"https://i.imgur.com/Osd2JHL.png\" group-title=\"General\",Russia-1 +7 (1080p)",
+        "https://stream.smotrim.ru/hls2/russia1_plus7/playlist_5.m3u8"
+      ],
+      "history": [],
+      "status": "UNKNOWN_CZ",
+      "languages": [
+        "rus"
+      ],
+      "evidence": "IPTV-org feeds.languages",
+      "in_source": true,
+      "content_decision": "allow",
+      "content_evidence": "No evidence of specialized erotic or pornographic channel"
+    },
+    "4761546ec1c63f68559e36d013f1e38a03ffcea99998c093301ae268dbf27a07": {
+      "block": [
+        "#EXTINF:-1 tvg-id=\"Russia1.ru@Plus8\" tvg-logo=\"https://i.imgur.com/Osd2JHL.png\" group-title=\"General\",Russia-1 +8 (1080p)",
+        "https://stream.smotrim.ru/hls2/russia1_plus8/playlist_5.m3u8"
+      ],
+      "history": [],
+      "status": "UNKNOWN_CZ",
+      "languages": [
+        "rus"
+      ],
+      "evidence": "IPTV-org feeds.languages",
+      "in_source": true,
+      "content_decision": "allow",
+      "content_evidence": "No evidence of specialized erotic or pornographic channel"
+    },
+    "74e6d809e83779beb36f23295df52c61972538bfdce0de7dfb2c72f7a2566fb7": {
+      "block": [
+        "#EXTINF:-1 tvg-id=\"Russia1.ru@Plus9\" tvg-logo=\"https://i.imgur.com/Osd2JHL.png\" group-title=\"General\",Russia-1 +9 (1080p)",
+        "https://stream.smotrim.ru/hls2/russia1_plus9/playlist_5.m3u8"
+      ],
+      "history": [],
+      "status": "UNKNOWN_CZ",
+      "languages": [
+        "rus"
+      ],
+      "evidence": "IPTV-org feeds.languages",
+      "in_source": true,
+      "content_decision": "allow",
+      "content_evidence": "No evidence of specialized erotic or pornographic channel"
+    },
+    "0dd3fea20e2114f05b23a3368ef4f423ae073013d254940f6688eeb03a56997f": {
+      "block": [
+        "#EXTINF:-1 tvg-id=\"Russia1.ru@HD\" tvg-logo=\"https://i.imgur.com/Osd2JHL.png\" group-title=\"General\",Russia-1 HD (1080p)",
+        "http://176.118.197.101/RossiyaHD/index.m3u8"
+      ],
+      "history": [],
+      "status": "UNKNOWN_CZ",
+      "languages": [
+        "rus"
+      ],
+      "evidence": "IPTV-org feeds.languages",
+      "in_source": true,
+      "content_decision": "allow",
+      "content_evidence": "No evidence of specialized erotic or pornographic channel"
+    },
+    "f4c6a1696013617560a0e4a788cabc69fc44688f1d7377b22682e9e937a9ea4f": {
+      "block": [
+        "#EXTINF:-1 tvg-id=\"Russia24.ru@SD\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Rossiya-24_Logo.svg/960px-Rossiya-24_Logo.svg.png\" group-title=\"News\",Russia-24 (1080p)",
+        "https://stream.smotrim.ru/hls2/givc11_hd/playlist_4.m3u8"
+      ],
+      "history": [],
+      "status": "UNKNOWN_CZ",
+      "languages": [
+        "rus"
+      ],
+      "evidence": "IPTV-org feeds.languages",
+      "in_source": false,
+      "content_decision": "allow",
+      "content_evidence": "No evidence of specialized erotic or pornographic channel"
+    },
+    "71ad972dadb3e65434973778f2095f62bacd76c7a1577f1aa7a2945171922a0c": {
+      "block": [
+        "#EXTINF:-1 tvg-id=\"RussiaK.ru@Plus2\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Russia-Cultura.svg/960px-Russia-Cultura.svg.png\" group-title=\"Culture\",Russia-K +2 (1080p)",
+        "https://stream.smotrim.ru/hls2/russia_k_dubl1/playlist_5.m3u8"
+      ],
+      "history": [],
+      "status": "UNKNOWN_CZ",
+      "languages": [
+        "rus"
+      ],
+      "evidence": "IPTV-org feeds.languages",
+      "in_source": true,
+      "content_decision": "allow",
+      "content_evidence": "No evidence of specialized erotic or pornographic channel"
+    },
+    "c6c2a5e8839fb3260ce86967befa5c717d94850ad386e7a0c535a313a7fd1325": {
+      "block": [
+        "#EXTINF:-1 tvg-id=\"RussiaK.ru@Plus4\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Russia-Cultura.svg/960px-Russia-Cultura.svg.png\" group-title=\"Culture\",Russia-K +4 (1080p)",
+        "https://stream.smotrim.ru/hls2/russia_k_dubl2/playlist_5.m3u8"
+      ],
+      "history": [],
+      "status": "UNKNOWN_CZ",
+      "languages": [
+        "rus"
+      ],
+      "evidence": "IPTV-org feeds.languages",
+      "in_source": true,
+      "content_decision": "allow",
+      "content_evidence": "No evidence of specialized erotic or pornographic channel"
+    },
+    "edc2daf56fd0c63d5774895dd754d2072dd9346d39ebadc4d6d4e96174f38d14": {
+      "block": [
+        "#EXTINF:-1 tvg-id=\"RussiaK.ru@Plus7\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Russia-Cultura.svg/960px-Russia-Cultura.svg.png\" group-title=\"Culture\",Russia-K +7 (1080p)",
+        "https://stream.smotrim.ru/hls2/russia_k_dubl3/playlist_5.m3u8"
+      ],
+      "history": [],
+      "status": "UNKNOWN_CZ",
+      "languages": [
+        "rus"
+      ],
+      "evidence": "IPTV-org feeds.languages",
+      "in_source": true,
+      "content_decision": "allow",
+      "content_evidence": "No evidence of specialized erotic or pornographic channel"
+    },
+    "fa4d0a820b505cc7be0582fd0cec44c0939832b310ce21af83ac7070235b272a": {
+      "block": [
+        "#EXTINF:-1 tvg-id=\"RusskiyIllusion.ru@SD\" tvg-logo=\"https://tv-stream.ru/uploads/LOGO_RUSSKI_ILLUSION_300x300_belaya_nadpis_bf458e37d8.svg\" group-title=\"Movies\",Russkiy Illusion (576p)",
+        "http://31.148.48.15/Russkiy_illusion/index.m3u8"
+      ],
+      "history": [],
+      "status": "UNKNOWN_CZ",
+      "languages": [
+        "rus"
+      ],
+      "evidence": "IPTV-org feeds.languages",
+      "in_source": true,
+      "content_decision": "allow",
+      "content_evidence": "No evidence of specialized erotic or pornographic channel"
+    },
+    "aa8b2c940ef73691963005d77ce383a4b863aba0847f2de2a48ddbf4d60ff070": {
+      "block": [
+        "#EXTINF:-1 tvg-id=\"Smotrim100Detskoe.ru@SD\" tvg-logo=\"https://i.imgur.com/1hsNeTa.png\" group-title=\"Kids\",Smotrim 100% Detskoe (1080p)",
+        "https://stream.smotrim.ru/hls2/fasttv05/playlist_3.m3u8"
+      ],
+      "history": [],
+      "status": "UNKNOWN_CZ",
+      "languages": [
+        "rus"
+      ],
+      "evidence": "IPTV-org feeds.languages",
+      "in_source": true,
+      "content_decision": "allow",
+      "content_evidence": "No evidence of specialized erotic or pornographic channel"
+    },
+    "a89dbb588dc145f1bb02b6cbfdc5f4ae8046083fef805db1cdbd68a0725c195c": {
+      "block": [
+        "#EXTINF:-1 tvg-id=\"Smotrim100Fakty.ru@SD\" tvg-logo=\"https://i.imgur.com/dB3cJzO.png\" group-title=\"Documentary\",Smotrim 100% Fakty (1080p)",
+        "https://stream.smotrim.ru/hls2/fasttv06/playlist_3.m3u8"
+      ],
+      "history": [],
+      "status": "UNKNOWN_CZ",
+      "languages": [
+        "rus"
+      ],
+      "evidence": "IPTV-org feeds.languages",
+      "in_source": true,
+      "content_decision": "allow",
+      "content_evidence": "No evidence of specialized erotic or pornographic channel"
+    },
+    "1bb23b214e8c3da552d9816ae244fc827ed3a8c505dd172b50a2aefa9f15f7d8": {
+      "block": [
+        "#EXTINF:-1 tvg-id=\"Smotrim100Gorkogo.ru@SD\" tvg-logo=\"https://cdn.smotrim.ru/photobank/prod/large/156/126/56.jpg\" group-title=\"Movies\",Smotrim 100% Gorkogo (1080p)",
+        "https://stream.smotrim.ru/hls2/fasttv07/playlist_3.m3u8"
+      ],
+      "history": [],
+      "status": "UNKNOWN_CZ",
+      "languages": [
+        "rus"
+      ],
+      "evidence": "IPTV-org feeds.languages",
+      "in_source": true,
+      "content_decision": "allow",
+      "content_evidence": "No evidence of specialized erotic or pornographic channel"
+    },
+    "a11bd70307ab71272c69e6a65c34592563b7563a6dcf0d27e6fdef4656f66184": {
+      "block": [
+        "#EXTINF:-1 tvg-id=\"Smotrim100k1.ru@SD\" tvg-logo=\"https://cdn.smotrim.ru/photobank/prod/large/156/263/96.jpg\" group-title=\"Entertainment\",Smotrim 100% k 1 (1080p)",
+        "https://stream.smotrim.ru/hls2/fasttv08/playlist_2.m3u8"
+      ],
+      "history": [],
+      "status": "UNKNOWN_CZ",
+      "languages": [
+        "rus"
+      ],
+      "evidence": "IPTV-org feeds.languages",
+      "in_source": true,
+      "content_decision": "allow",
+      "content_evidence": "No evidence of specialized erotic or pornographic channel"
+    },
+    "51091afebab48c67927fdb6621de7bf1d2dd2dce81a40dd214fb02e7d64dcdc8": {
+      "block": [
+        "#EXTINF:-1 tvg-id=\"Smotrim100Klassika.ru@SD\" tvg-logo=\"https://i.imgur.com/aASNpKq.png\" group-title=\"Classic;Movies\",Smotrim 100% Klassika (1080p)",
+        "https://stream.smotrim.ru/hls2/fasttv03/playlist_3.m3u8"
+      ],
+      "history": [],
+      "status": "UNKNOWN_CZ",
+      "languages": [
+        "rus"
+      ],
+      "evidence": "IPTV-org feeds.languages",
+      "in_source": true,
+      "content_decision": "allow",
+      "content_evidence": "No evidence of specialized erotic or pornographic channel"
+    },
+    "6c483dfa2f37a7f016045fa00e4315cd336741318b440034a4fd989027bca4c7": {
+      "block": [
+        "#EXTINF:-1 tvg-id=\"Smotrim100Lyubov.ru@SD\" tvg-logo=\"https://i.imgur.com/4EFh0nu.png\" group-title=\"Series\",Smotrim 100% Lyubov (1080p)",
+        "https://stream.smotrim.ru/hls2/fasttv01/playlist_2.m3u8"
+      ],
+      "history": [],
+      "status": "UNKNOWN_CZ",
+      "languages": [
+        "rus"
+      ],
+      "evidence": "IPTV-org feeds.languages",
+      "in_source": true,
+      "content_decision": "allow",
+      "content_evidence": "No evidence of specialized erotic or pornographic channel"
+    },
+    "3b23d119ed73db0f273f3abd47cab470d5d91623febbb52ffeaa3263ffb59b50": {
+      "block": [
+        "#EXTINF:-1 tvg-id=\"Smotrim100Muzhskoe.ru@SD\" tvg-logo=\"https://i.imgur.com/UY3fjYU.png\" group-title=\"Series\",Smotrim 100% Muzhskoe (1080p)",
+        "https://stream.smotrim.ru/hls2/fasttv02/playlist_3.m3u8"
+      ],
+      "history": [],
+      "status": "UNKNOWN_CZ",
+      "languages": [
+        "rus"
+      ],
+      "evidence": "IPTV-org feeds.languages",
+      "in_source": true,
+      "content_decision": "allow",
+      "content_evidence": "No evidence of specialized erotic or pornographic channel"
+    },
+    "43b21f47e38dde16836abaa52d1a977b3824ae9e5e3f503967f020256422a677": {
+      "block": [
+        "#EXTINF:-1 tvg-id=\"Smotrim100Prazdnik.ru@SD\" tvg-logo=\"https://i.imgur.com/NEcqFse.png\" group-title=\"Entertainment\",Smotrim 100% Prazdnik (1080p)",
+        "https://stream.smotrim.ru/hls2/fasttv04/playlist_3.m3u8"
+      ],
+      "history": [],
+      "status": "UNKNOWN_CZ",
+      "languages": [
+        "rus"
+      ],
+      "evidence": "IPTV-org feeds.languages",
+      "in_source": true,
+      "content_decision": "allow",
+      "content_evidence": "No evidence of specialized erotic or pornographic channel"
+    },
+    "d22e017b0773a4ac341dce1e0b5b238c3ae25b4f0c17e2004acef1e5e6f23efe": {
+      "block": [
+        "#EXTINF:-1 tvg-id=\"Smotrim100Talkshow.ru@SD\" tvg-logo=\"https://cdn.smotrim.ru/photobank/prod/large/156/431/82.jpg\" group-title=\"Entertainment\",Smotrim 100% Talk-show (1080p)",
+        "https://stream.smotrim.ru/hls2/fasttv09/playlist_3.m3u8"
+      ],
+      "history": [],
+      "status": "UNKNOWN_CZ",
+      "languages": [
+        "rus"
+      ],
+      "evidence": "IPTV-org feeds.languages",
+      "in_source": true,
+      "content_decision": "allow",
+      "content_evidence": "No evidence of specialized erotic or pornographic channel"
+    },
+    "e159f0add4382afa1c8a539d991a27b07676e3d9801999c5ccab444e5e30454a": {
+      "block": [
+        "#EXTINF:-1 tvg-id=\"STSLove.ru@SD\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/ru/thumb/3/35/%D0%A1%D0%A2%D0%A1_Love_%282023%29.svg/1920px-%D0%A1%D0%A2%D0%A1_Love_%282023%29.svg.png\" http-user-agent=\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36\" group-title=\"Family\",STS Love (576i)",
+        "https://cdn4.skygo.mn/live/disk1/Fashion_TV/HLSv3-FTA/Fashion_TV.m3u8"
+      ],
+      "history": [],
+      "status": "UNKNOWN_CZ",
+      "languages": [
+        "rus"
+      ],
+      "evidence": "IPTV-org feeds.languages",
+      "in_source": true,
+      "content_decision": "allow",
+      "content_evidence": "No evidence of specialized erotic or pornographic channel"
+    },
+    "009b3bef60fb18f7b5d861b5943adba808d60e716c573f7ad62d9f57e9ce7cec": {
+      "block": [
+        "#EXTINF:-1 tvg-id=\"STV.by@SD\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/%D0%9B%D0%BE%D0%B3%D0%BE%D1%82%D0%B8%D0%BF_%D0%B1%D0%B5%D0%BB%D0%BE%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%BE%D0%B3%D0%BE_%D1%82%D0%B5%D0%BB%D0%B5%D0%BA%D0%B0%D0%BD%D0%B0%D0%BB%D0%B0_%C2%AB%D0%A1%D0%A2%D0%92%C2%BB.svg/960px-%D0%9B%D0%BE%D0%B3%D0%BE%D1%82%D0%B8%D0%BF_%D0%B1%D0%B5%D0%BB%D0%BE%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%BE%D0%B3%D0%BE_%D1%82%D0%B5%D0%BB%D0%B5%D0%BA%D0%B0%D0%BD%D0%B0%D0%BB%D0%B0_%C2%AB%D0%A1%D0%A2%D0%92%C2%BB.svg.png\" group-title=\"General\",STV (Belarus) (720p)",
+        "http://86.57.147.236/HLS/ctvby/playlist.m3u8"
+      ],
+      "history": [],
+      "status": "UNKNOWN_CZ",
+      "languages": [
+        "rus"
+      ],
+      "evidence": "IPTV-org feeds.languages",
+      "in_source": true,
+      "content_decision": "allow",
+      "content_evidence": "No evidence of specialized erotic or pornographic channel"
+    },
+    "305573b6bb850b1cdf85b8de1d61ec7b5593bbe33d25dfcaa1466dae743f8d8c": {
+      "block": [
+        "#EXTINF:-1 tvg-id=\"TNT4International.ru@SD\" tvg-logo=\"https://i.imgur.com/gBokU5i.png\" group-title=\"Entertainment\",TNT4 International (576p)",
+        "https://fs.uplink.kz/tnt4/mono.m3u8?token=onlinetv"
+      ],
+      "history": [],
+      "status": "UNKNOWN_CZ",
+      "languages": [
+        "rus"
+      ],
+      "evidence": "IPTV-org feeds.languages",
+      "in_source": true,
+      "content_decision": "allow",
+      "content_evidence": "No evidence of specialized erotic or pornographic channel"
+    },
+    "10786fae2e3021550c2c2b51e3772d1cf7a61e55e67832b7daca6080178792bc": {
+      "block": [
+        "#EXTINF:-1 tvg-id=\"Tochkaotryva.ru@SD\" tvg-logo=\"https://tv-stream.ru/uploads/Tochka_Otriva_c4317672bb.svg\" group-title=\"Undefined\",Tochka otryva (576p)",
+        "https://fs.uplink.kz/tochka_otriva/mono.m3u8?token=onlinetv"
+      ],
+      "history": [],
+      "status": "UNKNOWN_CZ",
+      "languages": [
+        "rus"
+      ],
+      "evidence": "IPTV-org feeds.languages",
+      "in_source": true,
+      "content_decision": "allow",
+      "content_evidence": "No evidence of specialized erotic or pornographic channel"
+    },
+    "75259a465bfad8c64012f477330a390149b6d1a0367dac86634b8bbcceb74727": {
+      "block": [
+        "#EXTINF:-1 tvg-id=\"UNIANSerial.ua@SD\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/%D0%A3%D0%9D%D0%86%D0%90%D0%9D._%D0%A1%D0%B5%D1%80%D1%96%D0%B0%D0%BB.svg/1920px-%D0%A3%D0%9D%D0%86%D0%90%D0%9D._%D0%A1%D0%B5%D1%80%D1%96%D0%B0%D0%BB.svg.png\" http-user-agent=\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36\" group-title=\"General\",UNIAN Serial (1080p)",
+        "http://stream.mcquack.net/341/index.m3u8"
+      ],
+      "history": [],
+      "status": "UNKNOWN_CZ",
+      "languages": [
+        "ukr"
+      ],
+      "evidence": "IPTV-org feeds.languages",
+      "in_source": true,
+      "content_decision": "allow",
+      "content_evidence": "No evidence of specialized erotic or pornographic channel"
+    },
+    "103114270a0ccaa49c1e7ef8726436eace8d471b3eb2ddbd64f7df3887e25811": {
+      "block": [
+        "#EXTINF:-1 tvg-id=\"Zhivi.ru@SD\" tvg-logo=\"https://cdn2.red-media.ru/wp-content/uploads/2019/12/jivi(1).png\" group-title=\"Lifestyle\",Zhivi! (1080p)",
+        "http://31.148.48.15/Zhivi/index.m3u8"
+      ],
+      "history": [],
+      "status": "UNKNOWN_CZ",
+      "languages": [
+        "rus"
+      ],
+      "evidence": "IPTV-org feeds.languages",
+      "in_source": true,
+      "content_decision": "allow",
+      "content_evidence": "No evidence of specialized erotic or pornographic channel"
+    },
+    "907efd633976099e515e0f0fa43e5a45be5a0ee036b0ebe276f777d53ab8e82f": {
+      "block": [
+        "#EXTINF:-1 tvg-id=\"Zoom.ua@SD\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/5/5c/ZoomUA_%282025%29.png\" http-user-agent=\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36\" group-title=\"Entertainment\",Zoom (Ukraine) (1080p)",
+        "http://stream.mcquack.net/327/index.m3u8"
+      ],
+      "history": [],
+      "status": "UNKNOWN_CZ",
+      "languages": [
+        "ukr"
+      ],
+      "evidence": "IPTV-org feeds.languages",
+      "in_source": true,
+      "content_decision": "allow",
+      "content_evidence": "No evidence of specialized erotic or pornographic channel"
+    },
+    "7e62a07d71055fc19cd1e68d02b0fa304acd6aaf3431a08b3d178b8475a6ebea": {
+      "block": [
+        "#EXTINF:-1 tvg-id=\"Zoopark.ru@SD\" tvg-logo=\"https://tv-stream.ru/uploads/Zoopark_300h300_zelenyj_vert_0f85755619.svg\" group-title=\"Undefined\",Zoopark (576p)",
+        "https://fs.uplink.kz/zoopark/mono.m3u8?token=onlinetv"
+      ],
+      "history": [],
+      "status": "UNKNOWN_CZ",
+      "languages": [
+        "rus"
+      ],
+      "evidence": "IPTV-org feeds.languages",
+      "in_source": true,
+      "content_decision": "allow",
+      "content_evidence": "No evidence of specialized erotic or pornographic channel"
+    },
+    "92ea59a418f80f2398d853d0357add3201a212fada8cdb7867b8b6297ebaf53f": {
+      "block": [
+        "#EXTINF:-1 tvg-id=\"DaVinci.ru@SD\" tvg-logo=\"https://i.imgur.com/V8AUJP6.png\" group-title=\"Education\",Da Vinci (576p)",
+        "http://116.90.120.149:8000/play/a0s6/index.m3u8"
+      ],
+      "history": [],
+      "status": "UNKNOWN_CZ",
+      "languages": [
+        "rus"
+      ],
+      "evidence": "IPTV-org feeds.languages",
+      "in_source": false,
+      "content_decision": "allow",
+      "content_evidence": "No evidence of specialized erotic or pornographic channel"
+    },
+    "af31925d113ee3f14a9b3a9f7208c6bf095343fdc4c262356e484ad3248266b2": {
+      "block": [
+        "#EXTINF:-1 tvg-id=\"AbazaTV.ru@SD\" tvg-logo=\"https://i.imgur.com/7Jo7UAf.png\" group-title=\"General\",Abaza TV",
+        "https://public.apsny.camera/tv_abaza_tv_to_site/index.m3u8"
+      ],
+      "history": [],
+      "status": "UNKNOWN_CZ",
+      "languages": [
+        "rus"
+      ],
+      "evidence": "IPTV-org feeds.languages",
+      "in_source": false,
+      "content_decision": "allow",
+      "content_evidence": "No evidence of specialized erotic or pornographic channel"
+    },
+    "a1e36f6e97ef189b9e2de31bea53e0f72386c2bee2b137ed4e6a9e101fd86aa5": {
+      "block": [
+        "#EXTINF:-1 tvg-id=\"CGTNRussian.cn@SD\" tvg-logo=\"https://i.imgur.com/nDWkCmL.png\" group-title=\"News\",CGTN Russian (576p)",
+        "https://news.cgtn.com/resource/live/russian/cgtn-r.m3u8"
+      ],
+      "history": [],
+      "status": "UNKNOWN_CZ",
+      "languages": [
+        "rus"
+      ],
+      "evidence": "IPTV-org feeds.languages",
+      "in_source": false,
+      "content_decision": "allow",
+      "content_evidence": "No evidence of specialized erotic or pornographic channel"
+    },
+    "1359623a3e095fa9f2fbe72023d4e140fb57f3a065ff318028bcff62603726ff": {
+      "block": [
+        "#EXTINF:-1 tvg-id=\"360News.ru@SD\" tvg-logo=\"https://i.imgur.com/YXDeX8q.png\" group-title=\"News\",360° News (1080p)",
+        "https://edge-tv-ll.facecast.io/evacoder_hls_hi/UBZfFgtKB1JwTwoDERNQVGGs/index.m3u8"
+      ],
+      "history": [],
+      "status": "UNKNOWN_CZ",
+      "languages": [
+        "rus"
+      ],
+      "evidence": "IPTV-org feeds.languages",
+      "in_source": true,
+      "content_decision": "allow",
+      "content_evidence": "No evidence of specialized erotic or pornographic channel"
+    },
+    "da0f8eeabd399e6233bf369f59414553dedd8b999548843715eb5fa0d81876cc": {
+      "block": [
+        "#EXTINF:-1 tvg-id=\"AutoPlus.ru@SD\" tvg-logo=\"https://i.imgur.com/sVc8cFt.png\" group-title=\"Auto\",Auto Plus (1080p)",
+        "https://stream8.cinerama.uz/1036/tracks-v1a1/mono.m3u8"
+      ],
+      "history": [],
+      "status": "UNKNOWN_CZ",
+      "languages": [
+        "rus"
+      ],
+      "evidence": "IPTV-org feeds.languages",
+      "in_source": true,
+      "content_decision": "allow",
+      "content_evidence": "No evidence of specialized erotic or pornographic channel"
+    },
+    "9ddc3cae55507743e3856d5a3d9a4909d74b82e3007b3ec988d8b51872c037a3": {
+      "block": [
+        "#EXTINF:-1 tvg-id=\"BST.ru@SD\" tvg-logo=\"https://i.imgur.com/IDotHmQ.png\" group-title=\"Undefined\",BST (1080p)",
+        "http://bst.bratsk.ru/hls/bst2/index.m3u8"
+      ],
+      "history": [],
+      "status": "UNKNOWN_CZ",
+      "languages": [
+        "rus"
+      ],
+      "evidence": "IPTV-org feeds.languages",
+      "in_source": true,
+      "content_decision": "allow",
+      "content_evidence": "No evidence of specialized erotic or pornographic channel"
+    },
+    "0d91db2f310065885541013595cbb9e6b1f00f87119216ed6101a93d33e486b7": {
+      "block": [
+        "#EXTINF:-1 tvg-id=\"CGTNRussian.cn@SD\" tvg-logo=\"https://i.imgur.com/nDWkCmL.png\" group-title=\"News\",CGTN Russian (1080p)",
+        "https://russian-liveali.cgtn.com/hls/LSvexABhNipibK5KRuUkvHZ7220802LSTeze9o8tdFXMHsb1VosgoT220802cd/playlist.m3u8"
+      ],
+      "history": [],
+      "status": "UNKNOWN_CZ",
+      "languages": [
+        "rus"
+      ],
+      "evidence": "IPTV-org feeds.languages",
+      "in_source": true,
+      "content_decision": "allow",
+      "content_evidence": "No evidence of specialized erotic or pornographic channel"
+    },
+    "bfbd013b7009c6f0b7adab2ed787d7c362660de593905b92f7c1914df562d5f0": {
+      "block": [
+        "#EXTINF:-1 tvg-id=\"Channel4.ru@SD\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/0/00/Channel4_logo.jpg\" group-title=\"General\",Channel 4 (Russia) (1080p)",
+        "https://river-3-370.rtbcdn.ru/stream/genetta-316.m9.rutube.ru/60Ro5OWl7WWOswbVMQlqFw/1795975765/c6f66b644424c117f41e48062719ceed/576p_stream.m3u8"
+      ],
+      "history": [],
+      "status": "UNKNOWN_CZ",
+      "languages": [
+        "rus"
+      ],
+      "evidence": "IPTV-org feeds.languages",
+      "in_source": true,
+      "content_decision": "allow",
+      "content_evidence": "No evidence of specialized erotic or pornographic channel"
+    },
+    "e0ba0a47490d0c7802c9ee81195ff2031972be3f10a076e5d80788b8fb99d851": {
+      "block": [
+        "#EXTINF:-1 tvg-id=\"Cinema.ru@SD\" tvg-logo=\"https://i.imgur.com/b5e9qUA.png\" group-title=\"Movies\",Cinema (Russia) (1080p)",
+        "https://stream8.cinerama.uz/1227/tracks-v1a1/mono.m3u8"
+      ],
+      "history": [],
+      "status": "UNKNOWN_CZ",
+      "languages": [
+        "rus"
+      ],
+      "evidence": "IPTV-org feeds.languages",
+      "in_source": true,
+      "content_decision": "allow",
+      "content_evidence": "No evidence of specialized erotic or pornographic channel"
+    },
+    "22c5a3a982cd60112d9504170040d3a448d5c5e25aae5aa6e974da4cf3c0cc70": {
+      "block": [
+        "#EXTINF:-1 tvg-id=\"Crimea24.ru@SD\" tvg-logo=\"https://i.imgur.com/k4C0uvp.png\" group-title=\"News\",Crimea 24 (576p)",
+        "https://streaming.televizor-24-tochka.ru/live/28.m3u8"
+      ],
+      "history": [],
+      "status": "UNKNOWN_CZ",
+      "languages": [
+        "rus"
+      ],
+      "evidence": "IPTV-org feeds.languages",
+      "in_source": true,
+      "content_decision": "allow",
+      "content_evidence": "No evidence of specialized erotic or pornographic channel"
+    },
+    "871fdeb5a6faa0b4a0b33e16395b593bd309a3fdfba7bc481731c1c90b3a0a67": {
+      "block": [
+        "#EXTINF:-1 tvg-id=\"DaVinci.ru@SD\" tvg-logo=\"https://i.imgur.com/V8AUJP6.png\" group-title=\"Education\",Da Vinci (1080p)",
+        "https://stream8.cinerama.uz/1231/tracks-v1a1/mono.m3u8"
+      ],
+      "history": [],
+      "status": "UNKNOWN_CZ",
+      "languages": [
+        "rus"
+      ],
+      "evidence": "IPTV-org feeds.languages",
+      "in_source": true,
+      "content_decision": "allow",
+      "content_evidence": "No evidence of specialized erotic or pornographic channel"
+    },
+    "5b3f6ebcc17af10596a7b21bf5eda2469f1bd2f8bc669e405cb89500f4b5dbb6": {
+      "block": [
+        "#EXTINF:-1 tvg-id=\"Domkino.ru@SD\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/%D0%9B%D0%BE%D0%B3%D0%BE%D1%82%D0%B8%D0%BF_%D0%BA%D0%B0%D0%BD%D0%B0%D0%BB%D0%B0_%D0%94%D0%BE%D0%BC_%D0%9A%D0%B8%D0%BD%D0%BE.png/960px-%D0%9B%D0%BE%D0%B3%D0%BE%D1%82%D0%B8%D0%BF_%D0%BA%D0%B0%D0%BD%D0%B0%D0%BB%D0%B0_%D0%94%D0%BE%D0%BC_%D0%9A%D0%B8%D0%BD%D0%BE.png\" group-title=\"Movies\",Dom kino (1080p)",
+        "https://stream8.cinerama.uz/1054/tracks-v1a1/mono.m3u8"
+      ],
+      "history": [],
+      "status": "UNKNOWN_CZ",
+      "languages": [
+        "rus"
+      ],
+      "evidence": "IPTV-org feeds.languages",
+      "in_source": true,
+      "content_decision": "allow",
+      "content_evidence": "No evidence of specialized erotic or pornographic channel"
+    },
+    "bbc46f240aa2935bc6ff3752b4525c99e8a40fd79b4e564c483cdcd86c4fad5d": {
+      "block": [
+        "#EXTINF:-1 tvg-id=\"Dorama.ru@SD\" tvg-logo=\"https://i.imgur.com/ZH5LuXU.png\" group-title=\"Movies\",Dorama (1080p)",
+        "https://stream8.cinerama.uz/1273/tracks-v1a1/mono.m3u8"
+      ],
+      "history": [],
+      "status": "UNKNOWN_CZ",
+      "languages": [
+        "rus"
+      ],
+      "evidence": "IPTV-org feeds.languages",
+      "in_source": true,
+      "content_decision": "allow",
+      "content_evidence": "No evidence of specialized erotic or pornographic channel"
+    },
+    "d8d2d26455881f56f207bf08457c452adc9834f49d1b07034f19075c28e45cb4": {
+      "block": [
+        "#EXTINF:-1 tvg-id=\"EuronewsRussian.fr@SD\" tvg-logo=\"https://i.imgur.com/8t9mdg9.png\" group-title=\"News\",Euronews Russian (1080p)",
+        "https://stream8.cinerama.uz/1024/tracks-v1a1/mono.m3u8"
+      ],
+      "history": [],
+      "status": "UNKNOWN_CZ",
+      "languages": [
+        "rus"
+      ],
+      "evidence": "IPTV-org feeds.languages",
+      "in_source": true,
+      "content_decision": "allow",
+      "content_evidence": "No evidence of specialized erotic or pornographic channel"
+    },
+    "e2a5f1cce75bf21903a68b3cdeb4a419c24bc64b337696abbeacda315335be62": {
+      "block": [
+        "#EXTINF:-1 tvg-id=\"Groznyj.ru@SD\" tvg-logo=\"https://i.imgur.com/yrN0Vl6.png\" group-title=\"General\",Groznyj (720p)",
+        "https://balancer.facecast.io/evacoder_hls_hi/UUMLQVAYVlZyH14GRENQVV0G/2/720-3.m3u8"
+      ],
+      "history": [],
+      "status": "UNKNOWN_CZ",
+      "languages": [
+        "rus"
+      ],
+      "evidence": "IPTV-org feeds.languages",
+      "in_source": true,
+      "content_decision": "allow",
+      "content_evidence": "No evidence of specialized erotic or pornographic channel"
+    },
+    "a2168d455bf5223cc6eeec011f4950b526bcca8ba790a0e61293695f256364aa": {
+      "block": [
+        "#EXTINF:-1 tvg-id=\"IndiyskoyeKino.ru@SD\" tvg-logo=\"https://i.imgur.com/LL8GyCh.png\" group-title=\"Movies\",Indiyskoye Kino (1080p)",
+        "https://stream8.cinerama.uz/1060/tracks-v1a1/mono.m3u8"
+      ],
+      "history": [],
+      "status": "UNKNOWN_CZ",
+      "languages": [
+        "rus"
+      ],
+      "evidence": "IPTV-org feeds.languages",
+      "in_source": true,
+      "content_decision": "allow",
+      "content_evidence": "No evidence of specialized erotic or pornographic channel"
+    },
+    "26ba5cb07d55e2484dff8700465b7cdfb83d444b1246d5eb912efadfb0785aba": {
+      "block": [
+        "#EXTINF:-1 tvg-id=\"InterPlus.ua@HD\" tvg-logo=\"https://i.imgur.com/Y392Hh4.png\" http-user-agent=\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36\" group-title=\"General\",Inter+ HD",
+        "https://op-flashcon-digdayahd-1.dens.tv/h/h305/stream.m3u8"
+      ],
+      "history": [],
+      "status": "UNKNOWN_CZ",
+      "languages": [
+        "rus",
+        "ukr"
+      ],
+      "evidence": "IPTV-org feeds.languages",
+      "in_source": true,
+      "content_decision": "allow",
+      "content_evidence": "No evidence of specialized erotic or pornographic channel"
+    },
+    "6315deb69befeaa8da5c01edc19a61eaae6144b55c43f80eddbec703dc41ad23": {
+      "block": [
+        "#EXTINF:-1 tvg-id=\"KinoHit.ru@SD\" tvg-logo=\"https://i.imgur.com/Ge8vkQM.png\" group-title=\"Movies\",KinoHit (1080p)",
+        "https://stream8.cinerama.uz/1055/tracks-v1a1/mono.m3u8"
+      ],
+      "history": [],
+      "status": "UNKNOWN_CZ",
+      "languages": [
+        "rus"
+      ],
+      "evidence": "IPTV-org feeds.languages",
+      "in_source": true,
+      "content_decision": "allow",
+      "content_evidence": "No evidence of specialized erotic or pornographic channel"
+    },
+    "7bba92fbb5101db306270521d8bb7b8c7f61a9fa5c27c20d9677b60f7ba0a1f8": {
+      "block": [
+        "#EXTINF:-1 tvg-id=\"Kinopokaz.ru@SD\" tvg-logo=\"https://i.imgur.com/nNjMyAq.png\" group-title=\"Movies\",Kinopokaz (1080p)",
+        "https://stream8.cinerama.uz/1057/tracks-v1a1/mono.m3u8"
+      ],
+      "history": [],
+      "status": "UNKNOWN_CZ",
+      "languages": [
+        "rus"
+      ],
+      "evidence": "IPTV-org feeds.languages",
+      "in_source": true,
+      "content_decision": "allow",
+      "content_evidence": "No evidence of specialized erotic or pornographic channel"
+    },
+    "9ccdf2ed232009377043ffb7dfc6483a667d29808414efbeb400abe6b6b0d7d9": {
+      "block": [
+        "#EXTINF:-1 tvg-id=\"Kinosvidanie.ru@SD\" tvg-logo=\"https://i.imgur.com/ZRaWqxj.png\" group-title=\"Movies\",Kinosvidanie (1080p)",
+        "https://stream8.cinerama.uz/1203/tracks-v1a1/mono.m3u8"
+      ],
+      "history": [],
+      "status": "UNKNOWN_CZ",
+      "languages": [
+        "rus"
+      ],
+      "evidence": "IPTV-org feeds.languages",
+      "in_source": true,
+      "content_decision": "allow",
+      "content_evidence": "No evidence of specialized erotic or pornographic channel"
+    },
+    "a6e6e256925207c45e6ad4cbad02b3404d4f36f7dba1d3e1bdef45ccc9301d49": {
+      "block": [
+        "#EXTINF:-1 tvg-id=\"Lugansk24.ua@SD\" tvg-logo=\"https://i.imgur.com/AihoVc0.png\" group-title=\"General\",Lugansk 24 (576p)",
+        "https://streaming.televizor-24-tochka.ru/live/29.m3u8"
+      ],
+      "history": [],
+      "status": "UNKNOWN_CZ",
+      "languages": [
+        "rus"
+      ],
+      "evidence": "IPTV-org feeds.languages",
+      "in_source": true,
+      "content_decision": "allow",
+      "content_evidence": "No evidence of specialized erotic or pornographic channel"
+    },
+    "515a90582c2a7b4728bb45fbd72725a21be5133406b9cc32612009ed392bd268": {
+      "block": [
+        "#EXTINF:-1 tvg-id=\"Mir24.ru@SD\" tvg-logo=\"https://i.imgur.com/dj9c8Yd.png\" group-title=\"News\",Mir 24 (1080p)",
+        "https://stream8.cinerama.uz/1219/tracks-v1a1/mono.m3u8"
+      ],
+      "history": [],
+      "status": "UNKNOWN_CZ",
+      "languages": [
+        "rus"
+      ],
+      "evidence": "IPTV-org feeds.languages",
+      "in_source": true,
+      "content_decision": "allow",
+      "content_evidence": "No evidence of specialized erotic or pornographic channel"
+    },
+    "e731103b4bf9b406cb45a52cdb5cb44f833dc8420500daec66d05958e6cde3e3": {
+      "block": [
+        "#EXTINF:-1 tvg-id=\"Mir.ru@SD\" tvg-logo=\"https://i.imgur.com/AqWaJT8.png\" group-title=\"General\",Mir (1080p)",
+        "https://stream8.cinerama.uz/1218/tracks-v1a1/mono.m3u8"
+      ],
+      "history": [],
+      "status": "UNKNOWN_CZ",
+      "languages": [
+        "rus"
+      ],
+      "evidence": "IPTV-org feeds.languages",
+      "in_source": true,
+      "content_decision": "allow",
+      "content_evidence": "No evidence of specialized erotic or pornographic channel"
+    },
+    "4ee7946f101f5d13ce5b50ffe3da2c5c5d0336fbf5955973bdadeb25a11563a6": {
+      "block": [
+        "#EXTINF:-1 tvg-id=\"Multilandia.ru@SD\" tvg-logo=\"https://i.imgur.com/ccwijY0.png\" group-title=\"Kids\",Multilandia (1080p)",
+        "https://stream8.cinerama.uz/1440/tracks-v1a1/mono.m3u8"
+      ],
+      "history": [],
+      "status": "UNKNOWN_CZ",
+      "languages": [
+        "rus"
+      ],
+      "evidence": "IPTV-org feeds.languages",
+      "in_source": true,
+      "content_decision": "allow",
+      "content_evidence": "No evidence of specialized erotic or pornographic channel"
+    },
+    "91f50de9ea02e3e026bdab4396a6fc5226533f52b469972677d15b173e6e8698": {
+      "block": [
+        "#EXTINF:-1 tvg-id=\"MuzTV.ru@SD\" tvg-logo=\"https://i.imgur.com/BtqrHmz.png\" group-title=\"Music\",Muz-TV (1080p)",
+        "https://stream8.cinerama.uz/1200/tracks-v1a1/mono.m3u8"
+      ],
+      "history": [],
+      "status": "UNKNOWN_CZ",
+      "languages": [
+        "rus"
+      ],
+      "evidence": "IPTV-org feeds.languages",
+      "in_source": true,
+      "content_decision": "allow",
+      "content_evidence": "No evidence of specialized erotic or pornographic channel"
+    },
+    "9c89791f139df9c325a3c4ae9040d03b5aca1024494ad677da7bd557034b3605": {
+      "block": [
+        "#EXTINF:-1 tvg-id=\"MuzykaPervogo.ru@SD\" tvg-logo=\"https://i.imgur.com/U0vKj3P.png\" group-title=\"Music\",Muzyka Pervogo (1080p)",
+        "https://stream8.cinerama.uz/1201/tracks-v1a1/mono.m3u8"
+      ],
+      "history": [],
+      "status": "UNKNOWN_CZ",
+      "languages": [
+        "rus",
+        "ukr"
+      ],
+      "evidence": "IPTV-org feeds.languages",
+      "in_source": true,
+      "content_decision": "allow",
+      "content_evidence": "No evidence of specialized erotic or pornographic channel"
+    },
+    "4a6e1f59be3f4754f83ba1265a8b93dc3fc45ab7acce87740b71319db9c56045": {
+      "block": [
+        "#EXTINF:-1 tvg-id=\"NasheNovoeKino.ru@SD\" tvg-logo=\"https://i.imgur.com/IOxIsPj.png\" group-title=\"Movies\",Nashe Novoe Kino (1080p)",
+        "https://stream8.cinerama.uz/1051/tracks-v1a1/mono.m3u8"
+      ],
+      "history": [],
+      "status": "UNKNOWN_CZ",
+      "languages": [
+        "rus"
+      ],
+      "evidence": "IPTV-org feeds.languages",
+      "in_source": true,
+      "content_decision": "allow",
+      "content_evidence": "No evidence of specialized erotic or pornographic channel"
+    },
+    "c6b91be8e310563af15b090dc5c6aa50ff2d4bd369ae43339c81cf5947262ac8": {
+      "block": [
+        "#EXTINF:-1 tvg-id=\"NTV.ru@SD\" tvg-logo=\"https://i.imgur.com/9r1BKzK.png\" group-title=\"General\",NTV (Russia) (1080p)",
+        "https://stream8.cinerama.uz/1023/tracks-v1a1/mono.m3u8"
+      ],
+      "history": [],
+      "status": "UNKNOWN_CZ",
+      "languages": [
+        "rus"
+      ],
+      "evidence": "IPTV-org feeds.languages",
+      "in_source": true,
+      "content_decision": "allow",
+      "content_evidence": "No evidence of specialized erotic or pornographic channel"
+    },
+    "7e540eadddde14cf4b78ec05b0fb82692f0bfd1310f36d81e4c0470004ce6452": {
+      "block": [
+        "#EXTINF:-1 tvg-id=\"OSN.ru@SD\" tvg-logo=\"https://www.osnmedia.ru/wp-content/uploads/2024/11/osn-logo-header.png\" group-title=\"General\",OSN (1080p)",
+        "http://osnmedia.servicecdn.ru/streams/17603_88089/playlist.m3u8"
+      ],
+      "history": [],
+      "status": "UNKNOWN_CZ",
+      "languages": [
+        "rus"
+      ],
+      "evidence": "IPTV-org feeds.languages",
+      "in_source": true,
+      "content_decision": "allow",
+      "content_evidence": "No evidence of specialized erotic or pornographic channel"
+    },
+    "6c5811705b28993d2daef6e22202dffc5348f630417648ca205ea021cdda9aea": {
+      "block": [
+        "#EXTINF:-1 tvg-id=\"RBKTV.ru@SD\" tvg-logo=\"https://i.imgur.com/CwhmJby.png\" group-title=\"Business\",RBK-TV (1080p)",
+        "http://online-video.rbc.ru/online2/rbctv.m3u8"
+      ],
+      "history": [],
+      "status": "UNKNOWN_CZ",
+      "languages": [
+        "rus"
+      ],
+      "evidence": "IPTV-org feeds.languages",
+      "in_source": true,
+      "content_decision": "allow",
+      "content_evidence": "No evidence of specialized erotic or pornographic channel"
+    },
+    "942886ed5290d6a282e5a1aa5f9bd8e9ab1bb5aaf367179253f921f79f999a6c": {
+      "block": [
+        "#EXTINF:-1 tvg-id=\"Retro.ru@SD\" tvg-logo=\"https://xml-epgservice.cdnvideo.ru/EPGService/hs/xmldata/852f4b92-cae5-463e-aad6-cd8844c5a49/logo/69.png\" group-title=\"Classic\",Retro (1080p)",
+        "https://stream8.cinerama.uz/1047/tracks-v1a1/mono.m3u8"
+      ],
+      "history": [],
+      "status": "UNKNOWN_CZ",
+      "languages": [
+        "rus"
+      ],
+      "evidence": "IPTV-org feeds.languages",
+      "in_source": true,
+      "content_decision": "allow",
+      "content_evidence": "No evidence of specialized erotic or pornographic channel"
+    },
+    "36a335c748fa2df9c65217fe796c3e7b4b59e58c0a58d68890e904c5082da82a": {
+      "block": [
+        "#EXTINF:-1 tvg-id=\"RodnoeKino.ru@SD\" tvg-logo=\"https://i.imgur.com/H70LxoZ.png\" group-title=\"Movies\",Rodnoe Kino (1080p)",
+        "https://stream8.cinerama.uz/1052/tracks-v1a1/mono.m3u8"
+      ],
+      "history": [],
+      "status": "UNKNOWN_CZ",
+      "languages": [
+        "rus"
+      ],
+      "evidence": "IPTV-org feeds.languages",
+      "in_source": true,
+      "content_decision": "allow",
+      "content_evidence": "No evidence of specialized erotic or pornographic channel"
+    },
+    "74c6679f623c6f7c3d66c9cc273136278d1088d877359715db949503e5ee1de6": {
+      "block": [
+        "#EXTINF:-1 tvg-id=\"Russia1.ru@SD\" tvg-logo=\"https://i.imgur.com/Osd2JHL.png\" group-title=\"General\",Russia-1 (1080p)",
+        "https://stream8.cinerama.uz/1020/tracks-v1a1/mono.m3u8"
+      ],
+      "history": [],
+      "status": "UNKNOWN_CZ",
+      "languages": [
+        "rus"
+      ],
+      "evidence": "IPTV-org feeds.languages",
+      "in_source": true,
+      "content_decision": "allow",
+      "content_evidence": "No evidence of specialized erotic or pornographic channel"
+    },
+    "37f257f4eb98a9998c9ed12d56d3b6f63c315955381e42e596ebe43bfd7a30fa": {
+      "block": [
+        "#EXTINF:-1 tvg-id=\"Russia24.ru@SD\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Rossiya-24_Logo.svg/960px-Rossiya-24_Logo.svg.png\" group-title=\"News\",Russia-24 (1080p)",
+        "https://stream8.cinerama.uz/1021/tracks-v1a1/mono.m3u8"
+      ],
+      "history": [],
+      "status": "UNKNOWN_CZ",
+      "languages": [
+        "rus"
+      ],
+      "evidence": "IPTV-org feeds.languages",
+      "in_source": true,
+      "content_decision": "allow",
+      "content_evidence": "No evidence of specialized erotic or pornographic channel"
+    },
+    "e60eeb850558720a498a38b240df4469e81a84be8aaf8a4d52a704a83430fd78": {
+      "block": [
+        "#EXTINF:-1 tvg-id=\"Sever.ru@SD\" tvg-logo=\"https://i.imgur.com/sTOQLYl.png\" group-title=\"Undefined\",Sever (1080p)",
+        "https://2vko9pchwon.a.trbcdn.net/livemaster/8ilgc_cw63ucn03p.smil/playlist.m3u8"
+      ],
+      "history": [],
+      "status": "UNKNOWN_CZ",
+      "languages": [
+        "rus"
+      ],
+      "evidence": "IPTV-org feeds.languages",
+      "in_source": true,
+      "content_decision": "allow",
+      "content_evidence": "No evidence of specialized erotic or pornographic channel"
+    },
+    "a60545646e1e4657dc91a36b98e979b2171a52d40f6a32ba7f2aecb4b347ac64": {
+      "block": [
+        "#EXTINF:-1 tvg-id=\"StranaFM.ru@SD\" tvg-logo=\"https://i.imgur.com/WsPlKJJ.png\" group-title=\"Music\",Strana FM (720p)",
+        "https://live-stranafm.cdnvideo.ru/stranafm/smil:stranafm.smil/playlist.m3u8"
+      ],
+      "history": [],
+      "status": "UNKNOWN_CZ",
+      "languages": [
+        "rus"
+      ],
+      "evidence": "IPTV-org feeds.languages",
+      "in_source": true,
+      "content_decision": "allow",
+      "content_evidence": "No evidence of specialized erotic or pornographic channel"
+    },
+    "defe81f2e00f2a50889d265be3503e024a31618f2c9cb4d1e800c2248414be7b": {
+      "block": [
+        "#EXTINF:-1 tvg-id=\"T24.ru@SD\" tvg-logo=\"https://i.imgur.com/1W6R14o.png\" group-title=\"Undefined\",T24 (1080p)",
+        "https://stream8.cinerama.uz/1037/tracks-v1a1/mono.m3u8"
+      ],
+      "history": [],
+      "status": "UNKNOWN_CZ",
+      "languages": [
+        "rus"
+      ],
+      "evidence": "IPTV-org feeds.languages",
+      "in_source": true,
+      "content_decision": "allow",
+      "content_evidence": "No evidence of specialized erotic or pornographic channel"
+    },
+    "71044653b62727975216a4558f7015bc837727984bafaefe2f53b9258a5c4da3": {
+      "block": [
+        "#EXTINF:-1 tvg-id=\"Tavriya.ru@SD\" tvg-logo=\"https://i.imgur.com/gqung6i.png\" group-title=\"General\",Tavriya (576p)",
+        "https://streaming.televizor-24-tochka.ru/live/24.m3u8"
+      ],
+      "history": [],
+      "status": "UNKNOWN_CZ",
+      "languages": [
+        "rus"
+      ],
+      "evidence": "IPTV-org feeds.languages",
+      "in_source": true,
+      "content_decision": "allow",
+      "content_evidence": "No evidence of specialized erotic or pornographic channel"
+    },
+    "c21f3771bdb845dfac3818a0638216058cef366bc333b3893d6fa57531c24528": {
+      "block": [
+        "#EXTINF:-1 tvg-id=\"TDK42.kz@SD\" tvg-logo=\"https://i.imgur.com/iVhdcS7.png\" group-title=\"Undefined\",TDK 42 (720p)",
+        "https://live-tdk42kz.cdnvideo.ru/tdk42kz/tdk42kz_720.smil/playlist.m3u8"
+      ],
+      "history": [],
+      "status": "UNKNOWN_CZ",
+      "languages": [
+        "rus"
+      ],
+      "evidence": "IPTV-org feeds.languages",
+      "in_source": true,
+      "content_decision": "allow",
+      "content_evidence": "No evidence of specialized erotic or pornographic channel"
+    },
+    "722bd879eb2e4e503684f6bcc1e17a1b7a4cdf36e475122137624b49ef12458f": {
+      "block": [
+        "#EXTINF:-1 tvg-id=\"TNVPlanet.ru@SD\" tvg-logo=\"https://i.imgur.com/ijA1zDw.png\" group-title=\"Undefined\",TNV-Planet (1080p)",
+        "https://stream8.cinerama.uz/1062/tracks-v1a1/mono.m3u8"
+      ],
+      "history": [],
+      "status": "UNKNOWN_CZ",
+      "languages": [
+        "rus"
+      ],
+      "evidence": "IPTV-org feeds.languages",
+      "in_source": true,
+      "content_decision": "allow",
+      "content_evidence": "No evidence of specialized erotic or pornographic channel"
+    },
+    "8101d9b9156cec3152aa443452cf16c01c397b2604348779180021d9cc767bec": {
+      "block": [
+        "#EXTINF:-1 tvg-id=\"vijuNature.ru@SD\" tvg-logo=\"https://i.imgur.com/8BPZ18l.png\" group-title=\"Documentary\",viju Nature (1080p)",
+        "https://stream8.cinerama.uz/1228/tracks-v1a1/mono.m3u8"
+      ],
+      "history": [],
+      "status": "UNKNOWN_CZ",
+      "languages": [
+        "rus"
+      ],
+      "evidence": "IPTV-org feeds.languages",
+      "in_source": true,
+      "content_decision": "allow",
+      "content_evidence": "No evidence of specialized erotic or pornographic channel"
+    },
+    "4b9893bbfabe38e05cde4250be263a225b6c41260d221bd63e7a872d01064ccf": {
+      "block": [
+        "#EXTINF:-1 tvg-id=\"vijuTV1000action.ru@SD\" tvg-logo=\"https://i.imgur.com/TMmyuzh.png\" group-title=\"Movies\",viju TV1000 action (1080p)",
+        "https://stream8.cinerama.uz/1225/tracks-v1a1/mono.m3u8"
+      ],
+      "history": [],
+      "status": "UNKNOWN_CZ",
+      "languages": [
+        "rus"
+      ],
+      "evidence": "IPTV-org feeds.languages",
+      "in_source": true,
+      "content_decision": "allow",
+      "content_evidence": "No evidence of specialized erotic or pornographic channel"
+    },
+    "6917be64b59ce7070787ec69e616584aad2da1df78ef152f748ced76d8670215": {
+      "block": [
+        "#EXTINF:-1 tvg-id=\"vijuTV1000russkoe.ru@SD\" tvg-logo=\"https://i.imgur.com/Meak2y4.png\" group-title=\"Movies\",viju TV1000 russkoe (1080p)",
+        "https://stream8.cinerama.uz/1058/tracks-v1a1/mono.m3u8"
+      ],
+      "history": [],
+      "status": "UNKNOWN_CZ",
+      "languages": [
+        "rus"
+      ],
+      "evidence": "IPTV-org feeds.languages",
+      "in_source": true,
+      "content_decision": "allow",
+      "content_evidence": "No evidence of specialized erotic or pornographic channel"
+    },
+    "b07145330b7a3ad88dee26dccc615607c78d358cd762b5f8fd1d9eadb501f543": {
+      "block": [
+        "#EXTINF:-1 tvg-id=\"vijuPlusSport.ru@SD\" tvg-logo=\"https://i.imgur.com/fXESG0l.png\" group-title=\"Sports\",viju+ Sport (1080p)",
+        "https://stream8.cinerama.uz/1229/tracks-v1a1/mono.m3u8"
+      ],
+      "history": [],
+      "status": "UNKNOWN_CZ",
+      "languages": [
+        "rus"
+      ],
+      "evidence": "IPTV-org feeds.languages",
+      "in_source": true,
+      "content_decision": "allow",
+      "content_evidence": "No evidence of specialized erotic or pornographic channel"
+    },
+    "d564d40740b6335a2af0b1f52026e142bb18e352c3d963aebae034a97beb2418": {
+      "block": [
+        "#EXTINF:-1 tvg-id=\"ZaTV.ru@SD\" tvg-logo=\"https://i.imgur.com/pVPTl8J.png\" group-title=\"General\",Za! TV (576p)",
+        "https://streaming.televizor-24-tochka.ru/live/25.m3u8"
+      ],
+      "history": [],
+      "status": "UNKNOWN_CZ",
+      "languages": [
+        "rus",
+        "ukr"
+      ],
+      "evidence": "IPTV-org feeds.languages",
+      "in_source": true,
+      "content_decision": "allow",
+      "content_evidence": "No evidence of specialized erotic or pornographic channel"
+    },
+    "3a202e3cfc9a049930e5767838f767b3529f91011de202935b63111fc0126604": {
+      "block": [
+        "#EXTINF:-1 tvg-id=\"ZagorodnayaZhizn.ru@SD\" tvg-logo=\"https://i.imgur.com/RoYd5pz.png\" group-title=\"Undefined\",Zagorodnaya Zhizn (1080p)",
+        "https://stream8.cinerama.uz/1044/tracks-v1a1/mono.m3u8"
+      ],
+      "history": [],
+      "status": "UNKNOWN_CZ",
+      "languages": [
+        "rus"
+      ],
+      "evidence": "IPTV-org feeds.languages",
+      "in_source": true,
+      "content_decision": "allow",
+      "content_evidence": "No evidence of specialized erotic or pornographic channel"
+    },
+    "07dea1175bb85518b51bab7170a9bec36004c5c4d01158adb136612a6855cd52": {
+      "block": [
+        "#EXTINF:-1 tvg-id=\"BRIDGEDance.ru@SD\" tvg-logo=\"https://bridgemusic.ru/s/img/channels/dance-white.svg\" group-title=\"Music\",BRIDGE Dance (720p) [Geo-blocked]",
+        "https://bridgemedia-hls.cdnvideo.ru/hls/live/6aff09f290affe00013a80a9/720p.m3u8"
+      ],
+      "history": [],
+      "status": "UNKNOWN_CZ",
+      "languages": [
+        "rus"
+      ],
+      "evidence": "IPTV-org feeds.languages",
+      "in_source": true,
+      "content_decision": "allow",
+      "content_evidence": "No evidence of specialized erotic or pornographic channel"
+    },
+    "1fe1503779faa0cbb32df4d12afb1e65f971af78f184721088114f58d6ec36a1": {
+      "block": [
+        "#EXTINF:-1 tvg-id=\"BRIDGEJazz.ru@SD\" tvg-logo=\"https://bridgemusic.ru/s/img/channels/jazz-white.svg\" group-title=\"Music\",BRIDGE Jazz (720p) [Geo-blocked]",
+        "https://bridgemedia-hls.cdnvideo.ru/hls/live/6aff0a0390affe00013a80aa/720p.m3u8"
+      ],
+      "history": [],
+      "status": "UNKNOWN_CZ",
+      "languages": [
+        "rus"
+      ],
+      "evidence": "IPTV-org feeds.languages",
+      "in_source": true,
+      "content_decision": "allow",
+      "content_evidence": "No evidence of specialized erotic or pornographic channel"
+    },
+    "671940dbad4f97bad4250d18b5a715cc8d0a7ce181bd8dd61952d5894ff000a6": {
+      "block": [
+        "#EXTINF:-1 tvg-id=\"BRIDGERap.ru@SD\" tvg-logo=\"https://bridgemusic.ru/s/img/channels/rap-logo-dark.svg\" group-title=\"Music\",BRIDGE Rap (720p) [Geo-blocked]",
+        "https://bridgemedia-hls.cdnvideo.ru/hls/live/6affed9990affe00013a80b1/720p.m3u8"
+      ],
+      "history": [],
+      "status": "UNKNOWN_CZ",
+      "languages": [
+        "rus"
+      ],
+      "evidence": "IPTV-org feeds.languages",
+      "in_source": true,
+      "content_decision": "allow",
+      "content_evidence": "No evidence of specialized erotic or pornographic channel"
+    },
+    "29477a9fbe5aa1cdad45e30f312dc9e0d460d38922d98274bb1e42ddb4e20511": {
+      "block": [
+        "#EXTINF:-1 tvg-id=\"BRIDGERNB.ru@SD\" tvg-logo=\"https://bridgemusic.ru/s/img/channels/rnb-logo-dark.svg\" group-title=\"Music\",BRIDGE RNB (720p) [Geo-blocked]",
+        "https://bridgemedia-hls.cdnvideo.ru/hls/live/6affedb990affe00013a80b2/720p.m3u8"
+      ],
+      "history": [],
+      "status": "UNKNOWN_CZ",
+      "languages": [
+        "rus"
+      ],
+      "evidence": "IPTV-org feeds.languages",
+      "in_source": true,
+      "content_decision": "allow",
+      "content_evidence": "No evidence of specialized erotic or pornographic channel"
+    },
+    "8b9213d1c00edf2d3aebcec58129d8f865515c3ebe70b4066f9d36f30d4f7786": {
+      "block": [
+        "#EXTINF:-1 tvg-id=\"BRIDGESoul.ru@SD\" tvg-logo=\"https://bridgemusic.ru/s/img/channels/soul-logo-dark.svg\" group-title=\"Music\",BRIDGE Soul (720p) [Geo-blocked]",
+        "https://bridgemedia-hls.cdnvideo.ru/hls/live/6affed7590affe00013a80b0/720p.m3u8"
+      ],
+      "history": [],
+      "status": "UNKNOWN_CZ",
+      "languages": [
+        "rus"
+      ],
+      "evidence": "IPTV-org feeds.languages",
+      "in_source": true,
+      "content_decision": "allow",
+      "content_evidence": "No evidence of specialized erotic or pornographic channel"
+    },
+    "853d2a40c1a7f16c5d8658fc1aadca4d9b4fb816202b4ccdaa8609456ff438f4": {
+      "block": [
+        "#EXTINF:-1 tvg-id=\"BRIDGESymphony.ru@SD\" tvg-logo=\"https://bridgemusic.ru/s/img/channels/symphony-white.svg\" group-title=\"Music\",BRIDGE Symphony (720p) [Geo-blocked]",
+        "https://bridgemedia-hls.cdnvideo.ru/hls/live/6aff0d2a81d78600017e02c2/720p.m3u8"
+      ],
+      "history": [],
+      "status": "UNKNOWN_CZ",
+      "languages": [
+        "rus"
+      ],
+      "evidence": "IPTV-org feeds.languages",
+      "in_source": true,
+      "content_decision": "allow",
+      "content_evidence": "No evidence of specialized erotic or pornographic channel"
+    },
+    "ffe4112c618bf18aac3cd758c7d634be0cb557aadea827b52724b3810db72610": {
+      "block": [
+        "#EXTINF:-1 tvg-id=\"BRIDGEVostok.ru@SD\" tvg-logo=\"https://bridgemusic.ru/s/img/channels/vostok-white.svg\" group-title=\"Music\",BRIDGE Vostok (720p) [Geo-blocked]",
+        "https://bridgemedia-hls.cdnvideo.ru/hls/live/6aff1b6881d78600017e02c5/720p.m3u8"
+      ],
+      "history": [],
+      "status": "UNKNOWN_CZ",
+      "languages": [
+        "rus"
+      ],
+      "evidence": "IPTV-org feeds.languages",
+      "in_source": true,
+      "content_decision": "allow",
+      "content_evidence": "No evidence of specialized erotic or pornographic channel"
+    },
+    "dae241a5f70e5b949177f115a7e7f4c0661705ef40ffbb73c339bf506013a85d": {
+      "block": [
+        "#EXTINF:-1 tvg-id=\"MiniDisco.ru@SD\" tvg-logo=\"https://bridgemusic.ru/s/img/channels/mini-disco-logo.png\" group-title=\"Kids;Music\",Mini Disco (720p) [Geo-blocked]",
+        "https://bridgemedia-hls.cdnvideo.ru/hls/live/6aff1c3190affe00013a80ac/720p.m3u8"
+      ],
+      "history": [],
+      "status": "UNKNOWN_CZ",
+      "languages": [
+        "rus"
+      ],
+      "evidence": "IPTV-org feeds.languages",
+      "in_source": true,
+      "content_decision": "allow",
+      "content_evidence": "No evidence of specialized erotic or pornographic channel"
+    },
+    "079bd912b8b561afd28f0ef45564c42eacd21bff81a8ddb9761c7f83d5c38e95": {
+      "block": [
+        "#EXTINF:-1 tvg-id=\"Verba.ru@SD\" tvg-logo=\"https://bridgemusic.ru/s/img/channels/verba-white.svg\" group-title=\"Music\",Verba (720p) [Geo-blocked]",
+        "https://bridgemedia-hls.cdnvideo.ru/hls/live/6aff0d0f81d78600017e02c1/720p.m3u8"
+      ],
+      "history": [],
+      "status": "UNKNOWN_CZ",
+      "languages": [
+        "rus"
+      ],
+      "evidence": "IPTV-org feeds.languages",
+      "in_source": true,
+      "content_decision": "allow",
+      "content_evidence": "No evidence of specialized erotic or pornographic channel"
     }
   },
   "cycle": null,
   "counts": {
-    "processed": 11542,
+    "processed": 11499,
     "excluded_specialized_all_languages": 0,
-    "unresolved": 94,
+    "unresolved": 95,
     "no_language_evidence": 0,
-    "other_or_review": 10840,
-    "multilingual_review": 94,
-    "known_other": 10746,
-    "russian": 556,
-    "ukrainian": 165,
-    "both": 19,
+    "other_or_review": 10779,
+    "multilingual_review": 95,
+    "known_other": 10684,
+    "russian": 574,
+    "ukrainian": 166,
+    "both": 20,
     "excluded_specialized_ru_ua": 0,
     "specialization_review_ru_ua": 0
   },
-  "source_sha256": "55a9de2b5b6f4459f19db29b544c434c2ba1a42e5a0f635b648abeca51511bbf",
-  "catalogued_at": "2026-11-18T07:57:20.725878+00:00",
+  "source_sha256": "2d981e55bd697324ac8c43934e60c2968a7d16394707bdf04fb84283ccf62e98",
+  "catalogued_at": "2026-11-26T08:08:29.928333+00:00",
   "review_needed": {
     "language": [
       {
@@ -13080,7 +14598,7 @@
       },
       {
         "block": [
-          "#EXTINF:-1 tvg-id=\"AlmatyTV.kz@SD\" tvg-logo=\"https://i.imgur.com/Mjqwt8C.png\" group-title=\"General\",Almaty TV (576p)",
+          "#EXTINF:-1 tvg-id=\"AlmatyTV.kz@SD\" tvg-logo=\"https://i.imgur.com/OFobQkI.png\" group-title=\"General\",Almaty TV (576p)",
           "https://fs.uplink.kz/almaty/mono.m3u8?token=onlinetv"
         ],
         "reason": "multilingual: review predominance",
@@ -13102,7 +14620,7 @@
       },
       {
         "block": [
-          "#EXTINF:-1 tvg-id=\"Aqlvoy.uz@SD\" tvg-logo=\"https://i.imgur.com/ekF5cAi.png\" group-title=\"Kids\",Aqlvoy",
+          "#EXTINF:-1 tvg-id=\"Aqlvoy.uz@SD\" tvg-logo=\"https://i.imgur.com/ekF5cAi.png\" group-title=\"Kids\",Aqlvoy (1080p)",
           "https://stream8.cinerama.uz/1205/tracks-v1a1/mono.m3u8"
         ],
         "reason": "multilingual: review predominance",
@@ -13289,7 +14807,7 @@
       },
       {
         "block": [
-          "#EXTINF:-1 tvg-id=\"Channel7.kz@SD\" tvg-logo=\"https://i.imgur.com/LebKU09.png\" group-title=\"General\",Channel 7 (Kazakhstan) (576p)",
+          "#EXTINF:-1 tvg-id=\"Channel7.kz@SD\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/6/6b/Logo_Seven_Channel.png\" group-title=\"General\",Channel 7 (Kazakhstan) (576p)",
           "http://stream.mcquack.net/27/index.m3u8"
         ],
         "reason": "multilingual: review predominance",
@@ -13502,7 +15020,7 @@
       },
       {
         "block": [
-          "#EXTINF:-1 tvg-id=\"Khabar.kz@SD\" tvg-logo=\"https://i.imgur.com/xG3HxId.png\" group-title=\"General\",Khabar (576p)",
+          "#EXTINF:-1 tvg-id=\"Khabar.kz@SD\" tvg-logo=\"https://i.imgur.com/upZ0Cuu.png\" group-title=\"General\",Khabar (576p)",
           "https://fs.uplink.kz/habar/mono.m3u8?token=onlinetv"
         ],
         "reason": "multilingual: review predominance",
@@ -13642,7 +15160,7 @@
       {
         "block": [
           "#EXTINF:-1 tvg-id=\"MMATVcom.ru@SD\" tvg-logo=\"https://i.imgur.com/QhdxNsB.png\" group-title=\"Sports\",MMA-TV.com (1080p)",
-          "https://streams2.sofast.tv/vglive-sk-462904/playlist.m3u8"
+          "https://stream8.cinerama.uz/1226/tracks-v1a1/mono.m3u8"
         ],
         "reason": "multilingual: review predominance",
         "feed_languages": [
@@ -13745,6 +15263,17 @@
       },
       {
         "block": [
+          "#EXTINF:-1 tvg-id=\"Nickelodeon.pl@SD\" tvg-logo=\"https://i.imgur.com/E84jnP8.png\" group-title=\"Kids\",Nickelodeon (Poland)",
+          "https://vuvuu-geil-m3u8.yaskar661.workers.dev/?url=https%3A%2F%2Fvavoo.to%2Fvavoo-iptv%2Fplay%2F5189779876700e71d303b"
+        ],
+        "reason": "multilingual: review predominance",
+        "feed_languages": [
+          "pol",
+          "ukr"
+        ]
+      },
+      {
+        "block": [
           "#EXTINF:-1 tvg-id=\"Nickelodeon.ru@SD\" tvg-logo=\"https://i.imgur.com/w8iE8dV.png\" group-title=\"Kids\",Nickelodeon (Russia) (576p)",
           "http://stream.mcquack.net/443/index.m3u8"
         ],
@@ -13790,8 +15319,8 @@
       },
       {
         "block": [
-          "#EXTINF:-1 tvg-id=\"Okhotairybalka.ru@SD\" tvg-logo=\"https://i.imgur.com/nZwBaeW.png\" group-title=\"Outdoor\",Okhota i rybalka (576p)",
-          "http://stream.mcquack.net/155/index.m3u8"
+          "#EXTINF:-1 tvg-id=\"Okhotairybalka.ru@SD\" tvg-logo=\"https://i.imgur.com/nZwBaeW.png\" group-title=\"Outdoor\",Okhota i rybalka (1080p)",
+          "https://stream8.cinerama.uz/1038/tracks-v1a1/mono.m3u8"
         ],
         "reason": "multilingual: review predominance",
         "feed_languages": [
@@ -13823,7 +15352,7 @@
       },
       {
         "block": [
-          "#EXTINF:-1 tvg-id=\"QazaqstanInternational.kz@SD\" tvg-logo=\"https://cdn.qazaqstan.tv/qazaqstan.png?w=420&h=196&format=png&resize=aspectfill&g=centeralt=\" group-title=\"General\",Qazaqstan International",
+          "#EXTINF:-1 tvg-id=\"QazaqstanInternational.kz@SD\" tvg-logo=\"https://cdn.qazaqstan.tv/qazaqstan.png?w=420&h=196&format=png&resize=aspectfill&g=centeralt=\" group-title=\"General\",Qazaqstan International (1080p)",
           "https://stream8.cinerama.uz/1431/tracks-v1a1/mono.m3u8"
         ],
         "reason": "multilingual: review predominance",
@@ -14005,7 +15534,7 @@
       },
       {
         "block": [
-          "#EXTINF:-1 tvg-id=\"TaraqqiyotTV.uz@SD\" tvg-logo=\"https://i.imgur.com/V3rtPEl.jpg\" group-title=\"General\",Taraqqiyot TV",
+          "#EXTINF:-1 tvg-id=\"TaraqqiyotTV.uz@SD\" tvg-logo=\"https://i.imgur.com/V3rtPEl.jpg\" group-title=\"General\",Taraqqiyot TV (1080p)",
           "https://stream8.cinerama.uz/1204/tracks-v1a1/mono.m3u8"
         ],
         "reason": "multilingual: review predominance",
@@ -14064,7 +15593,7 @@
       },
       {
         "block": [
-          "#EXTINF:-1 tvg-id=\"Ulytau.kz@SD\" tvg-logo=\"https://i.imgur.com/jTL6TvC.png\" group-title=\"General\",Ulytau",
+          "#EXTINF:-1 tvg-id=\"Ulytau.kz@SD\" tvg-logo=\"https://i.imgur.com/jTL6TvC.png\" group-title=\"General\",Ulytau (720p)",
           "https://ulytau.tv/hls/master.m3u8"
         ],
         "reason": "multilingual: review predominance",
@@ -14087,7 +15616,7 @@
       },
       {
         "block": [
-          "#EXTINF:-1 tvg-id=\"ViasatKino.ua@SD\" tvg-logo=\"https://i.imgur.com/io0WAkA.png\" group-title=\"Movies\",Viasat Kino (576p)",
+          "#EXTINF:-1 tvg-id=\"ViasatKino.ua@SD\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/2/2b/Viasat_Kino_Logo_2025.svg\" group-title=\"Movies\",Viasat Kino (Ukraine) (576p)",
           "http://dtv.vol.net.ua/Viasat_Kino/index.m3u8"
         ],
         "reason": "multilingual: review predominance",
