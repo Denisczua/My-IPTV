@@ -9,5 +9,9 @@
   "nul_bytes": 0,
   "crlf_lines": 0,
   "lf_lines": 20833,
-  "http_urls": 10404
+  "http_urls": 10404,
+  "pages_verified_at": "2026-11-26T17:11:14.437387+00:00",
+  "mirrors_byte_identical": true,
+  "pages_m3u_content_type": "audio/x-mpegurl",
+  "ottplayer_import_confirmed": false
 }

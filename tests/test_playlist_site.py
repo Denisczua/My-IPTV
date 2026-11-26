@@ -33,6 +33,21 @@ class PlaylistMirrorTests(unittest.TestCase):
             with self.assertRaises(ValueError):build(source,site)
             self.assertEqual((site/'playlist.m3u').read_bytes(),b'old working version')
 
+    def test_diagnostics_isolate_header_size_and_newlines(self):
+        with tempfile.TemporaryDirectory(dir=Path(__file__).parent) as d:
+            root=Path(d);source=root/'main.m3u';site=root/'site'
+            blocks=[f'#EXTINF:-1 group-title="OLED",Channel {i}\n#EXTVLCOPT:http-referrer=https://example.org/\nhttps://example.org/{i}\n' for i in range(105)]
+            header='#EXTM3U x-tvg-url="https://example.org/epg.xml"\n'
+            raw=(header+''.join(blocks)).encode();source.write_bytes(raw)
+            result=build(source,site)
+            simple=(site/'playlist-simple.m3u').read_bytes()
+            self.assertEqual(simple,b'#EXTM3U\n'+''.join(blocks).encode())
+            self.assertEqual(result['diagnostics']['diagnostic-100.m3u']['channels'],100)
+            self.assertEqual((site/'diagnostic-100.m3u').read_bytes(),b'#EXTM3U\n'+''.join(blocks[:100]).encode())
+            self.assertEqual((site/'diagnostic-100-epg.m3u').read_bytes(),(header+''.join(blocks[:100])).encode())
+            self.assertEqual((site/'playlist-simple-crlf.m3u').read_bytes().replace(b'\r\n',b'\n'),simple)
+            self.assertEqual(source.read_bytes(),raw)
+
     def test_post_replace_error_rolls_back_the_changed_file(self):
         with tempfile.TemporaryDirectory(dir=Path(__file__).parent) as d:
             p=Path(d)/'one';p.write_text('original',encoding='utf-8')

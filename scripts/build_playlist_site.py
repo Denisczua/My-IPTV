@@ -23,9 +23,23 @@ def build(source, destination, commit=''):
     # Both extensions refer to exactly the same bytes/channels/HTTP directives.
     for name in ('playlist.m3u','playlist.m3u8'):
         (destination/name).write_bytes(raw)
+    # Controlled diagnostics: preserve the body exactly; change only the global
+    # header, or take complete channel blocks. Never rewrite the source file.
+    lines=raw.splitlines(keepends=True)
+    simple=b'#EXTM3U\n'+b''.join(lines[1:])
+    small=('#EXTM3U\n'+'\n'.join('\n'.join(b) for b in channels[:100])+'\n').encode('utf-8')
+    variants={'playlist-simple.m3u':simple,'diagnostic-100.m3u':small,
+              'diagnostic-100-epg.m3u':lines[0].rstrip(b'\r\n')+b'\n'+small.split(b'\n',1)[1],
+              'playlist-simple-crlf.m3u':simple.replace(b'\r\n',b'\n').replace(b'\n',b'\r\n')}
+    diagnostics={}
+    for name,body in variants.items():
+        count=len(parse(body.decode('utf-8-sig')))
+        (destination/name).write_bytes(body)
+        diagnostics[name]={'channels':count,'bytes':len(body),'sha256':hashlib.sha256(body).hexdigest()}
     manifest={'generated_at':datetime.now(timezone.utc).isoformat(),
               'source':'playlist.m3u','source_commit':commit,'sha256':digest,
-              'bytes':len(raw),'channels':len(channels),'ottplayer_connection_confirmed':False}
+              'bytes':len(raw),'channels':len(channels),'ottplayer_connection_confirmed':False,
+              'diagnostics':diagnostics}
     (destination/'playlist-info.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
     (destination/'.nojekyll').write_text('',encoding='utf-8')
     (destination/'index.html').write_text('''<!doctype html>
@@ -34,6 +48,7 @@ def build(source, destination, commit=''):
 <style>body{font:17px/1.6 system-ui;max-width:760px;margin:60px auto;padding:0 24px}a{color:#145ac1}code{overflow-wrap:anywhere}small{color:#555}</style>
 <h1>My-IPTV</h1><p>Зеркало существующего основного плейлиста. Состав не сокращается и не меняется при публикации.</p>
 <p><a href="playlist.m3u" download>playlist.m3u</a> · <a href="playlist.m3u8" download>тот же файл с расширением .m3u8</a></p>
+<p>Диагностика OTTPlayer: <a href="playlist-simple.m3u">все каналы без глобального EPG</a> · <a href="diagnostic-100.m3u">100 каналов</a> · <a href="diagnostic-100-epg.m3u">100 каналов с исходным EPG</a> · <a href="playlist-simple-crlf.m3u">все каналы без EPG, CRLF</a>. Эти варианты автоматически строятся из основного файла.</p>
 <p>Для OTTPlayer используйте прямой адрес файла в поле ссылки автообновления. Включите автообновление в настройках уже загруженного плейлиста.</p>
 <p>''' + str(len(channels))+''' записей · '''+str(len(raw))+''' байт</p>
 <small>SHA-256: <code>'''+digest+'''</code><br>Снимок репозитория: <code>'''+html.escape(commit)+'''</code></small>
