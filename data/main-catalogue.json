@@ -487536,7 +487536,61 @@
             "#EXTINF:-1 tvg-id=\"vijuNature.ru@SD\" tvg-logo=\"https://i.imgur.com/8BPZ18l.png\" group-title=\"Documentary\",viju Nature (1080p)",
             "https://stream8.cinerama.uz/1228/tracks-v1a1/mono.m3u8"
           ],
-          "history": [],
+          "history": [
+            {
+              "at": "2026-11-26T18:37:01.241756+00:00",
+              "region": "CZ",
+              "result": "ok",
+              "measurement_version": 3,
+              "segments": 3,
+              "sample_bytes": 3000000,
+              "download_bytes_per_second": 1046256,
+              "media": {
+                "width": 1920,
+                "height": 1080,
+                "video_codec": "h264",
+                "audio_codec": "aac",
+                "audio_language": "rus",
+                "audio_language_tag": "rus",
+                "russian_default": true,
+                "audio_tracks": 1,
+                "field_order": "unknown",
+                "selected_audio_index": 0,
+                "default_audio_index": 0,
+                "fps": 25.0,
+                "channels": 2,
+                "bitrate": 3541104,
+                "audio_bitrate": 198758,
+                "sample_rate": "48000",
+                "probe_startup_seconds": 2.103
+              },
+              "russian_audio_confirmed": true,
+              "audio_language_evidence": "offline faster-whisper/base, decoded audio sample; not a guarantee for all programming",
+              "startup_seconds": 2.371,
+              "timestamp_origin_normalized": true,
+              "audio_decoded": true,
+              "decoded_video_seconds": 25.0,
+              "decoded_audio_seconds": 25.003,
+              "video_continuous": true,
+              "audio_continuous": true,
+              "video_frames": 626,
+              "audio_frames": 1173,
+              "max_video_gap": 0.0400000000000027,
+              "max_audio_gap": 0.021334000000003073,
+              "long_silence": false,
+              "long_freeze": false,
+              "elapsed_seconds": 31.994,
+              "speech_language": {
+                "language": "ru",
+                "probability": 0.9962473511695862,
+                "speech_seconds": 16.88,
+                "characters": 147,
+                "method": "offline faster-whisper/base, decoded audio sample; not a guarantee for all programming"
+              },
+              "egress_sha256": "a130ed9d3515ef5e2bacc3ad41b71e272eb3d62b789b71bcd8d69272e5ab298f",
+              "observation_id": "418fac58e4093854e27046dd36126cf3bab601b0cce735ccddaaad840b786e53"
+            }
+          ],
           "sources": [
             {
               "provider": "existing playlist.m3u",
