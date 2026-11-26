@@ -9,6 +9,10 @@ Free auto-updating IPTV playlist for OTTPlayer
 [Отчёт по киноканалам](playlist-movies-report.md).
 Обновление: `python scripts/update_playlist.py`.
 
+Зеркало для подключения по URL: [GitHub Pages](https://denisczua.github.io/My-IPTV/playlist.m3u).
+[Подключение и диагностика OTTPlayer](docs/OTTPLAYER-URL.md). Успех HTTP-загрузки
+не подменяет подтверждение подключения в личном кабинете.
+
 ## Русский и украинский плейлисты для Чехии
 
 - `playlist-ru-ua-testing.m3u` — языковые кандидаты UNKNOWN_CZ/UNSTABLE_CZ.

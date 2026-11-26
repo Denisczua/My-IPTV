@@ -145,3 +145,21 @@ jobs:
             data/main-check-history/
             data/reports/*failed.json
           retention-days: 3
+
+  publish-pages:
+    needs: update
+    if: needs.update.result == 'success'
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    uses: ./.github/workflows/pages.yml
+
+  publish-pages-after-cz:
+    needs: check-cz
+    if: needs.check-cz.result == 'success'
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    uses: ./.github/workflows/pages.yml

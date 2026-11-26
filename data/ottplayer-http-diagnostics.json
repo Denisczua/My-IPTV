@@ -1,0 +1,13 @@
+{
+  "bytes": 2262208,
+  "mib": 2.157,
+  "sha256": "a5e3a9e436f39b1c7918451f9ef85078251ee3c393a1cd5918d52f30befc74c2",
+  "utf8_valid": true,
+  "utf8_bom": false,
+  "channels": 10416,
+  "first_line_bytes": 6387,
+  "nul_bytes": 0,
+  "crlf_lines": 0,
+  "lf_lines": 20833,
+  "http_urls": 10404
+}

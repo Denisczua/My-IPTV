@@ -8,6 +8,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 import re
 import tempfile
+import time
 import urllib.request
 from contextlib import contextmanager
 import ru_ua_categories as categories
@@ -32,10 +33,20 @@ def atomic(path, text):
     try:
         with os.fdopen(fd, 'w', encoding='utf-8', newline='\n') as stream:
             stream.write(text)
-        os.replace(name, path)
+        for attempt in range(6):
+            try:
+                os.replace(name, path)
+                break
+            except PermissionError:
+                if attempt==5:raise
+                time.sleep(.05*(attempt+1))
     finally:
-        if os.path.exists(name):
+        try:
             os.unlink(name)
+        except OSError:
+            # Cleanup must not turn an already committed replacement into an
+            # untracked partial transaction when a sync/antivirus holds a handle.
+            pass
 
 
 def save_json(path, data):
@@ -72,8 +83,8 @@ def transaction(files):
     changed = []
     try:
         for path, text in files.items():
-            atomic(path, text)
             changed.append(path)
+            atomic(path, text)
     except BaseException:
         for path in reversed(changed):
             if old[path] is None:
