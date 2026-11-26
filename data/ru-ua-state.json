@@ -14513,21 +14513,21 @@
   },
   "cycle": null,
   "counts": {
-    "processed": 11484,
+    "processed": 11499,
     "excluded_specialized_all_languages": 0,
     "unresolved": 95,
     "no_language_evidence": 0,
-    "other_or_review": 10764,
+    "other_or_review": 10779,
     "multilingual_review": 95,
-    "known_other": 10669,
+    "known_other": 10684,
     "russian": 574,
     "ukrainian": 166,
     "both": 20,
     "excluded_specialized_ru_ua": 0,
     "specialization_review_ru_ua": 0
   },
-  "source_sha256": "ad5ffe401545d7572f3ee764358f70077a8653c9728b5dc49367ec74756f3c9c",
-  "catalogued_at": "2026-11-25T19:38:19.590416+00:00",
+  "source_sha256": "2d981e55bd697324ac8c43934e60c2968a7d16394707bdf04fb84283ccf62e98",
+  "catalogued_at": "2026-11-26T01:33:24.122593+00:00",
   "review_needed": {
     "language": [
       {
