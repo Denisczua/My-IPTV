@@ -1,34 +1,34 @@
 {
-  "at": "2026-11-26T18:07:13.173535+00:00",
+  "at": "2026-11-26T18:16:17.109443+00:00",
   "documentation": [
     {
       "provider": "IPTV Nexus",
       "repository": "dearbulut/iptv",
-      "checked_at": "2026-11-26T18:07:11.016234+00:00",
+      "checked_at": "2026-11-26T18:16:13.746761+00:00",
       "ok": true
     },
     {
       "provider": "Nexonic IPTV",
       "repository": "nexonic-technologies/nexonic-iptv",
-      "checked_at": "2026-11-26T18:07:11.100610+00:00",
+      "checked_at": "2026-11-26T18:16:13.954161+00:00",
       "ok": true
     },
     {
       "provider": "DuckKota IPTV",
       "repository": "DuckKota/iptv",
-      "checked_at": "2026-11-26T18:07:11.176215+00:00",
+      "checked_at": "2026-11-26T18:16:14.071722+00:00",
       "ok": true
     },
     {
       "provider": "IPTV-ORG",
       "repository": "iptv-org/iptv",
-      "checked_at": "2026-11-26T18:07:11.244882+00:00",
+      "checked_at": "2026-11-26T18:16:14.253592+00:00",
       "ok": true
     },
     {
       "provider": "Free-TV IPTV",
       "repository": "Free-TV/IPTV",
-      "checked_at": "2026-11-26T18:07:11.314869+00:00",
+      "checked_at": "2026-11-26T18:16:14.372074+00:00",
       "ok": true
     }
   ],
@@ -36,29 +36,29 @@
     {
       "provider": "IPTV Nexus",
       "url": "https://dearbulut.github.io/iptv/playlists/index.m3u",
-      "checked_at": "2026-11-26T18:07:11.374817+00:00",
+      "checked_at": "2026-11-26T18:16:14.491525+00:00",
       "ok": true,
       "effective_url": "https://dearbulut.github.io/iptv/playlists/index.m3u",
       "entries": 16026,
       "sha256": "357626eb1e03f96c62296413441c7668098e3ec800eb818996a1427e6470bd13",
-      "last_modified": "Thu, 26 Nov 2026 08:31:04 GMT",
+      "last_modified": "Thu, 26 Nov 2026 08:31:03 GMT",
       "omitted_records": []
     },
     {
       "provider": "IPTV Nexus",
       "url": "https://dearbulut.github.io/iptv/playlists/country/ru.m3u",
-      "checked_at": "2026-11-26T18:07:11.375180+00:00",
+      "checked_at": "2026-11-26T18:16:14.491935+00:00",
       "ok": true,
       "effective_url": "https://dearbulut.github.io/iptv/playlists/country/ru.m3u",
       "entries": 473,
       "sha256": "7570989aa7f1b119c44245e28d83620307dcb1a92a3c1e654b28366ec7b07897",
-      "last_modified": "Thu, 26 Nov 2026 08:31:04 GMT",
+      "last_modified": "Thu, 26 Nov 2026 08:31:03 GMT",
       "omitted_records": []
     },
     {
       "provider": "IPTV Nexus",
       "url": "https://dearbulut.github.io/iptv/playlists/country/ua.m3u",
-      "checked_at": "2026-11-26T18:07:11.375637+00:00",
+      "checked_at": "2026-11-26T18:16:14.492390+00:00",
       "ok": true,
       "effective_url": "https://dearbulut.github.io/iptv/playlists/country/ua.m3u",
       "entries": 181,
@@ -69,7 +69,7 @@
     {
       "provider": "IPTV Nexus",
       "url": "https://dearbulut.github.io/iptv/playlists/online.m3u",
-      "checked_at": "2026-11-26T18:07:11.379445+00:00",
+      "checked_at": "2026-11-26T18:16:14.495381+00:00",
       "ok": true,
       "effective_url": "https://dearbulut.github.io/iptv/playlists/online.m3u",
       "entries": 8638,
@@ -80,7 +80,7 @@
     {
       "provider": "IPTV Nexus",
       "url": "https://dearbulut.github.io/iptv/playlists/best.m3u",
-      "checked_at": "2026-11-26T18:07:11.494461+00:00",
+      "checked_at": "2026-11-26T18:16:14.648187+00:00",
       "ok": true,
       "effective_url": "https://dearbulut.github.io/iptv/playlists/best.m3u",
       "entries": 10443,
@@ -91,7 +91,7 @@
     {
       "provider": "Nexonic IPTV",
       "url": "https://nexonic-technologies.github.io/nexonic-iptv/playlists/all.m3u",
-      "checked_at": "2026-11-26T18:07:11.513307+00:00",
+      "checked_at": "2026-11-26T18:16:14.657006+00:00",
       "ok": true,
       "effective_url": "https://nexonic-technologies.github.io/nexonic-iptv/playlists/all.m3u",
       "entries": 4458,
@@ -102,7 +102,7 @@
     {
       "provider": "Nexonic IPTV",
       "url": "https://nexonic-technologies.github.io/nexonic-iptv/playlists/verified.m3u",
-      "checked_at": "2026-11-26T18:07:11.664332+00:00",
+      "checked_at": "2026-11-26T18:16:14.915875+00:00",
       "ok": true,
       "effective_url": "https://nexonic-technologies.github.io/nexonic-iptv/playlists/verified.m3u",
       "entries": 4398,
@@ -113,7 +113,7 @@
     {
       "provider": "Nexonic IPTV",
       "url": "https://nexonic-technologies.github.io/nexonic-iptv/playlists/quality/1080p.m3u",
-      "checked_at": "2026-11-26T18:07:11.860405+00:00",
+      "checked_at": "2026-11-26T18:16:15.133010+00:00",
       "ok": true,
       "effective_url": "https://nexonic-technologies.github.io/nexonic-iptv/playlists/quality/1080p.m3u",
       "entries": 2031,
@@ -124,7 +124,7 @@
     {
       "provider": "DuckKota IPTV",
       "url": "https://DuckKota.github.io/iptv/playlists/index.m3u",
-      "checked_at": "2026-11-26T18:07:11.961699+00:00",
+      "checked_at": "2026-11-26T18:16:15.156999+00:00",
       "ok": true,
       "effective_url": "https://DuckKota.github.io/iptv/playlists/index.m3u",
       "entries": 16064,
@@ -135,7 +135,7 @@
     {
       "provider": "DuckKota IPTV",
       "url": "https://DuckKota.github.io/iptv/playlists/country/ru.m3u",
-      "checked_at": "2026-11-26T18:07:12.089321+00:00",
+      "checked_at": "2026-11-26T18:16:15.285216+00:00",
       "ok": true,
       "effective_url": "https://DuckKota.github.io/iptv/playlists/country/ru.m3u",
       "entries": 473,
@@ -146,7 +146,7 @@
     {
       "provider": "DuckKota IPTV",
       "url": "https://DuckKota.github.io/iptv/playlists/country/ua.m3u",
-      "checked_at": "2026-11-26T18:07:12.144502+00:00",
+      "checked_at": "2026-11-26T18:16:15.333481+00:00",
       "ok": true,
       "effective_url": "https://DuckKota.github.io/iptv/playlists/country/ua.m3u",
       "entries": 181,
@@ -157,7 +157,7 @@
     {
       "provider": "DuckKota IPTV",
       "url": "https://DuckKota.github.io/iptv/playlists/online.m3u",
-      "checked_at": "2026-11-26T18:07:12.152766+00:00",
+      "checked_at": "2026-11-26T18:16:15.380189+00:00",
       "ok": true,
       "effective_url": "https://DuckKota.github.io/iptv/playlists/online.m3u",
       "entries": 8729,
@@ -168,7 +168,7 @@
     {
       "provider": "IPTV-ORG",
       "url": "https://iptv-org.github.io/iptv/index.m3u",
-      "checked_at": "2026-11-26T18:07:12.218017+00:00",
+      "checked_at": "2026-11-26T18:16:15.450417+00:00",
       "ok": true,
       "effective_url": "https://iptv-org.github.io/iptv/index.m3u",
       "entries": 11511,
@@ -187,7 +187,7 @@
     {
       "provider": "IPTV-ORG",
       "url": "https://iptv-org.github.io/iptv/languages/rus.m3u",
-      "checked_at": "2026-11-26T18:07:12.238819+00:00",
+      "checked_at": "2026-11-26T18:16:15.456518+00:00",
       "ok": true,
       "effective_url": "https://iptv-org.github.io/iptv/languages/rus.m3u",
       "entries": 665,
@@ -198,7 +198,7 @@
     {
       "provider": "IPTV-ORG",
       "url": "https://iptv-org.github.io/iptv/languages/ukr.m3u",
-      "checked_at": "2026-11-26T18:07:12.380911+00:00",
+      "checked_at": "2026-11-26T18:16:15.639545+00:00",
       "ok": true,
       "effective_url": "https://iptv-org.github.io/iptv/languages/ukr.m3u",
       "entries": 175,
@@ -209,7 +209,7 @@
     {
       "provider": "IPTV-ORG",
       "url": "https://iptv-org.github.io/iptv/categories/movies.m3u",
-      "checked_at": "2026-11-26T18:07:12.389356+00:00",
+      "checked_at": "2026-11-26T18:16:15.720592+00:00",
       "ok": true,
       "effective_url": "https://iptv-org.github.io/iptv/categories/movies.m3u",
       "entries": 770,
@@ -220,7 +220,7 @@
     {
       "provider": "Free-TV IPTV",
       "url": "https://raw.githubusercontent.com/Free-TV/IPTV/master/playlist.m3u8",
-      "checked_at": "2026-11-26T18:07:12.572469+00:00",
+      "checked_at": "2026-11-26T18:16:15.759262+00:00",
       "ok": true,
       "effective_url": "https://raw.githubusercontent.com/Free-TV/IPTV/master/playlist.m3u8",
       "entries": 2197,
