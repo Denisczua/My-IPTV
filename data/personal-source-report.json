@@ -1,22 +1,22 @@
 {
-  "at": "2026-11-26T18:37:09.536140+00:00",
+  "at": "2026-11-26T19:15:17.523761+00:00",
   "sources": [
     {
       "channel": "Russia24.ru",
       "source": "https://player-api.smotrim.ru/api/v1/channel/3",
-      "at": "2026-11-26T18:37:08.577770+00:00",
+      "at": "2026-11-26T19:15:16.285803+00:00",
       "ok": true
     },
     {
       "channel": "360News.ru",
       "source": "https://player-api.smotrim.ru/api/v1/channel/374",
-      "at": "2026-11-26T18:37:08.956440+00:00",
+      "at": "2026-11-26T19:15:16.803490+00:00",
       "ok": true
     },
     {
       "channel": "Smotrim100Klassika.ru",
       "source": "https://player-api.smotrim.ru/api/v1/channel/396",
-      "at": "2026-11-26T18:37:09.390327+00:00",
+      "at": "2026-11-26T19:15:17.125925+00:00",
       "ok": true
     }
   ]
