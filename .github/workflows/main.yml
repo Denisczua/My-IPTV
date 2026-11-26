@@ -151,6 +151,7 @@ jobs:
     if: needs.update.result == 'success'
     permissions:
       contents: read
+      actions: read
       pages: write
       id-token: write
     uses: ./.github/workflows/pages.yml
@@ -160,6 +161,7 @@ jobs:
     if: needs.check-cz.result == 'success'
     permissions:
       contents: read
+      actions: read
       pages: write
       id-token: write
     uses: ./.github/workflows/pages.yml
