@@ -1,6 +1,6 @@
 {
-  "at": "2026-11-27T13:57:02.351343+00:00",
-  "published_candidate_count": 17,
+  "at": "2026-11-27T14:01:41.097796+00:00",
+  "published_candidate_count": 18,
   "channels": [
     {
       "id": "EpicMedia.ru",
@@ -53,6 +53,19 @@
       "audio_language_checked_at": "2026-11-27T09:56:18.144486+00:00",
       "audio_language_method": "offline faster-whisper/base, decoded audio sample; not a guarantee for all programming",
       "rights_evidence": "https://rutube.ru/api/play/options/e05401be60a9cc719fa7075b6e77b86d/?format=json"
+    },
+    {
+      "id": "KinoiZhizn.ru",
+      "name": "Кино и Жизнь Full HD",
+      "group": "Кино",
+      "theme": "Кино",
+      "resolution": "1920×1080",
+      "status": "STABLE_CZ",
+      "last_check": "2026-11-27T13:59:59.293656+00:00",
+      "audio_language": "rus",
+      "audio_language_checked_at": "2026-11-27T13:59:59.293656+00:00",
+      "audio_language_method": "offline faster-whisper/base, decoded audio sample; not a guarantee for all programming",
+      "rights_evidence": "https://kij-tv.ru/"
     },
     {
       "id": "Kinozhelezo.ru",
@@ -271,7 +284,7 @@
       "fix": "Parse contiguous video/audio frame fields independently; unchanged durations, gap thresholds and strict decoding flags; timestamp_parser_version=2. Old failed observations retained, not promoted to success."
     }
   ],
-  "remaining": "Kino i Zhizn: two successful spaced CZ checks, final pass pending. Big Asia: two successes followed by decoder error, not admitted. Fishing and Ukrainian news quotas incomplete. World-cinema candidates need stable decoded RU playback and verified free distribution rights; existing channels retained.",
+  "remaining": "18 channels available, including all previous 16. World-cinema majority and fishing/travel/UA quotas are NOT achieved. No new infrastructure or code changes. 47 new priority addresses archived; six HLS candidates received actual media checks, three passed once (two FHD, one SD), none admitted without rights/stability evidence. Kino i Zhizn passed three spaced CZ samples and is added. OLED 0: visible watermark.",
   "priority": "World cinema and foreign series with Russian dubbing, HD/FHD; preserve existing confirmed channels. No authorization, DRM or geo bypass.",
   "additional_world_cinema": {
     "sources": [
@@ -281,7 +294,7 @@
     ],
     "new_unique_addresses": 47,
     "hls_preflight_responses": 6,
-    "decoded_observations": 5,
+    "decoded_observations": 6,
     "results": [
       {
         "channel": "vijuTV1000action.ru",
@@ -412,15 +425,48 @@
           "method": "offline faster-whisper/base, decoded audio sample; not a guarantee for all programming"
         },
         "rights": "unconfirmed; not published"
+      },
+      {
+        "channel": "CityEdenKinoSemya.ru",
+        "result": "fail",
+        "reason": "Media timeout",
+        "media": null,
+        "speech_language": null,
+        "rights": "unconfirmed; not published"
       }
     ]
   },
   "groups": {
-    "Кино": 10,
+    "Кино": 11,
     "Рыбалка и охота": 1,
     "Путешествия и природа": 1,
     "Новости Украины": 1,
     "Новости России": 4
   },
-  "oled": 0
+  "oled": 0,
+  "next_queue": [
+    {
+      "channel": "Kinosemja.ru",
+      "priority": "world cinema FHD",
+      "state": "one decoded CZ success, Russian speech confirmed; free redistribution rights unconfirmed; two further spaced samples needed after rights review"
+    },
+    {
+      "channel": "Kinopremyera.ru",
+      "priority": "world cinema FHD",
+      "state": "one decoded CZ success; Russian ASR confidence 0.9186 below admission threshold; rights and repeated samples pending"
+    },
+    {
+      "channel": "BigAsia.ru",
+      "priority": "travel/nature",
+      "state": "two successful samples then FFmpeg decoder error; UNSTABLE_CZ, do not publish"
+    },
+    {
+      "category": "Fishing",
+      "state": "1 published of requested 3–5; no additional sustainable verified legal source yet"
+    },
+    {
+      "category": "Ukrainian news",
+      "state": "1 published of requested 3–4; session-bound distributor URLs held; no unauthorised relay published"
+    }
+  ]
 }

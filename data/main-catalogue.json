@@ -108703,7 +108703,22 @@
             "#EXTINF:-1 group-title=\"Кино\", Сити Эдем — Киносемья",
             "https://autopilot.catcast.tv/content/38128/index.m3u8?password=promolive"
           ],
-          "history": [],
+          "history": [
+            {
+              "at": "2026-11-27T13:55:50.174771+00:00",
+              "region": "CZ",
+              "result": "fail",
+              "measurement_version": 3,
+              "playback_selection": "sampled_hls_rendition",
+              "segments": 3,
+              "sample_bytes": 3000000,
+              "download_bytes_per_second": 68960,
+              "reason": "Media timeout",
+              "elapsed_seconds": 73.96,
+              "egress_sha256": "a130ed9d3515ef5e2bacc3ad41b71e272eb3d62b789b71bcd8d69272e5ab298f",
+              "observation_id": "28fdd4360f079ac56f79dac524ac3253931431a64f9eb772a36f2d7b5facb5a0"
+            }
+          ],
           "sources": [
             {
               "provider": "additional public GitHub catalogue",
@@ -108719,7 +108734,8 @@
             "hls": true,
             "at": "2026-11-27T13:57:01.524227+00:00",
             "media_proof": false
-          }
+          },
+          "status": "UNKNOWN_CZ"
         }
       },
       "groups": [
@@ -233987,7 +234003,19 @@
             "#EXTINF:-1 tvg-id=\"kinouzhas\" tvg-logo=\"https://iptvx.one/picons/kinouzhas.png\" group-title=\"SW\",Киноужас",
             "https://fs.uplink.kz/kinouzhas/mono.m3u8?token=onlinetv"
           ],
-          "history": [],
+          "history": [
+            {
+              "at": "2026-11-27T08:03:32.044609+00:00",
+              "region": "CZ",
+              "result": "fail",
+              "measurement_version": 3,
+              "reason": "HTTP 403",
+              "http_status": 403,
+              "elapsed_seconds": 0.402,
+              "egress_sha256": "a130ed9d3515ef5e2bacc3ad41b71e272eb3d62b789b71bcd8d69272e5ab298f",
+              "observation_id": "06db6e857da55c6c734b75604412e134d43e5a1c134119dfea57246a9cd579f9"
+            }
+          ],
           "sources": [
             {
               "provider": "additional public GitHub catalogue",
@@ -234003,7 +234031,8 @@
             "seconds": 0.77,
             "at": "2026-11-27T13:57:01.523355+00:00",
             "media_proof": false
-          }
+          },
+          "status": "UNKNOWN_CZ"
         },
         "1575f29260684bd5c25d98b637ea9adb79484f92350ce45821b50a4ac6decfb3": {
           "block": [
@@ -544005,6 +544034,61 @@
               },
               "egress_sha256": "a130ed9d3515ef5e2bacc3ad41b71e272eb3d62b789b71bcd8d69272e5ab298f",
               "observation_id": "0a7400f14e0c6bd7cf45a163254609c66aaab3e4d8f035e7ae2b6db12754dff3"
+            },
+            {
+              "at": "2026-11-27T13:59:59.293656+00:00",
+              "region": "CZ",
+              "result": "ok",
+              "measurement_version": 3,
+              "playback_selection": "sampled_hls_rendition",
+              "segments": 3,
+              "sample_bytes": 3000000,
+              "download_bytes_per_second": 903784,
+              "media": {
+                "width": 1920,
+                "height": 1080,
+                "video_codec": "h264",
+                "audio_codec": "aac",
+                "audio_language": "rus",
+                "audio_language_tag": "und",
+                "russian_default": true,
+                "audio_tracks": 1,
+                "field_order": "unknown",
+                "selected_audio_index": 1,
+                "default_audio_index": 1,
+                "fps": 25.0,
+                "channels": 2,
+                "bitrate": 7121619,
+                "audio_bitrate": 130749,
+                "sample_rate": "48000",
+                "probe_startup_seconds": 3.881
+              },
+              "russian_audio_confirmed": true,
+              "startup_seconds": 3.774,
+              "timestamp_origin_normalized": true,
+              "timestamp_parser_version": 2,
+              "audio_decoded": true,
+              "decoded_video_seconds": 25.0,
+              "decoded_audio_seconds": 25.003,
+              "video_continuous": true,
+              "audio_continuous": true,
+              "video_frames": 626,
+              "audio_frames": 1173,
+              "max_video_gap": 0.0400000000000027,
+              "max_audio_gap": 0.021334000000003073,
+              "long_silence": false,
+              "long_freeze": false,
+              "elapsed_seconds": 40.435,
+              "speech_language": {
+                "language": "ru",
+                "probability": 0.9740521311759949,
+                "speech_seconds": 18.72,
+                "characters": 176,
+                "method": "offline faster-whisper/base, decoded audio sample; not a guarantee for all programming"
+              },
+              "audio_language_evidence": "offline faster-whisper/base, decoded audio sample; not a guarantee for all programming",
+              "egress_sha256": "a130ed9d3515ef5e2bacc3ad41b71e272eb3d62b789b71bcd8d69272e5ab298f",
+              "observation_id": "875a9e0445a31b187237b7c0dc36914621a05c7a9875c76e1149ff3aa11e6feb"
             }
           ],
           "sources": [
@@ -544022,7 +544106,8 @@
           "existing": false,
           "rights_evidence": "https://kij-tv.ru/",
           "audio_reviews": [],
-          "status": "UNKNOWN_CZ"
+          "status": "STABLE_CZ",
+          "was_stable": true
         }
       },
       "groups": [],
