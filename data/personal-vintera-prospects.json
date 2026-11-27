@@ -1,12 +1,12 @@
 {
-  "at": "2026-11-27T13:58:36.824010+00:00",
+  "at": "2026-11-27T18:45:39.431401+00:00",
   "issuer": "github_hosted",
   "region_proof": "UNKNOWN_CZ; metadata retrieval is not playback verification",
   "channels": [
     {
       "provider_id": 30,
       "name": "Классика Кино",
-      "url": "https://serv25.vintera.tv/klasskino/k_kino/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MTEvMjcvMjAyNiAxOjU4OjM4IFBNJmhhc2hfdmFsdWU9V0hXQmNvd1VUWWQ1LzV0R24zeVdCZz09JnZhbGlkbWludXRlcz00ODA=",
+      "url": "https://serv25.vintera.tv/klasskino/k_kino/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MTEvMjcvMjAyNiA2OjQ1OjQwIFBNJmhhc2hfdmFsdWU9dm45M2NMNHdEWFpiN1BSZzI0TEpZQT09JnZhbGlkbWludXRlcz00ODA=",
       "evidence": "https://cms.vinteratv.com/api/channels/30",
       "page": "https://vinteratv.com/tv/30",
       "publication_hold": "Short-lived distributor lease; needs CZ decoding, language and sustainable renewal proof"
@@ -14,7 +14,7 @@
     {
       "provider_id": 46,
       "name": "Советское кино",
-      "url": "https://serv30.vintera.tv/restream/sovietmovs0/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MTEvMjcvMjAyNiAxOjU4OjM5IFBNJmhhc2hfdmFsdWU9Z0VSVDRlR1FUZ3F4VXQ5T0NIMDR4dz09JnZhbGlkbWludXRlcz00ODA=",
+      "url": "https://serv30.vintera.tv/restream/sovietmovs0/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MTEvMjcvMjAyNiA2OjQ1OjQyIFBNJmhhc2hfdmFsdWU9RFpza3NPc2VEM0U3Q1gxYnFWTUJNUT09JnZhbGlkbWludXRlcz00ODA=",
       "evidence": "https://cms.vinteratv.com/api/channels/46",
       "page": "https://vinteratv.com/tv/46",
       "publication_hold": "Short-lived distributor lease; needs CZ decoding, language and sustainable renewal proof"
@@ -22,7 +22,7 @@
     {
       "provider_id": 851,
       "name": "CineMa",
-      "url": "https://serv38.vintera.tv/restream/mm_films/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MTEvMjcvMjAyNiAxOjU4OjQxIFBNJmhhc2hfdmFsdWU9ZWdkN1lZdjQ3alZFc1JwTW51bGFEdz09JnZhbGlkbWludXRlcz00ODA=",
+      "url": "https://serv38.vintera.tv/restream/mm_films/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MTEvMjcvMjAyNiA2OjQ1OjQzIFBNJmhhc2hfdmFsdWU9M2J0bHYySmExNEdFSXRnaVR4SG13UT09JnZhbGlkbWludXRlcz00ODA=",
       "evidence": "https://cms.vinteratv.com/api/channels/851",
       "page": "https://vinteratv.com/tv/851",
       "publication_hold": "Short-lived distributor lease; needs CZ decoding, language and sustainable renewal proof"
@@ -30,7 +30,7 @@
     {
       "provider_id": 852,
       "name": "CineMa 2",
-      "url": "https://serv38.vintera.tv/restream/mm__films2/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MTEvMjcvMjAyNiAxOjU4OjQyIFBNJmhhc2hfdmFsdWU9ekFmVzRiRm5rRi94eGxZNXErcE5HQT09JnZhbGlkbWludXRlcz00ODA=",
+      "url": "https://serv38.vintera.tv/restream/mm__films2/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MTEvMjcvMjAyNiA2OjQ1OjQ0IFBNJmhhc2hfdmFsdWU9ZlRhSCtFYXRHK09sL2tVVEF3UUVkQT09JnZhbGlkbWludXRlcz00ODA=",
       "evidence": "https://cms.vinteratv.com/api/channels/852",
       "page": "https://vinteratv.com/tv/852",
       "publication_hold": "Short-lived distributor lease; needs CZ decoding, language and sustainable renewal proof"
@@ -38,7 +38,7 @@
     {
       "provider_id": 3316,
       "name": "CineMa 3",
-      "url": "https://serv38.vintera.tv/restream/cinema3/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MTEvMjcvMjAyNiAxOjU4OjQ0IFBNJmhhc2hfdmFsdWU9SUZPUzhxK3JVRE11djhkTzJJbVFmZz09JnZhbGlkbWludXRlcz00ODA=",
+      "url": "https://serv38.vintera.tv/restream/cinema3/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MTEvMjcvMjAyNiA2OjQ1OjQ2IFBNJmhhc2hfdmFsdWU9K2VzYjd2UDh4REtCRFYwNXRPeXlPQT09JnZhbGlkbWludXRlcz00ODA=",
       "evidence": "https://cms.vinteratv.com/api/channels/3316",
       "page": "https://vinteratv.com/tv/3316",
       "publication_hold": "Short-lived distributor lease; needs CZ decoding, language and sustainable renewal proof"
@@ -46,7 +46,7 @@
     {
       "provider_id": 3317,
       "name": "CineMa 4",
-      "url": "https://serv39.vintera.tv/restream/cinema4/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MTEvMjcvMjAyNiAxOjU4OjQ1IFBNJmhhc2hfdmFsdWU9aUIyb1F2R3pwNlc3ckN2cDJrYksrUT09JnZhbGlkbWludXRlcz00ODA=",
+      "url": "https://serv39.vintera.tv/restream/cinema4/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MTEvMjcvMjAyNiA2OjQ1OjQ3IFBNJmhhc2hfdmFsdWU9R2lUNFkrZGtSMHJrcW5oaWYvRy8vQT09JnZhbGlkbWludXRlcz00ODA=",
       "evidence": "https://cms.vinteratv.com/api/channels/3317",
       "page": "https://vinteratv.com/tv/3317",
       "publication_hold": "Short-lived distributor lease; needs CZ decoding, language and sustainable renewal proof"
@@ -54,7 +54,7 @@
     {
       "provider_id": 836,
       "name": "Horror",
-      "url": "https://serv25.vintera.tv/restream/horror_by/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MTEvMjcvMjAyNiAxOjU4OjQ2IFBNJmhhc2hfdmFsdWU9ZUZHWGh3UnFqdkdoMFVid1Uwa08ydz09JnZhbGlkbWludXRlcz00ODA=",
+      "url": "https://serv25.vintera.tv/restream/horror_by/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MTEvMjcvMjAyNiA2OjQ1OjQ4IFBNJmhhc2hfdmFsdWU9RWFTZW1lUG9uYzRKZEVNTU51WkhCQT09JnZhbGlkbWludXRlcz00ODA=",
       "evidence": "https://cms.vinteratv.com/api/channels/836",
       "page": "https://vinteratv.com/tv/836",
       "publication_hold": "Short-lived distributor lease; needs CZ decoding, language and sustainable renewal proof"
@@ -62,7 +62,7 @@
     {
       "provider_id": 9,
       "name": "Неизвестная планета",
-      "url": "https://serv25.vintera.tv/neplaneta/np/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MTEvMjcvMjAyNiAxOjU4OjQ4IFBNJmhhc2hfdmFsdWU9dkRtQllUTHdzeTVLeHFkTmR2MENUQT09JnZhbGlkbWludXRlcz00ODA=",
+      "url": "https://serv25.vintera.tv/neplaneta/np/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MTEvMjcvMjAyNiA2OjQ1OjUwIFBNJmhhc2hfdmFsdWU9cWR0OXB6Zy9ZWE1oRkRrc1RRbElFdz09JnZhbGlkbWludXRlcz00ODA=",
       "evidence": "https://cms.vinteratv.com/api/channels/9",
       "page": "https://vinteratv.com/tv/9",
       "publication_hold": "Short-lived distributor lease; needs CZ decoding, language and sustainable renewal proof"
@@ -70,7 +70,7 @@
     {
       "provider_id": 306,
       "name": "Терра Инкогнита",
-      "url": "https://serv25.vintera.tv/restream/terra/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MTEvMjcvMjAyNiAxOjU4OjQ5IFBNJmhhc2hfdmFsdWU9R3JDQUNjdVloczVNajZPeWFYb0JFUT09JnZhbGlkbWludXRlcz00ODA=",
+      "url": "https://serv25.vintera.tv/restream/terra/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MTEvMjcvMjAyNiA2OjQ1OjUxIFBNJmhhc2hfdmFsdWU9UzdmczhTSnF5MTl4ZS9rb0IyTmZLZz09JnZhbGlkbWludXRlcz00ODA=",
       "evidence": "https://cms.vinteratv.com/api/channels/306",
       "page": "https://vinteratv.com/tv/306",
       "publication_hold": "Short-lived distributor lease; needs CZ decoding, language and sustainable renewal proof"
@@ -78,7 +78,7 @@
     {
       "provider_id": 3299,
       "name": "Океан HD",
-      "url": "https://serv25.vintera.tv/restream/okean_hd/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MTEvMjcvMjAyNiAxOjU4OjUxIFBNJmhhc2hfdmFsdWU9OHlTT1lyZTRSTXBNZEFBdWxZUWg0Zz09JnZhbGlkbWludXRlcz00ODA=",
+      "url": "https://serv25.vintera.tv/restream/okean_hd/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MTEvMjcvMjAyNiA2OjQ1OjUzIFBNJmhhc2hfdmFsdWU9c1JBakc1SlNQNWd6Ujd4VTVCSlc5UT09JnZhbGlkbWludXRlcz00ODA=",
       "evidence": "https://cms.vinteratv.com/api/channels/3299",
       "page": "https://vinteratv.com/tv/3299",
       "publication_hold": "Short-lived distributor lease; needs CZ decoding, language and sustainable renewal proof"
@@ -86,7 +86,7 @@
     {
       "provider_id": 3321,
       "name": "Глазами Туриста",
-      "url": "https://stream.ufanet.ru/tourist_eyes_hd_fasttv/index.m3u8?st=K6b5qQbSkrJC7zff1hMMtDe9U?wmsAuthSign=c2VydmVyX3RpbWU9MTEvMjcvMjAyNiAxOjU4OjUyIFBNJmhhc2hfdmFsdWU9akV0QU4rMXBGeld1N1hRYWlYVmEyQT09JnZhbGlkbWludXRlcz00ODA=",
+      "url": "https://stream.ufanet.ru/tourist_eyes_hd_fasttv/index.m3u8?st=K6b5qQbSkrJC7zff1hMMtDe9U?wmsAuthSign=c2VydmVyX3RpbWU9MTEvMjcvMjAyNiA2OjQ1OjU0IFBNJmhhc2hfdmFsdWU9WWxSMEtFUG5HK1ozTnh6eFRwZ0dLdz09JnZhbGlkbWludXRlcz00ODA=",
       "evidence": "https://cms.vinteratv.com/api/channels/3321",
       "page": "https://vinteratv.com/tv/3321",
       "publication_hold": "Short-lived distributor lease; needs CZ decoding, language and sustainable renewal proof"
