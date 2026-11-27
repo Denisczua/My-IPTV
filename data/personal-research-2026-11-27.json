@@ -275,6 +275,12 @@
     {
       "source": "Official nature/fishing sites",
       "result": "RTG and Teleputeshestviya show distribution/programmes without a public linear source; Dikoe subscription page requires payment; Nasha Tema published source repeatedly unavailable; several old broadcaster domains are parked or unrelated and are not rights evidence"
+    },
+    {
+      "source": "Official viju live channels and terms",
+      "evidence": "https://viju.ru/docs/user-agreement/",
+      "catalogue": "https://viju.ru/tv-channels/",
+      "result": "Official site advertises some TV channels free after registration, but agreement defines permitted service territory as the Russian Federation. Not used from CZ; no registration, payment, geo or DRM bypass attempted."
     }
   ],
   "technical_findings": [
@@ -468,5 +474,17 @@
       "category": "Ukrainian news",
       "state": "1 published of requested 3–4; session-bound distributor URLs held; no unauthorised relay published"
     }
-  ]
+  ],
+  "continuation_checkpoint": {
+    "published": 18,
+    "published_movies": 11,
+    "original_16_retained": true,
+    "unfinished_media_processes": 0,
+    "new_world_sources_archived": 47,
+    "new_world_media_checks_completed": 6,
+    "priority": "foreign/world cinema with Russian audio, HD/FHD; not limited to Russian-produced films",
+    "next_queue_field": "next_queue",
+    "private_durable_journal": "MyIPTV-CZ-runner/progress/world-cinema-2026-11-27.jsonl",
+    "code_and_workflows_changed_this_batch": false
+  }
 }
