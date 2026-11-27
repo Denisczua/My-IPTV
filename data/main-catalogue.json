@@ -20829,13 +20829,13 @@
     "sha256": "01b37e8dfc14c6911f6a0265294dfea00f2afff741d1c168ca6d3602e5486792"
   },
   "scan": {
-    "at": "2026-11-27T18:45:59.519635+00:00",
+    "at": "2026-11-27T19:06:33.842300+00:00",
     "before_entries": 10416,
     "before_identities": 10416,
     "sources_processed": 17,
     "providers_available": 5,
     "source_entries": 87763,
-    "movie_candidate_rows": 6297,
+    "movie_candidate_rows": 6309,
     "primary_available": true
   },
   "channels": {
@@ -560238,9 +560238,129 @@
               "provider": "IPTV-ORG",
               "url": "https://iptv-org.github.io/iptv/index.m3u",
               "header": "#EXTM3U"
+            },
+            {
+              "provider": "IPTV-ORG",
+              "url": "https://iptv-org.github.io/iptv/languages/rus.m3u",
+              "header": "#EXTM3U"
             }
           ],
           "existing": true,
+          "rights_evidence": "",
+          "status": "UNKNOWN_CZ",
+          "audio_reviews": []
+        },
+        "42773dfa3c42cc1cd3f973f940df1d3ef8e0842de6a30da46c02b37e78b22c3e": {
+          "block": [
+            "#EXTINF:-1 tvg-id=\"Kinokomedija.ru\" tvg-chno=\"7030\" tvg-name=\"Kinokomedija\" tvg-logo=\"https://i.imgur.com/dVjtth0.png\" tvg-country=\"RU\" tvg-language=\"rus\" group-title=\"Comedy\" nexus-score=\"100\",Kinokomedija (1080p)",
+            "http://stream.mcquack.net/265/index.m3u8"
+          ],
+          "history": [],
+          "sources": [
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/index.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            },
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/country/ru.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/ru.xml.gz\""
+            },
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/online.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            },
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/best.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            }
+          ],
+          "existing": false,
+          "rights_evidence": "",
+          "status": "UNKNOWN_CZ",
+          "audio_reviews": []
+        },
+        "39d16cfeea7fbe67df2192c75806c767536f607d23336987239304e0154615fb": {
+          "block": [
+            "#EXTINF:-1 tvg-id=\"Kinokomedija.ru\" tvg-chno=\"7030\" tvg-name=\"Kinokomedija\" tvg-logo=\"https://i.imgur.com/dVjtth0.png\" tvg-country=\"RU\" tvg-language=\"rus\" group-title=\"Comedy\" nexus-score=\"92\",Kinokomedija (576p)",
+            "https://fs.uplink.kz/kinokomedia/mono.m3u8?token=onlinetv"
+          ],
+          "history": [],
+          "sources": [
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/index.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            }
+          ],
+          "existing": false,
+          "rights_evidence": "",
+          "status": "UNKNOWN_CZ",
+          "audio_reviews": []
+        },
+        "5365f45ff364d67cc37c18e59737183bad35211bcc7c57180c87987441aa6d27": {
+          "block": [
+            "#EXTINF:-1 tvg-id=\"Kinokomedija.ru\" tvg-name=\"Kinokomedija\" tvg-logo=\"https://i.imgur.com/dVjtth0.png\" tvg-country=\"RU\" tvg-language=\"rus\" group-title=\"Comedy\" nexus-score=\"100\",Kinokomedija (1080p)",
+            "http://stream.mcquack.net/265/index.m3u8"
+          ],
+          "history": [],
+          "sources": [
+            {
+              "provider": "DuckKota IPTV",
+              "url": "https://DuckKota.github.io/iptv/playlists/index.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://DuckKota.github.io/iptv/epg/guide.xml.gz\""
+            },
+            {
+              "provider": "DuckKota IPTV",
+              "url": "https://DuckKota.github.io/iptv/playlists/country/ru.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://DuckKota.github.io/iptv/epg/guide.xml.gz\""
+            },
+            {
+              "provider": "DuckKota IPTV",
+              "url": "https://DuckKota.github.io/iptv/playlists/online.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://DuckKota.github.io/iptv/epg/guide.xml.gz\""
+            }
+          ],
+          "existing": false,
+          "rights_evidence": "",
+          "status": "UNKNOWN_CZ",
+          "audio_reviews": []
+        },
+        "cf84604a435394d420269839e2e26842f8b0734819843c26e4dca45874d921a7": {
+          "block": [
+            "#EXTINF:-1 tvg-id=\"Kinokomedija.ru\" tvg-name=\"Kinokomedija\" tvg-logo=\"https://i.imgur.com/dVjtth0.png\" tvg-country=\"RU\" tvg-language=\"rus\" group-title=\"Comedy\" nexus-score=\"100\",Kinokomedija (576p)",
+            "http://s7.merlive.am/Kinokomedia/index.m3u8"
+          ],
+          "history": [],
+          "sources": [
+            {
+              "provider": "DuckKota IPTV",
+              "url": "https://DuckKota.github.io/iptv/playlists/index.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://DuckKota.github.io/iptv/epg/guide.xml.gz\""
+            }
+          ],
+          "existing": false,
+          "rights_evidence": "",
+          "status": "UNKNOWN_CZ",
+          "audio_reviews": []
+        },
+        "1a81e10987e6f8cddadd3e4b4c1cfae92f681feb417b535780f3784e4bbff5fc": {
+          "block": [
+            "#EXTINF:-1 tvg-id=\"Kinokomedija.ru\" tvg-name=\"Kinokomedija\" tvg-logo=\"https://i.imgur.com/dVjtth0.png\" tvg-country=\"RU\" tvg-language=\"rus\" group-title=\"Comedy\" nexus-score=\"70\",Kinokomedija (576p)",
+            "https://fs.uplink.kz/kinokomedia/mono.m3u8?token=onlinetv"
+          ],
+          "history": [],
+          "sources": [
+            {
+              "provider": "DuckKota IPTV",
+              "url": "https://DuckKota.github.io/iptv/playlists/index.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://DuckKota.github.io/iptv/epg/guide.xml.gz\""
+            }
+          ],
+          "existing": false,
           "rights_evidence": "",
           "status": "UNKNOWN_CZ",
           "audio_reviews": []
@@ -560250,13 +560370,13 @@
         "Comedy"
       ],
       "baseline": true,
-      "movie_candidate": false,
-      "movie_confirmed": false,
+      "movie_candidate": true,
+      "movie_confirmed": true,
       "catalogue_languages": [
         "rus"
       ],
       "adult_specialization": false,
-      "name": "Kinokomedija",
+      "name": "Кинокомедия",
       "suppressed": false
     },
     "UrbanoTV.cr": {
