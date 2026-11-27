@@ -1,6 +1,6 @@
 {
   "source": "https://iptv-org.github.io/api/feeds.json",
-  "retrieved_at": "2026-11-27T07:37:57.038314+00:00",
+  "retrieved_at": "2026-11-27T08:44:20.754329+00:00",
   "feeds": {
     "002RadioTV.do@SD": [
       "spa"
@@ -9738,6 +9738,9 @@
     "AsPistasdeBlue.us@Brazil": [
       "por"
     ],
+    "AsplurTV.bo@SD": [
+      "spa"
+    ],
     "ASpor.tr@HD": [
       "tur"
     ],
@@ -13144,6 +13147,24 @@
       "eng",
       "fil"
     ],
+    "BeeTVInfokanal.kz@SD": [
+      "kaz"
+    ],
+    "BeeTVMovies.kz@SD": [
+      "kaz"
+    ],
+    "BeeTVOreliReshka.kz@SD": [
+      "kaz"
+    ],
+    "BeeTVSemeynyyemelodramy.kz@SD": [
+      "kaz"
+    ],
+    "BeeTVSeries.kz@SD": [
+      "kaz"
+    ],
+    "BeeTVSport.kz@SD": [
+      "kaz"
+    ],
     "BeffroiVision.fr@SD": [
       "fra"
     ],
@@ -14286,6 +14307,9 @@
       "bho"
     ],
     "BhojpuriMagic.np@SD": [
+      "bho"
+    ],
+    "BhojpuriManoranjan.in@SD": [
       "bho"
     ],
     "BHOOMI24x7.in@SD": [
@@ -16438,7 +16462,13 @@
     "Bridge2.us@WOFTLD": [
       "eng"
     ],
+    "BRIDGEAlternative.ru@SD": [
+      "rus"
+    ],
     "BRIDGEClassic.ru@SD": [
+      "rus"
+    ],
+    "BRIDGEClassicRock.ru@SD": [
       "rus"
     ],
     "BRIDGEDance.ru@SD": [
@@ -16460,6 +16490,9 @@
       "rus"
     ],
     "BRIDGEJazz.ru@SD": [
+      "rus"
+    ],
+    "BRIDGEKPop.ru@SD": [
       "rus"
     ],
     "BRIDGERap.ru@SD": [
@@ -21886,6 +21919,10 @@
     "CartoonNetworkAsia.sg@HD": [
       "eng"
     ],
+    "CartoonNetworkAsia.sg@Indonesia": [
+      "ind",
+      "eng"
+    ],
     "CartoonNetworkAsia.sg@SD": [
       "eng"
     ],
@@ -23550,11 +23587,17 @@
     "CCACanal2.bo@SD": [
       "spa"
     ],
+    "CCCCineChannel.in@SD": [
+      "hin"
+    ],
     "CCCOAspireTV.ug@SD": [
       "eng"
     ],
     "CCGTV.us@SD": [
       "eng"
+    ],
+    "CChannel.in@SD": [
+      "hin"
     ],
     "Cchannel.kr@SD": [
       "kor"
@@ -24500,6 +24543,10 @@
     ],
     "Channel5.uk@SD": [
       "eng"
+    ],
+    "Channel5International.ru@Europe": [
+      "rus",
+      "tur"
     ],
     "Channel5International.ru@SD": [
       "rus"
@@ -26505,6 +26552,9 @@
     "CiticableNRH.us@SD": [
       "eng"
     ],
+    "CitiChannelOnline.in@SD": [
+      "und"
+    ],
     "CitiHitz.lk@SD": [
       "sin"
     ],
@@ -27709,9 +27759,6 @@
     "CNNChile.cl@SD": [
       "spa"
     ],
-    "CNNenEspanol.us@ColombiaPeru": [
-      "spa"
-    ],
     "CNNenEspanol.us@SD": [
       "spa"
     ],
@@ -28748,6 +28795,9 @@
     ],
     "ConectaMaisTV.br@SD": [
       "por"
+    ],
+    "ConectatelTV.bo@SD": [
+      "spa"
     ],
     "ConectateTV.ec@SD": [
       "spa"
@@ -31686,6 +31736,9 @@
     "CTV.gh@SD": [
       "eng"
     ],
+    "CTV.in@SD": [
+      "hin"
+    ],
     "CTV.mz@SD": [
       "por"
     ],
@@ -34374,6 +34427,9 @@
     "DenizPostasiTV.tr@SD": [
       "tur"
     ],
+    "DennisandGnasher.uk@SD": [
+      "eng"
+    ],
     "DenPobedy.ru@HD": [
       "rus"
     ],
@@ -35644,8 +35700,10 @@
       "eng"
     ],
     "DisneyChannel.in@Digital": [
+      "eng",
       "hin",
-      "eng"
+      "tel",
+      "tam"
     ],
     "DisneyChannel.in@HD": [
       "eng",
@@ -35813,8 +35871,10 @@
       "eng"
     ],
     "DisneyJunior.in@Digital": [
+      "eng",
       "hin",
-      "eng"
+      "tel",
+      "tam"
     ],
     "DisneyJunior.in@SD": [
       "eng",
@@ -35958,6 +36018,9 @@
     "DivinAmourTV.ci@SD": [
       "fra"
     ],
+    "Divine.in@SD": [
+      "hin"
+    ],
     "DivineHandTV.ng@SD": [
       "eng"
     ],
@@ -36040,6 +36103,12 @@
     ],
     "DjakTV.rs@SD": [
       "srp"
+    ],
+    "Djay.in@SD": [
+      "hin"
+    ],
+    "DjayRetro.in@SD": [
+      "hin"
     ],
     "DJLonchoTV.cl@SD": [
       "spa",
@@ -36441,7 +36510,12 @@
     "Domashniy.ru@SD": [
       "rus"
     ],
+    "DomashniyInternational.ru@Europe": [
+      "rus",
+      "tur"
+    ],
     "DomashniyInternational.ru@Kazakhstan": [
+      "kaz",
       "rus"
     ],
     "DomashniyInternational.ru@SD": [
@@ -37938,9 +38012,6 @@
       "eng"
     ],
     "Educanal.py@SD": [
-      "spa"
-    ],
-    "EducaTigo.co@SD": [
       "spa"
     ],
     "Education1095.us@SD": [
@@ -40659,7 +40730,8 @@
       "eng"
     ],
     "EuropaPlusTV.ru@Belarus": [
-      "rus"
+      "rus",
+      "bel"
     ],
     "EuropaPlusTV.ru@HD": [
       "rus"
@@ -43017,6 +43089,9 @@
     ],
     "FinlandsTV.fi@SD": [
       "fin"
+    ],
+    "FINTECHTV.us@HD": [
+      "eng"
     ],
     "FionTV.es@SD": [
       "spa"
@@ -45376,6 +45451,7 @@
       "rus"
     ],
     "FridayInternational.ru@Kazakhstan": [
+      "kaz",
       "rus"
     ],
     "FridayInternational.ru@SD": [
@@ -50577,8 +50653,26 @@
     "HaryanaBeats.in@SD": [
       "hin"
     ],
+    "HaryanaMusic.in@SD": [
+      "hin"
+    ],
+    "HaryanviComedy.in@SD": [
+      "hin"
+    ],
     "HaryanviHits.in@SD": [
       "pan"
+    ],
+    "HaryanviMastiii.in@SD": [
+      "hin"
+    ],
+    "HaryanviMovies.in@SD": [
+      "hin"
+    ],
+    "HaryanviMusic.in@SD": [
+      "hin"
+    ],
+    "HaryanviRagni.in@SD": [
+      "hin"
     ],
     "HasbroLegends.us@SD": [
       "eng"
@@ -50591,6 +50685,15 @@
     ],
     "HASTV.dk@SD": [
       "dan"
+    ],
+    "HathwayAmritbani.in@SD": [
+      "pan"
+    ],
+    "HathwayBhaktiTV.in@SD": [
+      "hin"
+    ],
+    "HathwayHaryanvi.in@SD": [
+      "hin"
     ],
     "HaTinhTV.vn@SD": [
       "vie"
@@ -51927,6 +52030,15 @@
     "HezhengTV.cn@SD": [
       "zho"
     ],
+    "HFlicks1.in@SD": [
+      "hin"
+    ],
+    "HFlicks2.in@SD": [
+      "hin"
+    ],
+    "HFlicksPlus.in@SD": [
+      "hin"
+    ],
     "HGPTV.gy@SD": [
       "eng"
     ],
@@ -52360,13 +52472,13 @@
     "History2LatinAmerica.us@Brazil": [
       "por"
     ],
-    "History2LatinAmerica.us@Colombia": [
-      "spa"
-    ],
     "History2LatinAmerica.us@Mexico": [
       "spa"
     ],
     "History2LatinAmerica.us@Panregional": [
+      "spa"
+    ],
+    "History2LatinAmerica.us@South": [
       "spa"
     ],
     "History2MiddleEast.us@SD": [
@@ -52713,6 +52825,33 @@
     "HM.do@SD": [
       "spa"
     ],
+    "HMart.in@SD": [
+      "hin"
+    ],
+    "HMart2.in@SD": [
+      "hin"
+    ],
+    "HMart3.in@SD": [
+      "hin"
+    ],
+    "HMart4.in@SD": [
+      "hin"
+    ],
+    "HMart5.in@SD": [
+      "hin"
+    ],
+    "HMart6.in@SD": [
+      "hin"
+    ],
+    "HMart7.in@SD": [
+      "hin"
+    ],
+    "HMart8.in@SD": [
+      "hin"
+    ],
+    "HMart9.in@SD": [
+      "hin"
+    ],
     "HMD4.bj@SD": [
       "fra"
     ],
@@ -52955,6 +53094,9 @@
     ],
     "Hometalk.us@SD": [
       "eng"
+    ],
+    "HomeTheatre.in@SD": [
+      "hin"
     ],
     "HomeTV.cm@SD": [
       "fra",
@@ -60208,7 +60350,16 @@
     "KanizsaTV.hu@SD": [
       "hun"
     ],
+    "KannadaCinema.in@SD": [
+      "kan"
+    ],
     "KannadaCinemaClub.in@SD": [
+      "kan"
+    ],
+    "KannadaManaranjane.in@SD": [
+      "kan"
+    ],
+    "KannadaRetroCinema.in@SD": [
       "kan"
     ],
     "KannurOne.in@SD": [
@@ -60408,6 +60559,9 @@
     ],
     "KasthuriTV.in@SD": [
       "kan"
+    ],
+    "Kasutta.in@SD": [
+      "hin"
     ],
     "KatolisTV.lv@SD": [
       "lav"
@@ -64487,6 +64641,9 @@
     "LaMexicanaTV.mx@SD": [
       "spa"
     ],
+    "LamheMovies.in@SD": [
+      "hin"
+    ],
     "LAMIATV.do@SD": [
       "spa"
     ],
@@ -66586,6 +66743,9 @@
     "LoopYachtRock.us@West": [
       "eng"
     ],
+    "LordBuddhaTV.in@SD": [
+      "hin"
+    ],
     "LoretoTV.ec@SD": [
       "spa"
     ],
@@ -67773,7 +67933,7 @@
     "MakulaTV.ug@SD": [
       "lug"
     ],
-    "MalabarNews.in@SD": [
+    "MalabarChannel.in@SD": [
       "mal"
     ],
     "MalabarPlus.in@SD": [
@@ -68114,6 +68274,9 @@
     ],
     "MaraoTV.ge@SD": [
       "kat"
+    ],
+    "MarathiTalkies.in@SD": [
+      "mar"
     ],
     "Maraya.sa@HD": [
       "ara"
@@ -69259,6 +69422,9 @@
     ],
     "MediaTV.th@SD": [
       "tha"
+    ],
+    "MediaVisionLiveTV.in@SD": [
+      "und"
     ],
     "MediavisionTV.in@SD": [
       "mal"
@@ -75735,6 +75901,9 @@
     "MyGospelTV.fr@SD": [
       "fra"
     ],
+    "MyHathway.in@SD": [
+      "hin"
+    ],
     "MyHits.ee@SD": [
       "est"
     ],
@@ -80433,7 +80602,12 @@
     ],
     "NickHDPlus.in@Digital": [
       "hin",
-      "eng"
+      "tam",
+      "tel",
+      "kan",
+      "mal",
+      "ben",
+      "mar"
     ],
     "NickHDPlus.in@HD": [
       "eng"
@@ -82659,10 +82833,17 @@
       "thr",
       "eng"
     ],
+    "NTVLaw.ru@Europe": [
+      "rus",
+      "tur"
+    ],
     "NTVLaw.ru@SD": [
       "rus"
     ],
-    "NTVMir.ru@SD": [
+    "NTVMir.ru@CIS": [
+      "rus"
+    ],
+    "NTVMir.ru@Europe": [
       "rus"
     ],
     "NTVMirBaltic.ru@Estonia": [
@@ -82700,6 +82881,10 @@
     "NTVPlusDetskimir.ru@SD": [
       "rus"
     ],
+    "NTVSeries.ru@Europe": [
+      "rus",
+      "tur"
+    ],
     "NTVSeries.ru@HD": [
       "rus"
     ],
@@ -82712,8 +82897,19 @@
     "NTVSpor.tr@SD": [
       "tur"
     ],
+    "NTVStilzhizn.ru@Europe": [
+      "rus",
+      "tur"
+    ],
+    "NTVStilzhizn.ru@HD": [
+      "rus"
+    ],
     "NTVStilzhizn.ru@SD": [
       "rus"
+    ],
+    "NTVStyle.ru@Europe": [
+      "rus",
+      "tur"
     ],
     "NTVStyle.ru@HD": [
       "rus"
@@ -82732,6 +82928,13 @@
     ],
     "NTVUganda.ug@SD": [
       "eng"
+    ],
+    "NTVUnknownRussia.ru@Europe": [
+      "rus",
+      "tur"
+    ],
+    "NTVUnknownRussia.ru@HD": [
+      "rus"
     ],
     "NTVUnknownRussia.ru@SD": [
       "rus"
@@ -83462,6 +83665,9 @@
     ],
     "OKKiel.de@SD": [
       "deu"
+    ],
+    "OkkoEfir.ru@SD": [
+      "rus"
     ],
     "OkkoFutbol.ru@SD": [
       "rus"
@@ -89150,6 +89356,10 @@
     "PeraviaVision.do@SD": [
       "spa"
     ],
+    "PeretzInternational.ru@Europe": [
+      "rus",
+      "tur"
+    ],
     "PeretzInternational.ru@SD": [
       "rus"
     ],
@@ -94071,6 +94281,9 @@
     "PumahTV.lr@SD": [
       "eng"
     ],
+    "PunjabiBeat.in@SD": [
+      "pan"
+    ],
     "PunjabiBeatsHD.in@HD": [
       "pan"
     ],
@@ -98165,7 +98378,12 @@
     "RENTVEstonia.ee@SD": [
       "rus"
     ],
+    "RENTVInternational.ru@Europe": [
+      "rus",
+      "tur"
+    ],
     "RENTVInternational.ru@Kazakhstan": [
+      "kaz",
       "rus"
     ],
     "RENTVInternational.ru@SD": [
@@ -101810,6 +102028,12 @@
     "Russia24.ru@Chita": [
       "rus"
     ],
+    "Russia24.ru@CIS": [
+      "rus"
+    ],
+    "Russia24.ru@Europe": [
+      "rus"
+    ],
     "Russia24.ru@HD": [
       "rus"
     ],
@@ -101934,7 +102158,8 @@
       "rus"
     ],
     "RUTV.ru@Belarus": [
-      "rus"
+      "rus",
+      "bel"
     ],
     "RUTV.ru@HD": [
       "rus"
@@ -102677,6 +102902,9 @@
     ],
     "SanaTV.in@SD": [
       "tam"
+    ],
+    "SanboxRealities.fr@France": [
+      "fra"
     ],
     "SanCristobalTV.bo@SD": [
       "spa"
@@ -108590,7 +108818,13 @@
       "rus"
     ],
     "Sonic.in@Digital": [
-      "hin"
+      "hin",
+      "tam",
+      "tel",
+      "kan",
+      "mal",
+      "ben",
+      "mar"
     ],
     "Sonic.in@SD": [
       "hin",
@@ -110969,6 +111203,10 @@
     "Start.ru@SD": [
       "rus"
     ],
+    "STARTAir.ru@Europe": [
+      "rus",
+      "tur"
+    ],
     "STARTAir.ru@HD": [
       "rus"
     ],
@@ -112690,7 +112928,12 @@
       "fra",
       "por"
     ],
+    "STSInternational.ru@Europe": [
+      "rus",
+      "tur"
+    ],
     "STSInternational.ru@Kazakhstan": [
+      "kaz",
       "rus"
     ],
     "STSInternational.ru@SD": [
@@ -113472,7 +113715,10 @@
       "hin"
     ],
     "SuperHungama.in@Digital": [
-      "hin"
+      "eng",
+      "hin",
+      "tel",
+      "tam"
     ],
     "SuperHungama.in@SD": [
       "eng",
@@ -114575,6 +114821,9 @@
     ],
     "TafoukTV.ml@SD": [
       "fra"
+    ],
+    "TAFTV.mz@HD": [
+      "por"
     ],
     "TAFUTV.ge@SD": [
       "kat"
@@ -118637,6 +118886,12 @@
     "TF1Switzerland.ch@SD": [
       "fra"
     ],
+    "TFlicks.in@SD": [
+      "hin"
+    ],
+    "TFlicksMusic.in@SD": [
+      "hin"
+    ],
     "TFM.sn@SD": [
       "fra"
     ],
@@ -121553,6 +121808,7 @@
       "rus"
     ],
     "TNT.ru@Kazakhstan": [
+      "kaz",
       "rus"
     ],
     "TNT.ru@Kyrgyzstan": [
@@ -121608,7 +121864,8 @@
       "ell"
     ],
     "TNTInternational.ru@Belarus": [
-      "rus"
+      "rus",
+      "bel"
     ],
     "TNTInternational.ru@Europe": [
       "rus"
@@ -121622,9 +121879,6 @@
     "TNTLatinAmerica.us@Argentina": [
       "spa"
     ],
-    "TNTLatinAmerica.us@ArgentinaHD": [
-      "spa"
-    ],
     "TNTLatinAmerica.us@Brazil": [
       "por"
     ],
@@ -121634,9 +121888,6 @@
     "TNTLatinAmerica.us@Chile": [
       "spa",
       "eng"
-    ],
-    "TNTLatinAmerica.us@ChileHD": [
-      "spa"
     ],
     "TNTLatinAmerica.us@Colombia": [
       "eng",
@@ -121656,12 +121907,6 @@
     ],
     "TNTNovelas.us@Brazil": [
       "por"
-    ],
-    "TNTNovelas.us@Colombia": [
-      "spa"
-    ],
-    "TNTNovelas.us@ColombiaHD": [
-      "spa"
     ],
     "TNTNovelas.us@Panregional": [
       "spa"
@@ -122007,9 +122252,6 @@
     "ToonAVision.ca@SD": [
       "fra"
     ],
-    "Tooncast.us@Argentina": [
-      "spa"
-    ],
     "Tooncast.us@Brazil": [
       "por"
     ],
@@ -122017,9 +122259,6 @@
       "spa",
       "eng",
       "por"
-    ],
-    "Tooncast.us@SouthAmerica": [
-      "spa"
     ],
     "ToonDisney.in@SD": [
       "eng",
@@ -124588,7 +124827,8 @@
       "nor"
     ],
     "TV3.ru@Belarus": [
-      "rus"
+      "rus",
+      "bel"
     ],
     "TV3.ru@HD": [
       "rus"
@@ -130266,6 +130506,9 @@
     "UdayaNews.in@SD": [
       "kan"
     ],
+    "UDESTV.bo@SD": [
+      "spa"
+    ],
     "UDGTV.mx@SD": [
       "spa"
     ],
@@ -130494,11 +130737,14 @@
       "eng"
     ],
     "UmkaTV.ru@HD": [
-      "rus"
+      "rus",
+      "bel",
+      "tur"
     ],
     "UmkaTV.ru@SD": [
       "rus",
-      "bel"
+      "bel",
+      "tur"
     ],
     "UmmTV.th@SD": [
       "tha"
@@ -131416,6 +131662,10 @@
     "UnivisionTlnovelas.us@SD": [
       "spa"
     ],
+    "UnknownRussia.ru@Europe": [
+      "rus",
+      "tur"
+    ],
     "UnknownRussia.ru@HD": [
       "rus"
     ],
@@ -131668,7 +131918,7 @@
     "USANetworkLatinAmerica.us@Brazil": [
       "por"
     ],
-    "USANetworkLatinAmerica.us@Colombia": [
+    "USANetworkLatinAmerica.us@Mexico": [
       "spa"
     ],
     "USANetworkLatinAmerica.us@Panregional": [

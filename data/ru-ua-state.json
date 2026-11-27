@@ -3476,10 +3476,8 @@
       ],
       "history": [],
       "status": "UNKNOWN_CZ",
-      "languages": [
-        "rus"
-      ],
-      "evidence": "IPTV-org feeds.languages",
+      "languages": [],
+      "evidence": "multilingual: review predominance",
       "in_source": false,
       "content_decision": "allow",
       "content_evidence": "No evidence of specialized erotic or pornographic channel"
@@ -4094,10 +4092,8 @@
       ],
       "history": [],
       "status": "UNKNOWN_CZ",
-      "languages": [
-        "rus"
-      ],
-      "evidence": "IPTV-org feeds.languages",
+      "languages": [],
+      "evidence": "multilingual: review predominance",
       "in_source": true,
       "content_decision": "allow",
       "content_evidence": "No evidence of specialized erotic or pornographic channel"
@@ -7263,7 +7259,7 @@
       "languages": [
         "rus"
       ],
-      "evidence": "IPTV-org feeds.languages",
+      "evidence": "IPTV-org language playlists",
       "in_source": true,
       "content_decision": "allow",
       "content_evidence": "No evidence of specialized erotic or pornographic channel"
@@ -11309,10 +11305,8 @@
       ],
       "history": [],
       "status": "UNKNOWN_CZ",
-      "languages": [
-        "rus"
-      ],
-      "evidence": "IPTV-org feeds.languages",
+      "languages": [],
+      "evidence": "multilingual: review predominance",
       "in_source": false,
       "content_decision": "allow",
       "content_evidence": "No evidence of specialized erotic or pornographic channel"
@@ -14530,19 +14524,19 @@
   "counts": {
     "processed": 10416,
     "excluded_specialized_all_languages": 0,
-    "unresolved": 89,
+    "unresolved": 90,
     "no_language_evidence": 0,
-    "other_or_review": 9769,
-    "multilingual_review": 89,
+    "other_or_review": 9770,
+    "multilingual_review": 90,
     "known_other": 9680,
-    "russian": 500,
+    "russian": 499,
     "ukrainian": 166,
     "both": 19,
     "excluded_specialized_ru_ua": 0,
     "specialization_review_ru_ua": 0
   },
   "source_sha256": "a5e3a9e436f39b1c7918451f9ef85078251ee3c393a1cd5918d52f30befc74c2",
-  "catalogued_at": "2026-11-27T07:37:57.481733+00:00",
+  "catalogued_at": "2026-11-27T08:44:21.247300+00:00",
   "review_needed": {
     "language": [
       {
@@ -14632,6 +14626,17 @@
         "feed_languages": [
           "rus",
           "est"
+        ]
+      },
+      {
+        "block": [
+          "#EXTINF:-1 tvg-id=\"FridayInternational.ru@Kazakhstan\" tvg-logo=\"https://i.imgur.com/N2z3EZC.png\" group-title=\"Entertainment\",Friday! International Kazakhstan (576p)",
+          "https://fs.uplink.kz/bolshaya_pyatnica/mono.m3u8?token=onlinetv"
+        ],
+        "reason": "multilingual: review predominance",
+        "feed_languages": [
+          "kaz",
+          "rus"
         ]
       },
       {
