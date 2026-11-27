@@ -391333,6 +391333,82 @@
           "rights_evidence": "",
           "status": "UNKNOWN_CZ",
           "audio_reviews": []
+        },
+        "edb6d98f6b083858876a62b3e1a566eb00ad4515a5d0ecba524db480e5523fec": {
+          "block": [
+            "#EXTINF:-1 tvg-id=\"Smotrim100Gorkogo.ru\" tvg-logo=\"https://cdn.smotrim.ru/photobank/prod/large/156/126/56.jpg\" tvg-language=\"rus\",Smotrim 100% Gorkogo",
+            "https://stream.smotrim.ru/hls3/fasttv07/playlist.m3u8?entity=channel&id=987&sign=068d9e19b5e2c691f86307d1f36b6f78"
+          ],
+          "history": [
+            {
+              "at": "2026-11-26T19:03:50.161327+00:00",
+              "region": "CZ",
+              "result": "ok",
+              "measurement_version": 3,
+              "segments": 3,
+              "sample_bytes": 3000000,
+              "download_bytes_per_second": 2917196,
+              "media": {
+                "width": 1920,
+                "height": 1080,
+                "video_codec": "h264",
+                "audio_codec": "aac",
+                "audio_language": "und",
+                "audio_language_tag": "und",
+                "russian_default": false,
+                "audio_tracks": 3,
+                "field_order": "unknown",
+                "selected_audio_index": 2,
+                "default_audio_index": 2,
+                "fps": 25.0,
+                "channels": 2,
+                "bitrate": 6462848,
+                "audio_bitrate": 99624,
+                "sample_rate": "48000",
+                "probe_startup_seconds": 4.857
+              },
+              "russian_audio_confirmed": false,
+              "startup_seconds": 5.174,
+              "timestamp_origin_normalized": true,
+              "audio_decoded": true,
+              "decoded_video_seconds": 25.0,
+              "decoded_audio_seconds": 25.002,
+              "video_continuous": true,
+              "audio_continuous": true,
+              "video_frames": 626,
+              "audio_frames": 1173,
+              "max_video_gap": 0.0400000000000027,
+              "max_audio_gap": 0.021334000000001296,
+              "long_silence": false,
+              "long_freeze": false,
+              "elapsed_seconds": 36.338,
+              "speech_language": {
+                "language": "ru",
+                "probability": 0.8792568445205688,
+                "speech_seconds": 14.02,
+                "characters": 127,
+                "method": "offline faster-whisper/base, decoded audio sample; not a guarantee for all programming"
+              },
+              "egress_sha256": "a130ed9d3515ef5e2bacc3ad41b71e272eb3d62b789b71bcd8d69272e5ab298f",
+              "observation_id": "8880908a0d74f0d4a60a984f18e10c81b95d9950f921e83760cf1997d68f1b49"
+            }
+          ],
+          "existing": false,
+          "status": "UNKNOWN_CZ",
+          "sources": [
+            {
+              "provider": "official broadcaster",
+              "url": "https://player-api.smotrim.ru/api/v1/channel/987",
+              "header": "#EXTM3U"
+            },
+            {
+              "provider": "official public player",
+              "url": "https://player-api.smotrim.ru/api/v1/channel/987",
+              "header": ""
+            }
+          ],
+          "rights_evidence": "https://player-api.smotrim.ru/api/v1/channel/987",
+          "audio_reviews": []
         }
       },
       "groups": [
@@ -393490,10 +393566,189 @@
               "provider": "IPTV-ORG",
               "url": "https://iptv-org.github.io/iptv/index.m3u",
               "header": "#EXTM3U"
+            },
+            {
+              "provider": "IPTV-ORG",
+              "url": "https://iptv-org.github.io/iptv/languages/rus.m3u",
+              "header": "#EXTM3U"
             }
           ],
           "existing": true,
           "rights_evidence": "",
+          "status": "UNKNOWN_CZ",
+          "audio_reviews": []
+        },
+        "22eb3b22e1f7804dd184b7ff6f2ba7606b0104ff317e4bc983c0f59e87d33ede": {
+          "block": [
+            "#EXTINF:-1 tvg-id=\"Smotrim100Lyubov.ru\" tvg-chno=\"7209\" tvg-name=\"Smotrim 100% Lyubov\" tvg-logo=\"https://i.imgur.com/4EFh0nu.png\" tvg-country=\"RU\" tvg-language=\"rus\" group-title=\"Series\" nexus-score=\"100\",Smotrim 100% Lyubov (1080p)",
+            "https://stream.smotrim.ru/hls2/fasttv01/playlist_2.m3u8"
+          ],
+          "history": [],
+          "sources": [
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/index.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            },
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/country/ru.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/ru.xml.gz\""
+            },
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/online.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            },
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/best.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            }
+          ],
+          "existing": false,
+          "rights_evidence": "",
+          "status": "UNKNOWN_CZ",
+          "audio_reviews": []
+        },
+        "d75e6c5f6a01cec5bb967f3d91480d114603a7b884c5db50dfdeb70a4f738dba": {
+          "block": [
+            "#EXTINF:-1 tvg-id=\"Smotrim100Lyubov.ru\" tvg-chno=\"7209\" tvg-name=\"Smotrim 100% Lyubov\" tvg-logo=\"https://i.imgur.com/4EFh0nu.png\" tvg-country=\"RU\" tvg-language=\"rus\" group-title=\"Series\" nexus-score=\"100\",Smotrim 100% Lyubov (720p)",
+            "https://stream.smotrim.ru/hls/fasttv01/playlist_2.m3u8"
+          ],
+          "history": [],
+          "sources": [
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/index.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            }
+          ],
+          "existing": false,
+          "rights_evidence": "",
+          "status": "UNKNOWN_CZ",
+          "audio_reviews": []
+        },
+        "b4771d441a4e7f8622754c346d71772fd73e7ddacb7af7291e02d9a1355bb005": {
+          "block": [
+            "#EXTINF:-1 tvg-id=\"Smotrim100Lyubov.ru\" tvg-chno=\"7209\" tvg-name=\"Smotrim 100% Lyubov\" tvg-logo=\"https://i.imgur.com/4EFh0nu.png\" tvg-country=\"RU\" tvg-language=\"rus\" group-title=\"Series\" nexus-score=\"100\",Smotrim 100% Lyubov",
+            "https://player.smotrim.ru/iframe/stream/live_id/0d85159d-e782-4260-ac99-ac8c55df4248"
+          ],
+          "history": [],
+          "sources": [
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/index.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            }
+          ],
+          "existing": false,
+          "rights_evidence": "",
+          "status": "UNKNOWN_CZ",
+          "audio_reviews": []
+        },
+        "f1942c2c7c686813206c175f77cdba36ecf91d619c2d1b93f10ba53429fdc82e": {
+          "block": [
+            "#EXTINF:-1 tvg-id=\"Smotrim100Lyubov.ru@SD\" tvg-name=\"Smotrim 100% Lyubov\" tvg-country=\"RU\" tvg-language=\"Russian\" tvg-logo=\"https://i.imgur.com/4EFh0nu.png\" group-title=\"Russia\" x-tier=\"community\" x-status=\"verified\" x-quality=\"720p\",Smotrim 100% Lyubov",
+            "https://stream.smotrim.ru/hls/fasttv01/playlist_2.m3u8"
+          ],
+          "history": [],
+          "sources": [
+            {
+              "provider": "Nexonic IPTV",
+              "url": "https://nexonic-technologies.github.io/nexonic-iptv/playlists/all.m3u",
+              "header": "#EXTM3U x-nexonic-playlist=\"All channels\""
+            },
+            {
+              "provider": "Nexonic IPTV",
+              "url": "https://nexonic-technologies.github.io/nexonic-iptv/playlists/verified.m3u",
+              "header": "#EXTM3U x-nexonic-playlist=\"Nexonic Verified (working in the last 48 h)\""
+            }
+          ],
+          "existing": false,
+          "rights_evidence": "",
+          "status": "UNKNOWN_CZ",
+          "audio_reviews": []
+        },
+        "e578c3da8a465d95fc618e2c7ee8cd9c6e954472a48875403c34181e3a60a2d8": {
+          "block": [
+            "#EXTINF:-1 tvg-id=\"Smotrim100Lyubov.ru\" tvg-name=\"Smotrim 100% Lyubov\" tvg-logo=\"https://i.imgur.com/4EFh0nu.png\" tvg-country=\"RU\" tvg-language=\"rus\" group-title=\"Series\" nexus-score=\"100\",Smotrim 100% Lyubov (1080p)",
+            "https://stream.smotrim.ru/hls2/fasttv01/playlist_2.m3u8"
+          ],
+          "history": [],
+          "sources": [
+            {
+              "provider": "DuckKota IPTV",
+              "url": "https://DuckKota.github.io/iptv/playlists/index.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://DuckKota.github.io/iptv/epg/guide.xml.gz\""
+            },
+            {
+              "provider": "DuckKota IPTV",
+              "url": "https://DuckKota.github.io/iptv/playlists/country/ru.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://DuckKota.github.io/iptv/epg/guide.xml.gz\""
+            },
+            {
+              "provider": "DuckKota IPTV",
+              "url": "https://DuckKota.github.io/iptv/playlists/online.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://DuckKota.github.io/iptv/epg/guide.xml.gz\""
+            }
+          ],
+          "existing": false,
+          "rights_evidence": "",
+          "status": "UNKNOWN_CZ",
+          "audio_reviews": []
+        },
+        "507c20d71bbf2b34db1fe83665220c0acf3887f9dd5f01c6de66ece350d77bdf": {
+          "block": [
+            "#EXTINF:-1 tvg-id=\"Smotrim100Lyubov.ru\" tvg-name=\"Smotrim 100% Lyubov\" tvg-logo=\"https://i.imgur.com/4EFh0nu.png\" tvg-country=\"RU\" tvg-language=\"rus\" group-title=\"Series\" nexus-score=\"100\",Smotrim 100% Lyubov (720p)",
+            "https://stream.smotrim.ru/hls/fasttv01/playlist_2.m3u8"
+          ],
+          "history": [],
+          "sources": [
+            {
+              "provider": "DuckKota IPTV",
+              "url": "https://DuckKota.github.io/iptv/playlists/index.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://DuckKota.github.io/iptv/epg/guide.xml.gz\""
+            }
+          ],
+          "existing": false,
+          "rights_evidence": "",
+          "status": "UNKNOWN_CZ",
+          "audio_reviews": []
+        },
+        "e7a4c6eef7733a5f2da01e72427a526a9fe3fac90a66c220286e62327f4752d4": {
+          "block": [
+            "#EXTINF:-1 tvg-id=\"Smotrim100Lyubov.ru\" tvg-name=\"Smotrim 100% Lyubov\" tvg-logo=\"https://i.imgur.com/4EFh0nu.png\" tvg-country=\"RU\" tvg-language=\"rus\" group-title=\"Series\" nexus-score=\"100\",Smotrim 100% Lyubov",
+            "https://player.smotrim.ru/iframe/stream/live_id/0d85159d-e782-4260-ac99-ac8c55df4248"
+          ],
+          "history": [],
+          "sources": [
+            {
+              "provider": "DuckKota IPTV",
+              "url": "https://DuckKota.github.io/iptv/playlists/index.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://DuckKota.github.io/iptv/epg/guide.xml.gz\""
+            }
+          ],
+          "existing": false,
+          "rights_evidence": "",
+          "status": "UNKNOWN_CZ",
+          "audio_reviews": []
+        },
+        "d78371fab970d32bd38d09c2889bc9d178729e17b0a0900af019e5aa61a5a8e1": {
+          "block": [
+            "#EXTINF:-1 tvg-id=\"Smotrim100Lyubov.ru\" tvg-logo=\"https://i.imgur.com/4EFh0nu.png\" tvg-language=\"rus\",Смотрим 100% Любовь",
+            "https://stream.smotrim.ru/hls3/fasttv01/playlist.m3u8?entity=channel&id=394&sign=c87e698e917734d17feb8a476630eb24"
+          ],
+          "history": [],
+          "sources": [
+            {
+              "provider": "official public player",
+              "url": "https://player-api.smotrim.ru/api/v1/channel/394",
+              "header": ""
+            }
+          ],
+          "existing": false,
+          "rights_evidence": "https://player-api.smotrim.ru/api/v1/channel/394",
           "status": "UNKNOWN_CZ",
           "audio_reviews": []
         }
@@ -393502,13 +393757,13 @@
         "Series"
       ],
       "baseline": true,
-      "movie_candidate": false,
-      "movie_confirmed": false,
+      "movie_candidate": true,
+      "movie_confirmed": true,
       "catalogue_languages": [
         "rus"
       ],
       "adult_specialization": false,
-      "name": "Smotrim 100% Lyubov",
+      "name": "Смотрим 100% Любовь",
       "suppressed": false
     },
     "Smotrim100Muzhskoe.ru": {
@@ -393529,10 +393784,189 @@
               "provider": "IPTV-ORG",
               "url": "https://iptv-org.github.io/iptv/index.m3u",
               "header": "#EXTM3U"
+            },
+            {
+              "provider": "IPTV-ORG",
+              "url": "https://iptv-org.github.io/iptv/languages/rus.m3u",
+              "header": "#EXTM3U"
             }
           ],
           "existing": true,
           "rights_evidence": "",
+          "status": "UNKNOWN_CZ",
+          "audio_reviews": []
+        },
+        "b1b91e84f7f1d0ea4a983acca0ae2eb376f41016be5120dd9f6002790609e8b2": {
+          "block": [
+            "#EXTINF:-1 tvg-id=\"Smotrim100Muzhskoe.ru\" tvg-chno=\"7210\" tvg-name=\"Smotrim 100% Muzhskoe\" tvg-logo=\"https://i.imgur.com/UY3fjYU.png\" tvg-country=\"RU\" tvg-language=\"rus\" group-title=\"Series\" nexus-score=\"100\",Smotrim 100% Muzhskoe (1080p)",
+            "https://stream.smotrim.ru/hls2/fasttv02/playlist_3.m3u8"
+          ],
+          "history": [],
+          "sources": [
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/index.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            },
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/country/ru.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/ru.xml.gz\""
+            },
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/online.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            },
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/best.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            }
+          ],
+          "existing": false,
+          "rights_evidence": "",
+          "status": "UNKNOWN_CZ",
+          "audio_reviews": []
+        },
+        "6e127488513475fb388b2019b7662be1be17244679753a7f3d670e844765c5e5": {
+          "block": [
+            "#EXTINF:-1 tvg-id=\"Smotrim100Muzhskoe.ru\" tvg-chno=\"7210\" tvg-name=\"Smotrim 100% Muzhskoe\" tvg-logo=\"https://i.imgur.com/UY3fjYU.png\" tvg-country=\"RU\" tvg-language=\"rus\" group-title=\"Series\" nexus-score=\"100\",Smotrim 100% Muzhskoe (720p)",
+            "https://stream.smotrim.ru/hls/fasttv02/playlist_3.m3u8"
+          ],
+          "history": [],
+          "sources": [
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/index.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            }
+          ],
+          "existing": false,
+          "rights_evidence": "",
+          "status": "UNKNOWN_CZ",
+          "audio_reviews": []
+        },
+        "a39fa8dbf32056ae50d7185a8ad2c1830a9f9af9ea7b5f309deaa4f4066c95b5": {
+          "block": [
+            "#EXTINF:-1 tvg-id=\"Smotrim100Muzhskoe.ru\" tvg-chno=\"7210\" tvg-name=\"Smotrim 100% Muzhskoe\" tvg-logo=\"https://i.imgur.com/UY3fjYU.png\" tvg-country=\"RU\" tvg-language=\"rus\" group-title=\"Series\" nexus-score=\"100\",Smotrim 100% Muzhskoe",
+            "https://player.smotrim.ru/iframe/stream/live_id/30acd0b6-e010-4230-bad1-3af77619226d"
+          ],
+          "history": [],
+          "sources": [
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/index.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            }
+          ],
+          "existing": false,
+          "rights_evidence": "",
+          "status": "UNKNOWN_CZ",
+          "audio_reviews": []
+        },
+        "52739abc4db24ce99a5e5108c35d9ca4860d3a677b77d9a4f594161a76706561": {
+          "block": [
+            "#EXTINF:-1 tvg-id=\"Smotrim100Muzhskoe.ru@SD\" tvg-name=\"Smotrim 100% Muzhskoe\" tvg-country=\"RU\" tvg-language=\"Russian\" tvg-logo=\"https://i.imgur.com/UY3fjYU.png\" group-title=\"Russia\" x-tier=\"community\" x-status=\"verified\" x-quality=\"720p\",Smotrim 100% Muzhskoe",
+            "https://stream.smotrim.ru/hls/fasttv02/playlist_3.m3u8"
+          ],
+          "history": [],
+          "sources": [
+            {
+              "provider": "Nexonic IPTV",
+              "url": "https://nexonic-technologies.github.io/nexonic-iptv/playlists/all.m3u",
+              "header": "#EXTM3U x-nexonic-playlist=\"All channels\""
+            },
+            {
+              "provider": "Nexonic IPTV",
+              "url": "https://nexonic-technologies.github.io/nexonic-iptv/playlists/verified.m3u",
+              "header": "#EXTM3U x-nexonic-playlist=\"Nexonic Verified (working in the last 48 h)\""
+            }
+          ],
+          "existing": false,
+          "rights_evidence": "",
+          "status": "UNKNOWN_CZ",
+          "audio_reviews": []
+        },
+        "29d4febb0eae471d3aaa3b99c3f16421b15029f4b99e29629116cf8fe2b1b795": {
+          "block": [
+            "#EXTINF:-1 tvg-id=\"Smotrim100Muzhskoe.ru\" tvg-name=\"Smotrim 100% Muzhskoe\" tvg-logo=\"https://i.imgur.com/UY3fjYU.png\" tvg-country=\"RU\" tvg-language=\"rus\" group-title=\"Series\" nexus-score=\"100\",Smotrim 100% Muzhskoe (1080p)",
+            "https://stream.smotrim.ru/hls2/fasttv02/playlist_3.m3u8"
+          ],
+          "history": [],
+          "sources": [
+            {
+              "provider": "DuckKota IPTV",
+              "url": "https://DuckKota.github.io/iptv/playlists/index.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://DuckKota.github.io/iptv/epg/guide.xml.gz\""
+            },
+            {
+              "provider": "DuckKota IPTV",
+              "url": "https://DuckKota.github.io/iptv/playlists/country/ru.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://DuckKota.github.io/iptv/epg/guide.xml.gz\""
+            },
+            {
+              "provider": "DuckKota IPTV",
+              "url": "https://DuckKota.github.io/iptv/playlists/online.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://DuckKota.github.io/iptv/epg/guide.xml.gz\""
+            }
+          ],
+          "existing": false,
+          "rights_evidence": "",
+          "status": "UNKNOWN_CZ",
+          "audio_reviews": []
+        },
+        "2b2e4afcd612bc13ebd098d82ea44db188db340e440997a6339ec2740e26cbe3": {
+          "block": [
+            "#EXTINF:-1 tvg-id=\"Smotrim100Muzhskoe.ru\" tvg-name=\"Smotrim 100% Muzhskoe\" tvg-logo=\"https://i.imgur.com/UY3fjYU.png\" tvg-country=\"RU\" tvg-language=\"rus\" group-title=\"Series\" nexus-score=\"100\",Smotrim 100% Muzhskoe (720p)",
+            "https://stream.smotrim.ru/hls/fasttv02/playlist_3.m3u8"
+          ],
+          "history": [],
+          "sources": [
+            {
+              "provider": "DuckKota IPTV",
+              "url": "https://DuckKota.github.io/iptv/playlists/index.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://DuckKota.github.io/iptv/epg/guide.xml.gz\""
+            }
+          ],
+          "existing": false,
+          "rights_evidence": "",
+          "status": "UNKNOWN_CZ",
+          "audio_reviews": []
+        },
+        "e25415768dae36a37e4cf4ec3f7d598568817e6d88b36d1e65aa268de6d13a18": {
+          "block": [
+            "#EXTINF:-1 tvg-id=\"Smotrim100Muzhskoe.ru\" tvg-name=\"Smotrim 100% Muzhskoe\" tvg-logo=\"https://i.imgur.com/UY3fjYU.png\" tvg-country=\"RU\" tvg-language=\"rus\" group-title=\"Series\" nexus-score=\"100\",Smotrim 100% Muzhskoe",
+            "https://player.smotrim.ru/iframe/stream/live_id/30acd0b6-e010-4230-bad1-3af77619226d"
+          ],
+          "history": [],
+          "sources": [
+            {
+              "provider": "DuckKota IPTV",
+              "url": "https://DuckKota.github.io/iptv/playlists/index.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://DuckKota.github.io/iptv/epg/guide.xml.gz\""
+            }
+          ],
+          "existing": false,
+          "rights_evidence": "",
+          "status": "UNKNOWN_CZ",
+          "audio_reviews": []
+        },
+        "69e0cc627b090f466308d04622cbc360d71bd2dc2bb65df6ef06cfcd0e63130a": {
+          "block": [
+            "#EXTINF:-1 tvg-id=\"Smotrim100Muzhskoe.ru\" tvg-logo=\"https://i.imgur.com/UY3fjYU.png\" tvg-language=\"rus\",Смотрим 100% Мужское",
+            "https://stream.smotrim.ru/hls3/fasttv02/playlist.m3u8?entity=channel&id=398&sign=2511a45ee2ce6981dce0de5a9e423490"
+          ],
+          "history": [],
+          "sources": [
+            {
+              "provider": "official public player",
+              "url": "https://player-api.smotrim.ru/api/v1/channel/398",
+              "header": ""
+            }
+          ],
+          "existing": false,
+          "rights_evidence": "https://player-api.smotrim.ru/api/v1/channel/398",
           "status": "UNKNOWN_CZ",
           "audio_reviews": []
         }
@@ -393541,13 +393975,13 @@
         "Series"
       ],
       "baseline": true,
-      "movie_candidate": false,
-      "movie_confirmed": false,
+      "movie_candidate": true,
+      "movie_confirmed": true,
       "catalogue_languages": [
         "rus"
       ],
       "adult_specialization": false,
-      "name": "Smotrim 100% Muzhskoe",
+      "name": "Смотрим 100% Мужское",
       "suppressed": false
     },
     "Smotrim100Prazdnik.ru": {
@@ -530398,13 +530832,13 @@
     "WeatherSpy.us": "17d36c9e6d90648952ef592bf07d92c565cec3dff30c83d5d51827ef53d5ff32"
   },
   "scan": {
-    "at": "2026-11-26T18:37:18.314984+00:00",
+    "at": "2026-11-26T19:12:03.154476+00:00",
     "before_entries": 10416,
     "before_identities": 10416,
     "sources_processed": 17,
     "providers_available": 5,
-    "source_entries": 87423,
-    "movie_candidate_rows": 6189,
+    "source_entries": 87413,
+    "movie_candidate_rows": 6219,
     "primary_available": true
   },
   "initial": {

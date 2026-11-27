@@ -1,18 +1,16 @@
 {
-  "at": "2026-11-26T18:32:43.359496+00:00",
-  "checks_this_run": 18,
-  "candidate_streams": 9,
-  "unique_candidates": 6,
-  "streams_with_v3_check": 9,
+  "at": "2026-11-26T19:04:43.914687+00:00",
+  "checks_this_run": 1,
+  "candidate_streams": 1,
+  "unique_candidates": 1,
+  "streams_with_v3_check": 1,
   "results": {
     "fail": 28,
     "quality_fail": 15,
-    "ok": 33,
+    "ok": 35,
     "unknown": 2
   },
-  "last_channel": "SilkWayCinema.kz",
+  "last_channel": "Smotrim100Gorkogo.ru",
   "last_result": "ok",
-  "elapsed_seconds": 777,
-  "invalidated_observations": 3,
-  "total_unique_channels_checked": 35
+  "elapsed_seconds": 54
 }

@@ -30,6 +30,18 @@
       "movie": false,
       "excluded": true,
       "evidence": "https://film.ua/uk/broadcasting ; prior review data/movies-sources.json, 2026-11-18: backstage, trailers and educational material rather than feature-film programming"
+    },
+    "Smotrim100Lyubov.ru": {
+      "movie": true,
+      "name": "Смотрим 100% Любовь",
+      "evidence": "https://smotrim.ru/channel/394 ; broadcaster describes feature films and fictional multi-part films/series; approved as mixed fiction cinema, not a separate series category",
+      "mixed_films_and_series": true
+    },
+    "Smotrim100Muzhskoe.ru": {
+      "movie": true,
+      "name": "Смотрим 100% Мужское",
+      "evidence": "https://smotrim.ru/channel/398 ; broadcaster describes feature films and fictional multi-part films/series; approved as mixed fiction cinema, not a separate series category",
+      "mixed_films_and_series": true
     }
   }
 }

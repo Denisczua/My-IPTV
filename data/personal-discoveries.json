@@ -46,5 +46,35 @@
       "reviewed_at": "2026-11-26T18:00:20.918165+00:00",
       "method": "Anonymous official player API, exact title and isEnabledToEmbed=true"
     }
+  ],
+  "Smotrim100Gorkogo.ru": [
+    {
+      "url": "https://stream.smotrim.ru/hls3/fasttv07/playlist.m3u8?entity=channel&id=987&sign=068d9e19b5e2c691f86307d1f36b6f78",
+      "evidence": "https://player-api.smotrim.ru/api/v1/channel/987",
+      "page": "https://smotrim.ru/channel/smotrim-100-gorkogo",
+      "language": "rus",
+      "reviewed_at": "2026-11-26",
+      "method": "Official free-without-registration channel page and public player API, embed allowed"
+    }
+  ],
+  "Smotrim100Lyubov.ru": [
+    {
+      "url": "https://stream.smotrim.ru/hls3/fasttv01/playlist.m3u8?entity=channel&id=394&sign=c87e698e917734d17feb8a476630eb24",
+      "evidence": "https://player-api.smotrim.ru/api/v1/channel/394",
+      "page": "https://smotrim.ru/channel/394",
+      "language": "rus",
+      "reviewed_at": "2026-11-26",
+      "method": "Official page states free without registration, official player API allows embedding"
+    }
+  ],
+  "Smotrim100Muzhskoe.ru": [
+    {
+      "url": "https://stream.smotrim.ru/hls3/fasttv02/playlist.m3u8?entity=channel&id=398&sign=2511a45ee2ce6981dce0de5a9e423490",
+      "evidence": "https://player-api.smotrim.ru/api/v1/channel/398",
+      "page": "https://smotrim.ru/channel/398",
+      "language": "rus",
+      "reviewed_at": "2026-11-26",
+      "method": "Official page states free without registration, official player API allows embedding"
+    }
   ]
 }
