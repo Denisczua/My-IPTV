@@ -1,16 +1,16 @@
 {
-  "at": "2026-11-27T14:00:56.870223+00:00",
-  "checks_this_run": 1,
-  "candidate_streams": 1,
-  "unique_candidates": 1,
-  "streams_with_v3_check": 1,
+  "at": "2026-11-27T16:27:53.361611+00:00",
+  "checks_this_run": 4,
+  "candidate_streams": 2,
+  "unique_candidates": 2,
+  "streams_with_v3_check": 2,
   "results": {
-    "fail": 196,
-    "quality_fail": 47,
-    "ok": 152,
+    "fail": 197,
+    "quality_fail": 48,
+    "ok": 157,
     "unknown": 2
   },
-  "last_channel": "KinoiZhizn.ru",
+  "last_channel": "FREEDOM.ua",
   "last_result": "ok",
-  "elapsed_seconds": 168
+  "elapsed_seconds": 1250
 }

@@ -261,5 +261,18 @@
       "reviewed_at": "2026-11-27T13:39:38.251390+00:00",
       "method": "Official broadcaster website directly links Rutube alias kij, page confirms publisher 32896309; exact free live video 09e51eefa939595a4ac67182c6fb3e4e allows CZ; anonymous player ACL allowed. Platform verification badge absent; ownership independently verified."
     }
+  ],
+  "FREEDOM.ua": [
+    {
+      "url": "https://uatv-live.ercdn.net/freedom/freedom_1080p.m3u8",
+      "evidence": "https://app.uatv.ua/en/live/dom/856582",
+      "page": "https://uatv.ua/en/se-ibmpu-launches-freedom-mobile-app-for-android-and-ios/",
+      "language": "rus",
+      "reviewed_at": "2026-11-27T16:06:53.873043+00:00",
+      "method": "Exact 1080p HLS rendition observed as a loaded media resource in the official anonymous FREEДОМ web player. Broadcaster states free access without authorization for international audience. Playback from CZ still requires three decoded samples.",
+      "options": [
+        "#EXTVLCOPT:http-referrer=https://app.uatv.ua/"
+      ]
+    }
   ]
 }

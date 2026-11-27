@@ -1,6 +1,6 @@
 {
-  "at": "2026-11-27T14:01:41.097796+00:00",
-  "published_candidate_count": 18,
+  "at": "2026-11-27T16:28:58.980353+00:00",
+  "published_candidate_count": 19,
   "channels": [
     {
       "id": "EpicMedia.ru",
@@ -183,6 +183,19 @@
       "audio_language_checked_at": "2026-11-27T09:01:26.151046+00:00",
       "audio_language_method": "offline faster-whisper/base, decoded audio sample; not a guarantee for all programming",
       "rights_evidence": "https://24tv.ua/online/24-kanal"
+    },
+    {
+      "id": "FREEDOM.ua",
+      "name": "FREEДОМ Full HD",
+      "group": "Новости Украины",
+      "theme": "Новости Украины",
+      "resolution": "1920×1080",
+      "status": "STABLE_CZ",
+      "last_check": "2026-11-27T16:27:17.708873+00:00",
+      "audio_language": "rus",
+      "audio_language_checked_at": "2026-11-27T16:27:17.708873+00:00",
+      "audio_language_method": "offline faster-whisper/base, decoded audio sample; not a guarantee for all programming",
+      "rights_evidence": "https://app.uatv.ua/en/live/dom/856582"
     },
     {
       "id": "CGTNRussian.cn",
@@ -446,7 +459,7 @@
     "Кино": 11,
     "Рыбалка и охота": 1,
     "Путешествия и природа": 1,
-    "Новости Украины": 1,
+    "Новости Украины": 2,
     "Новости России": 4
   },
   "oled": 0,
@@ -454,37 +467,98 @@
     {
       "channel": "Kinosemja.ru",
       "priority": "world cinema FHD",
-      "state": "one decoded CZ success, Russian speech confirmed; free redistribution rights unconfirmed; two further spaced samples needed after rights review"
+      "state": "Three spaced decoded CZ successes; Russian default speech confirmed. Free distribution permission for the third-party source remains unconfirmed; not published."
     },
     {
       "channel": "Kinopremyera.ru",
       "priority": "world cinema FHD",
-      "state": "one decoded CZ success; Russian ASR confidence 0.9186 below admission threshold; rights and repeated samples pending"
+      "state": "Follow-up had timestamp/continuity quality failure; not stable. Rights remain unconfirmed."
     },
     {
       "channel": "BigAsia.ru",
       "priority": "travel/nature",
-      "state": "two successful samples then FFmpeg decoder error; UNSTABLE_CZ, do not publish"
+      "state": "Another actual decoder failure; skip until a different source/recovery. Not published."
     },
     {
-      "category": "Fishing",
-      "state": "1 published of requested 3–5; no additional sustainable verified legal source yet"
-    },
-    {
-      "category": "Ukrainian news",
-      "state": "1 published of requested 3–4; session-bound distributor URLs held; no unauthorised relay published"
+      "category": "SWEET.TV free prospects",
+      "state": "Espreso/Apostrophe/Trofey channels are in official anonymous catalogue; stale Espreso URL returns a test pattern, fresh URL changes live segments. Sustainable session handling not established in unchanged infrastructure; do not publish stale/unchecked sessions."
     }
   ],
   "continuation_checkpoint": {
-    "published": 18,
+    "published": 19,
     "published_movies": 11,
     "original_16_retained": true,
-    "unfinished_media_processes": 0,
+    "unfinished_media_processes": 1,
     "new_world_sources_archived": 47,
     "new_world_media_checks_completed": 6,
     "priority": "foreign/world cinema with Russian audio, HD/FHD; not limited to Russian-produced films",
     "next_queue_field": "next_queue",
     "private_durable_journal": "MyIPTV-CZ-runner/progress/world-cinema-2026-11-27.jsonl",
-    "code_and_workflows_changed_this_batch": false
+    "code_and_workflows_changed_this_batch": false,
+    "current_batch": "SWEET.TV five official anonymous CZ media probes; private durable sweet-cz-2026-11-27.jsonl journal"
+  },
+  "additional_source_round": {
+    "at": "2026-11-27T16:28:58.980364+00:00",
+    "code_changes": false,
+    "findings": [
+      {
+        "source": "FREEDOM official free web app",
+        "evidence": "https://app.uatv.ua/en/live/dom/856582",
+        "result": "Exact current 1080p rendition discovered in official player; three spaced decoded CZ successes. Added."
+      },
+      {
+        "source": "SWEET.TV old anonymous Espreso media URL",
+        "evidence": "https://sweet.tv/ua-uk/free-tv/158-espreso-tv-hd",
+        "result": "HTTP 200 but fewer than three segments; decoded diagnostic frame is a colour-bar test pattern. Not admitted. A fresh normal anonymous CZ API grant delivers a changing 1080p playlist for over 11 minutes; actual long-term session maintenance not confirmed.",
+        "test_pattern_sha256": "3cf6b19460e26de5ff61bff87fcccf7cea90a3bc27983a75ec3c540816cc4805"
+      },
+      {
+        "source": "Peers.TV cinema, travel and fishing guest pages",
+        "evidence": "https://peers.tv/",
+        "result": "Actual guest UI checked. No usable media manifest obtained from fishing/travel; player errors and an age confirmation gate on cinema/travel. No age gate, subscription or authentication bypass."
+      },
+      {
+        "source": "24TV official guest API",
+        "evidence": "https://24h.tv/",
+        "result": "Network API confirms actual CZ country. Channel catalogue requires credentials; standalone device login rejected 401. No paid access or foreign credentials used."
+      },
+      {
+        "source": "Suspilne official Pershyi player",
+        "evidence": "https://suspilne.media/news/schedule/tv/",
+        "result": "Broadcaster embeds live-nstu-ua1.cosmonova-broadcast.tv/player; current direct response is banner-only HTML, referenced banner is 404, including with correct broadcaster Referer. No HLS/playback proof."
+      },
+      {
+        "source": "START World official metadata",
+        "evidence": "https://start.ru/channel/start-world",
+        "result": "Official channel JSON marks is_free=false; only promo HLS exposed in anonymous page. Not mistaken for the live channel."
+      },
+      {
+        "source": "Hollywood, Kinoman, TV21, Kinopokaz, Illusion+, Dorama official sites",
+        "result": "No open live source on Hollywood/Kinoman pages; TV21 returned 403; Kinopokaz old domain now unrelated information blog; Illusion+/Dorama certificate hostname mismatch. No certificate validation bypass."
+      },
+      {
+        "source": "Tochka.RF official Rutube live",
+        "evidence": "https://rutube.ru/video/88544b267f6a42a10594d4403a5c4f7e/",
+        "result": "Current official free broadcast explicitly excludes CZ. Zagorodny permits CZ but gardening is outside requested themes."
+      },
+      {
+        "source": "HHQ and VDOH official nature feeds",
+        "evidence": "https://hhq.tv/",
+        "result": "Broadcaster explicitly describes wordless nature/music programming; not represented as confirmed Russian spoken audio."
+      },
+      {
+        "source": "Rybalka, Trofey, Nasha Sibir, Glazami Turista, Terra Incognita and First TVCH owners",
+        "result": "Official sites reviewed. No additional sustainable free Russian spoken linear source obtained; Trofey/Terra time out, wordless or VOD-only offers kept separate."
+      },
+      {
+        "source": "Additional Ukrainian news sources",
+        "result": "Novyny.LIVE current official live is YouTube-only. Old Oboz/prm HLS addresses time out; old KyivLive CDN hostname no longer resolves."
+      },
+      {
+        "source": "Smotrim current complete collection All",
+        "evidence": "https://smotrim.ru/channel/collections/all",
+        "result": "20 mandatory federal channels; no additional nature/fishing or world-cinema FAST channel in this collection."
+      }
+    ]
   }
 }
