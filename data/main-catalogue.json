@@ -20829,13 +20829,13 @@
     "sha256": "01b37e8dfc14c6911f6a0265294dfea00f2afff741d1c168ca6d3602e5486792"
   },
   "scan": {
-    "at": "2026-11-27T19:14:13.399628+00:00",
+    "at": "2026-11-27T19:29:42.185727+00:00",
     "before_entries": 10416,
     "before_identities": 10416,
     "sources_processed": 17,
     "providers_available": 5,
     "source_entries": 87763,
-    "movie_candidate_rows": 6309,
+    "movie_candidate_rows": 6341,
     "primary_available": true
   },
   "channels": {
@@ -81616,9 +81616,139 @@
               "provider": "IPTV-ORG",
               "url": "https://iptv-org.github.io/iptv/index.m3u",
               "header": "#EXTM3U"
+            },
+            {
+              "provider": "IPTV-ORG",
+              "url": "https://iptv-org.github.io/iptv/languages/rus.m3u",
+              "header": "#EXTM3U"
             }
           ],
           "existing": true,
+          "rights_evidence": "",
+          "status": "UNKNOWN_CZ",
+          "audio_reviews": []
+        },
+        "ae6fe406678921c5fa87fb9bc7262f09a007d8235429266cf6eb37c61248eb29": {
+          "block": [
+            "#EXTINF:-1 tvg-id=\"black.ru\" tvg-chno=\"6875\" tvg-name=\".black\" tvg-logo=\"https://i.imgur.com/Q4A6ci4.png\" tvg-country=\"RU\" tvg-language=\"rus\" group-title=\"Entertainment\" nexus-score=\"100\",.black (1080p)",
+            "http://stream.mcquack.net/263/index.m3u8"
+          ],
+          "history": [],
+          "sources": [
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/index.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            },
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/country/ru.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/ru.xml.gz\""
+            },
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/online.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            },
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/best.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            }
+          ],
+          "existing": false,
+          "rights_evidence": "",
+          "status": "UNKNOWN_CZ",
+          "audio_reviews": []
+        },
+        "59bb353156fdb47896939d07750ab3a577fc8795a7b34ed34e6faf2b0285a6de": {
+          "block": [
+            "#EXTINF:-1 tvg-id=\"black.ru\" tvg-chno=\"6875\" tvg-name=\".black\" tvg-logo=\"https://i.imgur.com/Q4A6ci4.png\" tvg-country=\"RU\" tvg-language=\"rus\" group-title=\"Entertainment\" nexus-score=\"100\",.black (576p)",
+            "http://s1.merlive.am/black/index.m3u8"
+          ],
+          "history": [],
+          "sources": [
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/index.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            }
+          ],
+          "existing": false,
+          "rights_evidence": "",
+          "status": "UNKNOWN_CZ",
+          "audio_reviews": []
+        },
+        "f9b25d0192c474cf1521c132aa134fc0ab0f3be7e5f8feef9985c0a5bfb912ea": {
+          "block": [
+            "#EXTINF:-1 tvg-id=\"black.ru@SD\" tvg-name=\".black\" tvg-country=\"RU\" tvg-language=\"Russian\" tvg-logo=\"https://i.imgur.com/Q4A6ci4.png\" group-title=\"Russia\" x-tier=\"community\" x-status=\"verified\" x-quality=\"1080p\",.black",
+            "http://stream.mcquack.net/263/index.m3u8"
+          ],
+          "history": [],
+          "sources": [
+            {
+              "provider": "Nexonic IPTV",
+              "url": "https://nexonic-technologies.github.io/nexonic-iptv/playlists/all.m3u",
+              "header": "#EXTM3U x-nexonic-playlist=\"All channels\""
+            },
+            {
+              "provider": "Nexonic IPTV",
+              "url": "https://nexonic-technologies.github.io/nexonic-iptv/playlists/verified.m3u",
+              "header": "#EXTM3U x-nexonic-playlist=\"Nexonic Verified (working in the last 48 h)\""
+            },
+            {
+              "provider": "Nexonic IPTV",
+              "url": "https://nexonic-technologies.github.io/nexonic-iptv/playlists/quality/1080p.m3u",
+              "header": "#EXTM3U x-nexonic-playlist=\"Measured 1080p\""
+            }
+          ],
+          "existing": false,
+          "rights_evidence": "",
+          "status": "UNKNOWN_CZ",
+          "audio_reviews": []
+        },
+        "b4f71f347f9cd623f5fb7b339f4836bade3dfdd01b2820f8fd3450a4746f2d0c": {
+          "block": [
+            "#EXTINF:-1 tvg-id=\"black.ru\" tvg-name=\".black\" tvg-logo=\"https://i.imgur.com/Q4A6ci4.png\" tvg-country=\"RU\" tvg-language=\"rus\" group-title=\"Entertainment\" nexus-score=\"100\",.black (1080p)",
+            "http://stream.mcquack.net/263/index.m3u8"
+          ],
+          "history": [],
+          "sources": [
+            {
+              "provider": "DuckKota IPTV",
+              "url": "https://DuckKota.github.io/iptv/playlists/index.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://DuckKota.github.io/iptv/epg/guide.xml.gz\""
+            },
+            {
+              "provider": "DuckKota IPTV",
+              "url": "https://DuckKota.github.io/iptv/playlists/country/ru.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://DuckKota.github.io/iptv/epg/guide.xml.gz\""
+            },
+            {
+              "provider": "DuckKota IPTV",
+              "url": "https://DuckKota.github.io/iptv/playlists/online.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://DuckKota.github.io/iptv/epg/guide.xml.gz\""
+            }
+          ],
+          "existing": false,
+          "rights_evidence": "",
+          "status": "UNKNOWN_CZ",
+          "audio_reviews": []
+        },
+        "db6e8d78da3f60b9cafe7916a9610d4c708d46ee0821c79fe40991232b861ebc": {
+          "block": [
+            "#EXTINF:-1 tvg-id=\"black.ru\" tvg-name=\".black\" tvg-logo=\"https://i.imgur.com/Q4A6ci4.png\" tvg-country=\"RU\" tvg-language=\"rus\" group-title=\"Entertainment\" nexus-score=\"100\",.black (576p)",
+            "http://s1.merlive.am/black/index.m3u8"
+          ],
+          "history": [],
+          "sources": [
+            {
+              "provider": "DuckKota IPTV",
+              "url": "https://DuckKota.github.io/iptv/playlists/index.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://DuckKota.github.io/iptv/epg/guide.xml.gz\""
+            }
+          ],
+          "existing": false,
           "rights_evidence": "",
           "status": "UNKNOWN_CZ",
           "audio_reviews": []
@@ -81628,8 +81758,8 @@
         "Entertainment"
       ],
       "baseline": true,
-      "movie_candidate": false,
-      "movie_confirmed": false,
+      "movie_candidate": true,
+      "movie_confirmed": true,
       "catalogue_languages": [
         "rus"
       ],
@@ -340353,6 +340483,11 @@
               "provider": "IPTV-ORG",
               "url": "https://iptv-org.github.io/iptv/index.m3u",
               "header": "#EXTM3U"
+            },
+            {
+              "provider": "IPTV-ORG",
+              "url": "https://iptv-org.github.io/iptv/languages/rus.m3u",
+              "header": "#EXTM3U"
             }
           ],
           "existing": true,
@@ -340376,9 +340511,175 @@
               "provider": "IPTV-ORG",
               "url": "https://iptv-org.github.io/iptv/index.m3u",
               "header": "#EXTM3U"
+            },
+            {
+              "provider": "IPTV-ORG",
+              "url": "https://iptv-org.github.io/iptv/languages/rus.m3u",
+              "header": "#EXTM3U"
             }
           ],
           "existing": true,
+          "rights_evidence": "",
+          "status": "UNKNOWN_CZ",
+          "audio_reviews": []
+        },
+        "49a55bdaae14de735beaca5a457ddb118025c9b183d70c61eff07a0545c33b4e": {
+          "block": [
+            "#EXTINF:-1 tvg-id=\"red.ru\" tvg-chno=\"6876\" tvg-name=\".red\" tvg-logo=\"https://i.imgur.com/GET9Qut.png\" tvg-country=\"RU\" tvg-language=\"rus\" group-title=\"Entertainment\" nexus-score=\"100\",.red (1080p)",
+            "http://stream.mcquack.net/69/index.m3u8"
+          ],
+          "history": [],
+          "sources": [
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/index.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            },
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/country/ru.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/ru.xml.gz\""
+            },
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/online.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            },
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/best.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            }
+          ],
+          "existing": false,
+          "rights_evidence": "",
+          "status": "UNKNOWN_CZ",
+          "audio_reviews": []
+        },
+        "bd8cfa8118604d32482c19e4c1bdbbede42b0e6297d54c44d2d78afa8334fa2b": {
+          "block": [
+            "#EXTINF:-1 tvg-id=\"red.ru\" tvg-chno=\"6876\" tvg-name=\".red\" tvg-logo=\"https://i.imgur.com/GET9Qut.png\" tvg-country=\"RU\" tvg-language=\"rus\" group-title=\"Entertainment\" nexus-score=\"62\",.red (1080p)",
+            "http://178.134.1.158:8081/red/index.m3u8"
+          ],
+          "history": [],
+          "sources": [
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/index.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            }
+          ],
+          "existing": false,
+          "rights_evidence": "",
+          "status": "UNKNOWN_CZ",
+          "audio_reviews": []
+        },
+        "2619bda69f9f88cfeec5afa590d766e625be81ed2c3ee528b8a340e33e489393": {
+          "block": [
+            "#EXTINF:-1 tvg-id=\"red.ru\" tvg-chno=\"6876\" tvg-name=\".red\" tvg-logo=\"https://i.imgur.com/GET9Qut.png\" tvg-country=\"RU\" tvg-language=\"rus\" group-title=\"Entertainment\" nexus-score=\"0\",.red (1080p)",
+            "http://5.188.159.128:8070/RED/index.m3u8"
+          ],
+          "history": [],
+          "sources": [
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/index.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            }
+          ],
+          "existing": false,
+          "rights_evidence": "",
+          "status": "UNKNOWN_CZ",
+          "audio_reviews": []
+        },
+        "194b0a489b05d4ca83e8df121b2719b4e9844c0555c0d1b29d27134327f85f0b": {
+          "block": [
+            "#EXTINF:-1 tvg-id=\"red.ru@SD\" tvg-name=\".red\" tvg-country=\"RU\" tvg-language=\"Russian\" tvg-logo=\"https://i.imgur.com/GET9Qut.png\" group-title=\"Russia\" x-tier=\"community\" x-status=\"verified\" x-quality=\"1080p\",.red",
+            "http://stream.mcquack.net/69/index.m3u8"
+          ],
+          "history": [],
+          "sources": [
+            {
+              "provider": "Nexonic IPTV",
+              "url": "https://nexonic-technologies.github.io/nexonic-iptv/playlists/all.m3u",
+              "header": "#EXTM3U x-nexonic-playlist=\"All channels\""
+            },
+            {
+              "provider": "Nexonic IPTV",
+              "url": "https://nexonic-technologies.github.io/nexonic-iptv/playlists/verified.m3u",
+              "header": "#EXTM3U x-nexonic-playlist=\"Nexonic Verified (working in the last 48 h)\""
+            },
+            {
+              "provider": "Nexonic IPTV",
+              "url": "https://nexonic-technologies.github.io/nexonic-iptv/playlists/quality/1080p.m3u",
+              "header": "#EXTM3U x-nexonic-playlist=\"Measured 1080p\""
+            }
+          ],
+          "existing": false,
+          "rights_evidence": "",
+          "status": "UNKNOWN_CZ",
+          "audio_reviews": []
+        },
+        "5b5d6cffaea89179b6320403a5d160f0e9ec7ee115dfcd27c406b770dad4636c": {
+          "block": [
+            "#EXTINF:-1 tvg-id=\"red.ru\" tvg-name=\".red\" tvg-logo=\"https://i.imgur.com/GET9Qut.png\" tvg-country=\"RU\" tvg-language=\"rus\" group-title=\"Entertainment\" nexus-score=\"100\",.red (1080p)",
+            "http://stream.mcquack.net/69/index.m3u8"
+          ],
+          "history": [],
+          "sources": [
+            {
+              "provider": "DuckKota IPTV",
+              "url": "https://DuckKota.github.io/iptv/playlists/index.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://DuckKota.github.io/iptv/epg/guide.xml.gz\""
+            },
+            {
+              "provider": "DuckKota IPTV",
+              "url": "https://DuckKota.github.io/iptv/playlists/country/ru.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://DuckKota.github.io/iptv/epg/guide.xml.gz\""
+            },
+            {
+              "provider": "DuckKota IPTV",
+              "url": "https://DuckKota.github.io/iptv/playlists/online.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://DuckKota.github.io/iptv/epg/guide.xml.gz\""
+            }
+          ],
+          "existing": false,
+          "rights_evidence": "",
+          "status": "UNKNOWN_CZ",
+          "audio_reviews": []
+        },
+        "0dbd699b81fdcf17ff01f9119e7c94a0fe1092d4649ae2a9230e267ba36e4418": {
+          "block": [
+            "#EXTINF:-1 tvg-id=\"red.ru\" tvg-name=\".red\" tvg-logo=\"https://i.imgur.com/GET9Qut.png\" tvg-country=\"RU\" tvg-language=\"rus\" group-title=\"Entertainment\" nexus-score=\"73\",.red (1080p)",
+            "http://178.134.1.158:8081/red/index.m3u8"
+          ],
+          "history": [],
+          "sources": [
+            {
+              "provider": "DuckKota IPTV",
+              "url": "https://DuckKota.github.io/iptv/playlists/index.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://DuckKota.github.io/iptv/epg/guide.xml.gz\""
+            }
+          ],
+          "existing": false,
+          "rights_evidence": "",
+          "status": "UNKNOWN_CZ",
+          "audio_reviews": []
+        },
+        "e04a071a10845359d659984e8cd0492d844f5e7fc8ea8a168c1b82b321e385ca": {
+          "block": [
+            "#EXTINF:-1 tvg-id=\"red.ru\" tvg-name=\".red\" tvg-logo=\"https://i.imgur.com/GET9Qut.png\" tvg-country=\"RU\" tvg-language=\"rus\" group-title=\"Entertainment\" nexus-score=\"0\",.red (576p)",
+            "http://5.188.159.128:8070/RED/index.m3u8"
+          ],
+          "history": [],
+          "sources": [
+            {
+              "provider": "DuckKota IPTV",
+              "url": "https://DuckKota.github.io/iptv/playlists/index.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://DuckKota.github.io/iptv/epg/guide.xml.gz\""
+            }
+          ],
+          "existing": false,
           "rights_evidence": "",
           "status": "UNKNOWN_CZ",
           "audio_reviews": []
@@ -340388,8 +340689,8 @@
         "Entertainment"
       ],
       "baseline": true,
-      "movie_candidate": false,
-      "movie_confirmed": false,
+      "movie_candidate": true,
+      "movie_confirmed": true,
       "catalogue_languages": [
         "rus"
       ],
@@ -433466,6 +433767,24 @@
           "audio_reviews": [],
           "status": "STABLE_CZ",
           "was_stable": true
+        },
+        "5bd9c25025bbe27ffee067e0897f5b0caa10045c90c3f859ac0a74071174dcef": {
+          "block": [
+            "#EXTINF:-1 tvg-id=\"BigAsia.ru\" tvg-logo=\"https://i.imgur.com/vruuPKF.png\" tvg-language=\"rus\",Big Asia",
+            "https://river-3-368.rtbcdn.ru/stream/genetta-412.ntv.rutube.ru/NVAMS-GG2YJGKuZcESfT7Q/1796392486/495ab964b755baa2c9fc7481a2e40f7d/720p_stream.m3u8"
+          ],
+          "history": [],
+          "sources": [
+            {
+              "provider": "official public player",
+              "url": "https://rutube.ru/api/play/options/495ab964b755baa2c9fc7481a2e40f7d/?format=json",
+              "header": ""
+            }
+          ],
+          "existing": false,
+          "rights_evidence": "https://rutube.ru/api/play/options/495ab964b755baa2c9fc7481a2e40f7d/?format=json",
+          "status": "UNKNOWN_CZ",
+          "audio_reviews": []
         }
       },
       "groups": [
