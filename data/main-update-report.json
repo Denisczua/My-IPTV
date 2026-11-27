@@ -1,6 +1,6 @@
 {
   "published": false,
-  "at": "2026-11-27T13:32:42.608445+00:00",
+  "at": "2026-11-27T13:58:59.808813+00:00",
   "before_entries": 10416,
   "before_identities": 10416,
   "sources_processed": 17,
@@ -11,6 +11,6 @@
   "full_playlist_preserved": true,
   "before_channels": 10416,
   "after_channels": 10416,
-  "archived_stream_variants": 15240,
-  "movie_channels_found": 103
+  "archived_stream_variants": 15291,
+  "movie_channels_found": 104
 }
