@@ -109,7 +109,7 @@ def export(catalogue,policy,names,discoveries,oled):
             review=oled.get(ident,{})
             if review.get('approved') is True and review.get('evidence') and review.get('reviewed_at') and review.get('method')=='visual':
                 group_for_row='OLED'
-            else:group_for_row=group
+            else:group_for_row=policy.get('display_groups',{}).get(ident,policy.get('group_names',{}).get(group,group))
             block=with_group(block,group_for_row)
             old_key=catalogue.get('selected',{}).get(ident)
             if old_key and old_key!=key:replacements+=1
@@ -122,7 +122,7 @@ def export(catalogue,policy,names,discoveries,oled):
             rows.append((row,block))
             if original_group=='Кино':movies.append(row)
     if not rows:raise ValueError('No eligible personal channels: retain previous deployment; never republish unknown channels')
-    order={'Кино':0,'Рыбалка и охота':1,'Путешествия и природа':2,'Новости Украины':3,'Новости России':4,'OLED':5}
+    order={name:index for index,name in enumerate(policy.get('display_group_order',['Кино','Рыбалка и охота','Путешествия и природа','Новости Украины','Новости России','OLED']))}
     rows.sort(key=lambda item:(order[item[0]['group']],item[0]['name'].casefold().replace('ё','е')))
     body=('#EXTM3U\n'+'\n'.join('\n'.join(block) for _,block in rows)+'\n').encode('utf-8')
     if len(common.parse(body.decode()))!=len({r['id'] for r,_ in rows}):raise ValueError('Duplicate personal channels')

@@ -111,5 +111,32 @@
     "FREEDOM.ua": "FREEДОМ"
   },
   "rights": {},
-  "name_evidence": "Editorial display names; branded official Latin names stay Latin rather than invented translations."
+  "name_evidence": "Editorial display names; branded official Latin names stay Latin rather than invented translations.",
+  "group_names": {
+    "Кино": "Российское кино и сериалы",
+    "Рыбалка и охота": "Рыбалка"
+  },
+  "display_groups": {
+    "SilkWayCinema.kz": "Зарубежное кино и сериалы на русском языке",
+    "KinoiZhizn.ru": "Зарубежное кино и сериалы на русском языке"
+  },
+  "display_group_order": [
+    "Зарубежное кино и сериалы на русском языке",
+    "Российское кино и сериалы",
+    "Рыбалка",
+    "Путешествия и природа",
+    "Новости Украины",
+    "Новости России",
+    "OLED"
+  ],
+  "display_group_evidence": {
+    "SilkWayCinema.kz": {
+      "evidence": "https://silkwaycinema.tv/",
+      "notes": "Kazakh and international cinema with separately measured Russian audio; not a claim of Hollywood-only schedule."
+    },
+    "KinoiZhizn.ru": {
+      "evidence": "https://kij-tv.ru/",
+      "notes": "Official description includes domestic and foreign feature films/series; mixed programming, not exclusively foreign."
+    }
+  }
 }
