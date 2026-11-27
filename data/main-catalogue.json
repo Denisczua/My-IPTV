@@ -8384,7 +8384,18 @@
             "#EXTINF:-1 tvg-id=\"312Kino.kg\" tvg-chno=\"5060\" tvg-name=\"312 Kino\" tvg-logo=\"https://i.ibb.co/3m9LrLj/k7gIibH.png\" tvg-country=\"KG\" tvg-language=\"rus;kir\" group-title=\"Movies\" nexus-score=\"12\",312 Kino (360p)",
             "http://176.126.166.43:1935/live/312kino/playlist.m3u8"
           ],
-          "history": [],
+          "history": [
+            {
+              "at": "2026-11-26T19:32:07.704255+00:00",
+              "region": "CZ",
+              "result": "fail",
+              "measurement_version": 3,
+              "reason": "URLError during media check",
+              "elapsed_seconds": 10.017,
+              "egress_sha256": "a130ed9d3515ef5e2bacc3ad41b71e272eb3d62b789b71bcd8d69272e5ab298f",
+              "observation_id": "5c04298aab09904fb97af700b9934115f588fb75c8ceb195da7c69486baeaf94"
+            }
+          ],
           "sources": [
             {
               "provider": "IPTV Nexus",
@@ -63311,7 +63322,19 @@
             "#EXTINF:-1 tvg-id=\"Bollywood.ru\" tvg-chno=\"6918\" tvg-name=\"Bollywood\" tvg-logo=\"https://i.imgur.com/YLQRnXt.png\" tvg-country=\"RU\" tvg-language=\"rus\" group-title=\"Movies\" nexus-score=\"79\",Bollywood (1080p)",
             "http://176.118.197.101/Bollywood_HD/index.m3u8"
           ],
-          "history": [],
+          "history": [
+            {
+              "at": "2026-11-26T19:32:30.391538+00:00",
+              "region": "CZ",
+              "result": "fail",
+              "measurement_version": 3,
+              "reason": "HTTP 404",
+              "http_status": 404,
+              "elapsed_seconds": 21.49,
+              "egress_sha256": "a130ed9d3515ef5e2bacc3ad41b71e272eb3d62b789b71bcd8d69272e5ab298f",
+              "observation_id": "5d49cf6d13ba0a28595d097eeeb39420e6b9c43da9192b5800e791480c452c10"
+            }
+          ],
           "sources": [
             {
               "provider": "IPTV Nexus",
@@ -105908,7 +105931,42 @@
             "#EXTINF:-1 tvg-id=\"CityEdenKinoArt.ru\" tvg-chno=\"6944\" tvg-name=\"City Eden KinoArt\" tvg-logo=\"https://i.imgur.com/67CWCtz.png\" tvg-country=\"RU\" tvg-language=\"rus\" group-title=\"Movies\" nexus-score=\"92\",City Eden KinoArt",
             "https://cityeden.catcast.tv/content/38398/index.m3u8"
           ],
-          "history": [],
+          "history": [
+            {
+              "at": "2026-11-26T19:35:06.659137+00:00",
+              "region": "CZ",
+              "result": "fail",
+              "measurement_version": 3,
+              "segments": 3,
+              "sample_bytes": 3000000,
+              "download_bytes_per_second": 90262,
+              "media": {
+                "width": 1280,
+                "height": 692,
+                "video_codec": "h264",
+                "audio_codec": "aac",
+                "audio_language": "und",
+                "audio_language_tag": "und",
+                "russian_default": false,
+                "audio_tracks": 1,
+                "field_order": "unknown",
+                "selected_audio_index": 1,
+                "default_audio_index": 1,
+                "fps": 0,
+                "channels": 2,
+                "bitrate": 2048040,
+                "audio_bitrate": 264721,
+                "sample_rate": "44100",
+                "probe_startup_seconds": 12.572
+              },
+              "russian_audio_confirmed": false,
+              "reason": "FFmpeg video/audio decode error",
+              "http_status": null,
+              "elapsed_seconds": 68.295,
+              "egress_sha256": "a130ed9d3515ef5e2bacc3ad41b71e272eb3d62b789b71bcd8d69272e5ab298f",
+              "observation_id": "9c5967dd59c3f005f541e3b8358b32319491e0561eb76630446fd5cf89123575"
+            }
+          ],
           "sources": [
             {
               "provider": "IPTV Nexus",
@@ -106686,7 +106744,41 @@
             "#EXTINF:-1 tvg-id=\"CityEdenKinoDetektiv.ru\" tvg-chno=\"6946\" tvg-name=\"City Eden KinoDetektiv\" tvg-logo=\"https://i.imgur.com/9rKHwBV.png\" tvg-country=\"RU\" tvg-language=\"rus\" group-title=\"Movies\" nexus-score=\"92\",City Eden KinoDetektiv",
             "https://cityeden.catcast.tv/content/41327/index.m3u8"
           ],
-          "history": [],
+          "history": [
+            {
+              "at": "2026-11-26T19:37:25.717686+00:00",
+              "region": "CZ",
+              "result": "fail",
+              "measurement_version": 3,
+              "segments": 3,
+              "sample_bytes": 3000000,
+              "download_bytes_per_second": 130522,
+              "media": {
+                "width": 1280,
+                "height": 720,
+                "video_codec": "h264",
+                "audio_codec": "aac",
+                "audio_language": "und",
+                "audio_language_tag": "und",
+                "russian_default": false,
+                "audio_tracks": 1,
+                "field_order": "unknown",
+                "selected_audio_index": 1,
+                "default_audio_index": 1,
+                "fps": 23.976,
+                "channels": 2,
+                "bitrate": 2756018,
+                "audio_bitrate": 264509,
+                "sample_rate": "48000",
+                "probe_startup_seconds": 12.673
+              },
+              "russian_audio_confirmed": false,
+              "reason": "Media timeout",
+              "elapsed_seconds": 91.721,
+              "egress_sha256": "a130ed9d3515ef5e2bacc3ad41b71e272eb3d62b789b71bcd8d69272e5ab298f",
+              "observation_id": "d595779fedb4c90ce55fd6ea860665ff5380658197bdf6d91588a5b037bdf398"
+            }
+          ],
           "sources": [
             {
               "provider": "IPTV Nexus",
@@ -107224,7 +107316,41 @@
             "#EXTINF:-1 tvg-id=\"CityEdenKinoDrama.ru\" tvg-chno=\"6948\" tvg-name=\"City Eden KinoDrama\" tvg-logo=\"https://i.imgur.com/29ddffh.png\" tvg-country=\"RU\" tvg-language=\"rus\" group-title=\"Movies\" nexus-score=\"92\",City Eden KinoDrama",
             "https://cityeden.catcast.tv/content/45269/index.m3u8"
           ],
-          "history": [],
+          "history": [
+            {
+              "at": "2026-11-26T19:38:59.098221+00:00",
+              "region": "CZ",
+              "result": "fail",
+              "measurement_version": 3,
+              "segments": 3,
+              "sample_bytes": 3000000,
+              "download_bytes_per_second": 115774,
+              "media": {
+                "width": 1280,
+                "height": 544,
+                "video_codec": "h264",
+                "audio_codec": "aac",
+                "audio_language": "und",
+                "audio_language_tag": "und",
+                "russian_default": false,
+                "audio_tracks": 1,
+                "field_order": "unknown",
+                "selected_audio_index": 1,
+                "default_audio_index": 1,
+                "fps": 25.0,
+                "channels": 2,
+                "bitrate": 3185492,
+                "audio_bitrate": 264773,
+                "sample_rate": "48000",
+                "probe_startup_seconds": 18.674
+              },
+              "russian_audio_confirmed": false,
+              "reason": "Media timeout",
+              "elapsed_seconds": 105.767,
+              "egress_sha256": "a130ed9d3515ef5e2bacc3ad41b71e272eb3d62b789b71bcd8d69272e5ab298f",
+              "observation_id": "0cf313a39c446bad5ff2f0a30313f93f4ab79b2159aea2c84f9abb208985595e"
+            }
+          ],
           "sources": [
             {
               "provider": "IPTV Nexus",
@@ -108226,7 +108352,21 @@
             "#EXTINF:-1 tvg-id=\"CityEdenKinoMistika.ru\" tvg-chno=\"6952\" tvg-name=\"City Eden KinoMistika\" tvg-logo=\"https://i.imgur.com/s1Pid0K.png\" tvg-country=\"RU\" tvg-language=\"rus\" group-title=\"Movies\" nexus-score=\"92\",City Eden KinoMistika",
             "https://cityeden.catcast.tv/content/40783/index.m3u8"
           ],
-          "history": [],
+          "history": [
+            {
+              "at": "2026-11-26T19:44:10.719475+00:00",
+              "region": "CZ",
+              "result": "fail",
+              "measurement_version": 3,
+              "segments": 3,
+              "sample_bytes": 3000000,
+              "download_bytes_per_second": 89480,
+              "reason": "Media timeout",
+              "elapsed_seconds": 63.738,
+              "egress_sha256": "a130ed9d3515ef5e2bacc3ad41b71e272eb3d62b789b71bcd8d69272e5ab298f",
+              "observation_id": "8e58389f8813a902fccca89dfb98937978fa42313896cc726036e144316eb596"
+            }
+          ],
           "sources": [
             {
               "provider": "IPTV Nexus",
@@ -137266,7 +137406,19 @@
             "#EXTINF:-1 tvg-id=\"Domkino.ru\" tvg-chno=\"6973\" tvg-name=\"Dom kino\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/%D0%9B%D0%BE%D0%B3%D0%BE%D1%82%D0%B8%D0%BF_%D0%BA%D0%B0%D0%BD%D0%B0%D0%BB%D0%B0_%D0%94%D0%BE%D0%BC_%D0%9A%D0%B8%D0%BD%D0%BE.png/960px-%D0%9B%D0%BE%D0%B3%D0%BE%D1%82%D0%B8%D0%BF_%D0%BA%D0%B0%D0%BD%D0%B0%D0%BB%D0%B0_%D0%94%D0%BE%D0%BC_%D0%9A%D0%B8%D0%BD%D0%BE.png\" tvg-country=\"RU\" tvg-language=\"rus\" group-title=\"Movies\" nexus-score=\"34\",Dom kino (576p)",
             "http://88.212.15.50/live/test_dom_kino/playlist.m3u8"
           ],
-          "history": [],
+          "history": [
+            {
+              "at": "2026-11-27T07:52:37.466817+00:00",
+              "region": "CZ",
+              "result": "fail",
+              "measurement_version": 3,
+              "reason": "HTTP 503",
+              "http_status": 503,
+              "elapsed_seconds": 0.075,
+              "egress_sha256": "a130ed9d3515ef5e2bacc3ad41b71e272eb3d62b789b71bcd8d69272e5ab298f",
+              "observation_id": "3f71379f25b0fd232778b443edb88ae901ca1332a1b7a5a4c876657dac80b51b"
+            }
+          ],
           "sources": [
             {
               "provider": "IPTV Nexus",
@@ -137792,7 +137944,19 @@
             "#EXTINF:-1 tvg-id=\"DomkinoPremium.ru\" tvg-chno=\"6974\" tvg-name=\"Dom kino Premium\" tvg-logo=\"https://i.imgur.com/rJpQtvK.png\" tvg-country=\"RU\" tvg-language=\"rus\" group-title=\"Movies\" nexus-score=\"34\",Dom kino Premium (576p)",
             "http://88.212.15.50/live/test_dom_kino_premium/playlist.m3u8"
           ],
-          "history": [],
+          "history": [
+            {
+              "at": "2026-11-27T07:53:56.154925+00:00",
+              "region": "CZ",
+              "result": "fail",
+              "measurement_version": 3,
+              "reason": "HTTP 503",
+              "http_status": 503,
+              "elapsed_seconds": 0.082,
+              "egress_sha256": "a130ed9d3515ef5e2bacc3ad41b71e272eb3d62b789b71bcd8d69272e5ab298f",
+              "observation_id": "054f725e78a9c4849f0694ea2e01b97a2276732f45045acaa0cae45e7701b4bb"
+            }
+          ],
           "sources": [
             {
               "provider": "IPTV Nexus",
@@ -228187,7 +228351,42 @@
             "#EXTINF:-1 tvg-id=\"KinoTV.ru\" tvg-chno=\"7028\" tvg-name=\"Kino TV\" tvg-logo=\"https://i.imgur.com/sMpamNO.png\" tvg-country=\"RU\" tvg-language=\"rus\" group-title=\"Movies\" nexus-score=\"98\",Kino TV (1080p)",
             "http://176.118.197.101/KinoTvHD/playlist.m3u8"
           ],
-          "history": [],
+          "history": [
+            {
+              "at": "2026-11-27T08:00:10.289284+00:00",
+              "region": "CZ",
+              "result": "fail",
+              "measurement_version": 3,
+              "segments": 3,
+              "sample_bytes": 3000000,
+              "download_bytes_per_second": 207700,
+              "media": {
+                "width": 1920,
+                "height": 1080,
+                "video_codec": "h264",
+                "audio_codec": "aac",
+                "audio_language": "rus",
+                "audio_language_tag": "rus",
+                "russian_default": true,
+                "audio_tracks": 1,
+                "field_order": "unknown",
+                "selected_audio_index": 0,
+                "default_audio_index": 0,
+                "fps": 25.0,
+                "channels": 2,
+                "bitrate": 6157878,
+                "audio_bitrate": 67185,
+                "sample_rate": "48000",
+                "probe_startup_seconds": 10.991
+              },
+              "russian_audio_confirmed": true,
+              "audio_language_evidence": "FFprobe audio stream language tag",
+              "reason": "Media timeout",
+              "elapsed_seconds": 80.979,
+              "egress_sha256": "a130ed9d3515ef5e2bacc3ad41b71e272eb3d62b789b71bcd8d69272e5ab298f",
+              "observation_id": "ca2796902fe9c270bf47dd36253d420c204eddf1a8f7126cb2a4d882352d6498"
+            }
+          ],
           "sources": [
             {
               "provider": "IPTV Nexus",
@@ -229778,7 +229977,43 @@
             "#EXTINF:-1 tvg-id=\"Kinomix.ru\" tvg-chno=\"7031\" tvg-name=\"Kinomix\" tvg-logo=\"https://i.imgur.com/D4q2XUT.png\" tvg-country=\"RU\" tvg-language=\"rus\" group-title=\"Movies\" nexus-score=\"98\",Kinomix (576p)",
             "http://93.170.254.17/Kinomiks/index.m3u8"
           ],
-          "history": [],
+          "history": [
+            {
+              "at": "2026-11-26T19:49:23.275055+00:00",
+              "region": "CZ",
+              "result": "fail",
+              "measurement_version": 3,
+              "segments": 3,
+              "sample_bytes": 3000000,
+              "download_bytes_per_second": 460459,
+              "media": {
+                "width": 720,
+                "height": 576,
+                "video_codec": "h264",
+                "audio_codec": "mp2",
+                "audio_language": "rus",
+                "audio_language_tag": "rus",
+                "russian_default": true,
+                "audio_tracks": 3,
+                "field_order": "unknown",
+                "selected_audio_index": 1,
+                "default_audio_index": 1,
+                "fps": 25.0,
+                "channels": 2,
+                "bitrate": 2475195,
+                "audio_bitrate": 192000,
+                "sample_rate": "48000",
+                "probe_startup_seconds": 2.023
+              },
+              "russian_audio_confirmed": true,
+              "audio_language_evidence": "FFprobe audio stream language tag",
+              "reason": "FFmpeg video/audio decode error",
+              "http_status": null,
+              "elapsed_seconds": 10.917,
+              "egress_sha256": "a130ed9d3515ef5e2bacc3ad41b71e272eb3d62b789b71bcd8d69272e5ab298f",
+              "observation_id": "bd9dd1262f7251c2b84a0282b45547a935e5c862c5236fcea9bd7d9a5d793a8a"
+            }
+          ],
           "sources": [
             {
               "provider": "IPTV Nexus",
@@ -280838,7 +281073,18 @@
             "#EXTINF:-1 tvg-id=\"Muzhskoy.ru\" tvg-chno=\"7087\" tvg-name=\"Muzhskoy\" tvg-logo=\"https://i.imgur.com/xyztpBf.png\" tvg-country=\"RU\" tvg-language=\"rus\" group-title=\"Movies\" nexus-score=\"100\",Muzhskoy (576p)",
             "https://fonbet.mediacdn.ru/live/muzhskoi/playlist.m3u8"
           ],
-          "history": [],
+          "history": [
+            {
+              "at": "2026-11-26T19:51:07.365386+00:00",
+              "region": "CZ",
+              "result": "fail",
+              "measurement_version": 3,
+              "reason": "UnicodeDecodeError during media check",
+              "elapsed_seconds": 0.847,
+              "egress_sha256": "a130ed9d3515ef5e2bacc3ad41b71e272eb3d62b789b71bcd8d69272e5ab298f",
+              "observation_id": "e7f8cc553676e8cac448546aaf6bd58d63af9a93e9298498e6d90ce9fc0cb49c"
+            }
+          ],
           "sources": [
             {
               "provider": "IPTV Nexus",
@@ -284690,7 +284936,18 @@
             "#EXTINF:-1 tvg-id=\"NashKinopokaz.ru\" tvg-chno=\"7093\" tvg-name=\"Nash Kinopokaz\" tvg-logo=\"https://i.imgur.com/iwTMl8O.png\" tvg-country=\"RU\" tvg-language=\"rus\" group-title=\"Movies\" nexus-score=\"34\",Nash Kinopokaz (576p)",
             "http://46.53.200.153:7777/play/SRT_Nash_kinopokaz/index.m3u8"
           ],
-          "history": [],
+          "history": [
+            {
+              "at": "2026-11-26T19:51:09.556327+00:00",
+              "region": "CZ",
+              "result": "fail",
+              "measurement_version": 3,
+              "reason": "URLError during media check",
+              "elapsed_seconds": 3.019,
+              "egress_sha256": "a130ed9d3515ef5e2bacc3ad41b71e272eb3d62b789b71bcd8d69272e5ab298f",
+              "observation_id": "6bd0f990180c9baec1f0bfde253a6efef6161e8bef2306031c1c87fde09b8cb0"
+            }
+          ],
           "sources": [
             {
               "provider": "IPTV Nexus",
@@ -477747,7 +478004,18 @@
             "#EXTINF:-1 tvg-id=\"TV21.ru\" tvg-chno=\"7264\" tvg-name=\"TV 21\" tvg-logo=\"https://i.imgur.com/nSmSnH6.png\" tvg-country=\"RU\" tvg-language=\"rus\" group-title=\"Movies\" nexus-score=\"63\",TV 21 (576p)",
             "http://178.134.1.158:8081/TVXXI/index.m3u8"
           ],
-          "history": [],
+          "history": [
+            {
+              "at": "2026-11-27T02:15:53.131802+00:00",
+              "region": "CZ",
+              "result": "fail",
+              "measurement_version": 3,
+              "reason": "URLError during media check",
+              "elapsed_seconds": 10.015,
+              "egress_sha256": "a130ed9d3515ef5e2bacc3ad41b71e272eb3d62b789b71bcd8d69272e5ab298f",
+              "observation_id": "4501345a881b96a917135a478484cbbf72082a5e606138afb4f3abccf18f4c9a"
+            }
+          ],
           "sources": [
             {
               "provider": "IPTV Nexus",
@@ -478031,7 +478299,18 @@
             "#EXTINF:-1 tvg-id=\"TV21International.ru\" tvg-chno=\"7265\" tvg-name=\"TV 21 International\" tvg-logo=\"https://ibb.co/BH6CZx3K\" tvg-country=\"RU\" tvg-language=\"rus\" group-title=\"Movies\" nexus-score=\"34\",TV 21 International (576p)",
             "http://46.53.200.153:7777/play/TV-21M/index.m3u8"
           ],
-          "history": [],
+          "history": [
+            {
+              "at": "2026-11-27T02:16:07.413939+00:00",
+              "region": "CZ",
+              "result": "fail",
+              "measurement_version": 3,
+              "reason": "URLError during media check",
+              "elapsed_seconds": 2.268,
+              "egress_sha256": "a130ed9d3515ef5e2bacc3ad41b71e272eb3d62b789b71bcd8d69272e5ab298f",
+              "observation_id": "d4c3a244598160478ec2cc6f4375e75fd92109ca3934d4df7e1fbd70624858f6"
+            }
+          ],
           "sources": [
             {
               "provider": "IPTV Nexus",
@@ -514556,7 +514835,18 @@
             "#EXTINF:-1 tvg-id=\"vijuTV1000.ru\" tvg-chno=\"7299\" tvg-name=\"viju TV1000\" tvg-logo=\"https://i.imgur.com/ZMsyjSr.png\" tvg-country=\"RU\" tvg-language=\"rus\" group-title=\"Movies\" nexus-score=\"34\",viju TV1000 (576p)",
             "http://46.53.200.153:7777/play/TV_1000/index.m3u8"
           ],
-          "history": [],
+          "history": [
+            {
+              "at": "2026-11-27T02:18:59.686304+00:00",
+              "region": "CZ",
+              "result": "fail",
+              "measurement_version": 3,
+              "reason": "URLError during media check",
+              "elapsed_seconds": 2.265,
+              "egress_sha256": "a130ed9d3515ef5e2bacc3ad41b71e272eb3d62b789b71bcd8d69272e5ab298f",
+              "observation_id": "d5e4403b3bb8470236bd5386984a1bade17723ab9b5a6170b990c6405060e21d"
+            }
+          ],
           "sources": [
             {
               "provider": "IPTV Nexus",
@@ -515286,7 +515576,18 @@
             "#EXTINF:-1 tvg-id=\"vijuTV1000novella.ru\" tvg-chno=\"7301\" tvg-name=\"viju TV1000 novella\" tvg-logo=\"https://www.cableman.ru/sites/default/files/viju_TV1000_%D0%BD%D0%BE%D0%B2%D0%B5%D0%BB%D0%BB%D0%B0_color_rgb_02%20%281%29.png\" tvg-country=\"RU\" tvg-language=\"rus\" group-title=\"Movies\" nexus-score=\"34\",viju TV1000 novella (1080p)",
             "http://46.53.200.153:7777/play/VIJU_TV_1000_novella/index.m3u8"
           ],
-          "history": [],
+          "history": [
+            {
+              "at": "2026-11-27T02:19:42.959001+00:00",
+              "region": "CZ",
+              "result": "fail",
+              "measurement_version": 3,
+              "reason": "URLError during media check",
+              "elapsed_seconds": 2.333,
+              "egress_sha256": "a130ed9d3515ef5e2bacc3ad41b71e272eb3d62b789b71bcd8d69272e5ab298f",
+              "observation_id": "001b807d4377c529b5f766b885889607a88b00863887a6173cb0332e1d07d988"
+            }
+          ],
           "sources": [
             {
               "provider": "IPTV Nexus",
@@ -516171,7 +516472,18 @@
             "#EXTINF:-1 tvg-id=\"vijuPlusMegahit.ru\" tvg-chno=\"7305\" tvg-name=\"viju+ Megahit\" tvg-logo=\"https://i.imgur.com/oIQNddV.png\" tvg-country=\"RU\" tvg-language=\"rus\" group-title=\"Movies\" nexus-score=\"34\",viju+ Megahit (1080p)",
             "http://46.53.200.153:7777/play/Viju_Megahit_HD/index.m3u8"
           ],
-          "history": [],
+          "history": [
+            {
+              "at": "2026-11-27T02:17:46.443175+00:00",
+              "region": "CZ",
+              "result": "fail",
+              "measurement_version": 3,
+              "reason": "URLError during media check",
+              "elapsed_seconds": 2.224,
+              "egress_sha256": "a130ed9d3515ef5e2bacc3ad41b71e272eb3d62b789b71bcd8d69272e5ab298f",
+              "observation_id": "80addfab1f7e929fcef17b53cf5520b3bbe3adc5e43d2faaa8d804167a0e6f33"
+            }
+          ],
           "sources": [
             {
               "provider": "IPTV Nexus",
@@ -516494,7 +516806,18 @@
             "#EXTINF:-1 tvg-id=\"vijuPlusPremiere.ru\" tvg-chno=\"7307\" tvg-name=\"viju+ Premiere\" tvg-logo=\"https://i.imgur.com/klRvhR5.png\" tvg-country=\"RU\" tvg-language=\"rus\" group-title=\"Movies\" nexus-score=\"34\",viju+ Premiere (1080p)",
             "http://46.53.200.153:7777/play/Viju_Premiere/index.m3u8"
           ],
-          "history": [],
+          "history": [
+            {
+              "at": "2026-11-27T02:18:17.906892+00:00",
+              "region": "CZ",
+              "result": "fail",
+              "measurement_version": 3,
+              "reason": "URLError during media check",
+              "elapsed_seconds": 2.303,
+              "egress_sha256": "a130ed9d3515ef5e2bacc3ad41b71e272eb3d62b789b71bcd8d69272e5ab298f",
+              "observation_id": "84801d70bf9c2aa23393ff862bea19db5c3b485a6c9c94b7af52b4f3accbbb39"
+            }
+          ],
           "sources": [
             {
               "provider": "IPTV Nexus",
@@ -540078,6 +540401,169 @@
               "audio_language_evidence": "offline faster-whisper/base, decoded audio sample; not a guarantee for all programming",
               "egress_sha256": "a130ed9d3515ef5e2bacc3ad41b71e272eb3d62b789b71bcd8d69272e5ab298f",
               "observation_id": "737a6d41c9ef13facc9efd9daf5a6a9c77435858d8c4c8ec2a3692a0c226d16d"
+            },
+            {
+              "at": "2026-11-27T09:34:00.615887+00:00",
+              "region": "CZ",
+              "result": "ok",
+              "measurement_version": 3,
+              "playback_selection": "sampled_hls_rendition",
+              "segments": 3,
+              "sample_bytes": 3000000,
+              "download_bytes_per_second": 1444920,
+              "media": {
+                "width": 1280,
+                "height": 720,
+                "video_codec": "h264",
+                "audio_codec": "aac",
+                "audio_language": "rus",
+                "audio_language_tag": "und",
+                "russian_default": true,
+                "audio_tracks": 1,
+                "field_order": "unknown",
+                "selected_audio_index": 1,
+                "default_audio_index": 1,
+                "fps": 25.0,
+                "channels": 2,
+                "bitrate": 3970312,
+                "audio_bitrate": 130175,
+                "sample_rate": "48000",
+                "probe_startup_seconds": 3.566
+              },
+              "russian_audio_confirmed": true,
+              "startup_seconds": 3.608,
+              "timestamp_origin_normalized": true,
+              "timestamp_parser_version": 2,
+              "audio_decoded": true,
+              "decoded_video_seconds": 25.0,
+              "decoded_audio_seconds": 25.003,
+              "video_continuous": true,
+              "audio_continuous": true,
+              "video_frames": 626,
+              "audio_frames": 1173,
+              "max_video_gap": 0.0400000000000027,
+              "max_audio_gap": 0.021334000000003073,
+              "long_silence": false,
+              "long_freeze": false,
+              "elapsed_seconds": 34.205,
+              "speech_language": {
+                "language": "ru",
+                "probability": 0.9988874793052673,
+                "speech_seconds": 14.84,
+                "characters": 210,
+                "method": "offline faster-whisper/base, decoded audio sample; not a guarantee for all programming"
+              },
+              "audio_language_evidence": "offline faster-whisper/base, decoded audio sample; not a guarantee for all programming",
+              "egress_sha256": "a130ed9d3515ef5e2bacc3ad41b71e272eb3d62b789b71bcd8d69272e5ab298f",
+              "observation_id": "83ad944fda17e5fd33151a0727593c44022d3c614a1462e865ba3bcc2f2a7993"
+            },
+            {
+              "at": "2026-11-27T09:44:10.404295+00:00",
+              "region": "CZ",
+              "result": "ok",
+              "measurement_version": 3,
+              "playback_selection": "sampled_hls_rendition",
+              "segments": 3,
+              "sample_bytes": 3000000,
+              "download_bytes_per_second": 1350641,
+              "media": {
+                "width": 1280,
+                "height": 720,
+                "video_codec": "h264",
+                "audio_codec": "aac",
+                "audio_language": "und",
+                "audio_language_tag": "und",
+                "russian_default": false,
+                "audio_tracks": 1,
+                "field_order": "unknown",
+                "selected_audio_index": 1,
+                "default_audio_index": 1,
+                "fps": 25.0,
+                "channels": 2,
+                "bitrate": 4266683,
+                "audio_bitrate": 130304,
+                "sample_rate": "48000",
+                "probe_startup_seconds": 3.277
+              },
+              "russian_audio_confirmed": false,
+              "startup_seconds": 3.473,
+              "timestamp_origin_normalized": true,
+              "timestamp_parser_version": 2,
+              "audio_decoded": true,
+              "decoded_video_seconds": 25.0,
+              "decoded_audio_seconds": 25.003,
+              "video_continuous": true,
+              "audio_continuous": true,
+              "video_frames": 626,
+              "audio_frames": 1173,
+              "max_video_gap": 0.0400000000000027,
+              "max_audio_gap": 0.021334000000003073,
+              "long_silence": false,
+              "long_freeze": false,
+              "elapsed_seconds": 33.821,
+              "speech_language": {
+                "language": "en",
+                "probability": 0.5640232563018799,
+                "speech_seconds": 0,
+                "characters": 0,
+                "method": "offline faster-whisper/base, decoded audio sample; not a guarantee for all programming"
+              },
+              "egress_sha256": "a130ed9d3515ef5e2bacc3ad41b71e272eb3d62b789b71bcd8d69272e5ab298f",
+              "observation_id": "5e102ba3679bcf878f230b192d138d11bd15e57064a0584f2655c2d26abaecfd"
+            },
+            {
+              "at": "2026-11-27T09:54:12.555466+00:00",
+              "region": "CZ",
+              "result": "ok",
+              "measurement_version": 3,
+              "playback_selection": "sampled_hls_rendition",
+              "segments": 3,
+              "sample_bytes": 3000000,
+              "download_bytes_per_second": 1398339,
+              "media": {
+                "width": 1280,
+                "height": 720,
+                "video_codec": "h264",
+                "audio_codec": "aac",
+                "audio_language": "und",
+                "audio_language_tag": "und",
+                "russian_default": false,
+                "audio_tracks": 1,
+                "field_order": "unknown",
+                "selected_audio_index": 1,
+                "default_audio_index": 1,
+                "fps": 25.0,
+                "channels": 2,
+                "bitrate": 4623224,
+                "audio_bitrate": 131167,
+                "sample_rate": "48000",
+                "probe_startup_seconds": 3.419
+              },
+              "russian_audio_confirmed": false,
+              "startup_seconds": 3.505,
+              "timestamp_origin_normalized": true,
+              "timestamp_parser_version": 2,
+              "audio_decoded": true,
+              "decoded_video_seconds": 25.0,
+              "decoded_audio_seconds": 25.003,
+              "video_continuous": true,
+              "audio_continuous": true,
+              "video_frames": 626,
+              "audio_frames": 1173,
+              "max_video_gap": 0.0400000000000027,
+              "max_audio_gap": 0.021334000000003073,
+              "long_silence": false,
+              "long_freeze": false,
+              "elapsed_seconds": 33.915,
+              "speech_language": {
+                "language": "en",
+                "probability": 0.5640232563018799,
+                "speech_seconds": 0,
+                "characters": 0,
+                "method": "offline faster-whisper/base, decoded audio sample; not a guarantee for all programming"
+              },
+              "egress_sha256": "a130ed9d3515ef5e2bacc3ad41b71e272eb3d62b789b71bcd8d69272e5ab298f",
+              "observation_id": "54c04ab72b373f13f4a1b842cb2679d277d9dc377a543e6940b3965ef8a2d11b"
             }
           ],
           "sources": [
@@ -540099,8 +540585,9 @@
           ],
           "existing": false,
           "rights_evidence": "https://rutube.ru/api/play/options/3b7d1499da9396462bfd17282d758d30/?format=json",
-          "status": "UNSTABLE_CZ",
-          "audio_reviews": []
+          "status": "STABLE_CZ",
+          "audio_reviews": [],
+          "was_stable": true
         }
       },
       "groups": [],
@@ -540328,6 +540815,204 @@
               "audio_language_evidence": "offline faster-whisper/base, decoded audio sample; not a guarantee for all programming",
               "egress_sha256": "a130ed9d3515ef5e2bacc3ad41b71e272eb3d62b789b71bcd8d69272e5ab298f",
               "observation_id": "1d8bb12e9b24e02d0e4c71e3f58f9505ea29c7e63aed2d8535cbd35af460e664"
+            },
+            {
+              "at": "2026-11-27T09:35:03.770183+00:00",
+              "region": "CZ",
+              "result": "fail",
+              "measurement_version": 3,
+              "playback_selection": "sampled_hls_rendition",
+              "segments": 3,
+              "sample_bytes": 3000000,
+              "download_bytes_per_second": 1490455,
+              "media": {
+                "width": 1920,
+                "height": 1080,
+                "video_codec": "h264",
+                "audio_codec": "aac",
+                "audio_language": "und",
+                "audio_language_tag": "und",
+                "russian_default": false,
+                "audio_tracks": 1,
+                "field_order": "unknown",
+                "selected_audio_index": 1,
+                "default_audio_index": 1,
+                "fps": 25.0,
+                "channels": 2,
+                "bitrate": 3708477,
+                "audio_bitrate": 130735,
+                "sample_rate": "48000",
+                "probe_startup_seconds": 3.36
+              },
+              "russian_audio_confirmed": false,
+              "reason": "FFmpeg video/audio decode error",
+              "http_status": null,
+              "elapsed_seconds": 28.981,
+              "egress_sha256": "a130ed9d3515ef5e2bacc3ad41b71e272eb3d62b789b71bcd8d69272e5ab298f",
+              "observation_id": "4bf61083994a5574c2a0e650d4fc6db2ae816d58e918fa4b0f35336b101a2715"
+            },
+            {
+              "at": "2026-11-27T09:45:13.948708+00:00",
+              "region": "CZ",
+              "result": "ok",
+              "measurement_version": 3,
+              "playback_selection": "sampled_hls_rendition",
+              "segments": 3,
+              "sample_bytes": 3000000,
+              "download_bytes_per_second": 1598537,
+              "media": {
+                "width": 1920,
+                "height": 1080,
+                "video_codec": "h264",
+                "audio_codec": "aac",
+                "audio_language": "und",
+                "audio_language_tag": "und",
+                "russian_default": false,
+                "audio_tracks": 1,
+                "field_order": "unknown",
+                "selected_audio_index": 1,
+                "default_audio_index": 1,
+                "fps": 25.0,
+                "channels": 2,
+                "bitrate": 3497907,
+                "audio_bitrate": 130454,
+                "sample_rate": "48000",
+                "probe_startup_seconds": 3.741
+              },
+              "russian_audio_confirmed": false,
+              "startup_seconds": 3.35,
+              "timestamp_origin_normalized": true,
+              "timestamp_parser_version": 2,
+              "audio_decoded": true,
+              "decoded_video_seconds": 25.0,
+              "decoded_audio_seconds": 25.003,
+              "video_continuous": true,
+              "audio_continuous": true,
+              "video_frames": 626,
+              "audio_frames": 1173,
+              "max_video_gap": 0.0400000000000027,
+              "max_audio_gap": 0.021334000000003073,
+              "long_silence": false,
+              "long_freeze": false,
+              "elapsed_seconds": 33.704,
+              "speech_language": {
+                "language": "hi",
+                "probability": 0.1774386763572693,
+                "speech_seconds": 1.0,
+                "characters": 11,
+                "method": "offline faster-whisper/base, decoded audio sample; not a guarantee for all programming"
+              },
+              "egress_sha256": "a130ed9d3515ef5e2bacc3ad41b71e272eb3d62b789b71bcd8d69272e5ab298f",
+              "observation_id": "377d38937a0709a12cc7c8e797e0afaa4543a03ee1f9561607b7cdd34b377e93"
+            },
+            {
+              "at": "2026-11-27T09:55:24.071327+00:00",
+              "region": "CZ",
+              "result": "ok",
+              "measurement_version": 3,
+              "playback_selection": "sampled_hls_rendition",
+              "segments": 3,
+              "sample_bytes": 3000000,
+              "download_bytes_per_second": 1593471,
+              "media": {
+                "width": 1920,
+                "height": 1080,
+                "video_codec": "h264",
+                "audio_codec": "aac",
+                "audio_language": "und",
+                "audio_language_tag": "und",
+                "russian_default": false,
+                "audio_tracks": 1,
+                "field_order": "unknown",
+                "selected_audio_index": 1,
+                "default_audio_index": 1,
+                "fps": 25.0,
+                "channels": 2,
+                "bitrate": 3305112,
+                "audio_bitrate": 130888,
+                "sample_rate": "48000",
+                "probe_startup_seconds": 3.123
+              },
+              "russian_audio_confirmed": false,
+              "startup_seconds": 5.404,
+              "timestamp_origin_normalized": true,
+              "timestamp_parser_version": 2,
+              "audio_decoded": true,
+              "decoded_video_seconds": 25.0,
+              "decoded_audio_seconds": 25.003,
+              "video_continuous": true,
+              "audio_continuous": true,
+              "video_frames": 626,
+              "audio_frames": 1173,
+              "max_video_gap": 0.0400000000000027,
+              "max_audio_gap": 0.021334000000003073,
+              "long_silence": false,
+              "long_freeze": false,
+              "elapsed_seconds": 36.096,
+              "speech_language": {
+                "language": "en",
+                "probability": 0.5640232563018799,
+                "speech_seconds": 0,
+                "characters": 0,
+                "method": "offline faster-whisper/base, decoded audio sample; not a guarantee for all programming"
+              },
+              "egress_sha256": "a130ed9d3515ef5e2bacc3ad41b71e272eb3d62b789b71bcd8d69272e5ab298f",
+              "observation_id": "c1df3c66d5ecb97c8422a0a1823d08270d2d98572b581d7444b472f3dee69e7b"
+            },
+            {
+              "at": "2026-11-27T13:29:34.495586+00:00",
+              "region": "CZ",
+              "result": "ok",
+              "measurement_version": 3,
+              "playback_selection": "sampled_hls_rendition",
+              "segments": 3,
+              "sample_bytes": 3000000,
+              "download_bytes_per_second": 1758376,
+              "media": {
+                "width": 1920,
+                "height": 1080,
+                "video_codec": "h264",
+                "audio_codec": "aac",
+                "audio_language": "rus",
+                "audio_language_tag": "und",
+                "russian_default": true,
+                "audio_tracks": 1,
+                "field_order": "unknown",
+                "selected_audio_index": 1,
+                "default_audio_index": 1,
+                "fps": 25.0,
+                "channels": 2,
+                "bitrate": 3496141,
+                "audio_bitrate": 130202,
+                "sample_rate": "48000",
+                "probe_startup_seconds": 4.397
+              },
+              "russian_audio_confirmed": true,
+              "startup_seconds": 4.238,
+              "timestamp_origin_normalized": true,
+              "timestamp_parser_version": 2,
+              "audio_decoded": true,
+              "decoded_video_seconds": 25.0,
+              "decoded_audio_seconds": 25.003,
+              "video_continuous": true,
+              "audio_continuous": true,
+              "video_frames": 626,
+              "audio_frames": 1173,
+              "max_video_gap": 0.0400000000000027,
+              "max_audio_gap": 0.021334000000003073,
+              "long_silence": false,
+              "long_freeze": false,
+              "elapsed_seconds": 35.392,
+              "speech_language": {
+                "language": "ru",
+                "probability": 0.9888415932655334,
+                "speech_seconds": 12.56,
+                "characters": 234,
+                "method": "offline faster-whisper/base, decoded audio sample; not a guarantee for all programming"
+              },
+              "audio_language_evidence": "offline faster-whisper/base, decoded audio sample; not a guarantee for all programming",
+              "egress_sha256": "a130ed9d3515ef5e2bacc3ad41b71e272eb3d62b789b71bcd8d69272e5ab298f",
+              "observation_id": "437a91bf30faa8bfc86f8417daf05ad8816ab75a535f96675bcdcb7b33751627"
             }
           ],
           "sources": [
@@ -540349,8 +541034,9 @@
           ],
           "existing": false,
           "rights_evidence": "https://rutube.ru/api/play/options/4965b7b928c4a143d708ab424be01d37/?format=json",
-          "status": "UNSTABLE_CZ",
-          "audio_reviews": []
+          "status": "STABLE_CZ",
+          "audio_reviews": [],
+          "was_stable": true
         }
       },
       "groups": [],
@@ -540636,6 +541322,169 @@
               "audio_language_evidence": "offline faster-whisper/base, decoded audio sample; not a guarantee for all programming",
               "egress_sha256": "a130ed9d3515ef5e2bacc3ad41b71e272eb3d62b789b71bcd8d69272e5ab298f",
               "observation_id": "fe9ab5547c165a902d49f33776681403fa231772ade067bed35f342c120145ff"
+            },
+            {
+              "at": "2026-11-27T09:30:19.793823+00:00",
+              "region": "CZ",
+              "result": "ok",
+              "measurement_version": 3,
+              "playback_selection": "sampled_hls_rendition",
+              "segments": 3,
+              "sample_bytes": 2880752,
+              "download_bytes_per_second": 1778133,
+              "media": {
+                "width": 1280,
+                "height": 720,
+                "video_codec": "h264",
+                "audio_codec": "aac",
+                "audio_language": "und",
+                "audio_language_tag": "und",
+                "russian_default": false,
+                "audio_tracks": 1,
+                "field_order": "unknown",
+                "selected_audio_index": 1,
+                "default_audio_index": 1,
+                "fps": 25.0,
+                "channels": 2,
+                "bitrate": 3668277,
+                "audio_bitrate": 129926,
+                "sample_rate": "48000",
+                "probe_startup_seconds": 3.012
+              },
+              "russian_audio_confirmed": false,
+              "startup_seconds": 3.144,
+              "timestamp_origin_normalized": true,
+              "timestamp_parser_version": 2,
+              "audio_decoded": true,
+              "decoded_video_seconds": 25.0,
+              "decoded_audio_seconds": 25.003,
+              "video_continuous": true,
+              "audio_continuous": true,
+              "video_frames": 626,
+              "audio_frames": 1173,
+              "max_video_gap": 0.0400000000000027,
+              "max_audio_gap": 0.021334000000003073,
+              "long_silence": false,
+              "long_freeze": false,
+              "elapsed_seconds": 32.334,
+              "speech_language": {
+                "language": "ru",
+                "probability": 0.9731538891792297,
+                "speech_seconds": 2.0,
+                "characters": 24,
+                "method": "offline faster-whisper/base, decoded audio sample; not a guarantee for all programming"
+              },
+              "egress_sha256": "a130ed9d3515ef5e2bacc3ad41b71e272eb3d62b789b71bcd8d69272e5ab298f",
+              "observation_id": "12a63b255fbc277dc26d8068d31caf17ae4df6c2291b5f40ee49ba4ec8f63280"
+            },
+            {
+              "at": "2026-11-27T09:40:26.716776+00:00",
+              "region": "CZ",
+              "result": "ok",
+              "measurement_version": 3,
+              "playback_selection": "sampled_hls_rendition",
+              "segments": 3,
+              "sample_bytes": 2842804,
+              "download_bytes_per_second": 1712932,
+              "media": {
+                "width": 1280,
+                "height": 720,
+                "video_codec": "h264",
+                "audio_codec": "aac",
+                "audio_language": "rus",
+                "audio_language_tag": "und",
+                "russian_default": true,
+                "audio_tracks": 1,
+                "field_order": "unknown",
+                "selected_audio_index": 1,
+                "default_audio_index": 1,
+                "fps": 25.0,
+                "channels": 2,
+                "bitrate": 1870360,
+                "audio_bitrate": 130711,
+                "sample_rate": "48000",
+                "probe_startup_seconds": 2.901
+              },
+              "russian_audio_confirmed": true,
+              "startup_seconds": 3.18,
+              "timestamp_origin_normalized": true,
+              "timestamp_parser_version": 2,
+              "audio_decoded": true,
+              "decoded_video_seconds": 25.0,
+              "decoded_audio_seconds": 25.003,
+              "video_continuous": true,
+              "audio_continuous": true,
+              "video_frames": 626,
+              "audio_frames": 1173,
+              "max_video_gap": 0.0400000000000027,
+              "max_audio_gap": 0.021334000000003073,
+              "long_silence": false,
+              "long_freeze": false,
+              "elapsed_seconds": 32.321,
+              "speech_language": {
+                "language": "ru",
+                "probability": 0.9926391839981079,
+                "speech_seconds": 12.28,
+                "characters": 190,
+                "method": "offline faster-whisper/base, decoded audio sample; not a guarantee for all programming"
+              },
+              "audio_language_evidence": "offline faster-whisper/base, decoded audio sample; not a guarantee for all programming",
+              "egress_sha256": "a130ed9d3515ef5e2bacc3ad41b71e272eb3d62b789b71bcd8d69272e5ab298f",
+              "observation_id": "0b7afa7d2807c26bf3819319835bbe48c8bcaff5306ed7e17f19cba18e29eabf"
+            },
+            {
+              "at": "2026-11-27T09:50:31.618742+00:00",
+              "region": "CZ",
+              "result": "ok",
+              "measurement_version": 3,
+              "playback_selection": "sampled_hls_rendition",
+              "segments": 3,
+              "sample_bytes": 3000000,
+              "download_bytes_per_second": 1764665,
+              "media": {
+                "width": 1280,
+                "height": 720,
+                "video_codec": "h264",
+                "audio_codec": "aac",
+                "audio_language": "und",
+                "audio_language_tag": "und",
+                "russian_default": false,
+                "audio_tracks": 1,
+                "field_order": "unknown",
+                "selected_audio_index": 1,
+                "default_audio_index": 1,
+                "fps": 25.0,
+                "channels": 2,
+                "bitrate": 2388219,
+                "audio_bitrate": 131289,
+                "sample_rate": "48000",
+                "probe_startup_seconds": 2.995
+              },
+              "russian_audio_confirmed": false,
+              "startup_seconds": 3.16,
+              "timestamp_origin_normalized": true,
+              "timestamp_parser_version": 2,
+              "audio_decoded": true,
+              "decoded_video_seconds": 25.0,
+              "decoded_audio_seconds": 25.003,
+              "video_continuous": true,
+              "audio_continuous": true,
+              "video_frames": 626,
+              "audio_frames": 1172,
+              "max_video_gap": 0.0400000000000027,
+              "max_audio_gap": 0.042667000000001565,
+              "long_silence": false,
+              "long_freeze": false,
+              "elapsed_seconds": 32.513,
+              "speech_language": {
+                "language": "ru",
+                "probability": 0.8614392280578613,
+                "speech_seconds": 1.0,
+                "characters": 6,
+                "method": "offline faster-whisper/base, decoded audio sample; not a guarantee for all programming"
+              },
+              "egress_sha256": "a130ed9d3515ef5e2bacc3ad41b71e272eb3d62b789b71bcd8d69272e5ab298f",
+              "observation_id": "36647b3594128a838f6cf0f1f41e4fa7aaa5531545cd277e9d1e6f8bebb22c05"
             }
           ],
           "sources": [
@@ -540657,8 +541506,9 @@
           ],
           "existing": false,
           "rights_evidence": "https://rutube.ru/api/play/options/0ed0696149c131d3a7349372d730d4e6/?format=json",
-          "status": "UNSTABLE_CZ",
-          "audio_reviews": []
+          "status": "STABLE_CZ",
+          "audio_reviews": [],
+          "was_stable": true
         }
       },
       "groups": [],
@@ -541108,6 +541958,171 @@
               "audio_language_evidence": "offline faster-whisper/base, decoded audio sample; not a guarantee for all programming",
               "egress_sha256": "a130ed9d3515ef5e2bacc3ad41b71e272eb3d62b789b71bcd8d69272e5ab298f",
               "observation_id": "691bd50dcc7f15fce85c76551f2f2c3b51cf66ee401e649dbbbfc55d2f8b23e5"
+            },
+            {
+              "at": "2026-11-27T09:35:54.045699+00:00",
+              "region": "CZ",
+              "result": "ok",
+              "measurement_version": 3,
+              "playback_selection": "sampled_hls_rendition",
+              "segments": 3,
+              "sample_bytes": 3000000,
+              "download_bytes_per_second": 1504161,
+              "media": {
+                "width": 1280,
+                "height": 720,
+                "video_codec": "h264",
+                "audio_codec": "aac",
+                "audio_language": "rus",
+                "audio_language_tag": "und",
+                "russian_default": true,
+                "audio_tracks": 1,
+                "field_order": "unknown",
+                "selected_audio_index": 1,
+                "default_audio_index": 1,
+                "fps": 25.0,
+                "channels": 2,
+                "bitrate": 3857908,
+                "audio_bitrate": 130994,
+                "sample_rate": "48000",
+                "probe_startup_seconds": 3.258
+              },
+              "russian_audio_confirmed": true,
+              "startup_seconds": 3.486,
+              "timestamp_origin_normalized": true,
+              "timestamp_parser_version": 2,
+              "audio_decoded": true,
+              "decoded_video_seconds": 25.0,
+              "decoded_audio_seconds": 25.003,
+              "video_continuous": true,
+              "audio_continuous": true,
+              "video_frames": 626,
+              "audio_frames": 1173,
+              "max_video_gap": 0.0400000000000027,
+              "max_audio_gap": 0.021334000000003073,
+              "long_silence": false,
+              "long_freeze": false,
+              "elapsed_seconds": 33.427,
+              "speech_language": {
+                "language": "ru",
+                "probability": 0.984034538269043,
+                "speech_seconds": 12.43,
+                "characters": 114,
+                "method": "offline faster-whisper/base, decoded audio sample; not a guarantee for all programming"
+              },
+              "audio_language_evidence": "offline faster-whisper/base, decoded audio sample; not a guarantee for all programming",
+              "egress_sha256": "a130ed9d3515ef5e2bacc3ad41b71e272eb3d62b789b71bcd8d69272e5ab298f",
+              "observation_id": "dcef235e7b3d7e41d83c4456fac7aad7a8dadc179e9addef46dac106e93e9ab6"
+            },
+            {
+              "at": "2026-11-27T09:46:17.141487+00:00",
+              "region": "CZ",
+              "result": "ok",
+              "measurement_version": 3,
+              "playback_selection": "sampled_hls_rendition",
+              "segments": 3,
+              "sample_bytes": 3000000,
+              "download_bytes_per_second": 1143014,
+              "media": {
+                "width": 1280,
+                "height": 720,
+                "video_codec": "h264",
+                "audio_codec": "aac",
+                "audio_language": "rus",
+                "audio_language_tag": "und",
+                "russian_default": true,
+                "audio_tracks": 1,
+                "field_order": "unknown",
+                "selected_audio_index": 1,
+                "default_audio_index": 1,
+                "fps": 25.0,
+                "channels": 2,
+                "bitrate": 3686048,
+                "audio_bitrate": 130265,
+                "sample_rate": "48000",
+                "probe_startup_seconds": 3.92
+              },
+              "russian_audio_confirmed": true,
+              "startup_seconds": 3.861,
+              "timestamp_origin_normalized": true,
+              "timestamp_parser_version": 2,
+              "audio_decoded": true,
+              "decoded_video_seconds": 25.0,
+              "decoded_audio_seconds": 25.003,
+              "video_continuous": true,
+              "audio_continuous": true,
+              "video_frames": 626,
+              "audio_frames": 1173,
+              "max_video_gap": 0.0400000000000027,
+              "max_audio_gap": 0.021334000000003073,
+              "long_silence": false,
+              "long_freeze": false,
+              "elapsed_seconds": 35.439,
+              "speech_language": {
+                "language": "ru",
+                "probability": 0.9931260347366333,
+                "speech_seconds": 15.6,
+                "characters": 262,
+                "method": "offline faster-whisper/base, decoded audio sample; not a guarantee for all programming"
+              },
+              "audio_language_evidence": "offline faster-whisper/base, decoded audio sample; not a guarantee for all programming",
+              "egress_sha256": "a130ed9d3515ef5e2bacc3ad41b71e272eb3d62b789b71bcd8d69272e5ab298f",
+              "observation_id": "2ae02706be3b06fa61e2b2d895981be50f76e897e325acdcafd5907cbab538bc"
+            },
+            {
+              "at": "2026-11-27T09:56:18.144486+00:00",
+              "region": "CZ",
+              "result": "ok",
+              "measurement_version": 3,
+              "playback_selection": "sampled_hls_rendition",
+              "segments": 3,
+              "sample_bytes": 3000000,
+              "download_bytes_per_second": 1508893,
+              "media": {
+                "width": 1280,
+                "height": 720,
+                "video_codec": "h264",
+                "audio_codec": "aac",
+                "audio_language": "rus",
+                "audio_language_tag": "und",
+                "russian_default": true,
+                "audio_tracks": 1,
+                "field_order": "unknown",
+                "selected_audio_index": 1,
+                "default_audio_index": 1,
+                "fps": 25.0,
+                "channels": 2,
+                "bitrate": 4045173,
+                "audio_bitrate": 131194,
+                "sample_rate": "48000",
+                "probe_startup_seconds": 3.839
+              },
+              "russian_audio_confirmed": true,
+              "startup_seconds": 4.185,
+              "timestamp_origin_normalized": true,
+              "timestamp_parser_version": 2,
+              "audio_decoded": true,
+              "decoded_video_seconds": 25.0,
+              "decoded_audio_seconds": 25.003,
+              "video_continuous": true,
+              "audio_continuous": true,
+              "video_frames": 626,
+              "audio_frames": 1173,
+              "max_video_gap": 0.0400000000000027,
+              "max_audio_gap": 0.021334000000003073,
+              "long_silence": false,
+              "long_freeze": false,
+              "elapsed_seconds": 34.818,
+              "speech_language": {
+                "language": "ru",
+                "probability": 0.9953293800354004,
+                "speech_seconds": 19.2,
+                "characters": 278,
+                "method": "offline faster-whisper/base, decoded audio sample; not a guarantee for all programming"
+              },
+              "audio_language_evidence": "offline faster-whisper/base, decoded audio sample; not a guarantee for all programming",
+              "egress_sha256": "a130ed9d3515ef5e2bacc3ad41b71e272eb3d62b789b71bcd8d69272e5ab298f",
+              "observation_id": "cb253f041da9a239e2db691fd40301fb27eddc27f71e2cf15e7aae2779aaad1f"
             }
           ],
           "sources": [
@@ -541130,7 +542145,8 @@
           "existing": false,
           "rights_evidence": "https://rutube.ru/api/play/options/e05401be60a9cc719fa7075b6e77b86d/?format=json",
           "audio_reviews": [],
-          "status": "UNSTABLE_CZ"
+          "status": "STABLE_CZ",
+          "was_stable": true
         }
       },
       "groups": [],

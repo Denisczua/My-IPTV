@@ -1,16 +1,16 @@
 {
-  "at": "2026-11-27T09:27:31.569737+00:00",
-  "checks_this_run": 15,
-  "candidate_streams": 8,
-  "unique_candidates": 5,
-  "streams_with_v3_check": 8,
+  "at": "2026-11-27T13:30:29.701938+00:00",
+  "checks_this_run": 1,
+  "candidate_streams": 1,
+  "unique_candidates": 1,
+  "streams_with_v3_check": 1,
   "results": {
-    "fail": 194,
+    "fail": 195,
     "quality_fail": 47,
-    "ok": 131,
+    "ok": 143,
     "unknown": 2
   },
-  "last_channel": "Smotrim100Klassika.ru",
+  "last_channel": "Kinozhelezo.ru",
   "last_result": "ok",
-  "elapsed_seconds": 822
+  "elapsed_seconds": 55
 }
