@@ -1,6 +1,6 @@
 {
   "source": "https://iptv-org.github.io/api/feeds.json",
-  "retrieved_at": "2026-11-27T08:44:20.754329+00:00",
+  "retrieved_at": "2026-11-27T09:12:48.248104+00:00",
   "feeds": {
     "002RadioTV.do@SD": [
       "spa"
@@ -41212,7 +41212,7 @@
     "EWTN.us@K16HYD": [
       "eng"
     ],
-    "EWTN.us@SpainLatinAmerica": [
+    "EWTN.us@LatinAmerica": [
       "spa"
     ],
     "EWTN.us@Spanish": [
@@ -103215,6 +103215,9 @@
     ],
     "SaskatchewanLegislativeNetwork.ca@SD": [
       "eng"
+    ],
+    "SastraFilm.kh@SD": [
+      "cam"
     ],
     "SASTV.gt@SD": [
       "spa"
