@@ -61,7 +61,8 @@
         "Travelxp.in",
         "Moyastikhiya.ru",
         "Smotrim100Fakty.ru",
-        "BigAsia.ru"
+        "BigAsia.ru",
+        "Neizvestnayaplaneta.ru"
       ]
     }
   },
@@ -108,7 +109,9 @@
     "BigAsia.ru": "Большая Азия",
     "Ratnik.ru": "Ратник",
     "KinoiZhizn.ru": "Кино и Жизнь",
-    "FREEDOM.ua": "FREEДОМ"
+    "FREEDOM.ua": "FREEДОМ",
+    "Neizvestnayaplaneta.ru": "Неизвестная планета",
+    "Kinokomedija.ru": "Кинокомедия"
   },
   "rights": {},
   "name_evidence": "Editorial display names; branded official Latin names stay Latin rather than invented translations.",
@@ -118,7 +121,8 @@
   },
   "display_groups": {
     "SilkWayCinema.kz": "Зарубежное кино и сериалы на русском языке",
-    "KinoiZhizn.ru": "Зарубежное кино и сериалы на русском языке"
+    "KinoiZhizn.ru": "Зарубежное кино и сериалы на русском языке",
+    "Kinokomedija.ru": "Зарубежное кино и сериалы на русском языке"
   },
   "display_group_order": [
     "Зарубежное кино и сериалы на русском языке",
@@ -137,6 +141,10 @@
     "KinoiZhizn.ru": {
       "evidence": "https://kij-tv.ru/",
       "notes": "Official description includes domestic and foreign feature films/series; mixed programming, not exclusively foreign."
+    },
+    "Kinokomedija.ru": {
+      "evidence": "https://www.nastroykino.ru/kinokomedija/",
+      "notes": "Mixed domestic and foreign comedy films, confirmed by official description and EPG; not a claim of foreign-only programming."
     }
   }
 }

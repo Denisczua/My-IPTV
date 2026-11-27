@@ -1,0 +1,65 @@
+{
+  "at": "2026-11-27T19:04:15.060498+00:00",
+  "input_channel_records": 378970,
+  "unique_candidate_transports": 4550,
+  "candidate_identities": 3732,
+  "admitted_channel_count": 19,
+  "classification_and_measurement_are_distinct": true,
+  "stages": {
+    "network": {
+      "count": 4307,
+      "results": {
+        "http_error": 2818,
+        "hls_manifest": 864,
+        "unreachable_or_unsupported": 367,
+        "unrecognised_content": 200,
+        "html_not_media": 7,
+        "possible_media_needs_decode": 51
+      }
+    },
+    "tracks": {
+      "count": 549,
+      "results": {
+        "below_hd": 186,
+        "needs_decoded_audio_video": 263,
+        "probe_inconclusive_or_failed": 54,
+        "single_track_language_not_required": 46
+      }
+    },
+    "language": {
+      "count": 122,
+      "results": {
+        "other_spoken_language": 43,
+        "required_speech_confirmed_needs_full_playback": 1,
+        "speech_language_unconfirmed": 69,
+        "audio_sample_inconclusive_or_failed": 9
+      }
+    }
+  },
+  "active_local_jobs": [
+    "FFprobe track screening",
+    "decoded-audio language screening",
+    "three spaced checks of official retained BigAsia HD branches"
+  ],
+  "source_playlist_unchanged": true,
+  "remaining_not_published": true,
+  "continuation": {
+    "candidate_ledger": "data/existing-base-inventory.json",
+    "local_progress_directory": "MyIPTV-CZ-runner/progress",
+    "ffprobe_journal": "existing-base-track-screen-2026-11-27.jsonl",
+    "language_journal": "existing-base-language-screen-2026-11-27.jsonl",
+    "full_media_journal": "observations.jsonl",
+    "required_next_step": "Complete remaining track/speech screens; only then full three-pass CZ decode for qualified sources with rights proof.",
+    "candidate_ledger_storage": "Local working file and local-only Git stash; full internal archive not uploaded after automatic disclosure-risk rejection"
+  },
+  "public_data_scope": "Counts and stage results only; no stream URLs, guest sessions, raw logs, IP addresses or expanded internal archive",
+  "full_decoded_checks_since_inventory_started": {
+    "observations": 61,
+    "results": {
+      "fail": 20,
+      "ok": 37,
+      "quality_fail": 4
+    },
+    "note": "An ok media sample is not three-pass stability, language/rights approval or a newly admitted channel."
+  }
+}
