@@ -53,6 +53,15 @@
       "local_frame": ".tools\\visual-oled\\Smotrim100Muzhskoe.ru.jpg",
       "oled_approved": false,
       "finding": "Visible broadcaster logo or EPIC MEDIA watermark in sampled frame; absence of permanent graphics not established. A single frame is not a full-programme survey."
+    },
+    {
+      "channel": "KinoiZhizn.ru",
+      "at": "2026-11-27T13:44:02.335364+00:00",
+      "method": "visual inspection of decoded live frame",
+      "frame_sha256": "4bc3fb997554ea5f74220d81943865b85bfe5abee4d20032cc053736f8bb2801",
+      "local_frame": ".tools\\visual-oled\\KinoiZhizn.ru.jpg",
+      "oled_approved": false,
+      "finding": "Top-right Kino i Zhizn broadcaster watermark and top-left film title visible. Not approved for OLED."
     }
   ]
 }

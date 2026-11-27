@@ -221,5 +221,45 @@
       "reviewed_at": "2026-11-27",
       "method": "Official Star Media publisher 141565, free public 24/7 fiction cinema and series feed, acl_access.allowed=true and CZ allowed; exact full HLS retained"
     }
+  ],
+  "Smotrim100Fakty.ru": [
+    {
+      "url": "https://stream.smotrim.ru/hls3/fasttv06/playlist.m3u8?entity=channel&id=395&sign=1dc4ca8fb01e025545b0e6e70164cbf6",
+      "evidence": "https://player-api.smotrim.ru/api/v1/channel/395",
+      "page": "https://smotrim.ru/channel/395",
+      "language": "rus",
+      "reviewed_at": "2026-11-27",
+      "method": "Official free documentary channel public player API, embed explicitly enabled; actual audio still requires CZ check"
+    }
+  ],
+  "BigAsia.ru": [
+    {
+      "url": "https://bl.rutube.ru/livestream/495ab964b755baa2c9fc7481a2e40f7d/index.m3u8?s=rPERCBNAucre0zHVBfqX1A&e=2095786211&scheme=https",
+      "evidence": "https://rutube.ru/api/play/options/495ab964b755baa2c9fc7481a2e40f7d/?format=json",
+      "page": "https://rutube.ru/video/495ab964b755baa2c9fc7481a2e40f7d/",
+      "language": "rus",
+      "reviewed_at": "2026-11-27",
+      "method": "Official broadcaster public free live feed; CZ allowed and ACL allowed. Documentary/history programming reviewed from owner description."
+    }
+  ],
+  "Ratnik.ru": [
+    {
+      "url": "https://bl.rutube.ru/livestream/13b0320238d7938a2deffb4065068986/index.m3u8?s=ZB6YL2NZlqE9BJCVbpothw&e=2095786212&scheme=https",
+      "evidence": "https://rutube.ru/api/play/options/13b0320238d7938a2deffb4065068986/?format=json",
+      "page": "https://rutube.ru/video/13b0320238d7938a2deffb4065068986/",
+      "language": "rus",
+      "reviewed_at": "2026-11-27",
+      "method": "Official broadcaster public free live feed; CZ allowed and ACL allowed. Documentary/history programming reviewed from owner description."
+    }
+  ],
+  "KinoiZhizn.ru": [
+    {
+      "url": "https://bl.rutube.ru/livestream/09e51eefa939595a4ac67182c6fb3e4e/index.m3u8?s=-CeoAD7Vx7mnM9xDMMcYfQ&e=2095786710&scheme=https",
+      "evidence": "https://kij-tv.ru/",
+      "page": "https://rutube.ru/u/kij/",
+      "language": "rus",
+      "reviewed_at": "2026-11-27T13:39:38.251390+00:00",
+      "method": "Official broadcaster website directly links Rutube alias kij, page confirms publisher 32896309; exact free live video 09e51eefa939595a4ac67182c6fb3e4e allows CZ; anonymous player ACL allowed. Platform verification badge absent; ownership independently verified."
+    }
   ]
 }

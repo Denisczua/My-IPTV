@@ -82,6 +82,11 @@
       "reviewed_at": "2026-11-27",
       "evidence": "https://rutube.ru/video/e05401be60a9cc719fa7075b6e77b86d/",
       "notes": "Producer schedule explicitly includes feature-length fiction and series. Not a general news/documentary channel."
+    },
+    "KinoiZhizn.ru": {
+      "movie": true,
+      "name": "Кино и Жизнь",
+      "evidence": "https://kij-tv.ru/ ; official description: feature films and series, domestic and foreign; exact owner-linked free live stream reviewed 2026-11-27"
     }
   }
 }

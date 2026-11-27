@@ -1,7 +1,20 @@
 {
-  "at": "2026-11-27T09:10:14.270154+00:00",
-  "published_candidate_count": 11,
+  "at": "2026-11-27T13:57:02.351343+00:00",
+  "published_candidate_count": 17,
   "channels": [
+    {
+      "id": "EpicMedia.ru",
+      "name": "EPIC MEDIA HD",
+      "group": "Кино",
+      "theme": "Кино",
+      "resolution": "1280×720",
+      "status": "STABLE_CZ",
+      "last_check": "2026-11-27T09:50:31.618742+00:00",
+      "audio_language": "rus",
+      "audio_language_checked_at": "2026-11-27T09:40:26.716776+00:00",
+      "audio_language_method": "offline faster-whisper/base, decoded audio sample; not a guarantee for all programming",
+      "rights_evidence": "https://rutube.ru/api/play/options/0ed0696149c131d3a7349372d730d4e6/?format=json"
+    },
     {
       "id": "EpicMediaLove.ru",
       "name": "EPIC MEDIA Love HD",
@@ -29,6 +42,45 @@
       "rights_evidence": "https://silkwaycinema.tv/ ; official Qazaqstan network free live stream, previously reviewed in playlist-movies-hd-report.md"
     },
     {
+      "id": "StarMediaDetectives.ru",
+      "name": "Детективы каждый день HD",
+      "group": "Кино",
+      "theme": "Кино",
+      "resolution": "1280×720",
+      "status": "STABLE_CZ",
+      "last_check": "2026-11-27T09:56:18.144486+00:00",
+      "audio_language": "rus",
+      "audio_language_checked_at": "2026-11-27T09:56:18.144486+00:00",
+      "audio_language_method": "offline faster-whisper/base, decoded audio sample; not a guarantee for all programming",
+      "rights_evidence": "https://rutube.ru/api/play/options/e05401be60a9cc719fa7075b6e77b86d/?format=json"
+    },
+    {
+      "id": "Kinozhelezo.ru",
+      "name": "Киножелезо Full HD",
+      "group": "Кино",
+      "theme": "Кино",
+      "resolution": "1920×1080",
+      "status": "STABLE_CZ",
+      "last_check": "2026-11-27T13:29:34.495586+00:00",
+      "audio_language": "rus",
+      "audio_language_checked_at": "2026-11-27T13:29:34.495586+00:00",
+      "audio_language_method": "offline faster-whisper/base, decoded audio sample; not a guarantee for all programming",
+      "rights_evidence": "https://rutube.ru/api/play/options/4965b7b928c4a143d708ab424be01d37/?format=json"
+    },
+    {
+      "id": "Kinolaffka.ru",
+      "name": "Кинолаффка HD",
+      "group": "Кино",
+      "theme": "Кино",
+      "resolution": "1280×720",
+      "status": "STABLE_CZ",
+      "last_check": "2026-11-27T09:54:12.555466+00:00",
+      "audio_language": "rus",
+      "audio_language_checked_at": "2026-11-27T09:34:00.615887+00:00",
+      "audio_language_method": "offline faster-whisper/base, decoded audio sample; not a guarantee for all programming",
+      "rights_evidence": "https://rutube.ru/api/play/options/3b7d1499da9396462bfd17282d758d30/?format=json"
+    },
+    {
       "id": "Smotrim100Gorkogo.ru",
       "name": "Смотрим 100% Горького Full HD",
       "group": "Кино",
@@ -40,6 +92,19 @@
       "audio_language_checked_at": "2026-11-27T08:38:16.702547+00:00",
       "audio_language_method": "offline faster-whisper/base, decoded audio sample; not a guarantee for all programming",
       "rights_evidence": "https://player-api.smotrim.ru/api/v1/channel/987"
+    },
+    {
+      "id": "Smotrim100Klassika.ru",
+      "name": "Смотрим 100% Классика Full HD",
+      "group": "Кино",
+      "theme": "Кино",
+      "resolution": "1920×1080",
+      "status": "STABLE_CZ",
+      "last_check": "2026-11-27T09:25:01.414292+00:00",
+      "audio_language": "rus",
+      "audio_language_checked_at": "2026-11-27T09:25:01.414292+00:00",
+      "audio_language_method": "offline faster-whisper/base, decoded audio sample; not a guarantee for all programming",
+      "rights_evidence": "https://player-api.smotrim.ru/api/v1/channel/396"
     },
     {
       "id": "Smotrim100Lyubov.ru",
@@ -79,6 +144,19 @@
       "audio_language_checked_at": "2026-11-27T09:09:04.225035+00:00",
       "audio_language_method": "offline faster-whisper/base, decoded audio sample; not a guarantee for all programming",
       "rights_evidence": "https://rutube.ru/api/play/options/1da5d92af8c55b16241f1eb12a27f00c/?format=json"
+    },
+    {
+      "id": "Smotrim100Fakty.ru",
+      "name": "Смотрим 100% Факты Full HD",
+      "group": "Путешествия и природа",
+      "theme": "Путешествия и природа",
+      "resolution": "1920×1080",
+      "status": "STABLE_CZ",
+      "last_check": "2026-11-27T13:54:46.181116+00:00",
+      "audio_language": "rus",
+      "audio_language_checked_at": "2026-11-27T13:54:46.181116+00:00",
+      "audio_language_method": "offline faster-whisper/base, decoded audio sample; not a guarantee for all programming",
+      "rights_evidence": "https://player-api.smotrim.ru/api/v1/channel/395"
     },
     {
       "id": "24Kanal.ua",
@@ -157,7 +235,7 @@
     {
       "source": "Smotrim official cinema collection",
       "evidence": "https://smotrim.ru/channel/collections/movies-series",
-      "result": "All four official cinema feeds identified; Gorkogo/Lyubov/Muzhskoe passed; Klassika recovery pending"
+      "result": "All four official cinema feeds passed; Klassika recovered through new actual CZ samples. Existing verified feeds retained."
     },
     {
       "source": "ViNTERA.TV official public catalogue",
@@ -193,5 +271,156 @@
       "fix": "Parse contiguous video/audio frame fields independently; unchanged durations, gap thresholds and strict decoding flags; timestamp_parser_version=2. Old failed observations retained, not promoted to success."
     }
   ],
-  "remaining": "Continue live CZ passes and source investigation; travel/fishing/UA quotas not yet achieved. OLED remains unapproved without visual evidence."
+  "remaining": "Kino i Zhizn: two successful spaced CZ checks, final pass pending. Big Asia: two successes followed by decoder error, not admitted. Fishing and Ukrainian news quotas incomplete. World-cinema candidates need stable decoded RU playback and verified free distribution rights; existing channels retained.",
+  "priority": "World cinema and foreign series with Russian dubbing, HD/FHD; preserve existing confirmed channels. No authorization, DRM or geo bypass.",
+  "additional_world_cinema": {
+    "sources": [
+      "https://raw.githubusercontent.com/MaximKiselev/iptv/main/playlist.m3u",
+      "https://raw.githubusercontent.com/hujingguang/ChinaIPTV/main/Russia.m3u8",
+      "https://raw.githubusercontent.com/swoldier-rus/IP_TV/main/sw.m3u"
+    ],
+    "new_unique_addresses": 47,
+    "hls_preflight_responses": 6,
+    "decoded_observations": 5,
+    "results": [
+      {
+        "channel": "vijuTV1000action.ru",
+        "result": "fail",
+        "reason": "URLError during media check",
+        "media": null,
+        "speech_language": null,
+        "rights": "unconfirmed; not published"
+      },
+      {
+        "channel": "Kinopokaz.ru",
+        "result": "fail",
+        "reason": "Media timeout",
+        "media": {
+          "width": 720,
+          "height": 576,
+          "video_codec": "h264",
+          "audio_codec": "aac",
+          "audio_language": "und",
+          "audio_language_tag": "und",
+          "russian_default": false,
+          "audio_tracks": 3,
+          "field_order": "unknown",
+          "selected_audio_index": 1,
+          "default_audio_index": 1,
+          "fps": 50.0,
+          "channels": 2,
+          "bitrate": 3452767,
+          "audio_bitrate": 67099,
+          "sample_rate": "48000",
+          "probe_startup_seconds": 18.555
+        },
+        "speech_language": null,
+        "rights": "unconfirmed; not published"
+      },
+      {
+        "channel": "Kinopremyera.ru",
+        "result": "ok",
+        "reason": null,
+        "media": {
+          "width": 1920,
+          "height": 1080,
+          "video_codec": "h264",
+          "audio_codec": "aac",
+          "audio_language": "rus",
+          "audio_language_tag": "rus",
+          "russian_default": true,
+          "audio_tracks": 1,
+          "field_order": "unknown",
+          "selected_audio_index": 0,
+          "default_audio_index": 0,
+          "fps": 25.0,
+          "channels": 2,
+          "bitrate": 1188741,
+          "audio_bitrate": 67091,
+          "sample_rate": "48000",
+          "probe_startup_seconds": 4.713
+        },
+        "speech_language": {
+          "language": "ru",
+          "probability": 0.9186106324195862,
+          "speech_seconds": 7.0,
+          "characters": 99,
+          "method": "offline faster-whisper/base, decoded audio sample; not a guarantee for all programming"
+        },
+        "rights": "unconfirmed; not published"
+      },
+      {
+        "channel": "Kinosemja.ru",
+        "result": "ok",
+        "reason": null,
+        "media": {
+          "width": 1920,
+          "height": 1080,
+          "video_codec": "h264",
+          "audio_codec": "aac",
+          "audio_language": "rus",
+          "audio_language_tag": "rus",
+          "russian_default": true,
+          "audio_tracks": 1,
+          "field_order": "unknown",
+          "selected_audio_index": 0,
+          "default_audio_index": 0,
+          "fps": 25.0,
+          "channels": 2,
+          "bitrate": 893699,
+          "audio_bitrate": 67416,
+          "sample_rate": "48000",
+          "probe_startup_seconds": 2.874
+        },
+        "speech_language": {
+          "language": "ru",
+          "probability": 0.9878925085067749,
+          "speech_seconds": 7.04,
+          "characters": 91,
+          "method": "offline faster-whisper/base, decoded audio sample; not a guarantee for all programming"
+        },
+        "rights": "unconfirmed; not published"
+      },
+      {
+        "channel": "Muzhskoekino.ru",
+        "result": "ok",
+        "reason": null,
+        "media": {
+          "width": 720,
+          "height": 576,
+          "video_codec": "h264",
+          "audio_codec": "aac",
+          "audio_language": "rus",
+          "audio_language_tag": "rus",
+          "russian_default": true,
+          "audio_tracks": 1,
+          "field_order": "unknown",
+          "selected_audio_index": 0,
+          "default_audio_index": 0,
+          "fps": 25.0,
+          "channels": 1,
+          "bitrate": 1035683,
+          "audio_bitrate": 67004,
+          "sample_rate": "48000",
+          "probe_startup_seconds": 5.635
+        },
+        "speech_language": {
+          "language": "ru",
+          "probability": 0.9875455498695374,
+          "speech_seconds": 14.0,
+          "characters": 212,
+          "method": "offline faster-whisper/base, decoded audio sample; not a guarantee for all programming"
+        },
+        "rights": "unconfirmed; not published"
+      }
+    ]
+  },
+  "groups": {
+    "Кино": 10,
+    "Рыбалка и охота": 1,
+    "Путешествия и природа": 1,
+    "Новости Украины": 1,
+    "Новости России": 4
+  },
+  "oled": 0
 }

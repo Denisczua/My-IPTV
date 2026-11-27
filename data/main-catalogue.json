@@ -59316,6 +59316,174 @@
           "rights_evidence": "",
           "status": "UNKNOWN_CZ",
           "audio_reviews": []
+        },
+        "cd4fa863ce88156f4d61f7f695290901da5ff2e9828606f7265444024dec232c": {
+          "block": [
+            "#EXTINF:-1 tvg-id=\"BigAsia.ru\" tvg-language=\"rus\",Большая Азия",
+            "https://bl.rutube.ru/livestream/495ab964b755baa2c9fc7481a2e40f7d/index.m3u8?s=rPERCBNAucre0zHVBfqX1A&e=2095786211&scheme=https"
+          ],
+          "history": [
+            {
+              "at": "2026-11-27T13:34:37.023535+00:00",
+              "region": "CZ",
+              "result": "ok",
+              "measurement_version": 3,
+              "playback_selection": "sampled_hls_rendition",
+              "segments": 3,
+              "sample_bytes": 3000000,
+              "download_bytes_per_second": 1570890,
+              "media": {
+                "width": 1280,
+                "height": 720,
+                "video_codec": "h264",
+                "audio_codec": "aac",
+                "audio_language": "und",
+                "audio_language_tag": "und",
+                "russian_default": false,
+                "audio_tracks": 1,
+                "field_order": "unknown",
+                "selected_audio_index": 1,
+                "default_audio_index": 1,
+                "fps": 25.0,
+                "channels": 2,
+                "bitrate": 4204477,
+                "audio_bitrate": 130674,
+                "sample_rate": "48000",
+                "probe_startup_seconds": 3.075
+              },
+              "russian_audio_confirmed": false,
+              "startup_seconds": 3.264,
+              "timestamp_origin_normalized": true,
+              "timestamp_parser_version": 2,
+              "audio_decoded": true,
+              "decoded_video_seconds": 25.0,
+              "decoded_audio_seconds": 25.003,
+              "video_continuous": true,
+              "audio_continuous": true,
+              "video_frames": 626,
+              "audio_frames": 1172,
+              "max_video_gap": 0.0400000000000027,
+              "max_audio_gap": 0.04266599999999998,
+              "long_silence": false,
+              "long_freeze": false,
+              "elapsed_seconds": 34.287,
+              "speech_language": {
+                "language": "ru",
+                "probability": 0.9935029149055481,
+                "speech_seconds": 4.96,
+                "characters": 77,
+                "method": "offline faster-whisper/base, decoded audio sample; not a guarantee for all programming"
+              },
+              "egress_sha256": "a130ed9d3515ef5e2bacc3ad41b71e272eb3d62b789b71bcd8d69272e5ab298f",
+              "observation_id": "9402679ff8d86d90c9d6b88eecebf6d26b3b83edb9d87db642480a55c34f63ec"
+            },
+            {
+              "at": "2026-11-27T13:44:42.276937+00:00",
+              "region": "CZ",
+              "result": "ok",
+              "measurement_version": 3,
+              "playback_selection": "sampled_hls_rendition",
+              "segments": 3,
+              "sample_bytes": 3000000,
+              "download_bytes_per_second": 1500072,
+              "media": {
+                "width": 1280,
+                "height": 720,
+                "video_codec": "h264",
+                "audio_codec": "aac",
+                "audio_language": "rus",
+                "audio_language_tag": "und",
+                "russian_default": true,
+                "audio_tracks": 1,
+                "field_order": "unknown",
+                "selected_audio_index": 1,
+                "default_audio_index": 1,
+                "fps": 25.0,
+                "channels": 2,
+                "bitrate": 3638019,
+                "audio_bitrate": 130877,
+                "sample_rate": "48000",
+                "probe_startup_seconds": 3.075
+              },
+              "russian_audio_confirmed": true,
+              "startup_seconds": 3.415,
+              "timestamp_origin_normalized": true,
+              "timestamp_parser_version": 2,
+              "audio_decoded": true,
+              "decoded_video_seconds": 25.0,
+              "decoded_audio_seconds": 25.003,
+              "video_continuous": true,
+              "audio_continuous": true,
+              "video_frames": 626,
+              "audio_frames": 1173,
+              "max_video_gap": 0.0400000000000027,
+              "max_audio_gap": 0.021334000000003073,
+              "long_silence": false,
+              "long_freeze": false,
+              "elapsed_seconds": 38.507,
+              "speech_language": {
+                "language": "ru",
+                "probability": 0.9992126226425171,
+                "speech_seconds": 20.16,
+                "characters": 253,
+                "method": "offline faster-whisper/base, decoded audio sample; not a guarantee for all programming"
+              },
+              "audio_language_evidence": "offline faster-whisper/base, decoded audio sample; not a guarantee for all programming",
+              "egress_sha256": "a130ed9d3515ef5e2bacc3ad41b71e272eb3d62b789b71bcd8d69272e5ab298f",
+              "observation_id": "0da9ffb2abfdf878dddf991a6f661d4dd21cb3b92f271d3e689a2d44d680b825"
+            },
+            {
+              "at": "2026-11-27T13:54:46.180326+00:00",
+              "region": "CZ",
+              "result": "fail",
+              "measurement_version": 3,
+              "playback_selection": "sampled_hls_rendition",
+              "segments": 3,
+              "sample_bytes": 3000000,
+              "download_bytes_per_second": 1311809,
+              "media": {
+                "width": 1280,
+                "height": 720,
+                "video_codec": "h264",
+                "audio_codec": "aac",
+                "audio_language": "und",
+                "audio_language_tag": "und",
+                "russian_default": false,
+                "audio_tracks": 1,
+                "field_order": "unknown",
+                "selected_audio_index": 1,
+                "default_audio_index": 1,
+                "fps": 25.0,
+                "channels": 2,
+                "bitrate": 4619603,
+                "audio_bitrate": 131158,
+                "sample_rate": "48000",
+                "probe_startup_seconds": 3.372
+              },
+              "russian_audio_confirmed": false,
+              "reason": "FFmpeg video/audio decode error",
+              "http_status": null,
+              "elapsed_seconds": 19.448,
+              "egress_sha256": "a130ed9d3515ef5e2bacc3ad41b71e272eb3d62b789b71bcd8d69272e5ab298f",
+              "observation_id": "8e25b928fe965ea7f26794b0bbd27759710ee8b4af5e44866bdb81036eb5bfda"
+            }
+          ],
+          "sources": [
+            {
+              "provider": "official broadcaster",
+              "url": "https://rutube.ru/api/play/options/495ab964b755baa2c9fc7481a2e40f7d/?format=json",
+              "header": ""
+            },
+            {
+              "provider": "official broadcaster",
+              "url": "https://rutube.ru/api/play/options/495ab964b755baa2c9fc7481a2e40f7d/?format=json",
+              "header": "#EXTM3U"
+            }
+          ],
+          "existing": false,
+          "rights_evidence": "https://rutube.ru/api/play/options/495ab964b755baa2c9fc7481a2e40f7d/?format=json",
+          "audio_reviews": [],
+          "status": "UNSTABLE_CZ"
         }
       },
       "groups": [
@@ -108529,6 +108697,29 @@
           "rights_evidence": "",
           "status": "UNKNOWN_CZ",
           "audio_reviews": []
+        },
+        "10ffa8ff686dcada8573238c1147a5a7851d54716273e48c1aaca2e2fa2611ba": {
+          "block": [
+            "#EXTINF:-1 group-title=\"Кино\", Сити Эдем — Киносемья",
+            "https://autopilot.catcast.tv/content/38128/index.m3u8?password=promolive"
+          ],
+          "history": [],
+          "sources": [
+            {
+              "provider": "additional public GitHub catalogue",
+              "url": "https://raw.githubusercontent.com/MaximKiselev/iptv/main/playlist.m3u",
+              "header": ""
+            }
+          ],
+          "existing": false,
+          "rights_evidence": "",
+          "rights_status": "UNKNOWN",
+          "discovery_preflight": {
+            "status": 200,
+            "hls": true,
+            "at": "2026-11-27T13:57:01.524227+00:00",
+            "media_proof": false
+          }
         }
       },
       "groups": [
@@ -137968,6 +138159,74 @@
           "rights_evidence": "",
           "status": "UNKNOWN_CZ",
           "audio_reviews": []
+        },
+        "899ad7c332513c5f41b4641f8dff7fb6dab599bd3088a4bb97580ad3598ab50f": {
+          "block": [
+            "#EXTINF:-1 tvg-id=\"DomkinoPremium.ru\" tvg-logo=\"https://i.imgur.com/rJpQtvK.png\" group-title=\"Movies\",Dom kino Premium",
+            "http://31.148.48.15:80/Dom_Kino_Premium_HD/index.m3u8"
+          ],
+          "history": [],
+          "sources": [
+            {
+              "provider": "additional public GitHub catalogue",
+              "url": "https://raw.githubusercontent.com/hujingguang/ChinaIPTV/main/Russia.m3u8",
+              "header": ""
+            }
+          ],
+          "existing": false,
+          "rights_evidence": "",
+          "rights_status": "UNKNOWN",
+          "discovery_preflight": {
+            "error": "<urlopen error timed out>",
+            "seconds": 4.05,
+            "at": "2026-11-27T13:57:01.522510+00:00",
+            "media_proof": false
+          }
+        },
+        "e97a9d4ace86238f156a62b17654ee469394f583c7a927b21f424923382bc485": {
+          "block": [
+            "#EXTINF:-1 tvg-id=\"DomkinoPremiumHD.ru\" tvg-logo=\"https://i.imgur.com/rJpQtvK.png\" group-title=\"Movies\",Dom kino Premium HD",
+            "http://moobl.ru/hls/Dom_kino_premium_hd.m3u8"
+          ],
+          "history": [],
+          "sources": [
+            {
+              "provider": "additional public GitHub catalogue",
+              "url": "https://raw.githubusercontent.com/hujingguang/ChinaIPTV/main/Russia.m3u8",
+              "header": ""
+            }
+          ],
+          "existing": false,
+          "rights_evidence": "",
+          "rights_status": "UNKNOWN",
+          "discovery_preflight": {
+            "error": "HTTP Error 404: Not Found",
+            "seconds": 0.65,
+            "at": "2026-11-27T13:57:01.522625+00:00",
+            "media_proof": false
+          }
+        },
+        "c2e2a1a9f75e341c746968a4b85775bd2a46c652a00a2d3ae64f9c68420b263c": {
+          "block": [
+            "#EXTINF:-1 group-title=\"Кино\", Дом кино Премиум",
+            "http://178.217.72.66:8080/Dom_Kino_Premium_HD/index.m3u8"
+          ],
+          "history": [],
+          "sources": [
+            {
+              "provider": "additional public GitHub catalogue",
+              "url": "https://raw.githubusercontent.com/MaximKiselev/iptv/main/playlist.m3u",
+              "header": ""
+            }
+          ],
+          "existing": false,
+          "rights_evidence": "",
+          "rights_status": "UNKNOWN",
+          "discovery_preflight": {
+            "error": "<urlopen error timed out>",
+            "at": "2026-11-27T13:57:01.523460+00:00",
+            "media_proof": false
+          }
         }
       },
       "groups": [
@@ -157303,6 +157562,73 @@
           "rights_evidence": "",
           "status": "UNKNOWN_CZ",
           "audio_reviews": []
+        },
+        "58ddca2d469bc0c0b3a18c330d99689c68577cb6847f212c19a4ff2314a61c81": {
+          "block": [
+            "#EXTINF:-1 tvg-id=\"Evrokino.ru\" tvg-logo=\"https://i.imgur.com/8LPtPf6.png\" group-title=\"Movies\",Evrokino",
+            "http://176.74.80.162:8099/EuroKino/index.m3u8"
+          ],
+          "history": [],
+          "sources": [
+            {
+              "provider": "additional public GitHub catalogue",
+              "url": "https://raw.githubusercontent.com/hujingguang/ChinaIPTV/main/Russia.m3u8",
+              "header": ""
+            }
+          ],
+          "existing": false,
+          "rights_evidence": "",
+          "rights_status": "UNKNOWN",
+          "discovery_preflight": {
+            "error": "<urlopen error timed out>",
+            "seconds": 4.05,
+            "at": "2026-11-27T13:57:01.522977+00:00",
+            "media_proof": false
+          }
+        },
+        "955735bfc6c778700247ae04a8828af2865f6e9e2e5ae39920e603f505490e23": {
+          "block": [
+            "#EXTINF:-1 group-title=\"Кино\", Еврокино",
+            "http://31.210.208.171:8080/evrokino/index.m3u8?token=+W2MSER"
+          ],
+          "history": [],
+          "sources": [
+            {
+              "provider": "additional public GitHub catalogue",
+              "url": "https://raw.githubusercontent.com/MaximKiselev/iptv/main/playlist.m3u",
+              "header": ""
+            }
+          ],
+          "existing": false,
+          "rights_evidence": "",
+          "rights_status": "UNKNOWN",
+          "discovery_preflight": {
+            "error": "<urlopen error timed out>",
+            "at": "2026-11-27T13:57:01.523801+00:00",
+            "media_proof": false
+          }
+        },
+        "2ab0b0e642aad74fcb59d20803ec49fe09d83463a0588f51cd7792a89d6eaa03": {
+          "block": [
+            "#EXTINF:-1 group-title=\"Кино\", Еврокино HD",
+            "http://89.221.57.5:8000/play/a00o/index.m3u8"
+          ],
+          "history": [],
+          "sources": [
+            {
+              "provider": "additional public GitHub catalogue",
+              "url": "https://raw.githubusercontent.com/MaximKiselev/iptv/main/playlist.m3u",
+              "header": ""
+            }
+          ],
+          "existing": false,
+          "rights_evidence": "",
+          "rights_status": "UNKNOWN",
+          "discovery_preflight": {
+            "error": "HTTP Error 404: Not Found",
+            "at": "2026-11-27T13:57:01.523867+00:00",
+            "media_proof": false
+          }
         }
       },
       "groups": [
@@ -198199,6 +198525,96 @@
           "rights_evidence": "",
           "status": "UNKNOWN_CZ",
           "audio_reviews": []
+        },
+        "9786ac6af9ef86ee7027d5d2c098c628ab271e334d4dc63813db370c74a33847": {
+          "block": [
+            "#EXTINF:-1 tvg-id=\"HollywoodHD.ru\" tvg-logo=\"https://i.imgur.com/7fBRrTL.png\" group-title=\"Movies\",Hollywood HD",
+            "http://moobl.ru/hls/Hollywood_hd.m3u8"
+          ],
+          "history": [],
+          "sources": [
+            {
+              "provider": "additional public GitHub catalogue",
+              "url": "https://raw.githubusercontent.com/hujingguang/ChinaIPTV/main/Russia.m3u8",
+              "header": ""
+            }
+          ],
+          "existing": false,
+          "rights_evidence": "",
+          "rights_status": "UNKNOWN",
+          "discovery_preflight": {
+            "error": "HTTP Error 404: Not Found",
+            "seconds": 0.38,
+            "at": "2026-11-27T13:57:01.522669+00:00",
+            "media_proof": false
+          }
+        },
+        "89d9392ac01329f5a89e46116bf21c69ef2b0b8fc3f19acb462ae0fa33b2f652": {
+          "block": [
+            "#EXTINF:-1 tvg-id=\"Hollywood.ru\" tvg-logo=\"https://i.imgur.com/1j7cT2I.png\" group-title=\"Movies\",Hollywood",
+            "http://stream01.vnet.am/ParamountChannel/mono.m3u8"
+          ],
+          "history": [],
+          "sources": [
+            {
+              "provider": "additional public GitHub catalogue",
+              "url": "https://raw.githubusercontent.com/hujingguang/ChinaIPTV/main/Russia.m3u8",
+              "header": ""
+            }
+          ],
+          "existing": false,
+          "rights_evidence": "",
+          "rights_status": "UNKNOWN",
+          "discovery_preflight": {
+            "error": "HTTP Error 403: Forbidden",
+            "seconds": 0.26,
+            "at": "2026-11-27T13:57:01.523032+00:00",
+            "media_proof": false
+          }
+        },
+        "67fbd567ca518bd8bd72708ded3cf6b609a3b22c8ffa6c855874ec66cc37ecf3": {
+          "block": [
+            "#EXTINF:-1 group-title=\"Кино\", Hollywood",
+            "http://178.217.72.66:8080/hollywood/index.m3u8"
+          ],
+          "history": [],
+          "sources": [
+            {
+              "provider": "additional public GitHub catalogue",
+              "url": "https://raw.githubusercontent.com/MaximKiselev/iptv/main/playlist.m3u",
+              "header": ""
+            }
+          ],
+          "existing": false,
+          "rights_evidence": "",
+          "rights_status": "UNKNOWN",
+          "discovery_preflight": {
+            "error": "<urlopen error timed out>",
+            "at": "2026-11-27T13:57:01.523727+00:00",
+            "media_proof": false
+          }
+        },
+        "cfa90344627b0b59081d5585965e635d09225457889de2ae51a202c740eb023e": {
+          "block": [
+            "#EXTINF:-1 group-title=\"Кино\", Hollywood HD",
+            "http://178.217.72.66:8080/hollywoodhd/index.m3u8"
+          ],
+          "history": [],
+          "sources": [
+            {
+              "provider": "additional public GitHub catalogue",
+              "url": "https://raw.githubusercontent.com/MaximKiselev/iptv/main/playlist.m3u",
+              "header": ""
+            }
+          ],
+          "existing": false,
+          "rights_evidence": "",
+          "rights_status": "UNKNOWN",
+          "discovery_preflight": {
+            "error": "<urlopen error timed out>",
+            "at": "2026-11-27T13:57:01.523751+00:00",
+            "media_proof": false
+          }
         }
       },
       "groups": [
@@ -205875,6 +206291,73 @@
           "rights_evidence": "",
           "status": "UNKNOWN_CZ",
           "audio_reviews": []
+        },
+        "cdd1022897f3f0d5b0d4f42867846330a6bd3808c964db09dd7efb4a51495461": {
+          "block": [
+            "#EXTINF:-1 tvg-id=\"IllusionPlus.ru\" tvg-logo=\"https://i.imgur.com/9GvuHQ5.png\" group-title=\"Movies\",Illusion+",
+            "http://91.220.135.165:81/51/index.m3u8"
+          ],
+          "history": [],
+          "sources": [
+            {
+              "provider": "additional public GitHub catalogue",
+              "url": "https://raw.githubusercontent.com/hujingguang/ChinaIPTV/main/Russia.m3u8",
+              "header": ""
+            }
+          ],
+          "existing": false,
+          "rights_evidence": "",
+          "rights_status": "UNKNOWN",
+          "discovery_preflight": {
+            "error": "<urlopen error timed out>",
+            "seconds": 4.01,
+            "at": "2026-11-27T13:57:01.523085+00:00",
+            "media_proof": false
+          }
+        },
+        "fd08e81a4bb83ac6a653e4e19212db1ca28436e33b2cc7f3d3ee2731374681ff": {
+          "block": [
+            "#EXTINF:-1 group-title=\"Кино\", Иллюзион+ HD",
+            "http://89.221.57.5:8000/play/a00p/index.m3u8"
+          ],
+          "history": [],
+          "sources": [
+            {
+              "provider": "additional public GitHub catalogue",
+              "url": "https://raw.githubusercontent.com/MaximKiselev/iptv/main/playlist.m3u",
+              "header": ""
+            }
+          ],
+          "existing": false,
+          "rights_evidence": "",
+          "rights_status": "UNKNOWN",
+          "discovery_preflight": {
+            "error": "HTTP Error 404: Not Found",
+            "at": "2026-11-27T13:57:01.523890+00:00",
+            "media_proof": false
+          }
+        },
+        "591aac6f3c8375a3f74c3ce069333c971f2781699741d2314a03a6a884626c37": {
+          "block": [
+            "#EXTINF:-1 group-title=\"Кино\", Иллюзион+",
+            "http://158.160.149.81:8080/88/index.m3u8"
+          ],
+          "history": [],
+          "sources": [
+            {
+              "provider": "additional public GitHub catalogue",
+              "url": "https://raw.githubusercontent.com/MaximKiselev/iptv/main/playlist.m3u",
+              "header": ""
+            }
+          ],
+          "existing": false,
+          "rights_evidence": "",
+          "rights_status": "UNKNOWN",
+          "discovery_preflight": {
+            "error": "<urlopen error timed out>",
+            "at": "2026-11-27T13:57:01.523938+00:00",
+            "media_proof": false
+          }
         }
       },
       "groups": [
@@ -229053,6 +229536,96 @@
           "rights_evidence": "",
           "status": "UNKNOWN_CZ",
           "audio_reviews": []
+        },
+        "2c5674aee7d9ebad5d5a6b4f5790ef5de7fadfe08383e4c2e129184c5c079349": {
+          "block": [
+            "#EXTINF:-1 tvg-id=\"Kinohit.ru\" tvg-logo=\"https://i.imgur.com/Ge8vkQM.png\" group-title=\"Movies\",Kinohit",
+            "http://moobl.ru/hls/Kinohit.m3u8"
+          ],
+          "history": [],
+          "sources": [
+            {
+              "provider": "additional public GitHub catalogue",
+              "url": "https://raw.githubusercontent.com/hujingguang/ChinaIPTV/main/Russia.m3u8",
+              "header": ""
+            }
+          ],
+          "existing": false,
+          "rights_evidence": "",
+          "rights_status": "UNKNOWN",
+          "discovery_preflight": {
+            "error": "HTTP Error 404: Not Found",
+            "seconds": 0.49,
+            "at": "2026-11-27T13:57:01.522700+00:00",
+            "media_proof": false
+          }
+        },
+        "18204d6a1d68cc8fb4e6970311f53546131ac51249ee4ac0f7f042494088dd8c": {
+          "block": [
+            "#EXTINF:-1 tvg-id=\"kinoxit\" tvg-logo=\"https://iptvx.one/picons/kinoxit.png\" group-title=\"SW\",КиноХит",
+            "http://89.33.29.115:8080/Kinohit/index.m3u8"
+          ],
+          "history": [],
+          "sources": [
+            {
+              "provider": "additional public GitHub catalogue",
+              "url": "https://raw.githubusercontent.com/swoldier-rus/IP_TV/main/sw.m3u",
+              "header": ""
+            }
+          ],
+          "existing": false,
+          "rights_evidence": "",
+          "rights_status": "UNKNOWN",
+          "discovery_preflight": {
+            "error": "HTTP Error 403: Forbidden",
+            "seconds": 0.19,
+            "at": "2026-11-27T13:57:01.523389+00:00",
+            "media_proof": false
+          }
+        },
+        "8a33eebd380b32a68460fd99973e6d51256499658f80805c95631da69868395c": {
+          "block": [
+            "#EXTINF:-1 group-title=\"Кино\", Кинохит HD",
+            "http://77.235.1.19:8000/play/a04f/index.m3u8"
+          ],
+          "history": [],
+          "sources": [
+            {
+              "provider": "additional public GitHub catalogue",
+              "url": "https://raw.githubusercontent.com/MaximKiselev/iptv/main/playlist.m3u",
+              "header": ""
+            }
+          ],
+          "existing": false,
+          "rights_evidence": "",
+          "rights_status": "UNKNOWN",
+          "discovery_preflight": {
+            "error": "<urlopen error timed out>",
+            "at": "2026-11-27T13:57:01.524057+00:00",
+            "media_proof": false
+          }
+        },
+        "fe7547ed520321e0f2e8edac5125160635699eb7abbacecf272e48cd0d9c8e36": {
+          "block": [
+            "#EXTINF:-1 group-title=\"Кино\", Кинохит",
+            "http://158.101.222.193:88/georgia_play.php?id=kinohit"
+          ],
+          "history": [],
+          "sources": [
+            {
+              "provider": "additional public GitHub catalogue",
+              "url": "https://raw.githubusercontent.com/MaximKiselev/iptv/main/playlist.m3u",
+              "header": ""
+            }
+          ],
+          "existing": false,
+          "rights_evidence": "",
+          "rights_status": "UNKNOWN",
+          "discovery_preflight": {
+            "error": "<urlopen error timed out>",
+            "at": "2026-11-27T13:57:01.524150+00:00",
+            "media_proof": false
+          }
         }
       },
       "groups": [
@@ -230492,6 +231065,133 @@
           "rights_evidence": "",
           "status": "UNKNOWN_CZ",
           "audio_reviews": []
+        },
+        "a74ffc85b5f048350bbe2bc4a1daf28dd52bf6e2657a1dbe1b33fe2a5a29ba92": {
+          "block": [
+            "#EXTINF:-1 tvg-id=\"Kinopokaz.ru\" tvg-logo=\"https://i.imgur.com/nNjMyAq.png\" group-title=\"Movies\",Kinopokaz",
+            "http://31.148.48.15:80/Kinopokaz/index.m3u8"
+          ],
+          "history": [],
+          "sources": [
+            {
+              "provider": "additional public GitHub catalogue",
+              "url": "https://raw.githubusercontent.com/hujingguang/ChinaIPTV/main/Russia.m3u8",
+              "header": ""
+            }
+          ],
+          "existing": false,
+          "rights_evidence": "",
+          "rights_status": "UNKNOWN",
+          "discovery_preflight": {
+            "error": "<urlopen error timed out>",
+            "seconds": 4.02,
+            "at": "2026-11-27T13:57:01.522576+00:00",
+            "media_proof": false
+          }
+        },
+        "24f1f715f93f0cfd8be6626896fe184ee27e06cab4028053bab2df056f418dc7": {
+          "block": [
+            "#EXTINF:-1 tvg-id=\"kinopokaz\" tvg-logo=\"https://iptvx.one/picons/kinopokaz.png\" group-title=\"SW\",Кинопоказ",
+            "http://176.118.197.101/Kinopokaz/index.m3u8"
+          ],
+          "history": [
+            {
+              "at": "2026-11-27T13:51:00.372509+00:00",
+              "region": "CZ",
+              "result": "fail",
+              "measurement_version": 3,
+              "playback_selection": "master_with_external_audio",
+              "segments": 3,
+              "sample_bytes": 3000000,
+              "download_bytes_per_second": 111812,
+              "media": {
+                "width": 720,
+                "height": 576,
+                "video_codec": "h264",
+                "audio_codec": "aac",
+                "audio_language": "und",
+                "audio_language_tag": "und",
+                "russian_default": false,
+                "audio_tracks": 3,
+                "field_order": "unknown",
+                "selected_audio_index": 1,
+                "default_audio_index": 1,
+                "fps": 50.0,
+                "channels": 2,
+                "bitrate": 3452767,
+                "audio_bitrate": 67099,
+                "sample_rate": "48000",
+                "probe_startup_seconds": 18.555
+              },
+              "russian_audio_confirmed": false,
+              "reason": "Media timeout",
+              "elapsed_seconds": 102.68,
+              "egress_sha256": "a130ed9d3515ef5e2bacc3ad41b71e272eb3d62b789b71bcd8d69272e5ab298f",
+              "observation_id": "562ad8ce50da97876828531ccc645c6e2a810c56c0d45c5c5101727cec038cbd"
+            }
+          ],
+          "sources": [
+            {
+              "provider": "additional public GitHub catalogue",
+              "url": "https://raw.githubusercontent.com/swoldier-rus/IP_TV/main/sw.m3u",
+              "header": ""
+            }
+          ],
+          "existing": false,
+          "rights_evidence": "",
+          "rights_status": "UNKNOWN",
+          "discovery_preflight": {
+            "status": 200,
+            "hls": true,
+            "seconds": 0.25,
+            "at": "2026-11-27T13:57:01.523209+00:00",
+            "media_proof": false
+          },
+          "status": "UNKNOWN_CZ"
+        },
+        "4824eef2c3d3900051255b12d8cbf6d42dfbcf5ef782787b89fe2f8501e16fc5": {
+          "block": [
+            "#EXTINF:-1 group-title=\"Кино\", Кинопоказ HD",
+            "http://178.217.72.66:8080/kinopokazhd/index.m3u8"
+          ],
+          "history": [],
+          "sources": [
+            {
+              "provider": "additional public GitHub catalogue",
+              "url": "https://raw.githubusercontent.com/MaximKiselev/iptv/main/playlist.m3u",
+              "header": ""
+            }
+          ],
+          "existing": false,
+          "rights_evidence": "",
+          "rights_status": "UNKNOWN",
+          "discovery_preflight": {
+            "error": "<urlopen error timed out>",
+            "at": "2026-11-27T13:57:01.523669+00:00",
+            "media_proof": false
+          }
+        },
+        "b2a2634f7c990c586f00f620f157acee2cd9c177cdc3c894d64d58e835d33269": {
+          "block": [
+            "#EXTINF:-1 group-title=\"Кино\", Кинопоказ",
+            "http://31.210.208.171:8080/kinopokaz/index.m3u8?token=+W2MSER"
+          ],
+          "history": [],
+          "sources": [
+            {
+              "provider": "additional public GitHub catalogue",
+              "url": "https://raw.githubusercontent.com/MaximKiselev/iptv/main/playlist.m3u",
+              "header": ""
+            }
+          ],
+          "existing": false,
+          "rights_evidence": "",
+          "rights_status": "UNKNOWN",
+          "discovery_preflight": {
+            "error": "<urlopen error timed out>",
+            "at": "2026-11-27T13:57:01.523823+00:00",
+            "media_proof": false
+          }
         }
       },
       "groups": [
@@ -231022,6 +231722,177 @@
           "rights_evidence": "",
           "status": "UNKNOWN_CZ",
           "audio_reviews": []
+        },
+        "c5f8b02c0fa107e79d49300ce2afc62fe01eaf47a0be7bb12e06d400d64d5bac": {
+          "block": [
+            "#EXTINF:-1 tvg-id=\"Kinopremyera.ru\" tvg-logo=\"https://i.imgur.com/s0UYT8T.png\" group-title=\"Movies\",Kinopremyera",
+            "https://tbs01-edge11.itdc.ge/kinopremyerahd/index.m3u8"
+          ],
+          "history": [],
+          "sources": [
+            {
+              "provider": "additional public GitHub catalogue",
+              "url": "https://raw.githubusercontent.com/hujingguang/ChinaIPTV/main/Russia.m3u8",
+              "header": ""
+            }
+          ],
+          "existing": false,
+          "rights_evidence": "",
+          "rights_status": "UNKNOWN",
+          "discovery_preflight": {
+            "error": "HTTP Error 403: Forbidden",
+            "seconds": 4.58,
+            "at": "2026-11-27T13:57:01.523123+00:00",
+            "media_proof": false
+          }
+        },
+        "aeb13edfbd54bf6f26654ec730e07ef110a04934d20da6039aa437c47c7c0bf7": {
+          "block": [
+            "#EXTINF:-1 tvg-id=\"KinopremyeraHD.ru\" tvg-logo=\"https://i.imgur.com/s0UYT8T.png\" group-title=\"Movies\",Kinopremyera HD",
+            "http://45.159.74.13:80/Kinopremera/index.m3u8"
+          ],
+          "history": [],
+          "sources": [
+            {
+              "provider": "additional public GitHub catalogue",
+              "url": "https://raw.githubusercontent.com/hujingguang/ChinaIPTV/main/Russia.m3u8",
+              "header": ""
+            }
+          ],
+          "existing": false,
+          "rights_evidence": "",
+          "rights_status": "UNKNOWN",
+          "discovery_preflight": {
+            "error": "HTTP Error 403: Forbidden",
+            "seconds": 0.17,
+            "at": "2026-11-27T13:57:01.523164+00:00",
+            "media_proof": false
+          }
+        },
+        "f5ef6137b29ba18c86f514d75d0562e11fe4cb59a91ff74af088b1ab0234795c": {
+          "block": [
+            "#EXTINF:-1 tvg-id=\"kinopremiera-hd\" tvg-logo=\"https://iptvx.one/picons/kinopremiera.png\" group-title=\"SW\",Кинопремьера",
+            "http://185.121.1.163:8083/Kinopremyera/index.m3u8"
+          ],
+          "history": [
+            {
+              "at": "2026-11-27T13:51:00.368968+00:00",
+              "region": "CZ",
+              "result": "ok",
+              "measurement_version": 3,
+              "playback_selection": "sampled_hls_rendition",
+              "segments": 3,
+              "sample_bytes": 2671104,
+              "download_bytes_per_second": 597537,
+              "media": {
+                "width": 1920,
+                "height": 1080,
+                "video_codec": "h264",
+                "audio_codec": "aac",
+                "audio_language": "rus",
+                "audio_language_tag": "rus",
+                "russian_default": true,
+                "audio_tracks": 1,
+                "field_order": "unknown",
+                "selected_audio_index": 0,
+                "default_audio_index": 0,
+                "fps": 25.0,
+                "channels": 2,
+                "bitrate": 1188741,
+                "audio_bitrate": 67091,
+                "sample_rate": "48000",
+                "probe_startup_seconds": 4.713
+              },
+              "russian_audio_confirmed": true,
+              "audio_language_evidence": "FFprobe audio stream language tag",
+              "startup_seconds": 4.337,
+              "timestamp_origin_normalized": true,
+              "timestamp_parser_version": 2,
+              "audio_decoded": true,
+              "decoded_video_seconds": 25.0,
+              "decoded_audio_seconds": 25.003,
+              "video_continuous": true,
+              "audio_continuous": true,
+              "video_frames": 626,
+              "audio_frames": 1173,
+              "max_video_gap": 0.0400109999999998,
+              "max_audio_gap": 0.02135399999999965,
+              "long_silence": false,
+              "long_freeze": false,
+              "elapsed_seconds": 38.26,
+              "speech_language": {
+                "language": "ru",
+                "probability": 0.9186106324195862,
+                "speech_seconds": 7.0,
+                "characters": 99,
+                "method": "offline faster-whisper/base, decoded audio sample; not a guarantee for all programming"
+              },
+              "egress_sha256": "a130ed9d3515ef5e2bacc3ad41b71e272eb3d62b789b71bcd8d69272e5ab298f",
+              "observation_id": "240fea44ab491e2dae1681389975a3cd4257b8a71e74f5d5537aa16d72ce456f"
+            }
+          ],
+          "sources": [
+            {
+              "provider": "additional public GitHub catalogue",
+              "url": "https://raw.githubusercontent.com/swoldier-rus/IP_TV/main/sw.m3u",
+              "header": ""
+            }
+          ],
+          "existing": false,
+          "rights_evidence": "",
+          "rights_status": "UNKNOWN",
+          "discovery_preflight": {
+            "status": 200,
+            "hls": true,
+            "seconds": 0.3,
+            "at": "2026-11-27T13:57:01.523246+00:00",
+            "media_proof": false
+          },
+          "status": "UNKNOWN_CZ"
+        },
+        "d7383517e0a09e1626fbfb1e2118fa2f1608eabd525c4754e12162bdff1fb2bb": {
+          "block": [
+            "#EXTINF:-1 group-title=\"Кино\", Кинопремьера",
+            "http://tvip.btk.teleos.ru:8081/chid518/tracks-v1a1/mono.m3u8"
+          ],
+          "history": [],
+          "sources": [
+            {
+              "provider": "additional public GitHub catalogue",
+              "url": "https://raw.githubusercontent.com/MaximKiselev/iptv/main/playlist.m3u",
+              "header": ""
+            }
+          ],
+          "existing": false,
+          "rights_evidence": "",
+          "rights_status": "UNKNOWN",
+          "discovery_preflight": {
+            "error": "<urlopen error [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение>",
+            "at": "2026-11-27T13:57:01.523962+00:00",
+            "media_proof": false
+          }
+        },
+        "031d219ff2199b3f53e70b1083f72c5aa59c90ddcff5a186f8a17c6f953fe405": {
+          "block": [
+            "#EXTINF:-1 group-title=\"Кино\", Кинопремьера HD",
+            "http://178.124.179.122:8088/Kinopremiera/index.m3u8"
+          ],
+          "history": [],
+          "sources": [
+            {
+              "provider": "additional public GitHub catalogue",
+              "url": "https://raw.githubusercontent.com/MaximKiselev/iptv/main/playlist.m3u",
+              "header": ""
+            }
+          ],
+          "existing": false,
+          "rights_evidence": "",
+          "rights_status": "UNKNOWN",
+          "discovery_preflight": {
+            "error": "HTTP Error 400: Bad Request",
+            "at": "2026-11-27T13:57:01.524011+00:00",
+            "media_proof": false
+          }
         }
       },
       "groups": [
@@ -231533,6 +232404,154 @@
           "rights_evidence": "",
           "status": "UNKNOWN_CZ",
           "audio_reviews": []
+        },
+        "4dfd747c81d78c4eb8dab37cacec8ad3e40b7a659a67d93a927de52452b94eda": {
+          "block": [
+            "#EXTINF:-1 tvg-id=\"Kinosemja.ru\" tvg-logo=\"https://i.imgur.com/4BF5VeK.png\" group-title=\"Movies\",Kinosemja",
+            "http://moobl.ru/hls/Kinosemya.m3u8"
+          ],
+          "history": [],
+          "sources": [
+            {
+              "provider": "additional public GitHub catalogue",
+              "url": "https://raw.githubusercontent.com/hujingguang/ChinaIPTV/main/Russia.m3u8",
+              "header": ""
+            }
+          ],
+          "existing": false,
+          "rights_evidence": "",
+          "rights_status": "UNKNOWN",
+          "discovery_preflight": {
+            "error": "HTTP Error 404: Not Found",
+            "seconds": 0.39,
+            "at": "2026-11-27T13:57:01.522731+00:00",
+            "media_proof": false
+          }
+        },
+        "2649618855358ca6428bfaaee3b1a5d5a455cc791f92f407d067e992123b385f": {
+          "block": [
+            "#EXTINF:-1 tvg-id=\"kinosemiya\" tvg-logo=\"https://iptvx.one/picons/kinosemia.png\" group-title=\"SW\",Киносемья",
+            "http://185.121.1.163:8083/Kinosemya/index.m3u8"
+          ],
+          "history": [
+            {
+              "at": "2026-11-27T13:51:46.028433+00:00",
+              "region": "CZ",
+              "result": "ok",
+              "measurement_version": 3,
+              "playback_selection": "sampled_hls_rendition",
+              "segments": 3,
+              "sample_bytes": 2654400,
+              "download_bytes_per_second": 289093,
+              "media": {
+                "width": 1920,
+                "height": 1080,
+                "video_codec": "h264",
+                "audio_codec": "aac",
+                "audio_language": "rus",
+                "audio_language_tag": "rus",
+                "russian_default": true,
+                "audio_tracks": 1,
+                "field_order": "unknown",
+                "selected_audio_index": 0,
+                "default_audio_index": 0,
+                "fps": 25.0,
+                "channels": 2,
+                "bitrate": 893699,
+                "audio_bitrate": 67416,
+                "sample_rate": "48000",
+                "probe_startup_seconds": 2.874
+              },
+              "russian_audio_confirmed": true,
+              "audio_language_evidence": "offline faster-whisper/base, decoded audio sample; not a guarantee for all programming",
+              "startup_seconds": 3.097,
+              "timestamp_origin_normalized": true,
+              "timestamp_parser_version": 2,
+              "audio_decoded": true,
+              "decoded_video_seconds": 25.039,
+              "decoded_audio_seconds": 25.002,
+              "video_continuous": true,
+              "audio_continuous": true,
+              "video_frames": 627,
+              "audio_frames": 1173,
+              "max_video_gap": 0.0401669999999994,
+              "max_audio_gap": 0.021480000000000388,
+              "long_silence": false,
+              "long_freeze": false,
+              "elapsed_seconds": 39.796,
+              "speech_language": {
+                "language": "ru",
+                "probability": 0.9878925085067749,
+                "speech_seconds": 7.04,
+                "characters": 91,
+                "method": "offline faster-whisper/base, decoded audio sample; not a guarantee for all programming"
+              },
+              "egress_sha256": "a130ed9d3515ef5e2bacc3ad41b71e272eb3d62b789b71bcd8d69272e5ab298f",
+              "observation_id": "fcda8f438c54cb3544c11d8d1dc3fd448b04c99e6bfa26e6be1cd8d0a54279d4"
+            }
+          ],
+          "sources": [
+            {
+              "provider": "additional public GitHub catalogue",
+              "url": "https://raw.githubusercontent.com/swoldier-rus/IP_TV/main/sw.m3u",
+              "header": ""
+            }
+          ],
+          "existing": false,
+          "rights_evidence": "",
+          "rights_status": "UNKNOWN",
+          "discovery_preflight": {
+            "status": 200,
+            "hls": true,
+            "seconds": 0.27,
+            "at": "2026-11-27T13:57:01.523281+00:00",
+            "media_proof": false
+          },
+          "status": "UNKNOWN_CZ"
+        },
+        "400807280d7f944cf72c6dae2b4448b63a2d67768c28ad956bb401981f2afb04": {
+          "block": [
+            "#EXTINF:-1 group-title=\"Кино\", Киносемья",
+            "http://tvip.btk.teleos.ru:8081/chid517/tracks-v1a1/mono.m3u8"
+          ],
+          "history": [],
+          "sources": [
+            {
+              "provider": "additional public GitHub catalogue",
+              "url": "https://raw.githubusercontent.com/MaximKiselev/iptv/main/playlist.m3u",
+              "header": ""
+            }
+          ],
+          "existing": false,
+          "rights_evidence": "",
+          "rights_status": "UNKNOWN",
+          "discovery_preflight": {
+            "error": "<urlopen error [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение>",
+            "at": "2026-11-27T13:57:01.523986+00:00",
+            "media_proof": false
+          }
+        },
+        "d8a0ba385c82fedd9f82751150a0e631dfc37e965b97b503c9a5d8fbb8672ff4": {
+          "block": [
+            "#EXTINF:-1 group-title=\"Кино\", Киносемья HD",
+            "http://77.235.1.19:8000/play/a06a/index.m3u8"
+          ],
+          "history": [],
+          "sources": [
+            {
+              "provider": "additional public GitHub catalogue",
+              "url": "https://raw.githubusercontent.com/MaximKiselev/iptv/main/playlist.m3u",
+              "header": ""
+            }
+          ],
+          "existing": false,
+          "rights_evidence": "",
+          "rights_status": "UNKNOWN",
+          "discovery_preflight": {
+            "error": "<urlopen error timed out>",
+            "at": "2026-11-27T13:57:01.524035+00:00",
+            "media_proof": false
+          }
         }
       },
       "groups": [
@@ -232939,6 +233958,96 @@
           "rights_evidence": "",
           "status": "UNKNOWN_CZ",
           "audio_reviews": []
+        },
+        "72af8d1aa531cb828da728d1e8f52e39af7ba969fde56920deec63f981166c8d": {
+          "block": [
+            "#EXTINF:-1 tvg-id=\"Kinouzhas.ru\" tvg-logo=\"https://i.imgur.com/mAcAAQF.png\" group-title=\"Movies\",Kinouzhas",
+            "http://moobl.ru/hls/Kinouzhas.m3u8"
+          ],
+          "history": [],
+          "sources": [
+            {
+              "provider": "additional public GitHub catalogue",
+              "url": "https://raw.githubusercontent.com/hujingguang/ChinaIPTV/main/Russia.m3u8",
+              "header": ""
+            }
+          ],
+          "existing": false,
+          "rights_evidence": "",
+          "rights_status": "UNKNOWN",
+          "discovery_preflight": {
+            "error": "HTTP Error 404: Not Found",
+            "seconds": 0.4,
+            "at": "2026-11-27T13:57:01.522773+00:00",
+            "media_proof": false
+          }
+        },
+        "ad02b89bfb3b85ea720ab0114dfd15ac9f97c9761d62401e937a893c7fd4c508": {
+          "block": [
+            "#EXTINF:-1 tvg-id=\"kinouzhas\" tvg-logo=\"https://iptvx.one/picons/kinouzhas.png\" group-title=\"SW\",Киноужас",
+            "https://fs.uplink.kz/kinouzhas/mono.m3u8?token=onlinetv"
+          ],
+          "history": [],
+          "sources": [
+            {
+              "provider": "additional public GitHub catalogue",
+              "url": "https://raw.githubusercontent.com/swoldier-rus/IP_TV/main/sw.m3u",
+              "header": ""
+            }
+          ],
+          "existing": false,
+          "rights_evidence": "",
+          "rights_status": "UNKNOWN",
+          "discovery_preflight": {
+            "error": "HTTP Error 403: Forbidden",
+            "seconds": 0.77,
+            "at": "2026-11-27T13:57:01.523355+00:00",
+            "media_proof": false
+          }
+        },
+        "1575f29260684bd5c25d98b637ea9adb79484f92350ce45821b50a4ac6decfb3": {
+          "block": [
+            "#EXTINF:-1 group-title=\"Кино\", Киноужас",
+            "http://31.210.208.171:8080/kinouzhas/index.m3u8?token=+W2MSER"
+          ],
+          "history": [],
+          "sources": [
+            {
+              "provider": "additional public GitHub catalogue",
+              "url": "https://raw.githubusercontent.com/MaximKiselev/iptv/main/playlist.m3u",
+              "header": ""
+            }
+          ],
+          "existing": false,
+          "rights_evidence": "",
+          "rights_status": "UNKNOWN",
+          "discovery_preflight": {
+            "error": "<urlopen error timed out>",
+            "at": "2026-11-27T13:57:01.523845+00:00",
+            "media_proof": false
+          }
+        },
+        "f03181745268e92cf191cce2e647726a64a69e34de10c785afb5a088376db1bf": {
+          "block": [
+            "#EXTINF:-1 group-title=\"Кино\", Киноужас HD",
+            "http://95.85.109.219:7000/play/a00y"
+          ],
+          "history": [],
+          "sources": [
+            {
+              "provider": "additional public GitHub catalogue",
+              "url": "https://raw.githubusercontent.com/MaximKiselev/iptv/main/playlist.m3u",
+              "header": ""
+            }
+          ],
+          "existing": false,
+          "rights_evidence": "",
+          "rights_status": "UNKNOWN",
+          "discovery_preflight": {
+            "error": "HTTP Error 403: Forbidden",
+            "at": "2026-11-27T13:57:01.524103+00:00",
+            "media_proof": false
+          }
         }
       },
       "groups": [
@@ -280924,6 +282033,177 @@
           "rights_evidence": "",
           "status": "UNKNOWN_CZ",
           "audio_reviews": []
+        },
+        "a76bb4f925ea967dac6cc731e789f4e708b5446fe2ae2e09e720210ff661ab53": {
+          "block": [
+            "#EXTINF:-1 tvg-id=\"Muzhskoekino.ru\" tvg-logo=\"https://i.imgur.com/8RN3tQC.png\" group-title=\"Movies\",Muzhskoe kino",
+            "http://moobl.ru/hls/Muzhskoe_kino.m3u8"
+          ],
+          "history": [],
+          "sources": [
+            {
+              "provider": "additional public GitHub catalogue",
+              "url": "https://raw.githubusercontent.com/hujingguang/ChinaIPTV/main/Russia.m3u8",
+              "header": ""
+            }
+          ],
+          "existing": false,
+          "rights_evidence": "",
+          "rights_status": "UNKNOWN",
+          "discovery_preflight": {
+            "error": "HTTP Error 404: Not Found",
+            "seconds": 0.38,
+            "at": "2026-11-27T13:57:01.522807+00:00",
+            "media_proof": false
+          }
+        },
+        "577d445aa4ae20febdbf08d1fa222a3866dd042c87e7d7893dc4abd596f0ce91": {
+          "block": [
+            "#EXTINF:-1 tvg-id=\"MuzhskoekinoHD.ru\" tvg-logo=\"https://i.imgur.com/8RN3tQC.png\" group-title=\"Movies\",Muzhskoe kino HD",
+            "http://moobl.ru/hls/Muzhskoe_kino_hd.m3u8"
+          ],
+          "history": [],
+          "sources": [
+            {
+              "provider": "additional public GitHub catalogue",
+              "url": "https://raw.githubusercontent.com/hujingguang/ChinaIPTV/main/Russia.m3u8",
+              "header": ""
+            }
+          ],
+          "existing": false,
+          "rights_evidence": "",
+          "rights_status": "UNKNOWN",
+          "discovery_preflight": {
+            "error": "HTTP Error 404: Not Found",
+            "seconds": 0.4,
+            "at": "2026-11-27T13:57:01.522854+00:00",
+            "media_proof": false
+          }
+        },
+        "1814f5bb96377168e55e52be70b20d88bb772cb7573640a5b1aef60e59f8d075": {
+          "block": [
+            "#EXTINF:-1 tvg-id=\"muzhskoe-kino\" tvg-logo=\"https://iptvx.one/picons/muzhskoe-kino.png\" group-title=\"SW\",Мужское кино",
+            "http://185.121.1.163:8083/MuzhskoeKino/index.m3u8"
+          ],
+          "history": [
+            {
+              "at": "2026-11-27T13:52:33.618786+00:00",
+              "region": "CZ",
+              "result": "ok",
+              "measurement_version": 3,
+              "playback_selection": "sampled_hls_rendition",
+              "segments": 3,
+              "sample_bytes": 2650048,
+              "download_bytes_per_second": 353691,
+              "media": {
+                "width": 720,
+                "height": 576,
+                "video_codec": "h264",
+                "audio_codec": "aac",
+                "audio_language": "rus",
+                "audio_language_tag": "rus",
+                "russian_default": true,
+                "audio_tracks": 1,
+                "field_order": "unknown",
+                "selected_audio_index": 0,
+                "default_audio_index": 0,
+                "fps": 25.0,
+                "channels": 1,
+                "bitrate": 1035683,
+                "audio_bitrate": 67004,
+                "sample_rate": "48000",
+                "probe_startup_seconds": 5.635
+              },
+              "russian_audio_confirmed": true,
+              "audio_language_evidence": "offline faster-whisper/base, decoded audio sample; not a guarantee for all programming",
+              "startup_seconds": 3.089,
+              "timestamp_origin_normalized": true,
+              "timestamp_parser_version": 2,
+              "audio_decoded": true,
+              "decoded_video_seconds": 25.0,
+              "decoded_audio_seconds": 25.003,
+              "video_continuous": true,
+              "audio_continuous": true,
+              "video_frames": 626,
+              "audio_frames": 1173,
+              "max_video_gap": 0.0400000000000027,
+              "max_audio_gap": 0.021334000000003073,
+              "long_silence": false,
+              "long_freeze": false,
+              "elapsed_seconds": 40.873,
+              "speech_language": {
+                "language": "ru",
+                "probability": 0.9875455498695374,
+                "speech_seconds": 14.0,
+                "characters": 212,
+                "method": "offline faster-whisper/base, decoded audio sample; not a guarantee for all programming"
+              },
+              "egress_sha256": "a130ed9d3515ef5e2bacc3ad41b71e272eb3d62b789b71bcd8d69272e5ab298f",
+              "observation_id": "6d453b17dcfa213adaf24f3101882ac568a051a0c38d8e278f1637a82c6dfc0e"
+            }
+          ],
+          "sources": [
+            {
+              "provider": "additional public GitHub catalogue",
+              "url": "https://raw.githubusercontent.com/swoldier-rus/IP_TV/main/sw.m3u",
+              "header": ""
+            }
+          ],
+          "existing": false,
+          "rights_evidence": "",
+          "rights_status": "UNKNOWN",
+          "discovery_preflight": {
+            "status": 200,
+            "hls": true,
+            "seconds": 0.31,
+            "at": "2026-11-27T13:57:01.523317+00:00",
+            "media_proof": false
+          },
+          "status": "UNKNOWN_CZ"
+        },
+        "cfc6941005e812c2518137c18922015086d72f4392328f47c91b2d39061e6362": {
+          "block": [
+            "#EXTINF:-1 group-title=\"Кино\", Мужское кино HD",
+            "http://77.235.1.19:8000/play/a08d/index.m3u8"
+          ],
+          "history": [],
+          "sources": [
+            {
+              "provider": "additional public GitHub catalogue",
+              "url": "https://raw.githubusercontent.com/MaximKiselev/iptv/main/playlist.m3u",
+              "header": ""
+            }
+          ],
+          "existing": false,
+          "rights_evidence": "",
+          "rights_status": "UNKNOWN",
+          "discovery_preflight": {
+            "error": "<urlopen error timed out>",
+            "at": "2026-11-27T13:57:01.524081+00:00",
+            "media_proof": false
+          }
+        },
+        "f7b4110df339f580f854183e5399f97301b1c949e53abb68a2f80d61f36abceb": {
+          "block": [
+            "#EXTINF:-1 group-title=\"Кино\", Мужское кино",
+            "http://158.101.222.193:88/georgia_play.php?id=interesnoetv"
+          ],
+          "history": [],
+          "sources": [
+            {
+              "provider": "additional public GitHub catalogue",
+              "url": "https://raw.githubusercontent.com/MaximKiselev/iptv/main/playlist.m3u",
+              "header": ""
+            }
+          ],
+          "existing": false,
+          "rights_evidence": "",
+          "rights_status": "UNKNOWN",
+          "discovery_preflight": {
+            "error": "<urlopen error timed out>",
+            "at": "2026-11-27T13:57:01.524173+00:00",
+            "media_proof": false
+          }
         }
       },
       "groups": [
@@ -284969,6 +286249,28 @@
           "rights_evidence": "",
           "status": "UNKNOWN_CZ",
           "audio_reviews": []
+        },
+        "0a664b5209102f499ccf498b3a1f9e7d3320580c39e484689ba21c958cf81fbf": {
+          "block": [
+            "#EXTINF:-1 group-title=\"Кино\", Наш кинопоказ HD",
+            "http://178.217.72.66:8080/nashkinopokazhd/index.m3u8"
+          ],
+          "history": [],
+          "sources": [
+            {
+              "provider": "additional public GitHub catalogue",
+              "url": "https://raw.githubusercontent.com/MaximKiselev/iptv/main/playlist.m3u",
+              "header": ""
+            }
+          ],
+          "existing": false,
+          "rights_evidence": "",
+          "rights_status": "UNKNOWN",
+          "discovery_preflight": {
+            "error": "<urlopen error timed out>",
+            "at": "2026-11-27T13:57:01.523703+00:00",
+            "media_proof": false
+          }
         }
       },
       "groups": [
@@ -390252,6 +391554,73 @@
           "rights_evidence": "",
           "status": "UNKNOWN_CZ",
           "audio_reviews": []
+        },
+        "10c8dbb77242a2acdb8389f9b6c91d9df3c8485e0a2acae48375d2f8b3b04528": {
+          "block": [
+            "#EXTINF:-1 tvg-id=\"RusskiyIllusion.ru\" tvg-logo=\"https://i.imgur.com/RlsqFN8.png\" group-title=\"Movies\",Russkiy Illusion",
+            "http://moobl.ru/hls/Russky_illuzion.m3u8"
+          ],
+          "history": [],
+          "sources": [
+            {
+              "provider": "additional public GitHub catalogue",
+              "url": "https://raw.githubusercontent.com/hujingguang/ChinaIPTV/main/Russia.m3u8",
+              "header": ""
+            }
+          ],
+          "existing": false,
+          "rights_evidence": "",
+          "rights_status": "UNKNOWN",
+          "discovery_preflight": {
+            "error": "HTTP Error 404: Not Found",
+            "seconds": 0.38,
+            "at": "2026-11-27T13:57:01.522903+00:00",
+            "media_proof": false
+          }
+        },
+        "99bcb820d37dc44d23b12e3371578347ad65af2ebe2196e3a672b01fb09d3512": {
+          "block": [
+            "#EXTINF:-1 group-title=\"Кино\", Русский иллюзион HD",
+            "http://89.221.57.5:8000/play/a00t/index.m3u8"
+          ],
+          "history": [],
+          "sources": [
+            {
+              "provider": "additional public GitHub catalogue",
+              "url": "https://raw.githubusercontent.com/MaximKiselev/iptv/main/playlist.m3u",
+              "header": ""
+            }
+          ],
+          "existing": false,
+          "rights_evidence": "",
+          "rights_status": "UNKNOWN",
+          "discovery_preflight": {
+            "error": "HTTP Error 404: Not Found",
+            "at": "2026-11-27T13:57:01.523916+00:00",
+            "media_proof": false
+          }
+        },
+        "607ca80e318b7a7861611b69aa369428085330a5b210c826d5fd2092d9bb45f0": {
+          "block": [
+            "#EXTINF:-1 group-title=\"Кино\", Русский иллюзион",
+            "http://195.26.83.96:7006/play/a00y/index.m3u8"
+          ],
+          "history": [],
+          "sources": [
+            {
+              "provider": "additional public GitHub catalogue",
+              "url": "https://raw.githubusercontent.com/MaximKiselev/iptv/main/playlist.m3u",
+              "header": ""
+            }
+          ],
+          "existing": false,
+          "rights_evidence": "",
+          "rights_status": "UNKNOWN",
+          "discovery_preflight": {
+            "error": "<urlopen error timed out>",
+            "at": "2026-11-27T13:57:01.524196+00:00",
+            "media_proof": false
+          }
         }
       },
       "groups": [
@@ -411925,6 +413294,196 @@
           "rights_evidence": "",
           "status": "UNKNOWN_CZ",
           "audio_reviews": []
+        },
+        "8dbc4aa80a9682f99b6e48dbc3b695fb1b2306fcb8312db5e6b9495072f24f55": {
+          "block": [
+            "#EXTINF:-1 tvg-id=\"Smotrim100Fakty.ru\" tvg-language=\"rus\",Смотрим 100% Факты",
+            "https://stream.smotrim.ru/hls3/fasttv06/playlist.m3u8?entity=channel&id=395&sign=1dc4ca8fb01e025545b0e6e70164cbf6"
+          ],
+          "history": [
+            {
+              "at": "2026-11-27T13:34:37.023445+00:00",
+              "region": "CZ",
+              "result": "ok",
+              "measurement_version": 3,
+              "playback_selection": "sampled_hls_rendition",
+              "segments": 3,
+              "sample_bytes": 3000000,
+              "download_bytes_per_second": 3153352,
+              "media": {
+                "width": 1920,
+                "height": 1080,
+                "video_codec": "h264",
+                "audio_codec": "aac",
+                "audio_language": "rus",
+                "audio_language_tag": "und",
+                "russian_default": true,
+                "audio_tracks": 1,
+                "field_order": "unknown",
+                "selected_audio_index": 1,
+                "default_audio_index": 1,
+                "fps": 25.0,
+                "channels": 2,
+                "bitrate": 7168019,
+                "audio_bitrate": 98789,
+                "sample_rate": "48000",
+                "probe_startup_seconds": 2.496
+              },
+              "russian_audio_confirmed": true,
+              "startup_seconds": 2.983,
+              "timestamp_origin_normalized": true,
+              "timestamp_parser_version": 2,
+              "audio_decoded": true,
+              "decoded_video_seconds": 25.0,
+              "decoded_audio_seconds": 25.002,
+              "video_continuous": true,
+              "audio_continuous": true,
+              "video_frames": 626,
+              "audio_frames": 1173,
+              "max_video_gap": 0.0400000000000027,
+              "max_audio_gap": 0.021334000000001296,
+              "long_silence": false,
+              "long_freeze": false,
+              "elapsed_seconds": 31.11,
+              "speech_language": {
+                "language": "ru",
+                "probability": 0.9772219657897949,
+                "speech_seconds": 14.8,
+                "characters": 232,
+                "method": "offline faster-whisper/base, decoded audio sample; not a guarantee for all programming"
+              },
+              "audio_language_evidence": "offline faster-whisper/base, decoded audio sample; not a guarantee for all programming",
+              "egress_sha256": "a130ed9d3515ef5e2bacc3ad41b71e272eb3d62b789b71bcd8d69272e5ab298f",
+              "observation_id": "3065c3fb842dc8068f7dc2881e6e275f8b1b89d401579a9e4d1c6bb25abf6867"
+            },
+            {
+              "at": "2026-11-27T13:44:42.282764+00:00",
+              "region": "CZ",
+              "result": "ok",
+              "measurement_version": 3,
+              "playback_selection": "sampled_hls_rendition",
+              "segments": 3,
+              "sample_bytes": 3000000,
+              "download_bytes_per_second": 3102109,
+              "media": {
+                "width": 1920,
+                "height": 1080,
+                "video_codec": "h264",
+                "audio_codec": "aac",
+                "audio_language": "rus",
+                "audio_language_tag": "und",
+                "russian_default": true,
+                "audio_tracks": 1,
+                "field_order": "unknown",
+                "selected_audio_index": 1,
+                "default_audio_index": 1,
+                "fps": 25.0,
+                "channels": 2,
+                "bitrate": 6631056,
+                "audio_bitrate": 98831,
+                "sample_rate": "48000",
+                "probe_startup_seconds": 2.406
+              },
+              "russian_audio_confirmed": true,
+              "startup_seconds": 2.796,
+              "timestamp_origin_normalized": true,
+              "timestamp_parser_version": 2,
+              "audio_decoded": true,
+              "decoded_video_seconds": 25.0,
+              "decoded_audio_seconds": 25.002,
+              "video_continuous": true,
+              "audio_continuous": true,
+              "video_frames": 626,
+              "audio_frames": 1173,
+              "max_video_gap": 0.0400000000000027,
+              "max_audio_gap": 0.021334000000001296,
+              "long_silence": false,
+              "long_freeze": false,
+              "elapsed_seconds": 30.946,
+              "speech_language": {
+                "language": "ru",
+                "probability": 0.9928470253944397,
+                "speech_seconds": 18.92,
+                "characters": 213,
+                "method": "offline faster-whisper/base, decoded audio sample; not a guarantee for all programming"
+              },
+              "audio_language_evidence": "offline faster-whisper/base, decoded audio sample; not a guarantee for all programming",
+              "egress_sha256": "a130ed9d3515ef5e2bacc3ad41b71e272eb3d62b789b71bcd8d69272e5ab298f",
+              "observation_id": "417bcdcd01c9625128d4216a2e9757e2198c5f9e200c39decdfbf8fab2594697"
+            },
+            {
+              "at": "2026-11-27T13:54:46.181116+00:00",
+              "region": "CZ",
+              "result": "ok",
+              "measurement_version": 3,
+              "playback_selection": "sampled_hls_rendition",
+              "segments": 3,
+              "sample_bytes": 3000000,
+              "download_bytes_per_second": 3527020,
+              "media": {
+                "width": 1920,
+                "height": 1080,
+                "video_codec": "h264",
+                "audio_codec": "aac",
+                "audio_language": "rus",
+                "audio_language_tag": "und",
+                "russian_default": true,
+                "audio_tracks": 1,
+                "field_order": "unknown",
+                "selected_audio_index": 1,
+                "default_audio_index": 1,
+                "fps": 25.0,
+                "channels": 2,
+                "bitrate": 6144965,
+                "audio_bitrate": 98799,
+                "sample_rate": "48000",
+                "probe_startup_seconds": 2.797
+              },
+              "russian_audio_confirmed": true,
+              "startup_seconds": 2.716,
+              "timestamp_origin_normalized": true,
+              "timestamp_parser_version": 2,
+              "audio_decoded": true,
+              "decoded_video_seconds": 25.0,
+              "decoded_audio_seconds": 25.002,
+              "video_continuous": true,
+              "audio_continuous": true,
+              "video_frames": 626,
+              "audio_frames": 1173,
+              "max_video_gap": 0.0400000000000027,
+              "max_audio_gap": 0.021334000000001296,
+              "long_silence": false,
+              "long_freeze": false,
+              "elapsed_seconds": 31.031,
+              "speech_language": {
+                "language": "ru",
+                "probability": 0.9693862199783325,
+                "speech_seconds": 19.2,
+                "characters": 233,
+                "method": "offline faster-whisper/base, decoded audio sample; not a guarantee for all programming"
+              },
+              "audio_language_evidence": "offline faster-whisper/base, decoded audio sample; not a guarantee for all programming",
+              "egress_sha256": "a130ed9d3515ef5e2bacc3ad41b71e272eb3d62b789b71bcd8d69272e5ab298f",
+              "observation_id": "ee9025ae1176d0765188e6f5a7750415e95d43ef418554cb8722872f2c2e0d8b"
+            }
+          ],
+          "sources": [
+            {
+              "provider": "official broadcaster",
+              "url": "https://player-api.smotrim.ru/api/v1/channel/395",
+              "header": ""
+            },
+            {
+              "provider": "official broadcaster",
+              "url": "https://player-api.smotrim.ru/api/v1/channel/395",
+              "header": "#EXTM3U"
+            }
+          ],
+          "existing": false,
+          "rights_evidence": "https://player-api.smotrim.ru/api/v1/channel/395",
+          "audio_reviews": [],
+          "status": "STABLE_CZ",
+          "was_stable": true
         }
       },
       "groups": [
@@ -515310,6 +516869,86 @@
           "rights_evidence": "",
           "status": "UNKNOWN_CZ",
           "audio_reviews": []
+        },
+        "7996a5f8a88b49309cc88bb4b4f8887203158ea5b9a2a963296bb29abb1c10cf": {
+          "block": [
+            "#EXTINF:-1 tvg-id=\"tv1000-action\" tvg-logo=\"https://iptvx.one/picons/tv1000-action.png\" group-title=\"SW\",Viju TV1000 Action",
+            "http://217.11.177.56/streams/media/tv1000-action_720x576/index.m3u8"
+          ],
+          "history": [
+            {
+              "at": "2026-11-27T13:51:00.368086+00:00",
+              "region": "CZ",
+              "result": "fail",
+              "measurement_version": 3,
+              "reason": "URLError during media check",
+              "elapsed_seconds": 10.025,
+              "egress_sha256": "a130ed9d3515ef5e2bacc3ad41b71e272eb3d62b789b71bcd8d69272e5ab298f",
+              "observation_id": "ff5321f98d883cf8e39733aa9f59ede3cf1c1ab79a5707eb999857e2e33f399d"
+            }
+          ],
+          "sources": [
+            {
+              "provider": "additional public GitHub catalogue",
+              "url": "https://raw.githubusercontent.com/swoldier-rus/IP_TV/main/sw.m3u",
+              "header": ""
+            }
+          ],
+          "existing": false,
+          "rights_evidence": "",
+          "rights_status": "UNKNOWN",
+          "discovery_preflight": {
+            "status": 200,
+            "hls": true,
+            "seconds": 2.3,
+            "at": "2026-11-27T13:57:01.523431+00:00",
+            "media_proof": false
+          },
+          "status": "UNKNOWN_CZ"
+        },
+        "36b35f709b42d9e2f9aa5a22ba8c08a45bc7ad6e9b334aa642d837be0934ce38": {
+          "block": [
+            "#EXTINF:-1 group-title=\"Кино\", viju TV1000 action",
+            "http://178.217.72.66:8080/TV_1000_Action/index.m3u8"
+          ],
+          "history": [],
+          "sources": [
+            {
+              "provider": "additional public GitHub catalogue",
+              "url": "https://raw.githubusercontent.com/MaximKiselev/iptv/main/playlist.m3u",
+              "header": ""
+            }
+          ],
+          "existing": false,
+          "rights_evidence": "",
+          "rights_status": "UNKNOWN",
+          "discovery_preflight": {
+            "error": "<urlopen error timed out>",
+            "at": "2026-11-27T13:57:01.523776+00:00",
+            "media_proof": false
+          }
+        },
+        "50374634dc6a8773db0df7ff66c85f67ceb15d44dd34a85bb32152b35d495cf0": {
+          "block": [
+            "#EXTINF:-1 group-title=\"Кино\", viju TV1000 action HD",
+            "http://95.85.109.219:7000/play/a013"
+          ],
+          "history": [],
+          "sources": [
+            {
+              "provider": "additional public GitHub catalogue",
+              "url": "https://raw.githubusercontent.com/MaximKiselev/iptv/main/playlist.m3u",
+              "header": ""
+            }
+          ],
+          "existing": false,
+          "rights_evidence": "",
+          "rights_status": "UNKNOWN",
+          "discovery_preflight": {
+            "error": "HTTP Error 403: Forbidden",
+            "at": "2026-11-27T13:57:01.524129+00:00",
+            "media_proof": false
+          }
         }
       },
       "groups": [
@@ -542158,6 +543797,243 @@
       ],
       "adult_specialization": false,
       "name": "Детективы каждый день"
+    },
+    "Ratnik.ru": {
+      "variants": {
+        "15dada1e8f7acc7ed5cc5bc81c88194da3ad82f0ed89e058acf390ede942aa95": {
+          "block": [
+            "#EXTINF:-1 tvg-id=\"Ratnik.ru\" tvg-language=\"rus\",Ратник",
+            "https://bl.rutube.ru/livestream/13b0320238d7938a2deffb4065068986/index.m3u8?s=ZB6YL2NZlqE9BJCVbpothw&e=2095786212&scheme=https"
+          ],
+          "history": [
+            {
+              "at": "2026-11-27T13:35:40.579091+00:00",
+              "region": "CZ",
+              "result": "ok",
+              "measurement_version": 3,
+              "playback_selection": "sampled_hls_rendition",
+              "segments": 3,
+              "sample_bytes": 3000000,
+              "download_bytes_per_second": 1630181,
+              "media": {
+                "width": 1920,
+                "height": 1080,
+                "video_codec": "h264",
+                "audio_codec": "aac",
+                "audio_language": "und",
+                "audio_language_tag": "und",
+                "russian_default": false,
+                "audio_tracks": 1,
+                "field_order": "unknown",
+                "selected_audio_index": 1,
+                "default_audio_index": 1,
+                "fps": 25.0,
+                "channels": 2,
+                "bitrate": 7688416,
+                "audio_bitrate": 130166,
+                "sample_rate": "48000",
+                "probe_startup_seconds": 3.355
+              },
+              "russian_audio_confirmed": false,
+              "startup_seconds": 3.689,
+              "timestamp_origin_normalized": true,
+              "timestamp_parser_version": 2,
+              "audio_decoded": true,
+              "decoded_video_seconds": 25.0,
+              "decoded_audio_seconds": 25.003,
+              "video_continuous": true,
+              "audio_continuous": true,
+              "video_frames": 626,
+              "audio_frames": 1173,
+              "max_video_gap": 0.0400000000000027,
+              "max_audio_gap": 0.021334000000003073,
+              "long_silence": false,
+              "long_freeze": false,
+              "elapsed_seconds": 33.55,
+              "speech_language": {
+                "language": "ru",
+                "probability": 0.9479721188545227,
+                "speech_seconds": 20.48,
+                "characters": 214,
+                "method": "offline faster-whisper/base, decoded audio sample; not a guarantee for all programming"
+              },
+              "egress_sha256": "a130ed9d3515ef5e2bacc3ad41b71e272eb3d62b789b71bcd8d69272e5ab298f",
+              "observation_id": "56d06dcac94beccf5f68703e990ddf02137de21e055b6b19d963a6ed9ba8793c"
+            }
+          ],
+          "sources": [
+            {
+              "provider": "official broadcaster",
+              "url": "https://rutube.ru/api/play/options/13b0320238d7938a2deffb4065068986/?format=json",
+              "header": ""
+            },
+            {
+              "provider": "official broadcaster",
+              "url": "https://rutube.ru/api/play/options/13b0320238d7938a2deffb4065068986/?format=json",
+              "header": "#EXTM3U"
+            }
+          ],
+          "existing": false,
+          "rights_evidence": "https://rutube.ru/api/play/options/13b0320238d7938a2deffb4065068986/?format=json",
+          "audio_reviews": [],
+          "status": "UNKNOWN_CZ"
+        }
+      },
+      "groups": [],
+      "baseline": false,
+      "movie_candidate": false,
+      "movie_confirmed": false,
+      "catalogue_languages": [
+        "rus"
+      ],
+      "adult_specialization": false,
+      "name": "Ratnik"
+    },
+    "KinoiZhizn.ru": {
+      "variants": {
+        "74b5b85d27b4f205eab120f050566129e6c350f1949fb274c4d691c42a086c3c": {
+          "block": [
+            "#EXTINF:-1 tvg-id=\"KinoiZhizn.ru\" tvg-language=\"rus\",Кино и Жизнь",
+            "https://bl.rutube.ru/livestream/09e51eefa939595a4ac67182c6fb3e4e/index.m3u8?s=-CeoAD7Vx7mnM9xDMMcYfQ&e=2095786710&scheme=https"
+          ],
+          "history": [
+            {
+              "at": "2026-11-27T13:39:48.771874+00:00",
+              "region": "CZ",
+              "result": "ok",
+              "measurement_version": 3,
+              "playback_selection": "sampled_hls_rendition",
+              "segments": 3,
+              "sample_bytes": 3000000,
+              "download_bytes_per_second": 1412926,
+              "media": {
+                "width": 1920,
+                "height": 1080,
+                "video_codec": "h264",
+                "audio_codec": "aac",
+                "audio_language": "rus",
+                "audio_language_tag": "und",
+                "russian_default": true,
+                "audio_tracks": 1,
+                "field_order": "unknown",
+                "selected_audio_index": 1,
+                "default_audio_index": 1,
+                "fps": 25.0,
+                "channels": 2,
+                "bitrate": 7650821,
+                "audio_bitrate": 130601,
+                "sample_rate": "48000",
+                "probe_startup_seconds": 3.607
+              },
+              "russian_audio_confirmed": true,
+              "startup_seconds": 3.78,
+              "timestamp_origin_normalized": true,
+              "timestamp_parser_version": 2,
+              "audio_decoded": true,
+              "decoded_video_seconds": 25.0,
+              "decoded_audio_seconds": 25.003,
+              "video_continuous": true,
+              "audio_continuous": true,
+              "video_frames": 626,
+              "audio_frames": 1173,
+              "max_video_gap": 0.0400000000000027,
+              "max_audio_gap": 0.021334000000003073,
+              "long_silence": false,
+              "long_freeze": false,
+              "elapsed_seconds": 34.569,
+              "speech_language": {
+                "language": "ru",
+                "probability": 0.9792991280555725,
+                "speech_seconds": 20.37,
+                "characters": 178,
+                "method": "offline faster-whisper/base, decoded audio sample; not a guarantee for all programming"
+              },
+              "audio_language_evidence": "offline faster-whisper/base, decoded audio sample; not a guarantee for all programming",
+              "egress_sha256": "a130ed9d3515ef5e2bacc3ad41b71e272eb3d62b789b71bcd8d69272e5ab298f",
+              "observation_id": "0a035c2b11065503e38feebec893ea5b5ae0f8153e42f0ff52fe8b719b41b94c"
+            },
+            {
+              "at": "2026-11-27T13:49:53.048873+00:00",
+              "region": "CZ",
+              "result": "ok",
+              "measurement_version": 3,
+              "playback_selection": "sampled_hls_rendition",
+              "segments": 3,
+              "sample_bytes": 3000000,
+              "download_bytes_per_second": 1374140,
+              "media": {
+                "width": 1920,
+                "height": 1080,
+                "video_codec": "h264",
+                "audio_codec": "aac",
+                "audio_language": "und",
+                "audio_language_tag": "und",
+                "russian_default": false,
+                "audio_tracks": 1,
+                "field_order": "unknown",
+                "selected_audio_index": 1,
+                "default_audio_index": 1,
+                "fps": 25.0,
+                "channels": 2,
+                "bitrate": 6880213,
+                "audio_bitrate": 130361,
+                "sample_rate": "48000",
+                "probe_startup_seconds": 3.768
+              },
+              "russian_audio_confirmed": false,
+              "startup_seconds": 3.535,
+              "timestamp_origin_normalized": true,
+              "timestamp_parser_version": 2,
+              "audio_decoded": true,
+              "decoded_video_seconds": 25.0,
+              "decoded_audio_seconds": 25.003,
+              "video_continuous": true,
+              "audio_continuous": true,
+              "video_frames": 626,
+              "audio_frames": 1173,
+              "max_video_gap": 0.0400000000000027,
+              "max_audio_gap": 0.021334000000003073,
+              "long_silence": false,
+              "long_freeze": false,
+              "elapsed_seconds": 34.184,
+              "speech_language": {
+                "language": "ru",
+                "probability": 0.9194926023483276,
+                "speech_seconds": 20.2,
+                "characters": 212,
+                "method": "offline faster-whisper/base, decoded audio sample; not a guarantee for all programming"
+              },
+              "egress_sha256": "a130ed9d3515ef5e2bacc3ad41b71e272eb3d62b789b71bcd8d69272e5ab298f",
+              "observation_id": "0a7400f14e0c6bd7cf45a163254609c66aaab3e4d8f035e7ae2b6db12754dff3"
+            }
+          ],
+          "sources": [
+            {
+              "provider": "official broadcaster",
+              "url": "https://kij-tv.ru/",
+              "header": ""
+            },
+            {
+              "provider": "official broadcaster",
+              "url": "https://kij-tv.ru/",
+              "header": "#EXTM3U"
+            }
+          ],
+          "existing": false,
+          "rights_evidence": "https://kij-tv.ru/",
+          "audio_reviews": [],
+          "status": "UNKNOWN_CZ"
+        }
+      },
+      "groups": [],
+      "baseline": false,
+      "movie_candidate": true,
+      "movie_confirmed": true,
+      "catalogue_languages": [
+        "rus"
+      ],
+      "adult_specialization": false,
+      "name": "Кино и Жизнь"
     }
   },
   "selected": {

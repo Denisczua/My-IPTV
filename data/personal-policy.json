@@ -7,7 +7,7 @@
   "minimum_interval_seconds": 600,
   "groups": {
     "Рыбалка и охота": {
-      "limit": 4,
+      "limit": 5,
       "ids": [
         "Ohotnikirybolov.ru",
         "Okhotairybalka.ru",
@@ -17,24 +17,6 @@
         "Rybalkaiokhota.ru",
         "Rybalka.ua",
         "Trofei.ua"
-      ]
-    },
-    "Путешествия и природа": {
-      "limit": 5,
-      "ids": [
-        "MoyaPlaneta.ru",
-        "RTGTV.ru",
-        "GlazamiTurista.ru",
-        "Teleputeshestviya.ru",
-        "TravelPlusAdventure.ru",
-        "TheExplorers.ru",
-        "vijuNature.ru",
-        "NationalGeographicWild.ru",
-        "LoveNature.ca",
-        "AnimalPlanet.ru",
-        "NashaTema.ru",
-        "Travelxp.in",
-        "Moyastikhiya.ru"
       ]
     },
     "Новости Украины": {
@@ -60,6 +42,26 @@
         "Mir24.ru",
         "CurrentTimeTV.cz",
         "CGTNRussian.cn"
+      ]
+    },
+    "Путешествия и природа": {
+      "limit": 5,
+      "ids": [
+        "MoyaPlaneta.ru",
+        "RTGTV.ru",
+        "GlazamiTurista.ru",
+        "Teleputeshestviya.ru",
+        "TravelPlusAdventure.ru",
+        "TheExplorers.ru",
+        "vijuNature.ru",
+        "NationalGeographicWild.ru",
+        "LoveNature.ca",
+        "AnimalPlanet.ru",
+        "NashaTema.ru",
+        "Travelxp.in",
+        "Moyastikhiya.ru",
+        "Smotrim100Fakty.ru",
+        "BigAsia.ru"
       ]
     }
   },
@@ -101,7 +103,11 @@
     "Kinozhelezo.ru": "Киножелезо",
     "EpicMedia.ru": "EPIC MEDIA",
     "EpicMediaLove.ru": "EPIC MEDIA Love",
-    "StarMediaDetectives.ru": "Детективы каждый день"
+    "StarMediaDetectives.ru": "Детективы каждый день",
+    "Smotrim100Fakty.ru": "Смотрим 100% Факты",
+    "BigAsia.ru": "Большая Азия",
+    "Ratnik.ru": "Ратник",
+    "KinoiZhizn.ru": "Кино и Жизнь"
   },
   "rights": {},
   "name_evidence": "Editorial display names; branded official Latin names stay Latin rather than invented translations."
