@@ -59478,6 +59478,11 @@
               "provider": "official broadcaster",
               "url": "https://rutube.ru/api/play/options/495ab964b755baa2c9fc7481a2e40f7d/?format=json",
               "header": "#EXTM3U"
+            },
+            {
+              "provider": "official public player",
+              "url": "https://rutube.ru/api/play/options/495ab964b755baa2c9fc7481a2e40f7d/?format=json",
+              "header": ""
             }
           ],
           "existing": false,
@@ -108719,7 +108724,9 @@
             "hls": true,
             "at": "2026-11-27T13:57:01.524227+00:00",
             "media_proof": false
-          }
+          },
+          "status": "UNKNOWN_CZ",
+          "audio_reviews": []
         }
       },
       "groups": [
@@ -138181,7 +138188,9 @@
             "seconds": 4.05,
             "at": "2026-11-27T13:57:01.522510+00:00",
             "media_proof": false
-          }
+          },
+          "status": "UNKNOWN_CZ",
+          "audio_reviews": []
         },
         "e97a9d4ace86238f156a62b17654ee469394f583c7a927b21f424923382bc485": {
           "block": [
@@ -138204,7 +138213,9 @@
             "seconds": 0.65,
             "at": "2026-11-27T13:57:01.522625+00:00",
             "media_proof": false
-          }
+          },
+          "status": "UNKNOWN_CZ",
+          "audio_reviews": []
         },
         "c2e2a1a9f75e341c746968a4b85775bd2a46c652a00a2d3ae64f9c68420b263c": {
           "block": [
@@ -138226,7 +138237,9 @@
             "error": "<urlopen error timed out>",
             "at": "2026-11-27T13:57:01.523460+00:00",
             "media_proof": false
-          }
+          },
+          "status": "UNKNOWN_CZ",
+          "audio_reviews": []
         }
       },
       "groups": [
@@ -157584,7 +157597,9 @@
             "seconds": 4.05,
             "at": "2026-11-27T13:57:01.522977+00:00",
             "media_proof": false
-          }
+          },
+          "status": "UNKNOWN_CZ",
+          "audio_reviews": []
         },
         "955735bfc6c778700247ae04a8828af2865f6e9e2e5ae39920e603f505490e23": {
           "block": [
@@ -157606,7 +157621,9 @@
             "error": "<urlopen error timed out>",
             "at": "2026-11-27T13:57:01.523801+00:00",
             "media_proof": false
-          }
+          },
+          "status": "UNKNOWN_CZ",
+          "audio_reviews": []
         },
         "2ab0b0e642aad74fcb59d20803ec49fe09d83463a0588f51cd7792a89d6eaa03": {
           "block": [
@@ -157628,7 +157645,9 @@
             "error": "HTTP Error 404: Not Found",
             "at": "2026-11-27T13:57:01.523867+00:00",
             "media_proof": false
-          }
+          },
+          "status": "UNKNOWN_CZ",
+          "audio_reviews": []
         }
       },
       "groups": [
@@ -198547,7 +198566,9 @@
             "seconds": 0.38,
             "at": "2026-11-27T13:57:01.522669+00:00",
             "media_proof": false
-          }
+          },
+          "status": "UNKNOWN_CZ",
+          "audio_reviews": []
         },
         "89d9392ac01329f5a89e46116bf21c69ef2b0b8fc3f19acb462ae0fa33b2f652": {
           "block": [
@@ -198570,7 +198591,9 @@
             "seconds": 0.26,
             "at": "2026-11-27T13:57:01.523032+00:00",
             "media_proof": false
-          }
+          },
+          "status": "UNKNOWN_CZ",
+          "audio_reviews": []
         },
         "67fbd567ca518bd8bd72708ded3cf6b609a3b22c8ffa6c855874ec66cc37ecf3": {
           "block": [
@@ -198592,7 +198615,9 @@
             "error": "<urlopen error timed out>",
             "at": "2026-11-27T13:57:01.523727+00:00",
             "media_proof": false
-          }
+          },
+          "status": "UNKNOWN_CZ",
+          "audio_reviews": []
         },
         "cfa90344627b0b59081d5585965e635d09225457889de2ae51a202c740eb023e": {
           "block": [
@@ -198614,7 +198639,9 @@
             "error": "<urlopen error timed out>",
             "at": "2026-11-27T13:57:01.523751+00:00",
             "media_proof": false
-          }
+          },
+          "status": "UNKNOWN_CZ",
+          "audio_reviews": []
         }
       },
       "groups": [
@@ -206313,7 +206340,9 @@
             "seconds": 4.01,
             "at": "2026-11-27T13:57:01.523085+00:00",
             "media_proof": false
-          }
+          },
+          "status": "UNKNOWN_CZ",
+          "audio_reviews": []
         },
         "fd08e81a4bb83ac6a653e4e19212db1ca28436e33b2cc7f3d3ee2731374681ff": {
           "block": [
@@ -206335,7 +206364,9 @@
             "error": "HTTP Error 404: Not Found",
             "at": "2026-11-27T13:57:01.523890+00:00",
             "media_proof": false
-          }
+          },
+          "status": "UNKNOWN_CZ",
+          "audio_reviews": []
         },
         "591aac6f3c8375a3f74c3ce069333c971f2781699741d2314a03a6a884626c37": {
           "block": [
@@ -206357,7 +206388,9 @@
             "error": "<urlopen error timed out>",
             "at": "2026-11-27T13:57:01.523938+00:00",
             "media_proof": false
-          }
+          },
+          "status": "UNKNOWN_CZ",
+          "audio_reviews": []
         }
       },
       "groups": [
@@ -229558,7 +229591,9 @@
             "seconds": 0.49,
             "at": "2026-11-27T13:57:01.522700+00:00",
             "media_proof": false
-          }
+          },
+          "status": "UNKNOWN_CZ",
+          "audio_reviews": []
         },
         "18204d6a1d68cc8fb4e6970311f53546131ac51249ee4ac0f7f042494088dd8c": {
           "block": [
@@ -229581,7 +229616,9 @@
             "seconds": 0.19,
             "at": "2026-11-27T13:57:01.523389+00:00",
             "media_proof": false
-          }
+          },
+          "status": "UNKNOWN_CZ",
+          "audio_reviews": []
         },
         "8a33eebd380b32a68460fd99973e6d51256499658f80805c95631da69868395c": {
           "block": [
@@ -229603,7 +229640,9 @@
             "error": "<urlopen error timed out>",
             "at": "2026-11-27T13:57:01.524057+00:00",
             "media_proof": false
-          }
+          },
+          "status": "UNKNOWN_CZ",
+          "audio_reviews": []
         },
         "fe7547ed520321e0f2e8edac5125160635699eb7abbacecf272e48cd0d9c8e36": {
           "block": [
@@ -229625,7 +229664,9 @@
             "error": "<urlopen error timed out>",
             "at": "2026-11-27T13:57:01.524150+00:00",
             "media_proof": false
-          }
+          },
+          "status": "UNKNOWN_CZ",
+          "audio_reviews": []
         }
       },
       "groups": [
@@ -231087,7 +231128,9 @@
             "seconds": 4.02,
             "at": "2026-11-27T13:57:01.522576+00:00",
             "media_proof": false
-          }
+          },
+          "status": "UNKNOWN_CZ",
+          "audio_reviews": []
         },
         "24f1f715f93f0cfd8be6626896fe184ee27e06cab4028053bab2df056f418dc7": {
           "block": [
@@ -231147,7 +231190,8 @@
             "at": "2026-11-27T13:57:01.523209+00:00",
             "media_proof": false
           },
-          "status": "UNKNOWN_CZ"
+          "status": "UNKNOWN_CZ",
+          "audio_reviews": []
         },
         "4824eef2c3d3900051255b12d8cbf6d42dfbcf5ef782787b89fe2f8501e16fc5": {
           "block": [
@@ -231169,7 +231213,9 @@
             "error": "<urlopen error timed out>",
             "at": "2026-11-27T13:57:01.523669+00:00",
             "media_proof": false
-          }
+          },
+          "status": "UNKNOWN_CZ",
+          "audio_reviews": []
         },
         "b2a2634f7c990c586f00f620f157acee2cd9c177cdc3c894d64d58e835d33269": {
           "block": [
@@ -231191,7 +231237,9 @@
             "error": "<urlopen error timed out>",
             "at": "2026-11-27T13:57:01.523823+00:00",
             "media_proof": false
-          }
+          },
+          "status": "UNKNOWN_CZ",
+          "audio_reviews": []
         }
       },
       "groups": [
@@ -231744,7 +231792,9 @@
             "seconds": 4.58,
             "at": "2026-11-27T13:57:01.523123+00:00",
             "media_proof": false
-          }
+          },
+          "status": "UNKNOWN_CZ",
+          "audio_reviews": []
         },
         "aeb13edfbd54bf6f26654ec730e07ef110a04934d20da6039aa437c47c7c0bf7": {
           "block": [
@@ -231767,7 +231817,9 @@
             "seconds": 0.17,
             "at": "2026-11-27T13:57:01.523164+00:00",
             "media_proof": false
-          }
+          },
+          "status": "UNKNOWN_CZ",
+          "audio_reviews": []
         },
         "f5ef6137b29ba18c86f514d75d0562e11fe4cb59a91ff74af088b1ab0234795c": {
           "block": [
@@ -231848,7 +231900,8 @@
             "at": "2026-11-27T13:57:01.523246+00:00",
             "media_proof": false
           },
-          "status": "UNKNOWN_CZ"
+          "status": "UNKNOWN_CZ",
+          "audio_reviews": []
         },
         "d7383517e0a09e1626fbfb1e2118fa2f1608eabd525c4754e12162bdff1fb2bb": {
           "block": [
@@ -231870,7 +231923,9 @@
             "error": "<urlopen error [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение>",
             "at": "2026-11-27T13:57:01.523962+00:00",
             "media_proof": false
-          }
+          },
+          "status": "UNKNOWN_CZ",
+          "audio_reviews": []
         },
         "031d219ff2199b3f53e70b1083f72c5aa59c90ddcff5a186f8a17c6f953fe405": {
           "block": [
@@ -231892,7 +231947,9 @@
             "error": "HTTP Error 400: Bad Request",
             "at": "2026-11-27T13:57:01.524011+00:00",
             "media_proof": false
-          }
+          },
+          "status": "UNKNOWN_CZ",
+          "audio_reviews": []
         }
       },
       "groups": [
@@ -232426,7 +232483,9 @@
             "seconds": 0.39,
             "at": "2026-11-27T13:57:01.522731+00:00",
             "media_proof": false
-          }
+          },
+          "status": "UNKNOWN_CZ",
+          "audio_reviews": []
         },
         "2649618855358ca6428bfaaee3b1a5d5a455cc791f92f407d067e992123b385f": {
           "block": [
@@ -232507,7 +232566,8 @@
             "at": "2026-11-27T13:57:01.523281+00:00",
             "media_proof": false
           },
-          "status": "UNKNOWN_CZ"
+          "status": "UNKNOWN_CZ",
+          "audio_reviews": []
         },
         "400807280d7f944cf72c6dae2b4448b63a2d67768c28ad956bb401981f2afb04": {
           "block": [
@@ -232529,7 +232589,9 @@
             "error": "<urlopen error [WinError 10061] Подключение не установлено, т.к. конечный компьютер отверг запрос на подключение>",
             "at": "2026-11-27T13:57:01.523986+00:00",
             "media_proof": false
-          }
+          },
+          "status": "UNKNOWN_CZ",
+          "audio_reviews": []
         },
         "d8a0ba385c82fedd9f82751150a0e631dfc37e965b97b503c9a5d8fbb8672ff4": {
           "block": [
@@ -232551,7 +232613,9 @@
             "error": "<urlopen error timed out>",
             "at": "2026-11-27T13:57:01.524035+00:00",
             "media_proof": false
-          }
+          },
+          "status": "UNKNOWN_CZ",
+          "audio_reviews": []
         }
       },
       "groups": [
@@ -233980,7 +234044,9 @@
             "seconds": 0.4,
             "at": "2026-11-27T13:57:01.522773+00:00",
             "media_proof": false
-          }
+          },
+          "status": "UNKNOWN_CZ",
+          "audio_reviews": []
         },
         "ad02b89bfb3b85ea720ab0114dfd15ac9f97c9761d62401e937a893c7fd4c508": {
           "block": [
@@ -234003,7 +234069,9 @@
             "seconds": 0.77,
             "at": "2026-11-27T13:57:01.523355+00:00",
             "media_proof": false
-          }
+          },
+          "status": "UNKNOWN_CZ",
+          "audio_reviews": []
         },
         "1575f29260684bd5c25d98b637ea9adb79484f92350ce45821b50a4ac6decfb3": {
           "block": [
@@ -234025,7 +234093,9 @@
             "error": "<urlopen error timed out>",
             "at": "2026-11-27T13:57:01.523845+00:00",
             "media_proof": false
-          }
+          },
+          "status": "UNKNOWN_CZ",
+          "audio_reviews": []
         },
         "f03181745268e92cf191cce2e647726a64a69e34de10c785afb5a088376db1bf": {
           "block": [
@@ -234047,7 +234117,9 @@
             "error": "HTTP Error 403: Forbidden",
             "at": "2026-11-27T13:57:01.524103+00:00",
             "media_proof": false
-          }
+          },
+          "status": "UNKNOWN_CZ",
+          "audio_reviews": []
         }
       },
       "groups": [
@@ -282055,7 +282127,9 @@
             "seconds": 0.38,
             "at": "2026-11-27T13:57:01.522807+00:00",
             "media_proof": false
-          }
+          },
+          "status": "UNKNOWN_CZ",
+          "audio_reviews": []
         },
         "577d445aa4ae20febdbf08d1fa222a3866dd042c87e7d7893dc4abd596f0ce91": {
           "block": [
@@ -282078,7 +282152,9 @@
             "seconds": 0.4,
             "at": "2026-11-27T13:57:01.522854+00:00",
             "media_proof": false
-          }
+          },
+          "status": "UNKNOWN_CZ",
+          "audio_reviews": []
         },
         "1814f5bb96377168e55e52be70b20d88bb772cb7573640a5b1aef60e59f8d075": {
           "block": [
@@ -282159,7 +282235,8 @@
             "at": "2026-11-27T13:57:01.523317+00:00",
             "media_proof": false
           },
-          "status": "UNKNOWN_CZ"
+          "status": "UNKNOWN_CZ",
+          "audio_reviews": []
         },
         "cfc6941005e812c2518137c18922015086d72f4392328f47c91b2d39061e6362": {
           "block": [
@@ -282181,7 +282258,9 @@
             "error": "<urlopen error timed out>",
             "at": "2026-11-27T13:57:01.524081+00:00",
             "media_proof": false
-          }
+          },
+          "status": "UNKNOWN_CZ",
+          "audio_reviews": []
         },
         "f7b4110df339f580f854183e5399f97301b1c949e53abb68a2f80d61f36abceb": {
           "block": [
@@ -282203,7 +282282,9 @@
             "error": "<urlopen error timed out>",
             "at": "2026-11-27T13:57:01.524173+00:00",
             "media_proof": false
-          }
+          },
+          "status": "UNKNOWN_CZ",
+          "audio_reviews": []
         }
       },
       "groups": [
@@ -286270,7 +286351,9 @@
             "error": "<urlopen error timed out>",
             "at": "2026-11-27T13:57:01.523703+00:00",
             "media_proof": false
-          }
+          },
+          "status": "UNKNOWN_CZ",
+          "audio_reviews": []
         }
       },
       "groups": [
@@ -391576,7 +391659,9 @@
             "seconds": 0.38,
             "at": "2026-11-27T13:57:01.522903+00:00",
             "media_proof": false
-          }
+          },
+          "status": "UNKNOWN_CZ",
+          "audio_reviews": []
         },
         "99bcb820d37dc44d23b12e3371578347ad65af2ebe2196e3a672b01fb09d3512": {
           "block": [
@@ -391598,7 +391683,9 @@
             "error": "HTTP Error 404: Not Found",
             "at": "2026-11-27T13:57:01.523916+00:00",
             "media_proof": false
-          }
+          },
+          "status": "UNKNOWN_CZ",
+          "audio_reviews": []
         },
         "607ca80e318b7a7861611b69aa369428085330a5b210c826d5fd2092d9bb45f0": {
           "block": [
@@ -391620,7 +391707,9 @@
             "error": "<urlopen error timed out>",
             "at": "2026-11-27T13:57:01.524196+00:00",
             "media_proof": false
-          }
+          },
+          "status": "UNKNOWN_CZ",
+          "audio_reviews": []
         }
       },
       "groups": [
@@ -413477,6 +413566,11 @@
               "provider": "official broadcaster",
               "url": "https://player-api.smotrim.ru/api/v1/channel/395",
               "header": "#EXTM3U"
+            },
+            {
+              "provider": "official public player",
+              "url": "https://player-api.smotrim.ru/api/v1/channel/395",
+              "header": ""
             }
           ],
           "existing": false,
@@ -516904,7 +516998,8 @@
             "at": "2026-11-27T13:57:01.523431+00:00",
             "media_proof": false
           },
-          "status": "UNKNOWN_CZ"
+          "status": "UNKNOWN_CZ",
+          "audio_reviews": []
         },
         "36b35f709b42d9e2f9aa5a22ba8c08a45bc7ad6e9b334aa642d837be0934ce38": {
           "block": [
@@ -516926,7 +517021,9 @@
             "error": "<urlopen error timed out>",
             "at": "2026-11-27T13:57:01.523776+00:00",
             "media_proof": false
-          }
+          },
+          "status": "UNKNOWN_CZ",
+          "audio_reviews": []
         },
         "50374634dc6a8773db0df7ff66c85f67ceb15d44dd34a85bb32152b35d495cf0": {
           "block": [
@@ -516948,7 +517045,9 @@
             "error": "HTTP Error 403: Forbidden",
             "at": "2026-11-27T13:57:01.524129+00:00",
             "media_proof": false
-          }
+          },
+          "status": "UNKNOWN_CZ",
+          "audio_reviews": []
         }
       },
       "groups": [
@@ -543871,6 +543970,11 @@
               "provider": "official broadcaster",
               "url": "https://rutube.ru/api/play/options/13b0320238d7938a2deffb4065068986/?format=json",
               "header": "#EXTM3U"
+            },
+            {
+              "provider": "official public player",
+              "url": "https://rutube.ru/api/play/options/13b0320238d7938a2deffb4065068986/?format=json",
+              "header": ""
             }
           ],
           "existing": false,
@@ -544017,6 +544121,11 @@
               "provider": "official broadcaster",
               "url": "https://kij-tv.ru/",
               "header": "#EXTM3U"
+            },
+            {
+              "provider": "official public player",
+              "url": "https://kij-tv.ru/",
+              "header": ""
             }
           ],
           "existing": false,
@@ -564873,7 +564982,7 @@
     "WeatherSpy.us": "17d36c9e6d90648952ef592bf07d92c565cec3dff30c83d5d51827ef53d5ff32"
   },
   "scan": {
-    "at": "2026-11-27T13:32:42.608445+00:00",
+    "at": "2026-11-27T13:58:59.808813+00:00",
     "before_entries": 10416,
     "before_identities": 10416,
     "sources_processed": 17,
