@@ -1,0 +1,197 @@
+{
+  "at": "2026-11-27T09:10:14.270154+00:00",
+  "published_candidate_count": 11,
+  "channels": [
+    {
+      "id": "EpicMediaLove.ru",
+      "name": "EPIC MEDIA Love HD",
+      "group": "Кино",
+      "theme": "Кино",
+      "resolution": "1280×720",
+      "status": "STABLE_CZ",
+      "last_check": "2026-11-27T08:59:19.770913+00:00",
+      "audio_language": "rus",
+      "audio_language_checked_at": "2026-11-27T08:49:18.771795+00:00",
+      "audio_language_method": "offline faster-whisper/base, decoded audio sample; not a guarantee for all programming",
+      "rights_evidence": "https://rutube.ru/api/play/options/21f3993ed8291b70208aa06c982c731f/?format=json"
+    },
+    {
+      "id": "SilkWayCinema.kz",
+      "name": "Silk Way Cinema HD",
+      "group": "Кино",
+      "theme": "Кино",
+      "resolution": "1280×720",
+      "status": "STABLE_CZ",
+      "last_check": "2026-11-27T08:12:40.196733+00:00",
+      "audio_language": "rus",
+      "audio_language_checked_at": "2026-11-27T02:11:23.158637+00:00",
+      "audio_language_method": "offline faster-whisper/base, decoded audio sample; not a guarantee for all programming",
+      "rights_evidence": "https://silkwaycinema.tv/ ; official Qazaqstan network free live stream, previously reviewed in playlist-movies-hd-report.md"
+    },
+    {
+      "id": "Smotrim100Gorkogo.ru",
+      "name": "Смотрим 100% Горького Full HD",
+      "group": "Кино",
+      "theme": "Кино",
+      "resolution": "1920×1080",
+      "status": "STABLE_CZ",
+      "last_check": "2026-11-27T08:38:16.702547+00:00",
+      "audio_language": "rus",
+      "audio_language_checked_at": "2026-11-27T08:38:16.702547+00:00",
+      "audio_language_method": "offline faster-whisper/base, decoded audio sample; not a guarantee for all programming",
+      "rights_evidence": "https://player-api.smotrim.ru/api/v1/channel/987"
+    },
+    {
+      "id": "Smotrim100Lyubov.ru",
+      "name": "Смотрим 100% Любовь Full HD",
+      "group": "Кино",
+      "theme": "Кино",
+      "resolution": "1920×1080",
+      "status": "STABLE_CZ",
+      "last_check": "2026-11-27T09:07:59.393561+00:00",
+      "audio_language": "rus",
+      "audio_language_checked_at": "2026-11-27T09:07:59.393561+00:00",
+      "audio_language_method": "offline faster-whisper/base, decoded audio sample; not a guarantee for all programming",
+      "rights_evidence": "https://player-api.smotrim.ru/api/v1/channel/394"
+    },
+    {
+      "id": "Smotrim100Muzhskoe.ru",
+      "name": "Смотрим 100% Мужское Full HD",
+      "group": "Кино",
+      "theme": "Кино",
+      "resolution": "1920×1080",
+      "status": "STABLE_CZ",
+      "last_check": "2026-11-27T09:09:04.224766+00:00",
+      "audio_language": "rus",
+      "audio_language_checked_at": "2026-11-27T09:09:04.224766+00:00",
+      "audio_language_method": "offline faster-whisper/base, decoded audio sample; not a guarantee for all programming",
+      "rights_evidence": "https://player-api.smotrim.ru/api/v1/channel/398"
+    },
+    {
+      "id": "Ohotnikirybolov.ru",
+      "name": "Охотник и рыболов Full HD",
+      "group": "Рыбалка и охота",
+      "theme": "Рыбалка и охота",
+      "resolution": "1920×1080",
+      "status": "STABLE_CZ",
+      "last_check": "2026-11-27T09:09:04.225035+00:00",
+      "audio_language": "rus",
+      "audio_language_checked_at": "2026-11-27T09:09:04.225035+00:00",
+      "audio_language_method": "offline faster-whisper/base, decoded audio sample; not a guarantee for all programming",
+      "rights_evidence": "https://rutube.ru/api/play/options/1da5d92af8c55b16241f1eb12a27f00c/?format=json"
+    },
+    {
+      "id": "24Kanal.ua",
+      "name": "24 Канал HD",
+      "group": "Новости Украины",
+      "theme": "Новости Украины",
+      "resolution": "1280×720",
+      "status": "STABLE_CZ",
+      "last_check": "2026-11-27T09:01:26.151046+00:00",
+      "audio_language": "ukr",
+      "audio_language_checked_at": "2026-11-27T09:01:26.151046+00:00",
+      "audio_language_method": "offline faster-whisper/base, decoded audio sample; not a guarantee for all programming",
+      "rights_evidence": "https://24tv.ua/online/24-kanal"
+    },
+    {
+      "id": "CGTNRussian.cn",
+      "name": "CGTN Русский Full HD",
+      "group": "Новости России",
+      "theme": "Новости России",
+      "resolution": "1920×1080",
+      "status": "STABLE_CZ",
+      "last_check": "2026-11-27T08:48:21.177405+00:00",
+      "audio_language": "rus",
+      "audio_language_checked_at": "2026-11-27T08:26:12.675264+00:00",
+      "audio_language_method": "offline faster-whisper/base, decoded audio sample; not a guarantee for all programming",
+      "rights_evidence": "https://russian.cgtn.com/_nuxt/tIUdy5vY.js"
+    },
+    {
+      "id": "Izvestia.ru",
+      "name": "Известия Full HD",
+      "group": "Новости России",
+      "theme": "Новости России",
+      "resolution": "1920×1080",
+      "status": "STABLE_CZ",
+      "last_check": "2026-11-27T09:07:59.400879+00:00",
+      "audio_language": "rus",
+      "audio_language_checked_at": "2026-11-27T09:07:59.400879+00:00",
+      "audio_language_method": "offline faster-whisper/base, decoded audio sample; not a guarantee for all programming",
+      "rights_evidence": "https://rutube.ru/api/play/options/3c47861a8b4b51639e41be092053b966/?format=json"
+    },
+    {
+      "id": "CurrentTimeTV.cz",
+      "name": "Настоящее Время Full HD",
+      "group": "Новости России",
+      "theme": "Новости России",
+      "resolution": "1920×1080",
+      "status": "STABLE_CZ",
+      "last_check": "2026-11-27T08:20:17.182495+00:00",
+      "audio_language": "rus",
+      "audio_language_checked_at": "2026-11-27T08:20:17.182495+00:00",
+      "audio_language_method": "offline faster-whisper/base, decoded audio sample; not a guarantee for all programming",
+      "rights_evidence": "https://www.currenttime.tv/live/video/92"
+    },
+    {
+      "id": "Russia24.ru",
+      "name": "Россия 24 Full HD",
+      "group": "Новости России",
+      "theme": "Новости России",
+      "resolution": "1920×1080",
+      "status": "STABLE_CZ",
+      "last_check": "2026-11-27T09:09:04.230255+00:00",
+      "audio_language": "rus",
+      "audio_language_checked_at": "2026-11-27T09:09:04.230255+00:00",
+      "audio_language_method": "offline faster-whisper/base, decoded audio sample; not a guarantee for all programming",
+      "rights_evidence": "https://player-api.smotrim.ru/api/v1/channel/3"
+    }
+  ],
+  "original_playlist_sha256": "a5e3a9e436f39b1c7918451f9ef85078251ee3c393a1cd5918d52f30befc74c2",
+  "research": [
+    {
+      "source": "Rutube public TV catalogue",
+      "records": 262,
+      "evidence": "https://rutube.ru/feeds/live/",
+      "result": "Complete catalogue, all three pages reviewed; selected exact producer-owned free feeds and checked CZ country permissions"
+    },
+    {
+      "source": "Smotrim official cinema collection",
+      "evidence": "https://smotrim.ru/channel/collections/movies-series",
+      "result": "All four official cinema feeds identified; Gorkogo/Lyubov/Muzhskoe passed; Klassika recovery pending"
+    },
+    {
+      "source": "ViNTERA.TV official public catalogue",
+      "records": 175,
+      "evidence": "https://cms.vinteratv.com/api/channels/grouped",
+      "result": "Additional cinema and nature candidates identified; advertised wmsAuthSign lease is 480 minutes. Not admitted without actual media proof and sustainable lease handling"
+    },
+    {
+      "source": "SWEET.TV free catalogue",
+      "records": 145,
+      "evidence": "https://sweet.tv/ua-uk/free-tv",
+      "result": "Anonymous Espreso request using actual region CZ returned a guest HLS URL. Session update interval 300 seconds; not admitted without playback and session-lifetime confirmation"
+    },
+    {
+      "source": "Red Media and licensed foreign cinema on Rutube",
+      "evidence": "https://rutube.ru/api/video/d6fa4a9643082b1dc04f0c4833a53b2a/?format=json",
+      "result": "Rodnoe Kino, Kinomix, Kinokomediya plus sampled Movie Time, Filmach, Indian/Amazon feeds exclude CZ in country metadata. No region bypass attempted"
+    },
+    {
+      "source": "IPnet",
+      "evidence": "https://play.google.com/store/apps/details?id=ua.ipnet.mobile",
+      "result": "Provider explicitly limits its app to subscribers within Ukraine; catalogue URL accessibility is not permission for free CZ viewing"
+    },
+    {
+      "source": "Official nature/fishing sites",
+      "result": "RTG and Teleputeshestviya show distribution/programmes without a public linear source; Dikoe subscription page requires payment; Nasha Tema published source repeatedly unavailable; several old broadcaster domains are parked or unrelated and are not rights evidence"
+    }
+  ],
+  "technical_findings": [
+    {
+      "issue": "Interleaved FFmpeg showinfo and ashowinfo stderr fabricated backward video PTS",
+      "evidence": "Local saved EpicMediaLove.ru-timestamp-diagnostic.log: old parser read audio 8.021333 as video 7.88; new parser retains correct frame sequence",
+      "fix": "Parse contiguous video/audio frame fields independently; unchanged durations, gap thresholds and strict decoding flags; timestamp_parser_version=2. Old failed observations retained, not promoted to success."
+    }
+  ],
+  "remaining": "Continue live CZ passes and source investigation; travel/fishing/UA quotas not yet achieved. OLED remains unapproved without visual evidence."
+}

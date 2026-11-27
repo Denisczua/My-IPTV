@@ -96,6 +96,16 @@ def inspect_stream(url,headers,ffprobe):
     return video['index'],audio['index'],bool(russian),media
 
 
+def decoded_timestamps(text):
+    # FFmpeg writes showinfo/ashowinfo from different threads. Their records may
+    # share a line, and even lose a prefix. Match the contiguous frame fields,
+    # never an arbitrary earlier prefix ("ashowinfo" also contains "showinfo").
+    frame=r'\bn:\s*\d+\s+pts:\s*-?\d+\s+pts_time:(-?\d+(?:\.\d+)?)\s+'
+    video=frame+r'(?:duration:\s*-?\d+\s+duration_time:-?[\d.]+\s+)?fmt:\S+\s+(?:cl:\S+\s+)?sar:\S+\s+s:\d+x\d+'
+    audio=frame+r'fmt:\S+\s+channels:\d+\s+(?:chlayout:\S+\s+)?rate:\d+\s+nb_samples:\d+'
+    return [float(x) for x in re.findall(video,text)],[float(x) for x in re.findall(audio,text)]
+
+
 def decode(url,headers,video,audio,ffmpeg):
     command=[ffmpeg,'-nostdin','-hide_banner','-nostats','-v','info','-xerror','-err_detect','explode',
              '-threads','2','-filter_threads','1',
@@ -123,14 +133,13 @@ def decode(url,headers,video,audio,ffmpeg):
             process.stdout.close()
         log.seek(0);text=log.read().decode('utf-8',errors='replace')
     if process.returncode:raise transport.StreamFailure('FFmpeg video/audio decode error')
-    video_pts=[float(x) for x in re.findall(r'\[.*?showinfo[^\]]*\].*?pts_time:([\d.]+).*?\bs:\d+x\d+',text)]
-    audio_pts=[float(x) for x in re.findall(r'\[.*?ashowinfo[^\]]*\].*?pts_time:([\d.]+).*?nb_samples:',text)]
+    video_pts,audio_pts=decoded_timestamps(text)
     def continuous(pts):
         return len(pts)>10 and pts[-1]-pts[0]>=19 and all(0<b-a<=1 for a,b in zip(pts,pts[1:]))
     silence='silence_start:' in text
     freeze='freeze_start:' in text
     return {'startup_seconds':round(first_frame[0],3) if first_frame else None,
-            'timestamp_origin_normalized':True,
+            'timestamp_origin_normalized':True,'timestamp_parser_version':2,
             'audio_decoded':bool(audio_pts),'decoded_video_seconds':round(video_pts[-1]-video_pts[0],3) if video_pts else 0,
             'decoded_audio_seconds':round(audio_pts[-1]-audio_pts[0],3) if audio_pts else 0,
             'video_continuous':continuous(video_pts),'audio_continuous':continuous(audio_pts),

@@ -1,16 +1,16 @@
 {
-  "at": "2026-11-27T08:42:41.959839+00:00",
-  "checks_this_run": 7,
+  "at": "2026-11-27T09:10:09.700717+00:00",
+  "checks_this_run": 12,
   "candidate_streams": 28,
   "unique_candidates": 20,
   "streams_with_v3_check": 28,
   "results": {
-    "fail": 179,
-    "quality_fail": 41,
-    "ok": 95,
+    "fail": 192,
+    "quality_fail": 46,
+    "ok": 117,
     "unknown": 2
   },
-  "last_channel": "Russia24.ru",
+  "last_channel": "Ohotnikirybolov.ru",
   "last_result": "ok",
-  "elapsed_seconds": 117
+  "elapsed_seconds": 175
 }
