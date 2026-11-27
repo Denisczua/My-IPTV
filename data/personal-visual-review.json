@@ -71,6 +71,42 @@
       "local_frame": ".tools/visual-oled/BigAsia-20261127.jpg",
       "oled_approved": false,
       "finding": "Actual studio interview visible, not test bars. Static white broadcaster watermark in upper left corner; not approved for OLED."
+    },
+    {
+      "channel": "EpicMedia.ru",
+      "at": "2026-11-27T19:39:38.955146+00:00",
+      "method": "visual inspection of decoded live frame",
+      "frame_sha256": "32007c60881bfd7be6efc979abd7b89d244911d75a78ea2398044af74de0d619",
+      "local_frame": ".tools/visual-oled/EpicMedia.ru-20261127.jpg",
+      "oled_approved": false,
+      "finding": "Faint EPIC MEDIA watermark visible at bottom right. Absence of static graphics not established; not approved for OLED."
+    },
+    {
+      "channel": "StarMediaDetectives.ru",
+      "at": "2026-11-27T19:39:38.955839+00:00",
+      "method": "visual inspection of decoded live frame",
+      "frame_sha256": "21de01a9c9de0539e6c30b8b74a5ce0636ed0c99f600f493cf8c6d6e063da29e",
+      "local_frame": ".tools/visual-oled/StarMediaDetectives.ru-20261127.jpg",
+      "oled_approved": false,
+      "finding": "Programme title Система visible at upper right. Absence of static graphics not established; not approved for OLED."
+    },
+    {
+      "channel": "Kinozhelezo.ru",
+      "at": "2026-11-27T19:39:38.956306+00:00",
+      "method": "visual inspection of decoded live frame",
+      "frame_sha256": "bfe875ba70313cbfe554bdd722dfcc503b6c525b64d80eb60444ad0d2d15fb05",
+      "local_frame": ".tools/visual-oled/Kinozhelezo.ru-20261127.jpg",
+      "oled_approved": false,
+      "finding": "Programme title Преступление в фокусе visible at upper right. Absence of static graphics not established; not approved for OLED."
+    },
+    {
+      "channel": "Kinolaffka.ru",
+      "at": "2026-11-27T19:39:38.956772+00:00",
+      "method": "visual inspection of decoded live frame",
+      "frame_sha256": "d801c5f0395a12886b7d5fd096a84ddc82b87ad0b7fdbfa9236134284eb1b3ad",
+      "local_frame": ".tools/visual-oled/Kinolaffka.ru-20261127.jpg",
+      "oled_approved": false,
+      "finding": "Programme title Жребий судьбы visible at upper right. Absence of static graphics not established; not approved for OLED."
     }
   ]
 }

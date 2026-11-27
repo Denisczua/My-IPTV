@@ -1,12 +1,28 @@
 {
-  "at": "2026-11-27T19:28:30.903368+00:00",
+  "at": "2026-11-27T20:36:52.758425+00:00",
   "input_channel_records": 378970,
-  "unique_candidate_transports": 4550,
-  "candidate_identities": 3732,
-  "admitted_channel_count": 20,
-  "classification_and_measurement_are_distinct": true,
+  "parsed_channel_records": 378962,
+  "invalid_or_unsupported_source_records": 8,
+  "local_playlist_files_read": 48,
+  "additional_unique_git_blobs_read": 51,
+  "distinct_documents": 93,
+  "channel_playlist_snapshots": 86,
+  "hls_manifests": 6,
+  "empty_historical_documents": 1,
+  "unique_transports_all": 52142,
+  "unique_candidate_transports": 6016,
+  "candidate_identities": 4489,
+  "nonlinear_or_radio_held": 2684,
+  "credential_like_sources_held": 9,
+  "linear_candidate_transports": 3323,
+  "linear_unique_addresses": 3311,
+  "linear_candidate_identities": 1806,
+  "linear_candidates_with_diagnostic_or_reused_history": 3323,
+  "base_first_screen_complete": true,
+  "network_screens_new": 5771,
+  "ffprobe_track_screens_new": 1836,
   "stages": {
-    "network": {
+    "network_original": {
       "count": 4307,
       "results": {
         "http_error": 2818,
@@ -15,58 +31,179 @@
         "unrecognised_content": 200,
         "html_not_media": 7,
         "possible_media_needs_decode": 51
-      }
+      },
+      "http_429_unknown": 2486,
+      "journal": "existing-base-preflight-2026-11-27.jsonl"
     },
-    "tracks": {
-      "count": 549,
+    "tracks_original": {
+      "count": 772,
       "results": {
-        "below_hd": 186,
-        "needs_decoded_audio_video": 263,
-        "probe_inconclusive_or_failed": 54,
-        "single_track_language_not_required": 46
-      }
+        "below_hd": 345,
+        "needs_decoded_audio_video": 309,
+        "probe_inconclusive_or_failed": 55,
+        "single_track_language_not_required": 63
+      },
+      "http_429_unknown": 0,
+      "journal": "existing-base-track-screen-2026-11-27.jsonl"
     },
-    "language": {
-      "count": 122,
+    "speech_original": {
+      "count": 309,
       "results": {
-        "other_spoken_language": 43,
+        "other_spoken_language": 117,
         "required_speech_confirmed_needs_full_playback": 1,
-        "speech_language_unconfirmed": 69,
-        "audio_sample_inconclusive_or_failed": 9
-      }
+        "speech_language_unconfirmed": 169,
+        "audio_sample_inconclusive_or_failed": 22
+      },
+      "http_429_unknown": 0,
+      "journal": "existing-base-language-screen-2026-11-27.jsonl"
+    },
+    "network_expanded": {
+      "count": 1464,
+      "results": {
+        "http_error": 238,
+        "hls_manifest": 1046,
+        "unreachable_or_unsupported": 143,
+        "unrecognised_content": 12,
+        "html_not_media": 7,
+        "possible_media_needs_decode": 18
+      },
+      "http_429_unknown": 3,
+      "journal": "existing-base-expanded-preflight-2026-11-27.jsonl"
+    },
+    "tracks_speech_expanded": {
+      "count": 1064,
+      "results": {
+        "below_hd": 392,
+        "single_track_language_not_required": 89,
+        "required_speech_confirmed_needs_full_playback": 9,
+        "speech_language_unconfirmed": 223,
+        "probe_or_audio_inconclusive_or_failed": 87,
+        "other_spoken_language": 264
+      },
+      "http_429_unknown": 0,
+      "journal": "existing-base-expanded-media-screen-2026-11-27.jsonl"
     }
   },
-  "active_local_jobs": [
-    "remaining original track/language screening",
-    "expanded fiction/documentary base network and media screening"
+  "linear_candidate_diagnostic_outcomes": {
+    "http_error": 566,
+    "THEME_HOLD_theme_or_linear_channel_unconfirmed": 63,
+    "unreachable_or_unsupported": 503,
+    "REUSED_FULL_MEDIA_HISTORY": 286,
+    "below_hd": 737,
+    "single_track_language_not_required": 152,
+    "probe_inconclusive_or_failed": 53,
+    "speech_language_unconfirmed": 392,
+    "audio_sample_inconclusive_or_failed": 22,
+    "other_spoken_language": 381,
+    "THEME_HOLD_outside_requested_themes": 28,
+    "UNKNOWN_RATE_LIMITED": 9,
+    "unrecognised_content": 19,
+    "required_speech_confirmed_needs_full_playback": 10,
+    "html_not_media": 12,
+    "full_sample_fail": 2,
+    "probe_or_audio_inconclusive_or_failed": 87,
+    "full_sample_ok": 1
+  },
+  "admitted_channel_count": 20,
+  "published_groups": {
+    "Зарубежное кино и сериалы на русском языке": 2,
+    "Российское кино и сериалы": 9,
+    "Рыбалка": 1,
+    "Путешествия и природа": 2,
+    "Новости Украины": 2,
+    "Новости России": 4
+  },
+  "oled_admitted": 0,
+  "newly_published_from_this_base_pass": [
+    "Большая Азия HD"
   ],
+  "new_world_cinema_admissions": 0,
+  "classification_and_measurement_are_distinct": true,
+  "full_decode_counts_are_not_equal_to_admissions": true,
+  "same_direct_cz_egress_confirmed_before_and_after": true,
+  "active_local_jobs": [],
   "source_playlist_unchanged": true,
-  "remaining_not_published": true,
-  "continuation": {
-    "candidate_ledger": "data/existing-base-inventory.json",
-    "local_progress_directory": "MyIPTV-CZ-runner/progress",
-    "ffprobe_journal": "existing-base-track-screen-2026-11-27.jsonl",
-    "language_journal": "existing-base-language-screen-2026-11-27.jsonl",
-    "full_media_journal": "observations.jsonl",
-    "required_next_step": "Complete remaining track/speech screens; only then full three-pass CZ decode for qualified sources with rights proof.",
-    "candidate_ledger_storage": "Local working file and local-only Git stash; full internal archive not uploaded after automatic disclosure-risk rejection"
-  },
-  "public_data_scope": "Counts and stage results only; no stream URLs, guest sessions, raw logs, IP addresses or expanded internal archive",
-  "full_decoded_checks_since_inventory_started": {
-    "observations": 61,
-    "results": {
-      "fail": 20,
-      "ok": 37,
-      "quality_fail": 4
+  "raw_playlist_sha256": "a5e3a9e436f39b1c7918451f9ef85078251ee3c393a1cd5918d52f30befc74c2",
+  "counts_note": "Records span distinct archive versions and repeat channels; candidate counts describe URL/header transports, not unique admitted TV channels. Stage outcomes overlap and must not be added as channel exclusions. HTTP429 remains UNKNOWN_RATE_LIMITED, never OFFLINE. First screening is complete; unresolved language/rights/stability remain unpublished.",
+  "unmet_targets": [
+    "Western/world dubbed cinema is not the majority: the two admitted international/mixed channels are not a Hollywood-focused group.",
+    "Fishing 1 of requested 3–5",
+    "Travel/nature 2 of requested 3–5",
+    "Ukrainian news 2 of requested 3–4",
+    "OLED0: sampled cinema frames contain logos/watermarks/programme graphics."
+  ],
+  "priority_findings": [
+    {
+      "channel": "Киносемья",
+      "result": "Retained third-party FHD source passed three CZ media samples and Russian speech; free legal external-player permission unconfirmed. Not admitted."
     },
-    "note": "An ok media sample is not three-pass stability, language/rights approval or a newly admitted channel."
+    {
+      "channel": "Кинопремьера",
+      "result": "FHD sample followed by timestamp/continuity failure; rights unconfirmed. Not admitted."
+    },
+    {
+      "channel": ".red",
+      "result": "FHD metadata and Russian audio tag; sampled Russian speech confidence insufficient; rights unknown. Not admitted."
+    },
+    {
+      "channel": "Кинокомедия",
+      "result": "Comedy genre correctly recognized as cinema; responding retained stream is SD; no publication."
+    },
+    {
+      "channel": "Первый / Перший",
+      "result": "Retained source decoded Ukrainian video/audio once, 720x576; no HD/stability/free external rights approval."
+    }
+  ],
+  "continuation": {
+    "candidate_ledger": "data/existing-base-inventory.json (local private Git checkpoint)",
+    "local_progress_directory": "MyIPTV-CZ-runner/progress",
+    "phase_journals": [
+      "existing-base-preflight-2026-11-27.jsonl",
+      "existing-base-track-screen-2026-11-27.jsonl",
+      "existing-base-language-screen-2026-11-27.jsonl",
+      "existing-base-expanded-preflight-2026-11-27.jsonl",
+      "existing-base-expanded-media-screen-2026-11-27.jsonl"
+    ],
+    "next": "Revisit UNKNOWN speech only where rights and requested theme can be established; no need to repeat completed failures or re-inventory.",
+    "raw_internal_archive_storage": "Local-only Git checkpoint, not uploaded after automatic disclosure-risk rejection"
   },
-  "newly_admitted_this_round": 1,
-  "broad_candidate_transports": 6014,
-  "linear_tv_candidate_transports": 3330,
-  "linear_candidate_identities": 1806,
-  "nonlinear_or_radio_held": 2684,
-  "rate_limited_responses_are_unknown": true,
-  "publication_note": "BigAsia HD added only after three spaced CZ video/audio decodes and measured Russian speech; logo present, not OLED. All original 19 user channels retained.",
-  "scope_note": "HTTP429 is rate-limited UNKNOWN, never OFFLINE. Standalone Wikimedia video files and radio are held as non-TV. No full internal archive, raw logs or private sessions are disclosed."
+  "public_data_scope": "Sanitized counts and findings only; no internal stream URLs, credentials, public-session tokens, IP addresses or raw probe logs.",
+  "live_verification": {
+    "at": "2026-11-27T20:37:56.762932+00:00",
+    "url": "https://denisczua.github.io/My-IPTV/playlist-ottplayer.m3u",
+    "http_status": 200,
+    "channels": 20,
+    "bytes": 5805,
+    "sha256": "11aa485b77a03a28b89e2a50baf233fae53b101da1e3b689f1cf85575a009e8a",
+    "groups": {
+      "Зарубежное кино и сериалы на русском языке": 2,
+      "Российское кино и сериалы": 9,
+      "Рыбалка": 1,
+      "Путешествия и природа": 2,
+      "Новости Украины": 2,
+      "Новости России": 4
+    },
+    "names": [
+      "Silk Way Cinema HD",
+      "Кино и Жизнь Full HD",
+      "EPIC MEDIA HD",
+      "EPIC MEDIA Love HD",
+      "Детективы каждый день HD",
+      "Киножелезо Full HD",
+      "Кинолаффка HD",
+      "Смотрим 100% Горького Full HD",
+      "Смотрим 100% Классика Full HD",
+      "Смотрим 100% Любовь Full HD",
+      "Смотрим 100% Мужское Full HD",
+      "Охотник и рыболов Full HD",
+      "Большая Азия HD",
+      "Смотрим 100% Факты Full HD",
+      "24 Канал HD",
+      "FREEДОМ Full HD",
+      "CGTN Русский Full HD",
+      "Известия Full HD",
+      "Настоящее Время Full HD",
+      "Россия 24 Full HD"
+    ]
+  }
 }
