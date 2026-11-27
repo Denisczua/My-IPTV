@@ -109,11 +109,21 @@ def status(variant, clock=None):
         if not spaced or datetime.fromisoformat(h['at']).timestamp()-datetime.fromisoformat(spaced[-1]['at']).timestamp() >= MIN_INTERVAL:
             spaced.append(h)
     outcomes = [h['result'] for h in spaced if h['result']!='unknown']
-    if outcomes[-3:]==['ok']*3: return 'STABLE_CZ'
     if outcomes[-3:]==['fail']*3: return 'OFFLINE'
     if outcomes[-2:]==['geo']*2: return 'GEO_BLOCKED_CZ'
-    if variant.get('was_stable') and outcomes and outcomes[-1] in ('fail','geo','quality_fail') and outcomes[-4:-1]==['ok']*3:
-        return 'STABLE_CZ'
+    stable=False;successes=failures=0
+    for outcome in outcomes:
+        if outcome=='ok':
+            successes+=1
+            if successes>=3:stable=True;failures=0
+        else:
+            failures+=1;successes=0
+            if failures>=2:stable=False
+    # A success following one isolated failure must not remove an established
+    # channel. Two failures before a new three-pass proof revoke admission,
+    # including intermittent failures separated by one or two successes.
+    # Reconstruct proof from history rather than trusting a cached status flag.
+    if stable:return 'STABLE_CZ'
     if 'quality_fail' in outcomes:return 'UNSTABLE_CZ'
     if 'ok' in outcomes and any(s in ('fail','geo') for s in outcomes): return 'UNSTABLE_CZ'
     return 'UNKNOWN_CZ'

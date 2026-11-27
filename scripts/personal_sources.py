@@ -20,6 +20,10 @@ RUTUBE_PROFILES={
     '3c47861a8b4b51639e41be092053b966':('Izvestia.ru',23872322),
 }
 
+# Discovery only. These public distributor leases are not CZ playback proof
+# and must not enter the user playlist merely because the API returns a URL.
+VINTERA_PROSPECTS=(30,46,851,852,3316,3317,836,9,306,3299,3321)
+
 
 def public_live_url(metadata,player,publisher):
     countries=metadata.get('restrictions',{}).get('country',{})
@@ -89,6 +93,18 @@ def refresh():
             row['ok']=True
         except Exception as error:row.update(ok=False,error=type(error).__name__)
         audit.append(row)
+    import os
+    prospects={'at':now(),'issuer':'github_hosted' if os.environ.get('GITHUB_ACTIONS')=='true' else 'local',
+               'region_proof':'UNKNOWN_CZ; metadata retrieval is not playback verification','channels':[],'errors':[]}
+    for ident in VINTERA_PROSPECTS:
+        api=f'https://cms.vinteratv.com/api/channels/{ident}'
+        try:
+            with opener.open(api,timeout=8) as f:channel=json.load(f)['data']
+            prospects['channels'].append({'provider_id':ident,'name':channel['name'],'url':channel['stream_url'],
+                                         'evidence':api,'page':f'https://vinteratv.com/tv/{ident}',
+                                         'publication_hold':'Short-lived distributor lease; needs CZ decoding, language and sustainable renewal proof'})
+        except Exception as error:prospects['errors'].append({'provider_id':ident,'error':type(error).__name__})
+    if prospects['channels']:save_json(DATA/'personal-vintera-prospects.json',prospects)
     save_json(path,records);save_json(DATA/'personal-source-report.json',{'at':now(),'sources':audit})
     return audit
 

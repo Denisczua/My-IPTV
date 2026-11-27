@@ -114,6 +114,7 @@ if __name__=='__main__':
     from check_main_movies import check
     data=json.loads(Path(sys.argv[1]).read_text(encoding='utf-8'))
     result=check(data['channel'],data['variant'],data['ffmpeg'],data['ffprobe'])
+    playback_url=result.pop('_playback_url',None)
     # Only paid/public licensing decisions remain outside this technical worker.
     # When tags are missing, measure speech instead of guessing from the title.
     if result.get('audio_decoded'):
@@ -122,6 +123,7 @@ if __name__=='__main__':
             from check_ru_ua import connection
             from check_main_movies import ENV,PROTOCOLS
             url,headers=connection(data['variant']['block']);audio=result['media']['selected_audio_index']
+            url=playback_url or url
             wav=Path(sys.argv[2]).with_suffix('.wav')
             try:
                 command=[data['ffmpeg'],'-nostdin','-v','error','-protocol_whitelist',PROTOCOLS,'-rw_timeout','8000000',

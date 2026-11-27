@@ -138,7 +138,8 @@
         "#EXTVLCOPT:http-user-agent=Mozilla/5.0",
         "#EXTVLCOPT:http-referrer=https://embed-player.dyvy.tv/",
         "#EXTVLCOPT:http-origin=https://embed-player.dyvy.tv"
-      ]
+      ],
+      "publication_hold": "IP-bound short-lived guest/distributor session: do not publish until sustainable renewal and OTTPlayer header compatibility are confirmed; all original URLs retained for diagnosis"
     }
   ],
   "RadaTV.ua": [

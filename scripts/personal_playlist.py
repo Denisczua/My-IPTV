@@ -56,7 +56,9 @@ def confirmed(ident,channel,variant,group,policy,discoveries):
     # is insufficient until a dedicated rendition is checked.
     if media.get('selected_audio_index')!=media.get('default_audio_index'):
         return False,'required_audio_not_default'
-    official=any(r.get('url')==variant['block'][-1] and r.get('evidence') and r.get('reviewed_at') for r in discoveries.get(ident,[]))
+    reviews=[r for r in discoveries.get(ident,[]) if r.get('url')==variant['block'][-1]]
+    if any(r.get('publication_hold') for r in reviews):return False,'source_session_not_sustainable'
+    official=any(r.get('evidence') and r.get('reviewed_at') for r in reviews)
     if not variant.get('rights_evidence') and not official:return False,'rights_unconfirmed'
     if channel.get('adult_specialization'):return False,'out_of_scope'
     return True,''

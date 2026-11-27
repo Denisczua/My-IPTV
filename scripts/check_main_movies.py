@@ -106,6 +106,14 @@ def decoded_timestamps(text):
     return [float(x) for x in re.findall(video,text)],[float(x) for x in re.findall(audio,text)]
 
 
+def playback_target(body,original,selected):
+    # Probe the rendition whose segments were actually checked. A master can
+    # expose every CDN/quality as separate AVStreams, including unavailable
+    # alternatives. Keep the master when audio is supplied by a separate group.
+    external_audio=re.search(rb'^#EXT-X-MEDIA:.*\bTYPE="?AUDIO\b',body,re.M)
+    return original if external_audio else selected
+
+
 def decode(url,headers,video,audio,ffmpeg):
     command=[ffmpeg,'-nostdin','-hide_banner','-nostats','-v','info','-xerror','-err_detect','explode',
              '-threads','2','-filter_threads','1',
@@ -157,8 +165,11 @@ def check(channel,variant,ffmpeg,ffprobe):
         body,resolved,_=public_fetch(url,headers,limit=262144,deadline=started+90)
         if body.lstrip(b'\xef\xbb\xbf').startswith(b'#EXTM3U'):
             sample=transport.hls_sample(body,resolved,headers,started+90,fetcher=public_fetch)
-            sample.pop('playback_url',None)
+            selected=sample.pop('playback_url')
+            url=playback_target(body,url,selected)
+            h['playback_selection']='master_with_external_audio' if url!=selected else 'sampled_hls_rendition'
             h.update(sample)
+        h['_playback_url']=url # Private worker handoff; removed before journal output.
         video,audio,russian,media=inspect_stream(url,headers,ffprobe)
         if not russian:
             for review in variant.get('audio_reviews',[]):

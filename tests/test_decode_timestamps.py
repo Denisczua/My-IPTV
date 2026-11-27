@@ -4,10 +4,16 @@ import sys
 import unittest
 
 sys.path.insert(0,str(Path(__file__).resolve().parents[1]/'scripts'))
-from check_main_movies import decoded_timestamps
+from check_main_movies import decoded_timestamps,playback_target
 
 
 class TimestampTests(unittest.TestCase):
+    def test_muxed_hls_uses_the_sampled_rendition(self):
+        self.assertEqual(playback_target(b'#EXTM3U\n#EXT-X-STREAM-INF:BANDWIDTH=1\nmedia.m3u8','master','media'),'media')
+
+    def test_external_audio_keeps_master_and_audio_group(self):
+        self.assertEqual(playback_target(b'#EXTM3U\n#EXT-X-MEDIA:GROUP-ID="a",TYPE=AUDIO,URI="audio.m3u8"','master','video'),'master')
+
     def test_audio_prefix_cannot_supply_video_timestamp(self):
         log='''[Parsed_showinfo_1 @ v] n: 196 pts: 705600 pts_time:7.84 duration:3600 duration_time:0.04 fmt:yuv420p cl:left sar:1/1 s:640x360 i:P
 [Parsed_ashowinfo_1 @ a] n:376 pts:385024 pts_time:8.021333 fmt:fltp channels:2 chlayout:stereo rate:48000 nb_samples:1024 checksum:9393E628 plane_checksums: [ BD5CD51E 2E5A110A n: 197 pts: 709200 pts_time:7.88 duration:3600 duration_time:0.04 fmt:yuv420p cl:left sar:1/1 s:640x360 i:P

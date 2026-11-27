@@ -1,0 +1,58 @@
+{
+  "reviews": [
+    {
+      "channel": "EpicMediaLove.ru",
+      "at": "2026-11-27T09:15:41.894123+00:00",
+      "method": "visual inspection of decoded live frame",
+      "frame_sha256": "3af800e99fdbc0417a970e33e063e30e8b15fbc36a0b36bb8296bc94a66ee54f",
+      "local_frame": ".tools\\visual-oled\\EpicMediaLove.ru.jpg",
+      "oled_approved": false,
+      "finding": "Visible broadcaster logo or EPIC MEDIA watermark in sampled frame; absence of permanent graphics not established. A single frame is not a full-programme survey."
+    },
+    {
+      "channel": "SilkWayCinema.kz",
+      "at": "2026-11-27T09:15:41.894402+00:00",
+      "method": "visual inspection of decoded live frame",
+      "frame_sha256": "139164054d29cfcbf9c0ac390f00fa561f13fcc14f9ebf3d00f43e1133b3b437",
+      "local_frame": ".tools\\visual-oled\\SilkWayCinema.kz@SD.jpg",
+      "oled_approved": false,
+      "finding": "Visible broadcaster logo or EPIC MEDIA watermark in sampled frame; absence of permanent graphics not established. A single frame is not a full-programme survey."
+    },
+    {
+      "channel": "Smotrim100Gorkogo.ru",
+      "at": "2026-11-27T09:15:41.894669+00:00",
+      "method": "visual inspection of decoded live frame",
+      "frame_sha256": "1b63df417aa7c4312d76b9530e2f0e34707dc064db46400908fa6ce17e4b681b",
+      "local_frame": ".tools\\visual-oled\\Smotrim100Gorkogo.ru.jpg",
+      "oled_approved": false,
+      "finding": "Visible broadcaster logo or EPIC MEDIA watermark in sampled frame; absence of permanent graphics not established. A single frame is not a full-programme survey."
+    },
+    {
+      "channel": "Smotrim100Klassika.ru",
+      "at": "2026-11-27T09:15:41.894891+00:00",
+      "method": "visual inspection of decoded live frame",
+      "frame_sha256": "18393e3f6ab6b7f3b3b4f7c0e04c91e7b9df26fc678bdc448f9d243943bba5f7",
+      "local_frame": ".tools\\visual-oled\\Smotrim100Klassika.ru.jpg",
+      "oled_approved": false,
+      "finding": "Visible broadcaster logo or EPIC MEDIA watermark in sampled frame; absence of permanent graphics not established. A single frame is not a full-programme survey."
+    },
+    {
+      "channel": "Smotrim100Lyubov.ru",
+      "at": "2026-11-27T09:15:41.895129+00:00",
+      "method": "visual inspection of decoded live frame",
+      "frame_sha256": "749c76b4478046dab9d1d241f25918034d67a0cdf209948c5bc18f24a10266b8",
+      "local_frame": ".tools\\visual-oled\\Smotrim100Lyubov.ru.jpg",
+      "oled_approved": false,
+      "finding": "Visible broadcaster logo or EPIC MEDIA watermark in sampled frame; absence of permanent graphics not established. A single frame is not a full-programme survey."
+    },
+    {
+      "channel": "Smotrim100Muzhskoe.ru",
+      "at": "2026-11-27T09:15:41.895350+00:00",
+      "method": "visual inspection of decoded live frame",
+      "frame_sha256": "b525cddf644329459797228e9275797b6bb190ac72ffdee0c92e9646449c3baa",
+      "local_frame": ".tools\\visual-oled\\Smotrim100Muzhskoe.ru.jpg",
+      "oled_approved": false,
+      "finding": "Visible broadcaster logo or EPIC MEDIA watermark in sampled frame; absence of permanent graphics not established. A single frame is not a full-programme survey."
+    }
+  ]
+}

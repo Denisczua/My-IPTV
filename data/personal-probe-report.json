@@ -1,16 +1,16 @@
 {
-  "at": "2026-11-27T09:11:07.942750+00:00",
-  "checks_this_run": 14,
-  "candidate_streams": 28,
-  "unique_candidates": 20,
-  "streams_with_v3_check": 28,
+  "at": "2026-11-27T09:27:31.569737+00:00",
+  "checks_this_run": 15,
+  "candidate_streams": 8,
+  "unique_candidates": 5,
+  "streams_with_v3_check": 8,
   "results": {
-    "fail": 192,
+    "fail": 194,
     "quality_fail": 47,
-    "ok": 118,
+    "ok": 131,
     "unknown": 2
   },
-  "last_channel": "EpicMedia.ru",
+  "last_channel": "Smotrim100Klassika.ru",
   "last_result": "ok",
-  "elapsed_seconds": 233
+  "elapsed_seconds": 822
 }
