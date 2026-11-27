@@ -47,7 +47,8 @@
         "NovynyLive.ua",
         "FREEDOM.ua",
         "Kyiv.ua",
-        "ApostropheTV.ua"
+        "ApostropheTV.ua",
+        "RadaTV.ua"
       ]
     },
     "Новости России": {
@@ -57,7 +58,8 @@
         "Izvestia.ru",
         "360News.ru",
         "Mir24.ru",
-        "CurrentTimeTV.cz"
+        "CurrentTimeTV.cz",
+        "CGTNRussian.cn"
       ]
     }
   },
@@ -92,7 +94,14 @@
     "CurrentTimeTV.cz": "Настоящее Время",
     "Smotrim100Gorkogo.ru": "Смотрим 100% Горького",
     "Smotrim100Lyubov.ru": "Смотрим 100% Любовь",
-    "Smotrim100Muzhskoe.ru": "Смотрим 100% Мужское"
+    "Smotrim100Muzhskoe.ru": "Смотрим 100% Мужское",
+    "CGTNRussian.cn": "CGTN Русский",
+    "RadaTV.ua": "Рада",
+    "Kinolaffka.ru": "Кинолаффка",
+    "Kinozhelezo.ru": "Киножелезо",
+    "EpicMedia.ru": "EPIC MEDIA",
+    "EpicMediaLove.ru": "EPIC MEDIA Love",
+    "StarMediaDetectives.ru": "Детективы каждый день"
   },
   "rights": {},
   "name_evidence": "Editorial display names; branded official Latin names stay Latin rather than invented translations."

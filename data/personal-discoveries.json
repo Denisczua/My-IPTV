@@ -45,6 +45,13 @@
       "language": "rus",
       "reviewed_at": "2026-11-26T18:00:20.918165+00:00",
       "method": "Anonymous official player API, exact title and isEnabledToEmbed=true"
+    },
+    {
+      "url": "https://stream.smotrim.ru/hls3/fasttv03/playlist_2.m3u8",
+      "evidence": "https://player-api.smotrim.ru/api/v1/channel/396",
+      "language": "rus",
+      "reviewed_at": "2026-11-27",
+      "method": "Exact video/audio rendition URI published in official master HLS; independently test lower bitrate reserve after intermittent errors at maximum resolution"
     }
   ],
   "Smotrim100Gorkogo.ru": [
@@ -75,6 +82,143 @@
       "language": "rus",
       "reviewed_at": "2026-11-26",
       "method": "Official page states free without registration, official player API allows embedding"
+    }
+  ],
+  "24Kanal.ua": [
+    {
+      "url": "https://streamvideo.luxnet.ua/news24/livenews.m3u8",
+      "evidence": "https://news24-live.pages.dev",
+      "page": "https://24tv.ua/online/24-kanal",
+      "language": "ukr",
+      "reviewed_at": "2026-11-27T08:25:39.187314+00:00",
+      "method": "Exact SRC in public player referenced by official broadcaster streamUrl"
+    },
+    {
+      "url": "https://streamvideo.luxnet.ua/news24/livenews_720p/index.m3u8",
+      "evidence": "https://24tv.ua/online/24-kanal",
+      "language": "ukr",
+      "reviewed_at": "2026-11-27",
+      "method": "Exact video/audio rendition URI published in official master HLS; independently test lower bitrate reserve after intermittent errors at maximum resolution"
+    },
+    {
+      "url": "https://streamvideo.luxnet.ua/news24/livenews_360p/index.m3u8",
+      "evidence": "https://24tv.ua/online/24-kanal",
+      "language": "ukr",
+      "reviewed_at": "2026-11-27",
+      "method": "Exact video/audio rendition URI published in official master HLS; independently test lower bitrate reserve after intermittent errors at maximum resolution"
+    }
+  ],
+  "CGTNRussian.cn": [
+    {
+      "url": "https://russian-liveali.cgtn.com/hls/LSvexABhNipibK5KRuUkvHZ7220802LSTeze9o8tdFXMHsb1VosgoT220802cd/playlist.m3u8",
+      "evidence": "https://russian.cgtn.com/_nuxt/tIUdy5vY.js",
+      "page": "https://russian.cgtn.com/channel",
+      "language": "rus",
+      "reviewed_at": "2026-11-27T08:25:39.187314+00:00",
+      "method": "Exact anonymous linear TV URL in broadcaster cards895 player; no request claiming a different region"
+    },
+    {
+      "url": "https://russian-livews.cgtn.com/hls/LSvexABhNipibK5KRuUkvHZ7220802LSTeze9o8tdFXMHsb1VosgoT220802cd/playlist.m3u8",
+      "evidence": "https://russian.cgtn.com/_nuxt/tIUdy5vY.js",
+      "page": "https://russian.cgtn.com/channel",
+      "language": "rus",
+      "reviewed_at": "2026-11-27T08:25:39.187314+00:00",
+      "method": "Exact anonymous linear TV URL in broadcaster cards895 player; no request claiming a different region"
+    }
+  ],
+  "EspresoTV.ua": [
+    {
+      "url": "https://776067.live.tvstitch.com/stream.m3u8?app_name=DyvyTV&m=aHR0cHM6Ly9jZG4uZHl2eWFwcC5jb20vZXNwcmVzb3R2L3ZpZGVvLm0zdTg%2FdG9rZW49ZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SmphR0Z1Ym1Wc1gybGtJam96TlN3aVkyaGhibTVsYkY5dVlXMWxJam9pWEhVd05ERTFYSFV3TkRReFhIVXdORE5tWEhVd05EUXdYSFV3TkRNMVhIVXdORFF4WEhVd05ETmxJaXdpYVhBaU9pSXlZVEF3T2pFd01qZzZPRE00TURveVltSTJPak0wWWpjNll6WmxaRG94WW1ZMU9qVTRPRGdpTENKamIzVnVkSEo1SWpvaVEzcGxZMmhwWVNJc0luVnpaWEpmYVdRaU9tNTFiR3dzSW5WelpYSmZjR2h2Ym1VaU9tNTFiR3dzSW5WelpYSmZjbTlzWlhNaU9sdGRMQ0p3Y205bWFXeGxYMmxrSWpwdWRXeHNMQ0p6WlhOemFXOXVYMmxrSWpvaUlpd2laVzUyYVhKdmJtMWxiblFpT2lKd2NtOWtkV04wYVc5dUlpd2ljR3hoZEdadmNtMGlPaUpFWlhOcmRHOXdJaXdpZFhObGNsOWhaMlZ1ZENJNklrMXZlbWxzYkdGY0x6VXVNQ0lzSW1WNGNDSTZNVGM1TlRrME1EWXdOSDAuN0s4NG5KWFJQZmh3bVZ0R0VKT1Fwdlo2ZmFlREtXSmh3aVNDVmhBNU5YOA%3D%3D&channel=35&u=&21yo=0&gdpr=%7Bgdpr%7D&gdpr_consent=%7Bgdpr_consent%7D&givn=%7Bgivn%7D",
+      "evidence": "https://dyvy.tv/api/v1/channels/espresotv?expand=epg_items,category",
+      "page": "https://dyvy.tv",
+      "language": "ukr",
+      "reviewed_at": "2026-11-27T08:25:39.187314+00:00",
+      "method": "Anonymous official distributor player API; live, is_paid=false, package_block=null; full advertised URL retained, including advertising wrapper; requires the ordinary public embed player Referer/Origin headers, verified HTTP 200 with these headers on 2026-11-27; bare URL returns 401",
+      "options": [
+        "#EXTVLCOPT:http-user-agent=Mozilla/5.0",
+        "#EXTVLCOPT:http-referrer=https://embed-player.dyvy.tv/",
+        "#EXTVLCOPT:http-origin=https://embed-player.dyvy.tv"
+      ]
+    }
+  ],
+  "RadaTV.ua": [
+    {
+      "url": "https://cdn.dyvyapp.com/Rada/video.m3u8?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjaGFubmVsX2lkIjoxMTcsImNoYW5uZWxfbmFtZSI6Ilx1MDQyMFx1MDQzMFx1MDQzNFx1MDQzMCIsImlwIjoiMmEwMDoxMDI4OjgzODA6MmJiNjozNGI3OmM2ZWQ6MWJmNTo1ODg4IiwiY291bnRyeSI6IkN6ZWNoaWEiLCJ1c2VyX2lkIjpudWxsLCJ1c2VyX3Bob25lIjpudWxsLCJ1c2VyX3JvbGVzIjpbXSwicHJvZmlsZV9pZCI6bnVsbCwic2Vzc2lvbl9pZCI6IiIsImVudmlyb25tZW50IjoicHJvZHVjdGlvbiIsInBsYXRmb3JtIjoiRGVza3RvcCIsInVzZXJfYWdlbnQiOiJNb3ppbGxhXC81LjAiLCJleHAiOjE3OTU5NDA2MDR9.M3ZCOkRVZgI8qWH10AIjEo0sF1mwz4N0jI0HFdZ4Egs",
+      "evidence": "https://dyvy.tv/api/v1/channels/rada?expand=epg_items,category",
+      "page": "https://dyvy.tv",
+      "language": "ukr",
+      "reviewed_at": "2026-11-27T08:25:39.187314+00:00",
+      "method": "Anonymous official distributor player API; live, is_paid=false, package_block=null; full advertised URL retained, including advertising wrapper"
+    }
+  ],
+  "Ohotnikirybolov.ru": [
+    {
+      "url": "https://bl.rutube.ru/livestream/1da5d92af8c55b16241f1eb12a27f00c/index.m3u8?s=JAOChjKl-IguqpmfBfpkTQ&e=2095768198&scheme=https",
+      "evidence": "https://rutube.ru/api/play/options/1da5d92af8c55b16241f1eb12a27f00c/?format=json",
+      "page": "https://oirtv.ru/",
+      "language": "rus",
+      "reviewed_at": "2026-11-27",
+      "method": "Broadcaster site links exact Rutube publisher 23802552; public live video is_official=true, is_paid=false, is_on_air=true and CZ permitted; full HLS URL preserved"
+    }
+  ],
+  "Kinolaffka.ru": [
+    {
+      "url": "https://bl.rutube.ru/livestream/3b7d1499da9396462bfd17282d758d30/index.m3u8?s=pmFQ6p8t0JAZBsG4fzBrng&e=2095768352&scheme=https",
+      "evidence": "https://rutube.ru/api/play/options/3b7d1499da9396462bfd17282d758d30/?format=json",
+      "page": "https://rutube.ru/video/3b7d1499da9396462bfd17282d758d30/",
+      "language": "rus",
+      "reviewed_at": "2026-11-27",
+      "method": "Public official rights-holder linear broadcast: author=141565, is_official=true, is_paid=false, is_on_air=true, CZ permitted and acl_access.allowed=true; full URL preserved"
+    }
+  ],
+  "Kinozhelezo.ru": [
+    {
+      "url": "https://bl.rutube.ru/livestream/4965b7b928c4a143d708ab424be01d37/index.m3u8?s=W-rNbAFygO77GhsZYSQAFg&e=2095768353&scheme=https",
+      "evidence": "https://rutube.ru/api/play/options/4965b7b928c4a143d708ab424be01d37/?format=json",
+      "page": "https://rutube.ru/video/4965b7b928c4a143d708ab424be01d37/",
+      "language": "rus",
+      "reviewed_at": "2026-11-27",
+      "method": "Public official rights-holder linear broadcast: author=141565, is_official=true, is_paid=false, is_on_air=true, CZ permitted and acl_access.allowed=true; full URL preserved"
+    }
+  ],
+  "EpicMedia.ru": [
+    {
+      "url": "https://bl.rutube.ru/livestream/0ed0696149c131d3a7349372d730d4e6/index.m3u8?s=rbAczPrbYlpcqUafQUVXyg&e=2095768353&scheme=https",
+      "evidence": "https://rutube.ru/api/play/options/0ed0696149c131d3a7349372d730d4e6/?format=json",
+      "page": "https://rutube.ru/video/0ed0696149c131d3a7349372d730d4e6/",
+      "language": "rus",
+      "reviewed_at": "2026-11-27",
+      "method": "Public official rights-holder linear broadcast: author=23480202, is_official=true, is_paid=false, is_on_air=true, CZ permitted and acl_access.allowed=true; full URL preserved"
+    }
+  ],
+  "EpicMediaLove.ru": [
+    {
+      "url": "https://bl.rutube.ru/livestream/21f3993ed8291b70208aa06c982c731f/index.m3u8?s=jySd5MfiDB2A2P7-EHB5jQ&e=2095768353&scheme=https",
+      "evidence": "https://rutube.ru/api/play/options/21f3993ed8291b70208aa06c982c731f/?format=json",
+      "page": "https://rutube.ru/video/21f3993ed8291b70208aa06c982c731f/",
+      "language": "rus",
+      "reviewed_at": "2026-11-27",
+      "method": "Public official rights-holder linear broadcast: author=23480202, is_official=true, is_paid=false, is_on_air=true, CZ permitted and acl_access.allowed=true; full URL preserved"
+    }
+  ],
+  "Izvestia.ru": [
+    {
+      "url": "https://bl.rutube.ru/livestream/3c47861a8b4b51639e41be092053b966/index.m3u8?s=Ra7KGSXKkkJ5edL-Up155Q&e=2095768354&scheme=https",
+      "evidence": "https://rutube.ru/api/play/options/3c47861a8b4b51639e41be092053b966/?format=json",
+      "page": "https://rutube.ru/video/3c47861a8b4b51639e41be092053b966/",
+      "language": "rus",
+      "reviewed_at": "2026-11-27",
+      "method": "Public official rights-holder linear broadcast: author=23872322, is_official=true, is_paid=false, is_on_air=true, CZ permitted and acl_access.allowed=true; full URL preserved"
+    }
+  ],
+  "StarMediaDetectives.ru": [
+    {
+      "url": "https://bl.rutube.ru/livestream/e05401be60a9cc719fa7075b6e77b86d/index.m3u8?s=4I9Czhg7uw0rwS1IOdspAg&e=2095768614&scheme=https",
+      "evidence": "https://rutube.ru/api/play/options/e05401be60a9cc719fa7075b6e77b86d/?format=json",
+      "page": "https://rutube.ru/video/e05401be60a9cc719fa7075b6e77b86d/",
+      "language": "rus",
+      "reviewed_at": "2026-11-27",
+      "method": "Official Star Media publisher 141565, free public 24/7 fiction cinema and series feed, acl_access.allowed=true and CZ allowed; exact full HLS retained"
     }
   ]
 }

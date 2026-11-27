@@ -50,7 +50,8 @@ def discoveries(db):
         for r in records:
             if not r.get('evidence') or not r.get('reviewed_at'):continue
             logo=next((common.attrs(v['block'][0]).get('tvg-logo') for v in ch['variants'].values() if common.attrs(v['block'][0]).get('tvg-logo')),'')
-            block=[f'#EXTINF:-1 tvg-id="{ident}" tvg-logo="{logo}" tvg-language="{r["language"]}",{ch["name"]}',r['url']]
+            block=[f'#EXTINF:-1 tvg-id="{ident}" tvg-logo="{logo}" tvg-language="{r["language"]}",{ch["name"]}',*r.get('options',[]),r['url']]
+            connection(block) # Validate and retain the broadcaster's required HTTP options.
             v=ch['variants'].setdefault(main.stream_key(block),{'block':block,'history':[],'existing':False,'status':'UNKNOWN_CZ','sources':[]})
             v['rights_evidence']=r['evidence'];v['audio_reviews']=v.get('audio_reviews',[])
             source={'provider':'official broadcaster','url':r['evidence'],'header':'#EXTM3U'}

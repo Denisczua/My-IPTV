@@ -42,6 +42,46 @@
       "name": "Смотрим 100% Мужское",
       "evidence": "https://smotrim.ru/channel/398 ; broadcaster describes feature films and fictional multi-part films/series; approved as mixed fiction cinema, not a separate series category",
       "mixed_films_and_series": true
+    },
+    "Kinolaffka.ru": {
+      "movie": true,
+      "name": "Кинолаффка",
+      "mixed_films_and_series": true,
+      "reviewed_at": "2026-11-27",
+      "evidence": "https://rutube.ru/video/3b7d1499da9396462bfd17282d758d30/",
+      "notes": "Official producer live cinema feed, includes feature films and fiction series; separate from general EPIC Channel. Default spoken language still requires decoded RU speech evidence."
+    },
+    "Kinozhelezo.ru": {
+      "movie": true,
+      "name": "Киножелезо",
+      "mixed_films_and_series": true,
+      "reviewed_at": "2026-11-27",
+      "evidence": "https://rutube.ru/video/4965b7b928c4a143d708ab424be01d37/",
+      "notes": "Official producer live cinema feed, includes feature films and fiction series; separate from general EPIC Channel. Default spoken language still requires decoded RU speech evidence."
+    },
+    "EpicMedia.ru": {
+      "movie": true,
+      "name": "EPIC MEDIA",
+      "mixed_films_and_series": true,
+      "reviewed_at": "2026-11-27",
+      "evidence": "https://rutube.ru/video/0ed0696149c131d3a7349372d730d4e6/",
+      "notes": "Official producer live cinema feed, includes feature films and fiction series; separate from general EPIC Channel. Default spoken language still requires decoded RU speech evidence."
+    },
+    "EpicMediaLove.ru": {
+      "movie": true,
+      "name": "EPIC MEDIA Love",
+      "mixed_films_and_series": true,
+      "reviewed_at": "2026-11-27",
+      "evidence": "https://rutube.ru/video/21f3993ed8291b70208aa06c982c731f/",
+      "notes": "Official producer live cinema feed, includes feature films and fiction series; separate from general EPIC Channel. Default spoken language still requires decoded RU speech evidence."
+    },
+    "StarMediaDetectives.ru": {
+      "movie": true,
+      "name": "Детективы каждый день",
+      "mixed_films_and_series": true,
+      "reviewed_at": "2026-11-27",
+      "evidence": "https://rutube.ru/video/e05401be60a9cc719fa7075b6e77b86d/",
+      "notes": "Producer schedule explicitly includes feature-length fiction and series. Not a general news/documentary channel."
     }
   }
 }
