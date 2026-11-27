@@ -1,16 +1,16 @@
 {
-  "at": "2026-11-27T09:10:09.700717+00:00",
-  "checks_this_run": 12,
+  "at": "2026-11-27T09:11:07.942750+00:00",
+  "checks_this_run": 14,
   "candidate_streams": 28,
   "unique_candidates": 20,
   "streams_with_v3_check": 28,
   "results": {
     "fail": 192,
-    "quality_fail": 46,
-    "ok": 117,
+    "quality_fail": 47,
+    "ok": 118,
     "unknown": 2
   },
-  "last_channel": "Ohotnikirybolov.ru",
+  "last_channel": "EpicMedia.ru",
   "last_result": "ok",
-  "elapsed_seconds": 175
+  "elapsed_seconds": 233
 }
