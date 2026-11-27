@@ -16,7 +16,8 @@
         "Rybolov.ru",
         "Rybalkaiokhota.ru",
         "Rybalka.ua",
-        "Trofei.ua"
+        "Trofei.ua",
+        "NashaTema.ru"
       ]
     },
     "Новости Украины": {
@@ -28,7 +29,6 @@
         "MyUkrainaTV.ua",
         "NovynyLive.ua",
         "FREEDOM.ua",
-        "Kyiv.ua",
         "ApostropheTV.ua",
         "RadaTV.ua"
       ]
@@ -57,7 +57,6 @@
         "NationalGeographicWild.ru",
         "LoveNature.ca",
         "AnimalPlanet.ru",
-        "NashaTema.ru",
         "Travelxp.in",
         "Moyastikhiya.ru",
         "Smotrim100Fakty.ru",
@@ -122,7 +121,27 @@
   "display_groups": {
     "SilkWayCinema.kz": "Зарубежное кино и сериалы на русском языке",
     "KinoiZhizn.ru": "Зарубежное кино и сериалы на русском языке",
-    "Kinokomedija.ru": "Зарубежное кино и сериалы на русском языке"
+    "Kinokomedija.ru": "Зарубежное кино и сериалы на русском языке",
+    "KinoBoevik.kz": "Зарубежное кино и сериалы на русском языке",
+    "KinoHit.ru": "Зарубежное кино и сериалы на русском языке",
+    "Kinopokaz.ru": "Зарубежное кино и сериалы на русском языке",
+    "Kinopremyera.ru": "Зарубежное кино и сериалы на русском языке",
+    "Kinosvidanie.ru": "Зарубежное кино и сериалы на русском языке",
+    "KinoTV.ru": "Зарубежное кино и сериалы на русском языке",
+    "Kinomix.ru": "Зарубежное кино и сериалы на русском языке",
+    "Kinosemja.ru": "Зарубежное кино и сериалы на русском языке",
+    "Kinoseriya.ru": "Зарубежное кино и сериалы на русском языке",
+    "KinoSat.ru": "Зарубежное кино и сериалы на русском языке",
+    "black.ru": "Зарубежное кино и сериалы на русском языке",
+    "red.ru": "Зарубежное кино и сериалы на русском языке",
+    "TV21.ru": "Зарубежное кино и сериалы на русском языке",
+    "vijuTV1000.ru": "Зарубежное кино и сериалы на русском языке",
+    "ViasatKino.ua": "Зарубежное кино и сериалы на русском языке",
+    "ViasatKinoAction.ua": "Зарубежное кино и сериалы на русском языке",
+    "MuzhskoeKino.ru": "Зарубежное кино и сериалы на русском языке",
+    "Kinoujas.ru": "Зарубежное кино и сериалы на русском языке",
+    "Hollywood.ru": "Зарубежное кино и сериалы на русском языке",
+    "Blockbuster.ru": "Зарубежное кино и сериалы на русском языке"
   },
   "display_group_order": [
     "Зарубежное кино и сериалы на русском языке",
@@ -146,5 +165,6 @@
       "evidence": "https://www.nastroykino.ru/kinokomedija/",
       "notes": "Mixed domestic and foreign comedy films, confirmed by official description and EPG; not a claim of foreign-only programming."
     }
-  }
+  },
+  "display_group_review_note": "Known foreign/mixed fiction brands are presentation classifications only, not language, availability or rights proof. New manually approved movie sources need an explicit programming-profile review; never infer film origin from broadcaster country."
 }

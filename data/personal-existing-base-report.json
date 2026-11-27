@@ -1,9 +1,9 @@
 {
-  "at": "2026-11-27T19:04:15.060498+00:00",
+  "at": "2026-11-27T19:28:30.903368+00:00",
   "input_channel_records": 378970,
   "unique_candidate_transports": 4550,
   "candidate_identities": 3732,
-  "admitted_channel_count": 19,
+  "admitted_channel_count": 20,
   "classification_and_measurement_are_distinct": true,
   "stages": {
     "network": {
@@ -37,9 +37,8 @@
     }
   },
   "active_local_jobs": [
-    "FFprobe track screening",
-    "decoded-audio language screening",
-    "three spaced checks of official retained BigAsia HD branches"
+    "remaining original track/language screening",
+    "expanded fiction/documentary base network and media screening"
   ],
   "source_playlist_unchanged": true,
   "remaining_not_published": true,
@@ -61,5 +60,13 @@
       "quality_fail": 4
     },
     "note": "An ok media sample is not three-pass stability, language/rights approval or a newly admitted channel."
-  }
+  },
+  "newly_admitted_this_round": 1,
+  "broad_candidate_transports": 6014,
+  "linear_tv_candidate_transports": 3330,
+  "linear_candidate_identities": 1806,
+  "nonlinear_or_radio_held": 2684,
+  "rate_limited_responses_are_unknown": true,
+  "publication_note": "BigAsia HD added only after three spaced CZ video/audio decodes and measured Russian speech; logo present, not OLED. All original 19 user channels retained.",
+  "scope_note": "HTTP429 is rate-limited UNKNOWN, never OFFLINE. Standalone Wikimedia video files and radio are held as non-TV. No full internal archive, raw logs or private sessions are disclosed."
 }

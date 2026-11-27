@@ -240,6 +240,18 @@
       "language": "rus",
       "reviewed_at": "2026-11-27",
       "method": "Official broadcaster public free live feed; CZ allowed and ACL allowed. Documentary/history programming reviewed from owner description."
+    },
+    {
+      "url": "https://river-3-368.rtbcdn.ru/stream/genetta-412.ntv.rutube.ru/NVAMS-GG2YJGKuZcESfT7Q/1796392486/495ab964b755baa2c9fc7481a2e40f7d/720p_stream.m3u8",
+      "evidence": "https://rutube.ru/api/play/options/495ab964b755baa2c9fc7481a2e40f7d/?format=json",
+      "page": "https://rutube.ru/video/495ab964b755baa2c9fc7481a2e40f7d/",
+      "language": "rus",
+      "reviewed_at": "2026-11-27T19:03:19.567005+00:00",
+      "method": "Exact 1280x720 rendition listed by retained official free broadcaster HLS master; parent rights and CZ permission reviewed. Separate media/audio/stability tests still required.",
+      "options": [
+        "#EXTVLCOPT:http-user-agent=Mozilla/5.0",
+        "#EXTVLCOPT:http-referrer=https://rutube.ru/"
+      ]
     }
   ],
   "Ratnik.ru": [

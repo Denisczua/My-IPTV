@@ -62,6 +62,15 @@
       "local_frame": ".tools\\visual-oled\\KinoiZhizn.ru.jpg",
       "oled_approved": false,
       "finding": "Top-right Kino i Zhizn broadcaster watermark and top-left film title visible. Not approved for OLED."
+    },
+    {
+      "channel": "BigAsia.ru",
+      "at": "2026-11-27T19:19:55.229781+00:00",
+      "method": "visual inspection of decoded live frame",
+      "frame_sha256": "55d57b9ceb658ddf9b7cc9f5f476ba1eb2d2f8a19d7208be4252573ef77816cc",
+      "local_frame": ".tools/visual-oled/BigAsia-20261127.jpg",
+      "oled_approved": false,
+      "finding": "Actual studio interview visible, not test bars. Static white broadcaster watermark in upper left corner; not approved for OLED."
     }
   ]
 }

@@ -95,6 +95,22 @@
       "reviewed_at": "2026-11-27T18:56:37.017877+00:00",
       "evidence": "https://www.nastroykino.ru/kinokomedija/",
       "notes": "Official owner description and EPG confirm domestic and foreign comedy feature films. The metadata category comedy and Latin name must not hide this cinema candidate. This is content evidence, not permission for third-party streams."
+    },
+    "black.ru": {
+      "movie": true,
+      "name": ".black",
+      "mixed_films_and_series": true,
+      "reviewed_at": "2026-11-27T19:21:06.614465+00:00",
+      "evidence": "https://mt.media/channels/black/",
+      "notes": "Owner description confirms films and scripted series; generic entertainment metadata must not hide this fiction candidate. Free satellite smart-cards do not establish free online or external-player permission. No third-party transport approved."
+    },
+    "red.ru": {
+      "movie": true,
+      "name": ".red",
+      "mixed_films_and_series": true,
+      "reviewed_at": "2026-11-27T19:21:06.614476+00:00",
+      "evidence": "https://mt.media/channels/red/",
+      "notes": "Owner description confirms films and scripted series; generic entertainment metadata must not hide this fiction candidate. Free satellite smart-cards do not establish free online or external-player permission. No third-party transport approved."
     }
   }
 }
