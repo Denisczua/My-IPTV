@@ -1,6 +1,6 @@
 {
   "source": "https://iptv-org.github.io/api/feeds.json",
-  "retrieved_at": "2026-11-28T01:31:05.388363+00:00",
+  "retrieved_at": "2026-11-28T07:30:47.686595+00:00",
   "feeds": {
     "002RadioTV.do@SD": [
       "spa"
@@ -11210,9 +11210,6 @@
     "AXNMystery.jp@SD": [
       "jpn"
     ],
-    "AXNPoland.pl@Romania": [
-      "ron"
-    ],
     "AXNPoland.pl@SD": [
       "pol"
     ],
@@ -15530,6 +15527,9 @@
     ],
     "BoogleBollywood.in@SD": [
       "hin"
+    ],
+    "Boom.th@SD": [
+      "tha"
     ],
     "Boomerang.au@SD": [
       "eng"
@@ -28832,9 +28832,6 @@
     "ConexionTV.ve@HD": [
       "spa"
     ],
-    "ConexionTVve.ve@HD": [
-      "spa"
-    ],
     "Congo24TV.cd@SD": [
       "fra"
     ],
@@ -41325,6 +41322,9 @@
     "ExplorerShkence.al@SD": [
       "sqi"
     ],
+    "Exploris.ro@SD": [
+      "ron"
+    ],
     "ExplosionTV.do@SD": [
       "spa"
     ],
@@ -47740,6 +47740,9 @@
     ],
     "Goa365.in@SD": [
       "kok"
+    ],
+    "GoalUK.uk@UK": [
+      "eng"
     ],
     "GoalZone.sa@SD": [
       "ara"
@@ -67482,6 +67485,9 @@
     ],
     "MaaTV.in@SD": [
       "tel"
+    ],
+    "MaawjTV.af@SD": [
+      "afg"
     ],
     "MabeshTV.gh@SD": [
       "eng"
@@ -93685,6 +93691,9 @@
     "PrimiciaVida.cl@SD": [
       "spa"
     ],
+    "Primired.ar@HD": [
+      "spa"
+    ],
     "PrimitivosTV.cl@SD": [
       "spa"
     ],
@@ -102903,8 +102912,17 @@
     "SanaTV.in@SD": [
       "tam"
     ],
+    "SanboxRealities.fr@Czechia": [
+      "ces"
+    ],
     "SanboxRealities.fr@France": [
       "fra"
+    ],
+    "SanboxRealities.fr@Germany": [
+      "deu"
+    ],
+    "SanboxRealities.fr@Poland": [
+      "pol"
     ],
     "SanCristobalTV.bo@SD": [
       "spa"
