@@ -20829,13 +20829,13 @@
     "sha256": "01b37e8dfc14c6911f6a0265294dfea00f2afff741d1c168ca6d3602e5486792"
   },
   "scan": {
-    "at": "2026-11-28T07:30:46.411385+00:00",
+    "at": "2026-11-28T13:17:10.770426+00:00",
     "before_entries": 10416,
     "before_identities": 10416,
     "sources_processed": 17,
     "providers_available": 5,
-    "source_entries": 88042,
-    "movie_candidate_rows": 6390,
+    "source_entries": 88052,
+    "movie_candidate_rows": 6392,
     "primary_available": true
   },
   "channels": {
@@ -21468,6 +21468,24 @@
         "1b79865c81d7b9e2f428e8ffe2fb05905bc62865ca706d1931f60be3aa80c90b": {
           "block": [
             "#EXTINF:-1 tvg-id=\"AXNAsia.sg\" tvg-chno=\"7601\" tvg-name=\"AXN Asia\" tvg-logo=\"https://freem3u.xyz/static/images/global/axn.png\" tvg-country=\"SG\" tvg-language=\"zho;ind;mal;mon;eng;fil;cmn;tha;vie\" group-title=\"Movies\" nexus-score=\"0\",AXN Asia (720p)",
+            "http://antm.dynu.net:14285/rtp/232.84.1.14:8058"
+          ],
+          "history": [],
+          "sources": [
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/index.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            }
+          ],
+          "existing": false,
+          "rights_evidence": "",
+          "status": "UNKNOWN_CZ",
+          "audio_reviews": []
+        },
+        "72dac93e4a991bf49e680da82ebd590c77bacb1ad341044faf79c1ab17f41aac": {
+          "block": [
+            "#EXTINF:-1 tvg-id=\"AXNAsia.sg\" tvg-chno=\"7601\" tvg-name=\"AXN Asia\" tvg-logo=\"https://freem3u.xyz/static/images/global/axn.png\" tvg-country=\"SG\" tvg-language=\"zho;ind;mal;mon;eng;fil;cmn;tha;vie\" group-title=\"Movies\" nexus-score=\"30\",AXN Asia (720p)",
             "http://antm.dynu.net:14285/rtp/232.84.1.14:8058"
           ],
           "history": [],
@@ -23216,6 +23234,39 @@
           "rights_evidence": "",
           "status": "UNKNOWN_CZ",
           "audio_reviews": []
+        },
+        "ad3ffe84a47c37475ce8d4f4a42a4211dc9bd08de47ecf60005100a8070e3234": {
+          "block": [
+            "#EXTINF:-1 tvg-id=\"CityEdenKinoFantastika.ru\" tvg-chno=\"6949\" tvg-name=\"City Eden KinoFantastika\" tvg-logo=\"https://i.imgur.com/I64FeIO.png\" tvg-country=\"RU\" tvg-language=\"rus\" group-title=\"Movies\" nexus-score=\"70\",City Eden KinoFantastika",
+            "https://cityeden.catcast.tv/content/45268/index.m3u8"
+          ],
+          "history": [],
+          "sources": [
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/index.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            },
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/country/ru.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/ru.xml.gz\""
+            },
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/online.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            },
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/best.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            }
+          ],
+          "existing": false,
+          "rights_evidence": "",
+          "status": "UNKNOWN_CZ",
+          "audio_reviews": []
         }
       },
       "groups": [
@@ -23748,6 +23799,34 @@
         "75d8d21699e267e8aefbac41b9e4cd91aecae38c3f0682a6bfbc7029ff52dbed": {
           "block": [
             "#EXTINF:-1 tvg-id=\"PlutoTVFilm.de\" tvg-chno=\"2025\" tvg-name=\"Pluto TV Film\" tvg-logo=\"https://images.pluto.tv/channels/65158fe20371a8000868809a/colorLogoPNG.png\" tvg-country=\"DE\" tvg-language=\"ita\" group-title=\"Movies\" nexus-score=\"96\",Pluto TV Film",
+            "https://jmp2.uk/plu-608aa17fb9f4490007e6419a.m3u8"
+          ],
+          "history": [],
+          "sources": [
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/index.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            },
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/online.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            },
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/best.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            }
+          ],
+          "existing": false,
+          "rights_evidence": "",
+          "status": "UNKNOWN_CZ",
+          "audio_reviews": []
+        },
+        "238ac4fc5b880229e3e86f6c162bb0cd58fd9dd96fc739348807858578a82048": {
+          "block": [
+            "#EXTINF:-1 tvg-id=\"PlutoTVFilm.de\" tvg-chno=\"2025\" tvg-name=\"Pluto TV Film\" tvg-logo=\"https://images.pluto.tv/channels/65158fe20371a8000868809a/colorLogoPNG.png\" tvg-country=\"DE\" tvg-language=\"ita\" group-title=\"Movies\" nexus-score=\"97\",Pluto TV Film",
             "https://jmp2.uk/plu-608aa17fb9f4490007e6419a.m3u8"
           ],
           "history": [],
@@ -29697,6 +29776,25 @@
         "59c8db981e868c3268d505461a67bb46213a0f00f0e09a1b5c9c36c7ba4bfee5": {
           "block": [
             "#EXTINF:-1 tvg-id=\"FILMBOXPlusEmotion.pl\" tvg-chno=\"6344\" tvg-name=\"FILMBOX+ Emotion\" tvg-logo=\"https://spiintl.com/data/files/kcfinderUploadDir/images/filmboxplus/filmbox%2Bemotion.png\" tvg-country=\"PL\" tvg-language=\"eng;bul;cze;hun;pol;ron\" group-title=\"Movies\" nexus-score=\"85\",FILMBOX+ Emotion (720p)",
+            "#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.3",
+            "https://webtvstream.bhtelecom.ba/filmbox_extra.m3u8"
+          ],
+          "history": [],
+          "sources": [
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/index.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            }
+          ],
+          "existing": false,
+          "rights_evidence": "",
+          "status": "UNKNOWN_CZ",
+          "audio_reviews": []
+        },
+        "a0ffb1200a46032580a45c723d719a45394d9c4f39368265a965927ade5ccdd0": {
+          "block": [
+            "#EXTINF:-1 tvg-id=\"FILMBOXPlusEmotion.pl\" tvg-chno=\"6344\" tvg-name=\"FILMBOX+ Emotion\" tvg-logo=\"https://spiintl.com/data/files/kcfinderUploadDir/images/filmboxplus/filmbox%2Bemotion.png\" tvg-country=\"PL\" tvg-language=\"eng;bul;cze;hun;pol;ron\" group-title=\"Movies\" nexus-score=\"90\",FILMBOX+ Emotion (720p)",
             "#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.3",
             "https://webtvstream.bhtelecom.ba/filmbox_extra.m3u8"
           ],
@@ -42208,6 +42306,24 @@
           "rights_evidence": "",
           "status": "UNKNOWN_CZ",
           "audio_reviews": []
+        },
+        "b54c9694ee94bb4fb194f2d8b4d6dc992d6001c17fcef95758c388fc9331abc4": {
+          "block": [
+            "#EXTINF:-1 tvg-id=\"GoldminesMovies.in\" tvg-chno=\"3970\" tvg-name=\"Goldmines Movies\" tvg-logo=\"https://dvdh7g0f0hwck.cloudfront.net/assets/images/channel/GoldminesMovies_Transparent_9b7db248-999e-4200-a459-6cc594650f3d.png\" tvg-country=\"IN\" tvg-language=\"hin\" group-title=\"Movies\" nexus-score=\"66\",Goldmines Movies (360p)",
+            "https://tvsen3.aynaott.com/5CGfPvGp/index.m3u8"
+          ],
+          "history": [],
+          "sources": [
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/index.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            }
+          ],
+          "existing": false,
+          "rights_evidence": "",
+          "status": "UNKNOWN_CZ",
+          "audio_reviews": []
         }
       },
       "groups": [
@@ -43217,6 +43333,34 @@
               "provider": "DuckKota IPTV",
               "url": "https://DuckKota.github.io/iptv/playlists/online.m3u",
               "header": "#EXTM3U x-tvg-url=\"https://DuckKota.github.io/iptv/epg/guide.xml.gz\""
+            }
+          ],
+          "existing": false,
+          "rights_evidence": "",
+          "status": "UNKNOWN_CZ",
+          "audio_reviews": []
+        },
+        "3bf7c29da0f8d9070b82e48752dc2bf1bf9b49907ed81e8a65870af39de729fa": {
+          "block": [
+            "#EXTINF:-1 tvg-id=\"Cinemax.us\" tvg-chno=\"8871\" tvg-name=\"Cinemax\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Cinemax_2016.svg/960px-Cinemax_2016.svg.png\" tvg-country=\"US\" tvg-language=\"eng;spa\" group-title=\"Movies\" nexus-score=\"97\",Cinemax (1080p)",
+            "http://23.237.104.106:8080/USA_CINEMAX_WEST/index.m3u8"
+          ],
+          "history": [],
+          "sources": [
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/index.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            },
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/online.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            },
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/best.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
             }
           ],
           "existing": false,
@@ -44792,6 +44936,24 @@
               "provider": "DuckKota IPTV",
               "url": "https://DuckKota.github.io/iptv/playlists/index.m3u",
               "header": "#EXTM3U x-tvg-url=\"https://DuckKota.github.io/iptv/epg/guide.xml.gz\""
+            }
+          ],
+          "existing": false,
+          "rights_evidence": "",
+          "status": "UNKNOWN_CZ",
+          "audio_reviews": []
+        },
+        "2777299021cb33f1c20d6460d39b1f8fc41695daf147ff9cfe06e67020ab276d": {
+          "block": [
+            "#EXTINF:-1 tvg-id=\"Domkino.ru\" tvg-chno=\"6973\" tvg-name=\"Dom kino\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/%D0%9B%D0%BE%D0%B3%D0%BE%D1%82%D0%B8%D0%BF_%D0%BA%D0%B0%D0%BD%D0%B0%D0%BB%D0%B0_%D0%94%D0%BE%D0%BC_%D0%9A%D0%B8%D0%BD%D0%BE.png/960px-%D0%9B%D0%BE%D0%B3%D0%BE%D1%82%D0%B8%D0%BF_%D0%BA%D0%B0%D0%BD%D0%B0%D0%BB%D0%B0_%D0%94%D0%BE%D0%BC_%D0%9A%D0%B8%D0%BD%D0%BE.png\" tvg-country=\"RU\" tvg-language=\"rus\" group-title=\"Movies\" nexus-score=\"17\",Dom kino (576p)",
+            "http://88.212.15.50/live/test_dom_kino/playlist.m3u8"
+          ],
+          "history": [],
+          "sources": [
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/index.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
             }
           ],
           "existing": false,
@@ -46564,6 +46726,16 @@
             {
               "provider": "IPTV Nexus",
               "url": "https://dearbulut.github.io/iptv/playlists/index.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            },
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/online.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            },
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/best.m3u",
               "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
             }
           ],
@@ -53579,6 +53751,24 @@
               "provider": "DuckKota IPTV",
               "url": "https://DuckKota.github.io/iptv/playlists/index.m3u",
               "header": "#EXTM3U x-tvg-url=\"https://DuckKota.github.io/iptv/epg/guide.xml.gz\""
+            }
+          ],
+          "existing": false,
+          "rights_evidence": "",
+          "status": "UNKNOWN_CZ",
+          "audio_reviews": []
+        },
+        "f8e8a7a64c70621ca135252f88b385cfdac0b43b91aa73576107230101ab8192": {
+          "block": [
+            "#EXTINF:-1 tvg-id=\"TV21International.ru\" tvg-chno=\"7265\" tvg-name=\"TV 21 International\" tvg-logo=\"https://ibb.co/BH6CZx3K\" tvg-country=\"RU\" tvg-language=\"rus\" group-title=\"Movies\" nexus-score=\"17\",TV 21 International (576p)",
+            "http://46.53.200.153:7777/play/TV-21M/index.m3u8"
+          ],
+          "history": [],
+          "sources": [
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/index.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
             }
           ],
           "existing": false,
@@ -96356,6 +96546,34 @@
           "rights_evidence": "",
           "status": "UNKNOWN_CZ",
           "audio_reviews": []
+        },
+        "e0e91b45c398f6e4cf72e4af5f2b721eb01af6b92a7c3299ab7c06fef8f92870": {
+          "block": [
+            "#EXTINF:-1 tvg-id=\"AuroraMediaFilms.gt\" tvg-chno=\"3202\" tvg-name=\"Aurora Media Films\" tvg-logo=\"https://i.imgur.com/DVC5w6H.png\" tvg-country=\"GT\" tvg-language=\"spa\" group-title=\"Movies\" nexus-score=\"96\",Aurora Media Films (720p)",
+            "https://cdn.streamhispanatv.net:3417/live/auroramflive.m3u8"
+          ],
+          "history": [],
+          "sources": [
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/index.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            },
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/online.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            },
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/best.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            }
+          ],
+          "existing": false,
+          "rights_evidence": "",
+          "status": "UNKNOWN_CZ",
+          "audio_reviews": []
         }
       },
       "groups": [
@@ -98696,6 +98914,34 @@
           "rights_evidence": "",
           "status": "UNKNOWN_CZ",
           "audio_reviews": []
+        },
+        "2fcc744990dc724b35c06d07639e7610c65d8eddfb841a036920662b3e2c8857": {
+          "block": [
+            "#EXTINF:-1 tvg-id=\"SoneriCinema.in\" tvg-chno=\"4349\" tvg-name=\"Soneri Cinema\" tvg-logo=\"https://papaji.freetvindia.com/media/1056_FreeTV_Soneri_Cinema.png\" tvg-country=\"IN\" tvg-language=\"mar\" group-title=\"Movies\" nexus-score=\"98\",Soneri Cinema (720p)",
+            "https://samitaorigin.tangotv.in/SONERICINEMA/SAMITAORIGIN/index.m3u8"
+          ],
+          "history": [],
+          "sources": [
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/index.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            },
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/online.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            },
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/best.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            }
+          ],
+          "existing": false,
+          "rights_evidence": "",
+          "status": "UNKNOWN_CZ",
+          "audio_reviews": []
         }
       },
       "groups": [
@@ -98921,6 +99167,16 @@
             {
               "provider": "IPTV Nexus",
               "url": "https://dearbulut.github.io/iptv/playlists/index.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            },
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/online.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            },
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/best.m3u",
               "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
             }
           ],
@@ -100076,6 +100332,24 @@
               "provider": "DuckKota IPTV",
               "url": "https://DuckKota.github.io/iptv/playlists/index.m3u",
               "header": "#EXTM3U x-tvg-url=\"https://DuckKota.github.io/iptv/epg/guide.xml.gz\""
+            }
+          ],
+          "existing": false,
+          "rights_evidence": "",
+          "status": "UNKNOWN_CZ",
+          "audio_reviews": []
+        },
+        "11a5eef102a17464bece53e3a232637fc10b3399f7b849a50b763b40c45fd90b": {
+          "block": [
+            "#EXTINF:-1 tvg-id=\"DomkinoPremium.ru\" tvg-chno=\"6974\" tvg-name=\"Dom kino Premium\" tvg-logo=\"https://i.imgur.com/rJpQtvK.png\" tvg-country=\"RU\" tvg-language=\"rus\" group-title=\"Movies\" nexus-score=\"17\",Dom kino Premium (576p)",
+            "http://88.212.15.50/live/test_dom_kino_premium/playlist.m3u8"
+          ],
+          "history": [],
+          "sources": [
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/index.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
             }
           ],
           "existing": false,
@@ -103992,6 +104266,25 @@
           "rights_evidence": "",
           "status": "UNKNOWN_CZ",
           "audio_reviews": []
+        },
+        "7773fafae14c770f593c4344bc42a3d1a958e5574e53fb01ac1a1d7e429bd802": {
+          "block": [
+            "#EXTINF:-1 tvg-id=\"AMCEurope.uk\" tvg-chno=\"8349\" tvg-name=\"AMC Europe\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/AMC_logo_2019.svg/960px-AMC_logo_2019.svg.png\" tvg-country=\"UK\" tvg-language=\"bul;eng;pol;por;spa;ukr\" group-title=\"Movies\" nexus-score=\"51\",AMC Europe",
+            "#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.3",
+            "http://212.70.131.37:8000/play/a05k"
+          ],
+          "history": [],
+          "sources": [
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/index.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            }
+          ],
+          "existing": false,
+          "rights_evidence": "",
+          "status": "UNKNOWN_CZ",
+          "audio_reviews": []
         }
       },
       "groups": [
@@ -104700,6 +104993,16 @@
             {
               "provider": "IPTV Nexus",
               "url": "https://dearbulut.github.io/iptv/playlists/index.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            },
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/online.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            },
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/best.m3u",
               "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
             }
           ],
@@ -107700,6 +108003,24 @@
           "rights_evidence": "",
           "status": "UNKNOWN_CZ",
           "audio_reviews": []
+        },
+        "d60dcec18ee5880b2e7b3c9b89d32b2dc804fa5379830e05670395dbecbb6238": {
+          "block": [
+            "#EXTINF:-1 tvg-id=\"vijuPlusMegahit.ru\" tvg-chno=\"7305\" tvg-name=\"viju+ Megahit\" tvg-logo=\"https://i.imgur.com/oIQNddV.png\" tvg-country=\"RU\" tvg-language=\"rus\" group-title=\"Movies\" nexus-score=\"17\",viju+ Megahit (1080p)",
+            "http://46.53.200.153:7777/play/Viju_Megahit_HD/index.m3u8"
+          ],
+          "history": [],
+          "sources": [
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/index.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            }
+          ],
+          "existing": false,
+          "rights_evidence": "",
+          "status": "UNKNOWN_CZ",
+          "audio_reviews": []
         }
       },
       "groups": [
@@ -109429,6 +109750,16 @@
             {
               "provider": "IPTV Nexus",
               "url": "https://dearbulut.github.io/iptv/playlists/index.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            },
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/online.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            },
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/best.m3u",
               "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
             }
           ],
@@ -115373,6 +115704,29 @@
               "provider": "DuckKota IPTV",
               "url": "https://DuckKota.github.io/iptv/playlists/index.m3u",
               "header": "#EXTM3U x-tvg-url=\"https://DuckKota.github.io/iptv/epg/guide.xml.gz\""
+            }
+          ],
+          "existing": false,
+          "rights_evidence": "",
+          "status": "UNKNOWN_CZ",
+          "audio_reviews": []
+        },
+        "cec0baf5047a6af932ace4a3879e56be7f4c512195666dccf4777ee2e6f61835": {
+          "block": [
+            "#EXTINF:-1 tvg-id=\"JiangsuMovieChannel.cn\" tvg-chno=\"1442\" tvg-name=\"Jiangsu Movie Channel\" tvg-logo=\"https://www.tvchinese.net/uploads/tv/jsys.jpg\" tvg-country=\"CN\" tvg-language=\"zho\" group-title=\"Movies\" nexus-score=\"15\",Jiangsu Movie Channel (576p)",
+            "http://183.207.248.71/gitv/live1/G_JSYS/G_JSYS"
+          ],
+          "history": [],
+          "sources": [
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/index.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            },
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/best.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
             }
           ],
           "existing": false,
@@ -126121,6 +126475,11 @@
             {
               "provider": "IPTV Nexus",
               "url": "https://dearbulut.github.io/iptv/playlists/index.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            },
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/best.m3u",
               "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
             }
           ],
@@ -139345,6 +139704,16 @@
               "provider": "IPTV Nexus",
               "url": "https://dearbulut.github.io/iptv/playlists/index.m3u",
               "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            },
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/online.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            },
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/best.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
             }
           ],
           "existing": false,
@@ -144310,6 +144679,24 @@
               "provider": "DuckKota IPTV",
               "url": "https://DuckKota.github.io/iptv/playlists/index.m3u",
               "header": "#EXTM3U x-tvg-url=\"https://DuckKota.github.io/iptv/epg/guide.xml.gz\""
+            }
+          ],
+          "existing": false,
+          "rights_evidence": "",
+          "status": "UNKNOWN_CZ",
+          "audio_reviews": []
+        },
+        "70e4a8c7eff15d5510f42ab157cdd28da0d1533d4bccedb02d3d9a6c8d12a4c0": {
+          "block": [
+            "#EXTINF:-1 tvg-id=\"vijuTV1000action.ru\" tvg-chno=\"7300\" tvg-name=\"viju TV1000 action\" tvg-logo=\"https://i.imgur.com/TMmyuzh.png\" tvg-country=\"RU\" tvg-language=\"rus\" group-title=\"Movies\" nexus-score=\"17\",viju TV1000 action (576p)",
+            "http://46.53.200.153:7777/play/a01h/index.m3u8"
+          ],
+          "history": [],
+          "sources": [
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/index.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
             }
           ],
           "existing": false,
@@ -172197,6 +172584,16 @@
               "provider": "IPTV Nexus",
               "url": "https://dearbulut.github.io/iptv/playlists/index.m3u",
               "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            },
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/online.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            },
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/best.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
             }
           ],
           "existing": false,
@@ -174927,6 +175324,16 @@
             {
               "provider": "IPTV Nexus",
               "url": "https://dearbulut.github.io/iptv/playlists/index.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            },
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/online.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            },
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/best.m3u",
               "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
             }
           ],
@@ -185440,6 +185847,34 @@
           "rights_evidence": "",
           "status": "UNKNOWN_CZ",
           "audio_reviews": []
+        },
+        "318573ab8141c4190a502c1e72a64f6846300d1ed44f3a583481edf37df7c7bc": {
+          "block": [
+            "#EXTINF:-1 tvg-id=\"Hero.fi\" tvg-chno=\"2859\" tvg-name=\"Hero\" tvg-logo=\"https://i.imgur.com/4t5JQLY.png\" tvg-country=\"FI\" tvg-language=\"fin\" group-title=\"Movies\" nexus-score=\"53\",Hero (720p)",
+            "https://live-fi.tvkaista.net/hero/live.m3u8?hd=true"
+          ],
+          "history": [],
+          "sources": [
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/index.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            },
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/online.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            },
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/best.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            }
+          ],
+          "existing": false,
+          "rights_evidence": "",
+          "status": "UNKNOWN_CZ",
+          "audio_reviews": []
         }
       },
       "groups": [
@@ -192104,6 +192539,24 @@
           "rights_evidence": "",
           "status": "UNKNOWN_CZ",
           "audio_reviews": []
+        },
+        "57a065e56ccdb49a94d1a620638b2c3e63f1d27fc5cc7d1347ea6473aed879d4": {
+          "block": [
+            "#EXTINF:-1 tvg-id=\"AllTimeMovies.in\" tvg-chno=\"3775\" tvg-name=\"All Time Movies\" tvg-logo=\"https://yt3.googleusercontent.com/U4INXhwmEUOABHoemQBpI6C9t4jb9iBmDvZ3ZT3lAb9Au_jVl32NL8XDpy-9cBjRJ2LP69Ovzg=s900-c-k-c0x00ffffff-no-rj\" tvg-country=\"IN\" tvg-language=\"hin\" group-title=\"Movies\" nexus-score=\"74\",All Time Movies (576p)",
+            "https://tvsen6.aynaott.com/a2cKGQtB/index.m3u8"
+          ],
+          "history": [],
+          "sources": [
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/index.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            }
+          ],
+          "existing": false,
+          "rights_evidence": "",
+          "status": "UNKNOWN_CZ",
+          "audio_reviews": []
         }
       },
       "groups": [
@@ -194332,6 +194785,16 @@
             {
               "provider": "IPTV Nexus",
               "url": "https://dearbulut.github.io/iptv/playlists/index.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            },
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/online.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            },
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/best.m3u",
               "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
             }
           ],
@@ -200173,6 +200636,39 @@
           "rights_evidence": "",
           "status": "UNKNOWN_CZ",
           "audio_reviews": []
+        },
+        "79b06d79ccde4665cfcf36311cd11b955968e8b5e5bddc3f448b694226068834": {
+          "block": [
+            "#EXTINF:-1 tvg-id=\"KinoTV.ru\" tvg-chno=\"7028\" tvg-name=\"Kino TV\" tvg-logo=\"https://i.imgur.com/sMpamNO.png\" tvg-country=\"RU\" tvg-language=\"rus\" group-title=\"Movies\" nexus-score=\"99\",Kino TV (1080p)",
+            "http://176.118.197.101/KinoTvHD/playlist.m3u8"
+          ],
+          "history": [],
+          "sources": [
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/index.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            },
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/country/ru.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/ru.xml.gz\""
+            },
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/online.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            },
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/best.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            }
+          ],
+          "existing": false,
+          "rights_evidence": "",
+          "status": "UNKNOWN_CZ",
+          "audio_reviews": []
         }
       },
       "groups": [
@@ -204897,6 +205393,34 @@
               "provider": "DuckKota IPTV",
               "url": "https://DuckKota.github.io/iptv/playlists/online.m3u",
               "header": "#EXTM3U x-tvg-url=\"https://DuckKota.github.io/iptv/epg/guide.xml.gz\""
+            }
+          ],
+          "existing": false,
+          "rights_evidence": "",
+          "status": "UNKNOWN_CZ",
+          "audio_reviews": []
+        },
+        "d7275427aa0de0d7003fe09c59ee424f5152f4087536452455e0dc0d753a2ed0": {
+          "block": [
+            "#EXTINF:-1 tvg-id=\"CinemaxClassics.us\" tvg-chno=\"8872\" tvg-name=\"Cinemax Classics\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/en/thumb/6/66/Cinemax_Classics_Logo.png/960px-Cinemax_Classics_Logo.png\" tvg-country=\"US\" tvg-language=\"eng\" group-title=\"Movies\" nexus-score=\"97\",Cinemax Classics (1080p)",
+            "http://23.237.104.106:8080/USA_5STARMAX/index.m3u8"
+          ],
+          "history": [],
+          "sources": [
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/index.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            },
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/online.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            },
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/best.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
             }
           ],
           "existing": false,
@@ -211887,6 +212411,24 @@
           "rights_evidence": "",
           "status": "UNKNOWN_CZ",
           "audio_reviews": []
+        },
+        "a4847304b4b53be2ce009d364b0a48861ebe0539e45977f8f22739d43323684c": {
+          "block": [
+            "#EXTINF:-1 tvg-id=\"vijuPlusPremiere.ru\" tvg-chno=\"7307\" tvg-name=\"viju+ Premiere\" tvg-logo=\"https://i.imgur.com/klRvhR5.png\" tvg-country=\"RU\" tvg-language=\"rus\" group-title=\"Movies\" nexus-score=\"17\",viju+ Premiere (1080p)",
+            "http://46.53.200.153:7777/play/Viju_Premiere/index.m3u8"
+          ],
+          "history": [],
+          "sources": [
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/index.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            }
+          ],
+          "existing": false,
+          "rights_evidence": "",
+          "status": "UNKNOWN_CZ",
+          "audio_reviews": []
         }
       },
       "groups": [
@@ -216101,6 +216643,16 @@
             {
               "provider": "IPTV Nexus",
               "url": "https://dearbulut.github.io/iptv/playlists/index.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            },
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/online.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            },
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/best.m3u",
               "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
             }
           ],
@@ -220986,6 +221538,24 @@
               "provider": "DuckKota IPTV",
               "url": "https://DuckKota.github.io/iptv/playlists/index.m3u",
               "header": "#EXTM3U x-tvg-url=\"https://DuckKota.github.io/iptv/epg/guide.xml.gz\""
+            }
+          ],
+          "existing": false,
+          "rights_evidence": "",
+          "status": "UNKNOWN_CZ",
+          "audio_reviews": []
+        },
+        "8774a0144c80204018bba9b605c3d06b9e4714dac34586d6f64f8f7136f1753b": {
+          "block": [
+            "#EXTINF:-1 tvg-id=\"B4UKadak.in\" tvg-chno=\"3808\" tvg-name=\"B4U Kadak\" tvg-logo=\"https://ltsk-cdn.s3.eu-west-1.amazonaws.com/jumpstart/Temp_Live/cdn/HLS/Channel/transparentImages/B4U-Kadak-BLACK-transparent.png\" tvg-country=\"IN\" tvg-language=\"hin\" group-title=\"Movies\" nexus-score=\"74\",B4U Kadak (360p)",
+            "https://tvsen3.aynaott.com/X9E6bxg3/index.m3u8"
+          ],
+          "history": [],
+          "sources": [
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/index.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
             }
           ],
           "existing": false,
@@ -227369,6 +227939,35 @@
           "rights_evidence": "",
           "status": "UNKNOWN_CZ",
           "audio_reviews": []
+        },
+        "3e198f6267de75bf428caea3d91b98d6970d65cac047b951d7a7316f8d1895b9": {
+          "block": [
+            "#EXTINF:-1 tvg-id=\"cinebox.bg\" tvg-chno=\"491\" tvg-name=\"cine.box\" tvg-country=\"BG\" tvg-language=\"bul\" group-title=\"Movies\" nexus-score=\"57\",cine.box",
+            "#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.3",
+            "http://212.70.131.37:8000/play/a08b"
+          ],
+          "history": [],
+          "sources": [
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/index.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            },
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/online.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            },
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/best.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            }
+          ],
+          "existing": false,
+          "rights_evidence": "",
+          "status": "UNKNOWN_CZ",
+          "audio_reviews": []
         }
       },
       "groups": [
@@ -228688,6 +229287,11 @@
             {
               "provider": "IPTV Nexus",
               "url": "https://dearbulut.github.io/iptv/playlists/index.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            },
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/best.m3u",
               "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
             }
           ],
@@ -241313,6 +241917,24 @@
           "rights_evidence": "",
           "status": "UNKNOWN_CZ",
           "audio_reviews": []
+        },
+        "02263254e8f3dae887dc38de54732e6f4e00bb94415d704449498a97388916e8": {
+          "block": [
+            "#EXTINF:-1 tvg-id=\"GrjngoWesternMovies.de\" tvg-chno=\"1897\" tvg-name=\"Grjngo Western Movies\" tvg-logo=\"https://i.imgur.com/wFqhK3p.png\" tvg-country=\"DE\" tvg-language=\"eng;deu\" group-title=\"Movies\" nexus-score=\"93\",Grjngo Western Movies (720p)",
+            "https://pb-rtme7tnh9wa6k.akamaized.net/playlist.m3u8"
+          ],
+          "history": [],
+          "sources": [
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/index.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            }
+          ],
+          "existing": false,
+          "rights_evidence": "",
+          "status": "UNKNOWN_CZ",
+          "audio_reviews": []
         }
       },
       "groups": [
@@ -242504,6 +243126,39 @@
               "provider": "DuckKota IPTV",
               "url": "https://DuckKota.github.io/iptv/playlists/online.m3u",
               "header": "#EXTM3U x-tvg-url=\"https://DuckKota.github.io/iptv/epg/guide.xml.gz\""
+            }
+          ],
+          "existing": false,
+          "rights_evidence": "",
+          "status": "UNKNOWN_CZ",
+          "audio_reviews": []
+        },
+        "40743f8cefd64d96fc33788b3092fa6e94a33214810b3eb574e95348783b5457": {
+          "block": [
+            "#EXTINF:-1 tvg-id=\"CityEdenKinoDrama.ru\" tvg-chno=\"6948\" tvg-name=\"City Eden KinoDrama\" tvg-logo=\"https://i.imgur.com/29ddffh.png\" tvg-country=\"RU\" tvg-language=\"rus\" group-title=\"Movies\" nexus-score=\"66\",City Eden KinoDrama",
+            "https://cityeden.catcast.tv/content/45269/index.m3u8"
+          ],
+          "history": [],
+          "sources": [
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/index.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            },
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/country/ru.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/ru.xml.gz\""
+            },
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/online.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            },
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/best.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
             }
           ],
           "existing": false,
@@ -248214,6 +248869,39 @@
               "provider": "DuckKota IPTV",
               "url": "https://DuckKota.github.io/iptv/playlists/online.m3u",
               "header": "#EXTM3U x-tvg-url=\"https://DuckKota.github.io/iptv/epg/guide.xml.gz\""
+            }
+          ],
+          "existing": false,
+          "rights_evidence": "",
+          "status": "UNKNOWN_CZ",
+          "audio_reviews": []
+        },
+        "888980a4efbcc7cf97f4657525f912275812052ad8bd09054fddfe94bdb55802": {
+          "block": [
+            "#EXTINF:-1 tvg-id=\"CityEdenKinoAsia.ru\" tvg-chno=\"6945\" tvg-name=\"City Eden KinoAsia\" tvg-logo=\"https://i.imgur.com/gaket4B.png\" tvg-country=\"RU\" tvg-language=\"rus\" group-title=\"Movies\" nexus-score=\"70\",City Eden KinoAsia",
+            "https://cityeden.catcast.tv/content/34393/index.m3u8"
+          ],
+          "history": [],
+          "sources": [
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/index.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            },
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/country/ru.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/ru.xml.gz\""
+            },
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/online.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            },
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/best.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
             }
           ],
           "existing": false,
@@ -257945,6 +258633,16 @@
             {
               "provider": "IPTV Nexus",
               "url": "https://dearbulut.github.io/iptv/playlists/index.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            },
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/online.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            },
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/best.m3u",
               "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
             }
           ],
@@ -281004,6 +281702,16 @@
               "provider": "IPTV Nexus",
               "url": "https://dearbulut.github.io/iptv/playlists/index.m3u",
               "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            },
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/online.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            },
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/best.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
             }
           ],
           "existing": false,
@@ -289500,6 +290208,29 @@
           "rights_evidence": "",
           "status": "UNKNOWN_CZ",
           "audio_reviews": []
+        },
+        "3ec96a78fa2385afb8902bd11343fb9ee8fe9bab8bcced27012cd28b4e5dd35b": {
+          "block": [
+            "#EXTINF:-1 tvg-id=\"BoxHits.vn\" tvg-chno=\"10785\" tvg-name=\"Box Hits\" tvg-logo=\"https://i.imgur.com/kL9ubfw.png\" tvg-country=\"VN\" tvg-language=\"vie;eng\" group-title=\"Movies\" nexus-score=\"30\",Box Hits (720p)",
+            "http://antm.dynu.net:14285/rtp/232.84.1.10:8034"
+          ],
+          "history": [],
+          "sources": [
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/index.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            },
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/best.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            }
+          ],
+          "existing": false,
+          "rights_evidence": "",
+          "status": "UNKNOWN_CZ",
+          "audio_reviews": []
         }
       },
       "groups": [],
@@ -292432,6 +293163,39 @@
               "provider": "DuckKota IPTV",
               "url": "https://DuckKota.github.io/iptv/playlists/online.m3u",
               "header": "#EXTM3U x-tvg-url=\"https://DuckKota.github.io/iptv/epg/guide.xml.gz\""
+            }
+          ],
+          "existing": false,
+          "rights_evidence": "",
+          "status": "UNKNOWN_CZ",
+          "audio_reviews": []
+        },
+        "83abad0f02b0a708c6314183df9def598a4ec46fbd1a8f1fab8d0ddb68d7a831": {
+          "block": [
+            "#EXTINF:-1 tvg-id=\"CityEdenKinoKlassika.ru\" tvg-chno=\"6950\" tvg-name=\"City Eden KinoKlassika\" tvg-logo=\"https://i.imgur.com/0qGCS1S.png\" tvg-country=\"RU\" tvg-language=\"rus\" group-title=\"Movies\" nexus-score=\"70\",City Eden KinoKlassika",
+            "https://cityeden.catcast.tv/content/34185/index.m3u8"
+          ],
+          "history": [],
+          "sources": [
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/index.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            },
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/country/ru.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/ru.xml.gz\""
+            },
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/online.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            },
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/best.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
             }
           ],
           "existing": false,
@@ -301269,6 +302033,34 @@
           "rights_evidence": "",
           "status": "UNKNOWN_CZ",
           "audio_reviews": []
+        },
+        "825c552e7d9b508db772c5dd820ed0e7553a770d7a8942abd5708fc87e2f297a": {
+          "block": [
+            "#EXTINF:-1 tvg-id=\"HarbinMovieChannel.cn\" tvg-chno=\"1429\" tvg-name=\"Harbin Movie Channel\" tvg-logo=\"https://www.tvchinese.net/uploads/tv/haerbin.jpg\" tvg-country=\"CN\" tvg-language=\"zho\" group-title=\"Movies\" nexus-score=\"90\",Harbin Movie Channel",
+            "https://stream.hrbtv.net/yspd/playlist.m3u8"
+          ],
+          "history": [],
+          "sources": [
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/index.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            },
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/online.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            },
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/best.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            }
+          ],
+          "existing": false,
+          "rights_evidence": "",
+          "status": "UNKNOWN_CZ",
+          "audio_reviews": []
         }
       },
       "groups": [
@@ -303637,6 +304429,34 @@
               "provider": "DuckKota IPTV",
               "url": "https://DuckKota.github.io/iptv/playlists/online.m3u",
               "header": "#EXTM3U x-tvg-url=\"https://DuckKota.github.io/iptv/epg/guide.xml.gz\""
+            }
+          ],
+          "existing": false,
+          "rights_evidence": "",
+          "status": "UNKNOWN_CZ",
+          "audio_reviews": []
+        },
+        "ab34048659f0183dfa27f4c97609c82010cf9be5a4a1ee8d28f3844c7f3c8a71": {
+          "block": [
+            "#EXTINF:-1 tvg-id=\"IFC.us\" tvg-chno=\"9241\" tvg-name=\"IFC\" tvg-logo=\"https://i.imgur.com/bQdkyF9.png\" tvg-country=\"US\" tvg-language=\"eng;spa\" group-title=\"Movies\" nexus-score=\"97\",IFC (1080p)",
+            "http://23.237.104.106:8080/USA_IFC/index.m3u8"
+          ],
+          "history": [],
+          "sources": [
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/index.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            },
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/online.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            },
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/best.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
             }
           ],
           "existing": false,
@@ -311175,6 +311995,24 @@
           "rights_evidence": "",
           "status": "UNKNOWN_CZ",
           "audio_reviews": []
+        },
+        "4676aca5bf1c457b6fbd4d19ae293c080abd1009ae6835fea54c57bbed5984a8": {
+          "block": [
+            "#EXTINF:-1 tvg-id=\"TV21.ru\" tvg-chno=\"7264\" tvg-name=\"TV 21\" tvg-logo=\"https://i.imgur.com/nSmSnH6.png\" tvg-country=\"RU\" tvg-language=\"rus\" group-title=\"Movies\" nexus-score=\"82\",TV 21 (576p)",
+            "http://178.134.1.158:8081/TVXXI/index.m3u8"
+          ],
+          "history": [],
+          "sources": [
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/index.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            }
+          ],
+          "existing": false,
+          "rights_evidence": "",
+          "status": "UNKNOWN_CZ",
+          "audio_reviews": []
         }
       },
       "groups": [
@@ -314272,6 +315110,34 @@
               "provider": "DuckKota IPTV",
               "url": "https://DuckKota.github.io/iptv/playlists/country/ru.m3u",
               "header": "#EXTM3U x-tvg-url=\"https://DuckKota.github.io/iptv/epg/guide.xml.gz\""
+            }
+          ],
+          "existing": false,
+          "rights_evidence": "",
+          "status": "UNKNOWN_CZ",
+          "audio_reviews": []
+        },
+        "6b8b1e9abd6b0e6e264a04a61ee17d6a60d598cbcccf28e041795c151ad8a1c4": {
+          "block": [
+            "#EXTINF:-1 tvg-id=\"vijuTV1000novella.ru\" tvg-chno=\"7301\" tvg-name=\"viju TV1000 novella\" tvg-logo=\"https://www.cableman.ru/sites/default/files/viju_TV1000_%D0%BD%D0%BE%D0%B2%D0%B5%D0%BB%D0%BB%D0%B0_color_rgb_02%20%281%29.png\" tvg-country=\"RU\" tvg-language=\"rus\" group-title=\"Movies\" nexus-score=\"17\",viju TV1000 novella (1080p)",
+            "http://46.53.200.153:7777/play/VIJU_TV_1000_novella/index.m3u8"
+          ],
+          "history": [],
+          "sources": [
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/index.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            },
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/country/ru.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/ru.xml.gz\""
+            },
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/best.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
             }
           ],
           "existing": false,
@@ -324550,6 +325416,24 @@
         "f993f5da796ece27555cdef3baf1cc8630aa100bdfac8e20059adab9365d4122": {
           "block": [
             "#EXTINF:-1 tvg-id=\"ScaresbyShudder.us\" tvg-chno=\"9842\" tvg-name=\"Scares by Shudder\" tvg-logo=\"https://www.bgr.com/bgr/entertainment/freevee-added-5-spooky-new-live-channels-just-in-time-for-halloween/Scares-by-Shudder.jpg\" tvg-country=\"US\" tvg-language=\"eng\" group-title=\"Movies\" nexus-score=\"90\",Scares by Shudder (1080p)",
+            "https://aka-live1050.delivery.roku.com/bf4fff9b-e81f-4dcb-baaf-71b75e091599/t2-origin/out/v1/live.m3u8"
+          ],
+          "history": [],
+          "sources": [
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/index.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            }
+          ],
+          "existing": false,
+          "rights_evidence": "",
+          "status": "UNKNOWN_CZ",
+          "audio_reviews": []
+        },
+        "bfcc766e9c521271be22ce8f8ac01eadeec5d33841c8ec7940255922a24a2859": {
+          "block": [
+            "#EXTINF:-1 tvg-id=\"ScaresbyShudder.us\" tvg-chno=\"9842\" tvg-name=\"Scares by Shudder\" tvg-logo=\"https://www.bgr.com/bgr/entertainment/freevee-added-5-spooky-new-live-channels-just-in-time-for-halloween/Scares-by-Shudder.jpg\" tvg-country=\"US\" tvg-language=\"eng\" group-title=\"Movies\" nexus-score=\"93\",Scares by Shudder (1080p)",
             "https://aka-live1050.delivery.roku.com/bf4fff9b-e81f-4dcb-baaf-71b75e091599/t2-origin/out/v1/live.m3u8"
           ],
           "history": [],
@@ -335533,6 +336417,34 @@
           "rights_evidence": "",
           "status": "UNKNOWN_CZ",
           "audio_reviews": []
+        },
+        "a9ef423d31794b6a201f146f937377bcaba3c836ac58f960c63cab55717c4122": {
+          "block": [
+            "#EXTINF:-1 tvg-id=\"NashKinopokaz.ru\" tvg-chno=\"7093\" tvg-name=\"Nash Kinopokaz\" tvg-logo=\"https://i.imgur.com/iwTMl8O.png\" tvg-country=\"RU\" tvg-language=\"rus\" group-title=\"Movies\" nexus-score=\"17\",Nash Kinopokaz (576p)",
+            "http://46.53.200.153:7777/play/SRT_Nash_kinopokaz/index.m3u8"
+          ],
+          "history": [],
+          "sources": [
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/index.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            },
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/country/ru.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/ru.xml.gz\""
+            },
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/best.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            }
+          ],
+          "existing": false,
+          "rights_evidence": "",
+          "status": "UNKNOWN_CZ",
+          "audio_reviews": []
         }
       },
       "groups": [
@@ -336483,6 +337395,29 @@
               "provider": "DuckKota IPTV",
               "url": "https://DuckKota.github.io/iptv/playlists/index.m3u",
               "header": "#EXTM3U x-tvg-url=\"https://DuckKota.github.io/iptv/epg/guide.xml.gz\""
+            }
+          ],
+          "existing": false,
+          "rights_evidence": "",
+          "status": "UNKNOWN_CZ",
+          "audio_reviews": []
+        },
+        "753e9af1745e03d279ebcfc132cb04fe9136ba1db05973ee4b5fdd9148a2d9ec": {
+          "block": [
+            "#EXTINF:-1 tvg-id=\"BomCine.es\" tvg-chno=\"2632\" tvg-name=\"Bom Cine\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Logo-bom.svg/960px-Logo-bom.svg.png\" tvg-country=\"ES\" tvg-language=\"spa\" group-title=\"Movies\" nexus-score=\"8\",Bom Cine (240p)",
+            "https://cdn78-at.azotosolutions.com/cdnedge39/Canale3/master.m3u8"
+          ],
+          "history": [],
+          "sources": [
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/index.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            },
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/best.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
             }
           ],
           "existing": false,
@@ -338078,6 +339013,24 @@
         "d85fd33d8c0a7b41b0a5c66bef8601a7e2b7e7cdcaca5a978424047994ebbff6": {
           "block": [
             "#EXTINF:-1 tvg-id=\"KinoHit.ru\" tvg-chno=\"7029\" tvg-name=\"KinoHit\" tvg-logo=\"https://i.imgur.com/Ge8vkQM.png\" tvg-country=\"RU\" tvg-language=\"rus\" group-title=\"Movies\" nexus-score=\"70\",KinoHit (1080p)",
+            "https://stream8.cinerama.uz/1055/tracks-v1a1/mono.m3u8"
+          ],
+          "history": [],
+          "sources": [
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/index.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            }
+          ],
+          "existing": false,
+          "rights_evidence": "",
+          "status": "UNKNOWN_CZ",
+          "audio_reviews": []
+        },
+        "827bd96453f35c8a35f207ee3f88f671c3eae454eea30cdf33a0c1d72201dfa0": {
+          "block": [
+            "#EXTINF:-1 tvg-id=\"KinoHit.ru\" tvg-chno=\"7029\" tvg-name=\"KinoHit\" tvg-logo=\"https://i.imgur.com/Ge8vkQM.png\" tvg-country=\"RU\" tvg-language=\"rus\" group-title=\"Movies\" nexus-score=\"79\",KinoHit (1080p)",
             "https://stream8.cinerama.uz/1055/tracks-v1a1/mono.m3u8"
           ],
           "history": [],
@@ -341114,6 +342067,24 @@
               "provider": "DuckKota IPTV",
               "url": "https://DuckKota.github.io/iptv/playlists/index.m3u",
               "header": "#EXTM3U x-tvg-url=\"https://DuckKota.github.io/iptv/epg/guide.xml.gz\""
+            }
+          ],
+          "existing": false,
+          "rights_evidence": "",
+          "status": "UNKNOWN_CZ",
+          "audio_reviews": []
+        },
+        "8833b056408c64de318e8e2fe5b313792c55f29d000ac9846f4a07d9af14ccba": {
+          "block": [
+            "#EXTINF:-1 tvg-id=\"vijuTV1000.ru\" tvg-chno=\"7299\" tvg-name=\"viju TV1000\" tvg-logo=\"https://i.imgur.com/ZMsyjSr.png\" tvg-country=\"RU\" tvg-language=\"rus\" group-title=\"Movies\" nexus-score=\"17\",viju TV1000 (576p)",
+            "http://46.53.200.153:7777/play/TV_1000/index.m3u8"
+          ],
+          "history": [],
+          "sources": [
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/index.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
             }
           ],
           "existing": false,
@@ -345880,6 +346851,34 @@
         "4b237b8f6d8330761c1719cf8947885c1db0abe8201627c511de78c6817f16bc": {
           "block": [
             "#EXTINF:-1 tvg-id=\"PlutoTVFilmCommedia.de\" tvg-chno=\"2028\" tvg-name=\"Pluto TV Film Commedia\" tvg-logo=\"https://images.pluto.tv/channels/608aa512d67fd900072323db/colorLogoPNG.png\" tvg-country=\"DE\" tvg-language=\"ita\" group-title=\"Movies\" nexus-score=\"98\",Pluto TV Film Commedia",
+            "https://jmp2.uk/plu-608aa512d67fd900072323db.m3u8"
+          ],
+          "history": [],
+          "sources": [
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/index.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            },
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/online.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            },
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/best.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            }
+          ],
+          "existing": false,
+          "rights_evidence": "",
+          "status": "UNKNOWN_CZ",
+          "audio_reviews": []
+        },
+        "8c1349b4dcb40a422968ee3e2698b0b0b178e5f54c56ce956a3eb40b30ddf89b": {
+          "block": [
+            "#EXTINF:-1 tvg-id=\"PlutoTVFilmCommedia.de\" tvg-chno=\"2028\" tvg-name=\"Pluto TV Film Commedia\" tvg-logo=\"https://images.pluto.tv/channels/608aa512d67fd900072323db/colorLogoPNG.png\" tvg-country=\"DE\" tvg-language=\"ita\" group-title=\"Movies\" nexus-score=\"99\",Pluto TV Film Commedia",
             "https://jmp2.uk/plu-608aa512d67fd900072323db.m3u8"
           ],
           "history": [],
@@ -382918,6 +383917,24 @@
           "rights_evidence": "",
           "status": "UNKNOWN_CZ",
           "audio_reviews": []
+        },
+        "19e133646aeba858092a276b9e8eb95ac525bbe0d055815108b2c7fa8aee4644": {
+          "block": [
+            "#EXTINF:-1 tvg-id=\"red.ru\" tvg-chno=\"6876\" tvg-name=\".red\" tvg-logo=\"https://i.imgur.com/GET9Qut.png\" tvg-country=\"RU\" tvg-language=\"rus\" group-title=\"Entertainment\" nexus-score=\"81\",.red (1080p)",
+            "http://178.134.1.158:8081/red/index.m3u8"
+          ],
+          "history": [],
+          "sources": [
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/index.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            }
+          ],
+          "existing": false,
+          "rights_evidence": "",
+          "status": "UNKNOWN_CZ",
+          "audio_reviews": []
         }
       },
       "groups": [
@@ -385034,6 +386051,24 @@
               "provider": "DuckKota IPTV",
               "url": "https://DuckKota.github.io/iptv/playlists/index.m3u",
               "header": "#EXTM3U x-tvg-url=\"https://DuckKota.github.io/iptv/epg/guide.xml.gz\""
+            }
+          ],
+          "existing": false,
+          "rights_evidence": "",
+          "status": "UNKNOWN_CZ",
+          "audio_reviews": []
+        },
+        "3262cb55cc2cd992be7a8d865537d2730fdb63b01fae891918207d98aced3096": {
+          "block": [
+            "#EXTINF:-1 tvg-id=\"WarnerChannel.us\" tvg-chno=\"10146\" tvg-name=\"Warner Channel\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Warner_Channel_2026.svg/960px-Warner_Channel_2026.svg.png\" tvg-country=\"US\" tvg-language=\"por;spa\" group-title=\"Movies\" nexus-score=\"3\",Warner Channel (1080p)",
+            "http://15.204.246.24:8080/WarnerChannelHD/index.m3u8"
+          ],
+          "history": [],
+          "sources": [
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/index.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
             }
           ],
           "existing": false,
@@ -387427,6 +388462,16 @@
               "provider": "IPTV Nexus",
               "url": "https://dearbulut.github.io/iptv/playlists/index.m3u",
               "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            },
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/online.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            },
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/best.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
             }
           ],
           "existing": false,
@@ -387542,6 +388587,24 @@
         "98acfef7596d423110c77213a193ab245ddce04b70a3f897c1ab0f7274fbe43d": {
           "block": [
             "#EXTINF:-1 tvg-id=\"PunjabiShorts.in\" tvg-chno=\"4254\" tvg-name=\"Punjabi Shorts\" tvg-logo=\"https://www.thegtcnetwork.com/punjabi-shorts.jpg\" tvg-country=\"IN\" tvg-language=\"pan\" group-title=\"Movies\" nexus-score=\"85\",Punjabi Shorts (1080p)",
+            "https://vglivessai.akamaized.net/ptnr-yupptv/title-Punjabi_Shorts/in/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/27c3fd7a-b01f-4b00-ac03-557ac77acd47/index.m3u8"
+          ],
+          "history": [],
+          "sources": [
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/index.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            }
+          ],
+          "existing": false,
+          "rights_evidence": "",
+          "status": "UNKNOWN_CZ",
+          "audio_reviews": []
+        },
+        "2392814b4f902757be06a691e0f2d9cf36771fec241687455787f7168de7bff1": {
+          "block": [
+            "#EXTINF:-1 tvg-id=\"PunjabiShorts.in\" tvg-chno=\"4254\" tvg-name=\"Punjabi Shorts\" tvg-logo=\"https://www.thegtcnetwork.com/punjabi-shorts.jpg\" tvg-country=\"IN\" tvg-language=\"pan\" group-title=\"Movies\" nexus-score=\"90\",Punjabi Shorts (1080p)",
             "https://vglivessai.akamaized.net/ptnr-yupptv/title-Punjabi_Shorts/in/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/27c3fd7a-b01f-4b00-ac03-557ac77acd47/index.m3u8"
           ],
           "history": [],
@@ -389894,6 +390957,24 @@
         "9ce328376491dff5a184b4ab8d80809875c642dbb204031c1475a6b3cc55b479": {
           "block": [
             "#EXTINF:-1 tvg-id=\"Runtime.us\" tvg-chno=\"9828\" tvg-name=\"Runtime\" tvg-logo=\"https://i.imgur.com/2USCMvP.png\" tvg-country=\"US\" tvg-language=\"eng\" group-title=\"Movies\" nexus-score=\"96\",Runtime (720p)",
+            "https://jmp2.uk/plu-62c5d80dc6de440007e033eb.m3u8"
+          ],
+          "history": [],
+          "sources": [
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/index.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            }
+          ],
+          "existing": false,
+          "rights_evidence": "",
+          "status": "UNKNOWN_CZ",
+          "audio_reviews": []
+        },
+        "c73e4bc64f48daf1fce87f13e1cb215b516dcbb7ccdafea668bc42b80a360717": {
+          "block": [
+            "#EXTINF:-1 tvg-id=\"Runtime.us\" tvg-chno=\"9828\" tvg-name=\"Runtime\" tvg-logo=\"https://i.imgur.com/2USCMvP.png\" tvg-country=\"US\" tvg-language=\"eng\" group-title=\"Movies\" nexus-score=\"97\",Runtime (720p)",
             "https://jmp2.uk/plu-62c5d80dc6de440007e033eb.m3u8"
           ],
           "history": [],
@@ -393543,6 +394624,16 @@
               "provider": "IPTV Nexus",
               "url": "https://dearbulut.github.io/iptv/playlists/index.m3u",
               "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            },
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/online.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            },
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/best.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
             }
           ],
           "existing": false,
@@ -396273,6 +397364,16 @@
             {
               "provider": "IPTV Nexus",
               "url": "https://dearbulut.github.io/iptv/playlists/index.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            },
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/online.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            },
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/best.m3u",
               "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
             }
           ],
@@ -401392,6 +402493,16 @@
             {
               "provider": "IPTV Nexus",
               "url": "https://dearbulut.github.io/iptv/playlists/index.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            },
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/online.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            },
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/best.m3u",
               "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
             }
           ],
@@ -436180,6 +437291,25 @@
           "rights_evidence": "",
           "status": "UNKNOWN_CZ",
           "audio_reviews": []
+        },
+        "5bf09b45a07d0fa17156eab448a8fd1884edbc6325bb64af4bcbf71c90cc5e9b": {
+          "block": [
+            "#EXTINF:-1 tvg-id=\"MovieBox.mn\" tvg-chno=\"5446\" tvg-name=\"MovieBox\" tvg-logo=\"https://www.mongolsat.mn/assets/img/channel/909.png\" tvg-country=\"MN\" tvg-language=\"mon\" group-title=\"Movies\" nexus-score=\"90\",MovieBox (720p)",
+            "#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
+            "https://cdn4.skygo.mn/live/disk1/Moviebox/HLSv3-FTA/Moviebox.m3u8"
+          ],
+          "history": [],
+          "sources": [
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/index.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            }
+          ],
+          "existing": false,
+          "rights_evidence": "",
+          "status": "UNKNOWN_CZ",
+          "audio_reviews": []
         }
       },
       "groups": [
@@ -436648,6 +437778,39 @@
               "provider": "DuckKota IPTV",
               "url": "https://DuckKota.github.io/iptv/playlists/online.m3u",
               "header": "#EXTM3U x-tvg-url=\"https://DuckKota.github.io/iptv/epg/guide.xml.gz\""
+            }
+          ],
+          "existing": false,
+          "rights_evidence": "",
+          "status": "UNKNOWN_CZ",
+          "audio_reviews": []
+        },
+        "6f719a8b8654ada2e2580e819f6eb13a05d997280d7bfec79d8182c2fce2b4c7": {
+          "block": [
+            "#EXTINF:-1 tvg-id=\"CityEdenKinoKomediya.ru\" tvg-chno=\"6951\" tvg-name=\"City Eden KinoKomediya\" tvg-logo=\"https://i.imgur.com/Aga2XVA.png\" tvg-country=\"RU\" tvg-language=\"rus\" group-title=\"Movies\" nexus-score=\"70\",City Eden KinoKomediya",
+            "https://cityeden.catcast.tv/content/41331/index.m3u8"
+          ],
+          "history": [],
+          "sources": [
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/index.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            },
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/country/ru.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/ru.xml.gz\""
+            },
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/online.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            },
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/best.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
             }
           ],
           "existing": false,
@@ -444513,6 +445676,34 @@
         "9033c6b79701fae907f2326e377e0919b41eb306ab6c6a25e8c6955294984361": {
           "block": [
             "#EXTINF:-1 tvg-id=\"PlutoTVCineInspirador.us\" tvg-chno=\"9652\" tvg-name=\"Pluto TV Cine Inspirador\" tvg-logo=\"https://images.pluto.tv/channels/6806d519fea7414f33f57016/colorLogoPNG_1746817663597.png\" tvg-country=\"US\" tvg-language=\"spa\" group-title=\"Movies\" nexus-score=\"88\",Pluto TV Cine Inspirador",
+            "https://jmp2.uk/plu-6806d519fea7414f33f57016.m3u8"
+          ],
+          "history": [],
+          "sources": [
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/index.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            },
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/online.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            },
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/best.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            }
+          ],
+          "existing": false,
+          "rights_evidence": "",
+          "status": "UNKNOWN_CZ",
+          "audio_reviews": []
+        },
+        "b59e90ee03a7a558aa87ca1f6c4ef540760407b807564a117c3835b720cf3761": {
+          "block": [
+            "#EXTINF:-1 tvg-id=\"PlutoTVCineInspirador.us\" tvg-chno=\"9652\" tvg-name=\"Pluto TV Cine Inspirador\" tvg-logo=\"https://images.pluto.tv/channels/6806d519fea7414f33f57016/colorLogoPNG_1746817663597.png\" tvg-country=\"US\" tvg-language=\"spa\" group-title=\"Movies\" nexus-score=\"92\",Pluto TV Cine Inspirador",
             "https://jmp2.uk/plu-6806d519fea7414f33f57016.m3u8"
           ],
           "history": [],
@@ -454435,6 +455626,34 @@
           "rights_evidence": "",
           "status": "UNKNOWN_CZ",
           "audio_reviews": []
+        },
+        "1d4821d4e4cf8e72c5f75ca77d66eaae9aaf7090cd101bb151bee198d6093d97": {
+          "block": [
+            "#EXTINF:-1 tvg-id=\"QTV3.cn\" tvg-chno=\"1473\" tvg-name=\"QTV-3\" tvg-logo=\"https://www.tvchinese.net/uploads/tv/qdtv3.jpg\" tvg-country=\"CN\" tvg-language=\"zho\" group-title=\"Movies\" nexus-score=\"100\",QTV-3",
+            "http://video10.qtv.com.cn/drm/qtv3at/manifest.m3u8"
+          ],
+          "history": [],
+          "sources": [
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/index.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            },
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/online.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            },
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/best.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            }
+          ],
+          "existing": false,
+          "rights_evidence": "",
+          "status": "UNKNOWN_CZ",
+          "audio_reviews": []
         }
       },
       "groups": [
@@ -455237,6 +456456,34 @@
         "77ace811a136ea6016049d7c603bbfd4a1e155fb835cb80212a75682c664e5b6": {
           "block": [
             "#EXTINF:-1 tvg-id=\"Action24.gr\" tvg-chno=\"3132\" tvg-name=\"Action 24\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/8/88/Action24-logo-small.png\" tvg-country=\"GR\" tvg-language=\"ell\" group-title=\"Movies\" nexus-score=\"99\",Action 24 (1080p)",
+            "http://actionlive.siliconweb.com/actionabr/actiontv/playlist.m3u8"
+          ],
+          "history": [],
+          "sources": [
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/index.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            },
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/online.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            },
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/best.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            }
+          ],
+          "existing": false,
+          "rights_evidence": "",
+          "status": "UNKNOWN_CZ",
+          "audio_reviews": []
+        },
+        "698ff753dd3570ad4ec4b5f1b7b2a16f7ed2ee9c1647542b4f2ca129aac1db5a": {
+          "block": [
+            "#EXTINF:-1 tvg-id=\"Action24.gr\" tvg-chno=\"3132\" tvg-name=\"Action 24\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/8/88/Action24-logo-small.png\" tvg-country=\"GR\" tvg-language=\"ell\" group-title=\"Movies\" nexus-score=\"100\",Action 24 (1080p)",
             "http://actionlive.siliconweb.com/actionabr/actiontv/playlist.m3u8"
           ],
           "history": [],
@@ -471792,6 +473039,83 @@
           "rights_evidence": "",
           "status": "UNKNOWN_CZ",
           "audio_reviews": []
+        },
+        "0c3e12abd5a14b0adcd1807df750c1c93b8ae4a443d28c0443f6bcd541d1e4d8": {
+          "block": [
+            "#EXTINF:-1 tvg-id=\"RakutenTVFamilyMovies.es\" tvg-chno=\"2780\" tvg-name=\"Rakuten TV Family Movies\" tvg-logo=\"https://i.imgur.com/Meew6eX.png\" tvg-country=\"ES\" tvg-language=\"deu;fin;eng;fra;ita;spa\" group-title=\"Family\" nexus-score=\"3\",Rakuten TV Family Movies (1080p)",
+            "https://b0d59c8c98974e708e5ccb9a27cdfdfc.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6205/master.m3u8"
+          ],
+          "history": [],
+          "sources": [
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/index.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            },
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/best.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            }
+          ],
+          "existing": false,
+          "rights_evidence": "",
+          "status": "UNKNOWN_CZ",
+          "audio_reviews": []
+        },
+        "add6106373603ed943a4334e7f2af9485e4bf24a18bd94de2d4356945057be52": {
+          "block": [
+            "#EXTINF:-1 tvg-id=\"RakutenTVFamilyMovies.es\" tvg-chno=\"2780\" tvg-name=\"Rakuten TV Family Movies\" tvg-logo=\"https://i.imgur.com/Meew6eX.png\" tvg-country=\"ES\" tvg-language=\"deu;fin;eng;fra;ita;spa\" group-title=\"Family\" nexus-score=\"3\",Rakuten TV Family Movies (1080p)",
+            "https://e3207568b726401995c25670faaf32e4.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6203/master.m3u8"
+          ],
+          "history": [],
+          "sources": [
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/index.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            }
+          ],
+          "existing": false,
+          "rights_evidence": "",
+          "status": "UNKNOWN_CZ",
+          "audio_reviews": []
+        },
+        "4bd095570e85a43054dba476c7c852d75dd04a13554c2e32a66c614b1c863ab1": {
+          "block": [
+            "#EXTINF:-1 tvg-id=\"RakutenTVFamilyMovies.es\" tvg-chno=\"2780\" tvg-name=\"Rakuten TV Family Movies\" tvg-logo=\"https://i.imgur.com/Meew6eX.png\" tvg-country=\"ES\" tvg-language=\"deu;fin;eng;fra;ita;spa\" group-title=\"Family\" nexus-score=\"3\",Rakuten TV Family Movies (1080p)",
+            "https://af230031eeac45f3b78d4f8a13265105.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6209/master.m3u8"
+          ],
+          "history": [],
+          "sources": [
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/index.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            }
+          ],
+          "existing": false,
+          "rights_evidence": "",
+          "status": "UNKNOWN_CZ",
+          "audio_reviews": []
+        },
+        "ed4ecbe0fe4f191bd337b5ebb2f21c74254beeb7d8652473f4ca12f50fc5022c": {
+          "block": [
+            "#EXTINF:-1 tvg-id=\"RakutenTVFamilyMovies.es\" tvg-chno=\"2780\" tvg-name=\"Rakuten TV Family Movies\" tvg-logo=\"https://i.imgur.com/Meew6eX.png\" tvg-country=\"ES\" tvg-language=\"deu;fin;eng;fra;ita;spa\" group-title=\"Family\" nexus-score=\"3\",Rakuten TV Family Movies (1080p)",
+            "https://3315fc3e7276420f895e19cf807dbee1.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6215/master.m3u8"
+          ],
+          "history": [],
+          "sources": [
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/index.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            }
+          ],
+          "existing": false,
+          "rights_evidence": "",
+          "status": "UNKNOWN_CZ",
+          "audio_reviews": []
         }
       },
       "groups": [
@@ -472962,6 +474286,16 @@
             {
               "provider": "IPTV Nexus",
               "url": "https://dearbulut.github.io/iptv/playlists/index.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            },
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/online.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            },
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/best.m3u",
               "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
             }
           ],
@@ -483675,6 +485009,16 @@
               "provider": "IPTV Nexus",
               "url": "https://dearbulut.github.io/iptv/playlists/index.m3u",
               "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            },
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/online.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            },
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/best.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
             }
           ],
           "existing": false,
@@ -489911,6 +491255,34 @@
               "provider": "DuckKota IPTV",
               "url": "https://DuckKota.github.io/iptv/playlists/online.m3u",
               "header": "#EXTM3U x-tvg-url=\"https://DuckKota.github.io/iptv/epg/guide.xml.gz\""
+            }
+          ],
+          "existing": false,
+          "rights_evidence": "",
+          "status": "UNKNOWN_CZ",
+          "audio_reviews": []
+        },
+        "7f6ae83bcf1498b922ab27a415a310114d34eb17122f4547399d49cbd11517cf": {
+          "block": [
+            "#EXTINF:-1 tvg-id=\"HTVCMovies.vn\" tvg-chno=\"10366\" tvg-name=\"HTVC Movies\" tvg-logo=\"https://raw.githubusercontent.com/HaNoiIPTV/HaNoiIPTV.m3u/refs/heads/master/HTVC%20Phim%20HD.png\" tvg-country=\"VN\" tvg-language=\"vie\" group-title=\"Series\" nexus-score=\"70\",HTVC Movies (1080p)",
+            "https://dethich.pw/htvcphim/index.m3u8"
+          ],
+          "history": [],
+          "sources": [
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/index.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            },
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/online.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            },
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/best.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
             }
           ],
           "existing": false,
@@ -498309,6 +499681,24 @@
           "rights_evidence": "",
           "status": "UNKNOWN_CZ",
           "audio_reviews": []
+        },
+        "fc5e41ed4108da33ac378c7db4a3b2c6d9766eac135a5d0eaad240563a5d5753": {
+          "block": [
+            "#EXTINF:-1 tvg-id=\"AMCLatinAmerica.us\" tvg-chno=\"8660\" tvg-name=\"AMC Latin America\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/AMC_logo_2019.svg/960px-AMC_logo_2019.svg.png\" tvg-country=\"US\" tvg-language=\"por;spa\" group-title=\"Movies\" nexus-score=\"7\",AMC Latin America (720p)",
+            "http://170.83.49.66:8083/AMCHD/index.m3u8"
+          ],
+          "history": [],
+          "sources": [
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/index.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            }
+          ],
+          "existing": false,
+          "rights_evidence": "",
+          "status": "UNKNOWN_CZ",
+          "audio_reviews": []
         }
       },
       "groups": [
@@ -500880,6 +502270,34 @@
         "c0694312e22b0fc9996a429351942479015dc7830c6720a33bc38ebf241ad112": {
           "block": [
             "#EXTINF:-1 tvg-id=\"NostalgiaTV.ro\" tvg-chno=\"6744\" tvg-name=\"Nostalgia TV\" tvg-logo=\"https://assets.antenaplay.ro/2026/03/10/fX5tvuPLymvvR8lQmwO7.png\" tvg-country=\"RO\" tvg-language=\"ron\" group-title=\"Movies\" nexus-score=\"95\",Nostalgia TV (1080p)",
+            "https://hls02ns.antenaplay.ro/hls/nostalgia-hd/index.m3u8"
+          ],
+          "history": [],
+          "sources": [
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/index.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            },
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/online.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            },
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/best.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            }
+          ],
+          "existing": false,
+          "rights_evidence": "",
+          "status": "UNKNOWN_CZ",
+          "audio_reviews": []
+        },
+        "72fb1a29a84fc3914804f63add100a5ca2026df78336c3e3fb30e75577abfc6b": {
+          "block": [
+            "#EXTINF:-1 tvg-id=\"NostalgiaTV.ro\" tvg-chno=\"6744\" tvg-name=\"Nostalgia TV\" tvg-logo=\"https://assets.antenaplay.ro/2026/03/10/fX5tvuPLymvvR8lQmwO7.png\" tvg-country=\"RO\" tvg-language=\"ron\" group-title=\"Movies\" nexus-score=\"97\",Nostalgia TV (1080p)",
             "https://hls02ns.antenaplay.ro/hls/nostalgia-hd/index.m3u8"
           ],
           "history": [],
@@ -504634,6 +506052,39 @@
         "fd839ea828bb1c94704857ff5ad8a18d354ba033ba14bb747b597f0855bd3fa0": {
           "block": [
             "#EXTINF:-1 tvg-id=\"Bollywood.ru\" tvg-chno=\"6918\" tvg-name=\"Bollywood\" tvg-logo=\"https://i.imgur.com/YLQRnXt.png\" tvg-country=\"RU\" tvg-language=\"rus\" group-title=\"Movies\" nexus-score=\"85\",Bollywood (1080p)",
+            "http://176.118.197.101/Bollywood_HD/index.m3u8"
+          ],
+          "history": [],
+          "sources": [
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/index.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            },
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/country/ru.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/ru.xml.gz\""
+            },
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/online.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            },
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/best.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            }
+          ],
+          "existing": false,
+          "rights_evidence": "",
+          "status": "UNKNOWN_CZ",
+          "audio_reviews": []
+        },
+        "0d4d84f69c0a467d2a8fd98b52caa3e9a18a1ac3f85232a29dd80af9f26b6599": {
+          "block": [
+            "#EXTINF:-1 tvg-id=\"Bollywood.ru\" tvg-chno=\"6918\" tvg-name=\"Bollywood\" tvg-logo=\"https://i.imgur.com/YLQRnXt.png\" tvg-country=\"RU\" tvg-language=\"rus\" group-title=\"Movies\" nexus-score=\"90\",Bollywood (1080p)",
             "http://176.118.197.101/Bollywood_HD/index.m3u8"
           ],
           "history": [],
@@ -515394,6 +516845,11 @@
               "provider": "IPTV Nexus",
               "url": "https://dearbulut.github.io/iptv/playlists/index.m3u",
               "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            },
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/best.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
             }
           ],
           "existing": false,
@@ -521246,6 +522702,34 @@
           "rights_evidence": "",
           "status": "UNKNOWN_CZ",
           "audio_reviews": []
+        },
+        "772733a6b3b8e4ba8097c7e61e8740567ca35f8d621239aad1ddab7434737319": {
+          "block": [
+            "#EXTINF:-1 tvg-id=\"SYFY.us\" tvg-chno=\"9941\" tvg-name=\"SYFY\" tvg-logo=\"https://i.imgur.com/4fMWhUE.png\" tvg-country=\"US\" tvg-language=\"eng\" group-title=\"Movies\" nexus-score=\"97\",SYFY (1080p)",
+            "http://23.237.104.106:8080/USA_SYFY/index.m3u8"
+          ],
+          "history": [],
+          "sources": [
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/index.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            },
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/online.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            },
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/best.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            }
+          ],
+          "existing": false,
+          "rights_evidence": "",
+          "status": "UNKNOWN_CZ",
+          "audio_reviews": []
         }
       },
       "groups": [
@@ -521737,6 +523221,39 @@
               "provider": "DuckKota IPTV",
               "url": "https://DuckKota.github.io/iptv/playlists/online.m3u",
               "header": "#EXTM3U x-tvg-url=\"https://DuckKota.github.io/iptv/epg/guide.xml.gz\""
+            }
+          ],
+          "existing": false,
+          "rights_evidence": "",
+          "status": "UNKNOWN_CZ",
+          "audio_reviews": []
+        },
+        "750e0b3925a647e7a9b965d83809834b93b8afe1766fb5ce5078964e664407aa": {
+          "block": [
+            "#EXTINF:-1 tvg-id=\"CityEdenKinoMistika.ru\" tvg-chno=\"6952\" tvg-name=\"City Eden KinoMistika\" tvg-logo=\"https://i.imgur.com/s1Pid0K.png\" tvg-country=\"RU\" tvg-language=\"rus\" group-title=\"Movies\" nexus-score=\"66\",City Eden KinoMistika",
+            "https://cityeden.catcast.tv/content/40783/index.m3u8"
+          ],
+          "history": [],
+          "sources": [
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/index.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            },
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/country/ru.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/ru.xml.gz\""
+            },
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/online.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            },
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/best.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
             }
           ],
           "existing": false,
@@ -526579,6 +528096,24 @@
           "rights_evidence": "",
           "status": "UNKNOWN_CZ",
           "audio_reviews": []
+        },
+        "46d10cb225ed5d0b004926ff602d49849fed43bcdd15dba674061e65a7266ff7": {
+          "block": [
+            "#EXTINF:-1 tvg-id=\"Goldmines.in\" tvg-chno=\"3966\" tvg-name=\"Goldmines\" tvg-logo=\"https://dtil.tmsimg.com/assets/s143087_ld_h15_aa.png?lock=720x540\" tvg-country=\"IN\" tvg-language=\"hin\" group-title=\"Movies\" nexus-score=\"73\",Goldmines (360p)",
+            "https://tvsen6.aynaott.com/hKrngve2/index.m3u8"
+          ],
+          "history": [],
+          "sources": [
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/index.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            }
+          ],
+          "existing": false,
+          "rights_evidence": "",
+          "status": "UNKNOWN_CZ",
+          "audio_reviews": []
         }
       },
       "groups": [
@@ -527728,6 +529263,34 @@
               "provider": "DuckKota IPTV",
               "url": "https://DuckKota.github.io/iptv/playlists/online.m3u",
               "header": "#EXTM3U x-tvg-url=\"https://DuckKota.github.io/iptv/epg/guide.xml.gz\""
+            }
+          ],
+          "existing": false,
+          "rights_evidence": "",
+          "status": "UNKNOWN_CZ",
+          "audio_reviews": []
+        },
+        "e1aecd8b5f7cddeedbe54b9b004d115fcb55d488617deca1279831a103e047cb": {
+          "block": [
+            "#EXTINF:-1 tvg-id=\"SonarBangla.in\" tvg-chno=\"4348\" tvg-name=\"Sonar Bangla\" tvg-logo=\"https://papaji.freetvindia.com/media/1518_FreeTV_Sonar_Bangla.png\" tvg-country=\"IN\" tvg-language=\"ben\" group-title=\"Movies\" nexus-score=\"98\",Sonar Bangla (720p)",
+            "https://samitaorigin.tangotv.in/SONARBANGLA/SAMITAORIGIN/index.m3u8"
+          ],
+          "history": [],
+          "sources": [
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/index.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            },
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/online.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            },
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/best.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
             }
           ],
           "existing": false,
@@ -531760,6 +533323,24 @@
               "provider": "DuckKota IPTV",
               "url": "https://DuckKota.github.io/iptv/playlists/index.m3u",
               "header": "#EXTM3U x-tvg-url=\"https://DuckKota.github.io/iptv/epg/guide.xml.gz\""
+            }
+          ],
+          "existing": false,
+          "rights_evidence": "",
+          "status": "UNKNOWN_CZ",
+          "audio_reviews": []
+        },
+        "6c56a81de09c8976a4e3ab14664797f8e58d3577ac3108408abb6047c92a4339": {
+          "block": [
+            "#EXTINF:-1 tvg-id=\"CNDFilmMiddleSchoolChannel.cn\" tvg-chno=\"1415\" tvg-name=\"CND Film Middle School Channel\" tvg-logo=\"https://i.imgur.com/4uG8HsQ.png\" tvg-country=\"CN\" tvg-language=\"zho\" group-title=\"Movies\" nexus-score=\"19\",CND Film Middle School Channel",
+            "http://live-play.zxstv.com.cn/zhongxuesheng/zhongxuesheng.m3u8"
+          ],
+          "history": [],
+          "sources": [
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/index.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
             }
           ],
           "existing": false,
@@ -537876,6 +539457,24 @@
         "adf4af89055c18e8975c675ef5bd4a3dfd9071035eec3848f1f3bddf14ec6d2a": {
           "block": [
             "#EXTINF:-1 tvg-id=\"Cinema.ru\" tvg-chno=\"6939\" tvg-name=\"Cinema\" tvg-logo=\"https://i.imgur.com/b5e9qUA.png\" tvg-country=\"RU\" tvg-language=\"rus\" group-title=\"Movies\" nexus-score=\"100\",Cinema (576p)",
+            "http://s7.merlive.am/sinema/index.m3u8"
+          ],
+          "history": [],
+          "sources": [
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/index.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            }
+          ],
+          "existing": false,
+          "rights_evidence": "",
+          "status": "UNKNOWN_CZ",
+          "audio_reviews": []
+        },
+        "ced7165bc6451e706fdf81ac4c9512de3e489433eb442644d18051d4d2509d89": {
+          "block": [
+            "#EXTINF:-1 tvg-id=\"Cinema.ru\" tvg-chno=\"6939\" tvg-name=\"Cinema\" tvg-logo=\"https://i.imgur.com/b5e9qUA.png\" tvg-country=\"RU\" tvg-language=\"rus\" group-title=\"Movies\" nexus-score=\"70\",Cinema (576p)",
             "http://s7.merlive.am/sinema/index.m3u8"
           ],
           "history": [],
@@ -553215,6 +554814,24 @@
           "rights_evidence": "",
           "status": "UNKNOWN_CZ",
           "audio_reviews": []
+        },
+        "4d080309e304ab7a7903f2c1ba133f2aae9791c7d9ada643ec8dfb070477e4c1": {
+          "block": [
+            "#EXTINF:-1 tvg-id=\"AXNBlack.us\" tvg-chno=\"8709\" tvg-name=\"AXN Black\" tvg-logo=\"https://i.imgur.com/Peo1QiZ.png\" tvg-country=\"US\" tvg-language=\"eng;bul;pol\" group-title=\"Movies\" nexus-score=\"82\",AXN Black (576p)",
+            "http://141.94.193.53/axn_black/index.m3u8"
+          ],
+          "history": [],
+          "sources": [
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/index.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            }
+          ],
+          "existing": false,
+          "rights_evidence": "",
+          "status": "UNKNOWN_CZ",
+          "audio_reviews": []
         }
       },
       "groups": [
@@ -554388,6 +556005,39 @@
               "provider": "DuckKota IPTV",
               "url": "https://DuckKota.github.io/iptv/playlists/online.m3u",
               "header": "#EXTM3U x-tvg-url=\"https://DuckKota.github.io/iptv/epg/guide.xml.gz\""
+            }
+          ],
+          "existing": false,
+          "rights_evidence": "",
+          "status": "UNKNOWN_CZ",
+          "audio_reviews": []
+        },
+        "5126fe8e87c5d1b38d0f096bc03cef304a9828d31e0b9e5fc52683c40cfcca8d": {
+          "block": [
+            "#EXTINF:-1 tvg-id=\"CityEdenKinoDetektiv.ru\" tvg-chno=\"6946\" tvg-name=\"City Eden KinoDetektiv\" tvg-logo=\"https://i.imgur.com/9rKHwBV.png\" tvg-country=\"RU\" tvg-language=\"rus\" group-title=\"Movies\" nexus-score=\"45\",City Eden KinoDetektiv",
+            "https://cityeden.catcast.tv/content/41327/index.m3u8"
+          ],
+          "history": [],
+          "sources": [
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/index.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            },
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/country/ru.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/ru.xml.gz\""
+            },
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/online.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            },
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/best.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
             }
           ],
           "existing": false,
@@ -558437,6 +560087,39 @@
               "provider": "DuckKota IPTV",
               "url": "https://DuckKota.github.io/iptv/playlists/online.m3u",
               "header": "#EXTM3U x-tvg-url=\"https://DuckKota.github.io/iptv/epg/guide.xml.gz\""
+            }
+          ],
+          "existing": false,
+          "rights_evidence": "",
+          "status": "UNKNOWN_CZ",
+          "audio_reviews": []
+        },
+        "706427fa1d6c19c35dbe8ab5a800005a7eadd7137633a3529333770cb413c683": {
+          "block": [
+            "#EXTINF:-1 tvg-id=\"CityEdenKinoArt.ru\" tvg-chno=\"6944\" tvg-name=\"City Eden KinoArt\" tvg-logo=\"https://i.imgur.com/67CWCtz.png\" tvg-country=\"RU\" tvg-language=\"rus\" group-title=\"Movies\" nexus-score=\"96\",City Eden KinoArt",
+            "https://cityeden.catcast.tv/content/38398/index.m3u8"
+          ],
+          "history": [],
+          "sources": [
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/index.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            },
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/country/ru.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/ru.xml.gz\""
+            },
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/online.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            },
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/best.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
             }
           ],
           "existing": false,
@@ -562790,6 +564473,16 @@
               "provider": "IPTV Nexus",
               "url": "https://dearbulut.github.io/iptv/playlists/index.m3u",
               "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            },
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/online.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            },
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/best.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
             }
           ],
           "existing": false,
@@ -566674,6 +568367,34 @@
           "rights_evidence": "",
           "status": "UNKNOWN_CZ",
           "audio_reviews": []
+        },
+        "df1d5659c042d4891a12cb1aa85100d695eca6e724c55ac85ca4165fd578d1b8": {
+          "block": [
+            "#EXTINF:-1 tvg-id=\"ParamountNetwork.us\" tvg-chno=\"9588\" tvg-name=\"Paramount Network\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Paramount_Network.svg/960px-Paramount_Network.svg.png\" tvg-country=\"US\" tvg-language=\"eng\" group-title=\"Series\" nexus-score=\"97\",Paramount Network (1080p)",
+            "http://23.237.104.106:8080/USA_PARAMOUNT_NETWORK/index.m3u8"
+          ],
+          "history": [],
+          "sources": [
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/index.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            },
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/online.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            },
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/best.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            }
+          ],
+          "existing": false,
+          "rights_evidence": "",
+          "status": "UNKNOWN_CZ",
+          "audio_reviews": []
         }
       },
       "groups": [
@@ -567841,6 +569562,29 @@
               "provider": "DuckKota IPTV",
               "url": "https://DuckKota.github.io/iptv/playlists/index.m3u",
               "header": "#EXTM3U x-tvg-url=\"https://DuckKota.github.io/iptv/epg/guide.xml.gz\""
+            }
+          ],
+          "existing": false,
+          "rights_evidence": "",
+          "status": "UNKNOWN_CZ",
+          "audio_reviews": []
+        },
+        "853dc16261553adb646e1c5d31ba2665929ec6981e580592c7ed333ad8be78ca": {
+          "block": [
+            "#EXTINF:-1 tvg-id=\"Squirrel.es\" tvg-chno=\"2796\" tvg-name=\"Squirrel\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/8/8a/Squirrel_TV_logo.svg\" tvg-country=\"ES\" tvg-language=\"spa\" group-title=\"Movies\" nexus-score=\"8\",Squirrel (240p)",
+            "https://cdn78-at.azotosolutions.com/cdnedge39/Canale1/master.m3u8"
+          ],
+          "history": [],
+          "sources": [
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/index.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            },
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/best.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
             }
           ],
           "existing": false,
@@ -569927,6 +571671,34 @@
               "provider": "DuckKota IPTV",
               "url": "https://DuckKota.github.io/iptv/playlists/online.m3u",
               "header": "#EXTM3U x-tvg-url=\"https://DuckKota.github.io/iptv/epg/guide.xml.gz\""
+            }
+          ],
+          "existing": false,
+          "rights_evidence": "",
+          "status": "UNKNOWN_CZ",
+          "audio_reviews": []
+        },
+        "9cb446defab3b9f121eb87273709959cf33a66ba0a81964567e39c88c899ce71": {
+          "block": [
+            "#EXTINF:-1 tvg-id=\"ONMovies.vn\" tvg-chno=\"10379\" tvg-name=\"ON Movies\" tvg-logo=\"https://i.ibb.co/fdbgvtT8/IMG-2523.webp\" tvg-country=\"VN\" tvg-language=\"vie\" group-title=\"Movies\" nexus-score=\"96\",ON Movies (1080p)",
+            "https://freem3u.xyz/api/live/play.m3u8?vid=181"
+          ],
+          "history": [],
+          "sources": [
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/index.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            },
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/online.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            },
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/best.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
             }
           ],
           "existing": false,
@@ -574351,6 +576123,34 @@
           "rights_evidence": "",
           "status": "UNKNOWN_CZ",
           "audio_reviews": []
+        },
+        "e97259812e73d604035d567e8900fa7ba25f17de48794478fd26e96b1e71b02a": {
+          "block": [
+            "#EXTINF:-1 tvg-id=\"CinemaxHits.us\" tvg-chno=\"8873\" tvg-name=\"Cinemax Hits\" tvg-logo=\"https://i.ibb.co/Kp7m2G19/IMG-2477.png\" tvg-country=\"US\" tvg-language=\"eng;spa\" group-title=\"Movies\" nexus-score=\"97\",Cinemax Hits (720p)",
+            "http://23.237.104.106:8080/USA_MOREMAX/index.m3u8"
+          ],
+          "history": [],
+          "sources": [
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/index.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            },
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/online.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            },
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/best.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            }
+          ],
+          "existing": false,
+          "rights_evidence": "",
+          "status": "UNKNOWN_CZ",
+          "audio_reviews": []
         }
       },
       "groups": [
@@ -576675,6 +578475,52 @@
               "provider": "DuckKota IPTV",
               "url": "https://DuckKota.github.io/iptv/playlists/index.m3u",
               "header": "#EXTM3U x-tvg-url=\"https://DuckKota.github.io/iptv/epg/guide.xml.gz\""
+            }
+          ],
+          "existing": false,
+          "rights_evidence": "",
+          "status": "UNKNOWN_CZ",
+          "audio_reviews": []
+        },
+        "d1092a569a74cbf5898c34cc503b4c84fd6ee88aa9a4cb2a2612cf1b3d8e200c": {
+          "block": [
+            "#EXTINF:-1 tvg-id=\"CCTV6.cn\" tvg-chno=\"1376\" tvg-name=\"CCTV-6\" tvg-logo=\"https://i.imgur.com/rFiaef7.png\" tvg-country=\"CN\" tvg-language=\"zho\" group-title=\"Movies\" nexus-score=\"90\",CCTV-6 (1080p)",
+            "http://69.30.245.50/live/cctv6.m3u8"
+          ],
+          "history": [],
+          "sources": [
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/index.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            },
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/online.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            },
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/best.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            }
+          ],
+          "existing": false,
+          "rights_evidence": "",
+          "status": "UNKNOWN_CZ",
+          "audio_reviews": []
+        },
+        "3d99235758744ddced55fa915b47827c759edfbf1011cd7006957b3961aaba9c": {
+          "block": [
+            "#EXTINF:-1 tvg-id=\"CCTV6.cn\" tvg-chno=\"1376\" tvg-name=\"CCTV-6\" tvg-logo=\"https://i.imgur.com/rFiaef7.png\" tvg-country=\"CN\" tvg-language=\"zho\" group-title=\"Movies\" nexus-score=\"87\",CCTV-6 (1080p)",
+            "http://198.204.240.250:82/live/cctv6.m3u8"
+          ],
+          "history": [],
+          "sources": [
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/index.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
             }
           ],
           "existing": false,
@@ -580632,6 +582478,29 @@
           "rights_evidence": "",
           "status": "UNKNOWN_CZ",
           "audio_reviews": []
+        },
+        "143daae3f40ac50d9b0938bae8a97c8c922ab6dbb5c1c4910f4fe72b30948f37": {
+          "block": [
+            "#EXTINF:-1 tvg-id=\"312Kino.kg\" tvg-chno=\"5060\" tvg-name=\"312 Kino\" tvg-logo=\"https://i.ibb.co/3m9LrLj/k7gIibH.png\" tvg-country=\"KG\" tvg-language=\"rus;kir\" group-title=\"Movies\" nexus-score=\"6\",312 Kino (360p)",
+            "http://176.126.166.43:1935/live/312kino/playlist.m3u8"
+          ],
+          "history": [],
+          "sources": [
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/index.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            },
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/best.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            }
+          ],
+          "existing": false,
+          "rights_evidence": "",
+          "status": "UNKNOWN_CZ",
+          "audio_reviews": []
         }
       },
       "groups": [
@@ -582907,6 +584776,34 @@
               "provider": "DuckKota IPTV",
               "url": "https://DuckKota.github.io/iptv/playlists/online.m3u",
               "header": "#EXTM3U x-tvg-url=\"https://DuckKota.github.io/iptv/epg/guide.xml.gz\""
+            }
+          ],
+          "existing": false,
+          "rights_evidence": "",
+          "status": "UNKNOWN_CZ",
+          "audio_reviews": []
+        },
+        "63f4b69bed8ed45119c00ca2e5a06a08f6f491c28a709092e830800bbb647569": {
+          "block": [
+            "#EXTINF:-1 tvg-id=\"AzCinema.mx\" tvg-chno=\"5502\" tvg-name=\"Az Cinema\" tvg-logo=\"https://i.imgur.com/B5UN7C8.png\" tvg-country=\"MX\" tvg-language=\"spa\" group-title=\"Movies\" nexus-score=\"70\",Az Cinema (1080p)",
+            "http://15.204.196.147:22880/CABLE-MAGES-AZCINEMA/video.m3u8"
+          ],
+          "history": [],
+          "sources": [
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/index.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            },
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/online.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            },
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/best.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
             }
           ],
           "existing": false,
@@ -602712,6 +604609,24 @@
           "rights_evidence": "",
           "status": "UNKNOWN_CZ",
           "audio_reviews": []
+        },
+        "c2711ed9827df06bd6cfa8925cfc938557cf36977882a4d88eb8c02458df034a": {
+          "block": [
+            "#EXTINF:-1 tvg-id=\"NollyAfrica.uk\" tvg-chno=\"8486\" tvg-name=\"Nolly Africa\" tvg-logo=\"https://i.imgur.com/IxtGpti.png\" tvg-country=\"UK\" tvg-language=\"eng\" group-title=\"Movies\" nexus-score=\"12\",Nolly Africa (1080p)",
+            "https://amg02784-amg02784c1-distrotv-us-3394.playouts.now.amagi.tv/playlist/amg02784-nollyafricafast-nollyafricahd-distrotvus/playlist.m3u8"
+          ],
+          "history": [],
+          "sources": [
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/index.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            }
+          ],
+          "existing": false,
+          "rights_evidence": "",
+          "status": "UNKNOWN_CZ",
+          "audio_reviews": []
         }
       },
       "groups": [
@@ -606666,6 +608581,34 @@
               "provider": "DuckKota IPTV",
               "url": "https://DuckKota.github.io/iptv/playlists/online.m3u",
               "header": "#EXTM3U x-tvg-url=\"https://DuckKota.github.io/iptv/epg/guide.xml.gz\""
+            }
+          ],
+          "existing": false,
+          "rights_evidence": "",
+          "status": "UNKNOWN_CZ",
+          "audio_reviews": []
+        },
+        "4b51eb2514b580a584665223236a86acb68b56b720c9d706241c5516f3b99691": {
+          "block": [
+            "#EXTINF:-1 tvg-id=\"VinhLongTV3.vn\" tvg-chno=\"10414\" tvg-name=\"Vinh Long TV 3\" tvg-logo=\"https://i.imgur.com/OQXEhqu.png\" tvg-country=\"VN\" tvg-language=\"vie\" group-title=\"Movies\" nexus-score=\"90\",Vinh Long TV 3 (1080p)",
+            "https://dethich.pw/thvl3/index.m3u8"
+          ],
+          "history": [],
+          "sources": [
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/index.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            },
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/online.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            },
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/best.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
             }
           ],
           "existing": false,
@@ -610696,6 +612639,24 @@
           "rights_evidence": "",
           "status": "UNKNOWN_CZ",
           "audio_reviews": []
+        },
+        "51301941fb9ea6effff9df2716e6ec16fdba972e4bb7ebf3f234715a60107fd2": {
+          "block": [
+            "#EXTINF:-1 tvg-id=\"vijuTV1000russkoe.ru\" tvg-chno=\"7303\" tvg-name=\"viju TV1000 russkoe\" tvg-logo=\"https://i.imgur.com/Meak2y4.png\" tvg-country=\"RU\" tvg-language=\"rus\" group-title=\"Movies\" nexus-score=\"17\",viju TV1000 russkoe (576p)",
+            "http://46.53.200.153:7777/play/a01g/index.m3u8"
+          ],
+          "history": [],
+          "sources": [
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/index.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            }
+          ],
+          "existing": false,
+          "rights_evidence": "",
+          "status": "UNKNOWN_CZ",
+          "audio_reviews": []
         }
       },
       "groups": [
@@ -611523,6 +613484,24 @@
               "provider": "DuckKota IPTV",
               "url": "https://DuckKota.github.io/iptv/playlists/index.m3u",
               "header": "#EXTM3U x-tvg-url=\"https://DuckKota.github.io/iptv/epg/guide.xml.gz\""
+            }
+          ],
+          "existing": false,
+          "rights_evidence": "",
+          "status": "UNKNOWN_CZ",
+          "audio_reviews": []
+        },
+        "8924148b74c12836b732cf3145578166782b4eb4e67442cfda9753bbedc85f19": {
+          "block": [
+            "#EXTINF:-1 tvg-id=\"AXN.br\" tvg-chno=\"650\" tvg-name=\"AXN\" tvg-logo=\"https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/AXN_logo_%282015%29.svg/960px-AXN_logo_%282015%29.svg.png\" tvg-country=\"BR\" tvg-language=\"por\" group-title=\"Movies\" nexus-score=\"33\",AXN (720p)",
+            "http://170.83.49.66:8083/AXNHD/index.m3u8"
+          ],
+          "history": [],
+          "sources": [
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/index.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
             }
           ],
           "existing": false,
@@ -616720,6 +618699,34 @@
               "provider": "DuckKota IPTV",
               "url": "https://DuckKota.github.io/iptv/playlists/online.m3u",
               "header": "#EXTM3U x-tvg-url=\"https://DuckKota.github.io/iptv/epg/guide.xml.gz\""
+            }
+          ],
+          "existing": false,
+          "rights_evidence": "",
+          "status": "UNKNOWN_CZ",
+          "audio_reviews": []
+        },
+        "f2e532eace6981332351511310d25e78b4b7015acb8315b0e29d2615ecf73b97": {
+          "block": [
+            "#EXTINF:-1 tvg-id=\"MoviesNow.in\" tvg-chno=\"4119\" tvg-name=\"Movies Now\" tvg-logo=\"https://xstreamcp-assets-msp.streamready.in/assets/TIMESPLAY/LIVECHANNEL/6904ba4839f3b175376a61e2/images/LOGO_HD/LOGO_HD_hAgaZac_j_MoviesNow1_1.png\" tvg-country=\"IN\" tvg-language=\"eng;tam\" group-title=\"Movies\" nexus-score=\"66\",Movies Now (360p)",
+            "http://27.124.71.27/Movies_Now/index.m3u8"
+          ],
+          "history": [],
+          "sources": [
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/index.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            },
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/online.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            },
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/best.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
             }
           ],
           "existing": false,
@@ -623032,6 +625039,34 @@
               "provider": "DuckKota IPTV",
               "url": "https://DuckKota.github.io/iptv/playlists/online.m3u",
               "header": "#EXTM3U x-tvg-url=\"https://DuckKota.github.io/iptv/epg/guide.xml.gz\""
+            }
+          ],
+          "existing": false,
+          "rights_evidence": "",
+          "status": "UNKNOWN_CZ",
+          "audio_reviews": []
+        },
+        "3f22eabc0736b1a1d3933ae1825a4e50fecf6295ce01f2bd6e3e607ddd69887f": {
+          "block": [
+            "#EXTINF:-1 tvg-id=\"ServusTV.at\" tvg-chno=\"299\" tvg-name=\"ServusTV\" tvg-logo=\"https://i.imgur.com/6W637Gn.png\" tvg-country=\"AT\" tvg-language=\"deu\" group-title=\"Movies\" nexus-score=\"74\",ServusTV (576p)",
+            "https://s6.hopslan.com/servuz1/index.m3u8"
+          ],
+          "history": [],
+          "sources": [
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/index.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            },
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/online.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            },
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/best.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
             }
           ],
           "existing": false,
@@ -632863,6 +634898,16 @@
               "provider": "IPTV Nexus",
               "url": "https://dearbulut.github.io/iptv/playlists/index.m3u",
               "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            },
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/online.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            },
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/best.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
             }
           ],
           "existing": false,
@@ -636243,6 +638288,52 @@
               "provider": "DuckKota IPTV",
               "url": "https://DuckKota.github.io/iptv/playlists/index.m3u",
               "header": "#EXTM3U x-tvg-url=\"https://DuckKota.github.io/iptv/epg/guide.xml.gz\""
+            }
+          ],
+          "existing": false,
+          "rights_evidence": "",
+          "status": "UNKNOWN_CZ",
+          "audio_reviews": []
+        },
+        "44499fbc4752dc66f8139b3f3db3ff43cc43b8df0f35ce9132fd9eebe967211e": {
+          "block": [
+            "#EXTINF:-1 tvg-id=\"MoviePunjab.in\" tvg-chno=\"4118\" tvg-name=\"Movie Punjab\" tvg-logo=\"https://papaji.freetvindia.com/media/900_FreeTV_Movie_punjab.png\" tvg-country=\"IN\" tvg-language=\"pan\" group-title=\"Movies\" nexus-score=\"98\",Movie Punjab (720p)",
+            "https://mumt01.tangotv.in/O5aw8Zn3MOVIEPUNJAB/index.m3u8"
+          ],
+          "history": [],
+          "sources": [
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/index.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            },
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/online.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            },
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/best.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
+            }
+          ],
+          "existing": false,
+          "rights_evidence": "",
+          "status": "UNKNOWN_CZ",
+          "audio_reviews": []
+        },
+        "3af5953f14e6cabecce281f236677f111d00ba03aa55a4193c3b2bee96f297f2": {
+          "block": [
+            "#EXTINF:-1 tvg-id=\"MoviePunjab.in\" tvg-chno=\"4118\" tvg-name=\"Movie Punjab\" tvg-logo=\"https://papaji.freetvindia.com/media/900_FreeTV_Movie_punjab.png\" tvg-country=\"IN\" tvg-language=\"pan\" group-title=\"Movies\" nexus-score=\"98\",Movie Punjab (720p)",
+            "https://samitaorigin.tangotv.in/MOVIEPUNJAB/SAMITAORIGIN/index.m3u8"
+          ],
+          "history": [],
+          "sources": [
+            {
+              "provider": "IPTV Nexus",
+              "url": "https://dearbulut.github.io/iptv/playlists/index.m3u",
+              "header": "#EXTM3U x-tvg-url=\"https://dearbulut.github.io/iptv/epg/guide.xml.gz\""
             }
           ],
           "existing": false,

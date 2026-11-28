@@ -1,88 +1,89 @@
 {
-  "at": "2026-11-28T07:30:37.563386+00:00",
+  "at": "2026-11-28T13:17:05.369307+00:00",
   "sources": [
     {
       "channel": "Russia24.ru",
       "source": "https://player-api.smotrim.ru/api/v1/channel/3",
-      "at": "2026-11-28T07:30:08.094084+00:00",
+      "at": "2026-11-28T13:16:48.501696+00:00",
       "ok": true
     },
     {
       "channel": "360News.ru",
       "source": "https://player-api.smotrim.ru/api/v1/channel/374",
-      "at": "2026-11-28T07:30:08.569216+00:00",
+      "at": "2026-11-28T13:16:48.851708+00:00",
       "ok": true
     },
     {
       "channel": "Smotrim100Klassika.ru",
       "source": "https://player-api.smotrim.ru/api/v1/channel/396",
-      "at": "2026-11-28T07:30:13.981906+00:00",
+      "at": "2026-11-28T13:16:49.282323+00:00",
       "ok": true
     },
     {
       "channel": "Smotrim100Gorkogo.ru",
       "source": "https://player-api.smotrim.ru/api/v1/channel/987",
-      "at": "2026-11-28T07:30:14.121861+00:00",
+      "at": "2026-11-28T13:16:49.456696+00:00",
       "ok": true
     },
     {
       "channel": "Smotrim100Lyubov.ru",
       "source": "https://player-api.smotrim.ru/api/v1/channel/394",
-      "at": "2026-11-28T07:30:14.509963+00:00",
+      "at": "2026-11-28T13:16:49.621070+00:00",
       "ok": true
     },
     {
       "channel": "Smotrim100Muzhskoe.ru",
       "source": "https://player-api.smotrim.ru/api/v1/channel/398",
-      "at": "2026-11-28T07:30:15.126880+00:00",
+      "at": "2026-11-28T13:16:49.779179+00:00",
       "ok": true
     },
     {
       "channel": "Ohotnikirybolov.ru",
       "source": "https://rutube.ru/api/play/options/1da5d92af8c55b16241f1eb12a27f00c/?format=json",
-      "at": "2026-11-28T07:30:15.414830+00:00",
+      "at": "2026-11-28T13:16:49.943386+00:00",
       "ok": false,
       "error": "HTTPError"
     },
     {
       "channel": "Kinolaffka.ru",
       "source": "https://rutube.ru/api/play/options/3b7d1499da9396462bfd17282d758d30/?format=json",
-      "at": "2026-11-28T07:30:16.742530+00:00",
+      "at": "2026-11-28T13:16:50.723469+00:00",
       "ok": false,
       "error": "HTTPError"
     },
     {
       "channel": "Kinozhelezo.ru",
       "source": "https://rutube.ru/api/play/options/4965b7b928c4a143d708ab424be01d37/?format=json",
-      "at": "2026-11-28T07:30:16.883825+00:00",
-      "ok": false,
-      "error": "HTTPError"
+      "at": "2026-11-28T13:16:50.889099+00:00",
+      "ok": true
     },
     {
       "channel": "StarMediaDetectives.ru",
       "source": "https://rutube.ru/api/play/options/e05401be60a9cc719fa7075b6e77b86d/?format=json",
-      "at": "2026-11-28T07:30:17.977273+00:00",
+      "at": "2026-11-28T13:16:52.055012+00:00",
       "ok": false,
       "error": "HTTPError"
     },
     {
       "channel": "EpicMedia.ru",
       "source": "https://rutube.ru/api/play/options/0ed0696149c131d3a7349372d730d4e6/?format=json",
-      "at": "2026-11-28T07:30:18.642771+00:00",
-      "ok": true
+      "at": "2026-11-28T13:16:52.229892+00:00",
+      "ok": false,
+      "error": "HTTPError"
     },
     {
       "channel": "EpicMediaLove.ru",
       "source": "https://rutube.ru/api/play/options/21f3993ed8291b70208aa06c982c731f/?format=json",
-      "at": "2026-11-28T07:30:20.927365+00:00",
+      "at": "2026-11-28T13:16:52.789693+00:00",
       "ok": false,
       "error": "HTTPError"
     },
     {
       "channel": "Izvestia.ru",
       "source": "https://rutube.ru/api/play/options/3c47861a8b4b51639e41be092053b966/?format=json",
-      "at": "2026-11-28T07:30:21.725701+00:00",
-      "ok": true
+      "at": "2026-11-28T13:16:52.956464+00:00",
+      "ok": false,
+      "error": "HTTPError"
     }
   ]
 }
