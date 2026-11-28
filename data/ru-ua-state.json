@@ -7256,10 +7256,8 @@
       ],
       "history": [],
       "status": "UNKNOWN_CZ",
-      "languages": [
-        "rus"
-      ],
-      "evidence": "IPTV-org language playlists",
+      "languages": [],
+      "evidence": "unresolved",
       "in_source": true,
       "content_decision": "allow",
       "content_evidence": "No evidence of specialized erotic or pornographic channel"
@@ -14524,19 +14522,19 @@
   "counts": {
     "processed": 10416,
     "excluded_specialized_all_languages": 0,
-    "unresolved": 90,
-    "no_language_evidence": 0,
+    "unresolved": 91,
+    "no_language_evidence": 1,
     "other_or_review": 9770,
     "multilingual_review": 90,
     "known_other": 9680,
-    "russian": 499,
+    "russian": 498,
     "ukrainian": 166,
     "both": 19,
     "excluded_specialized_ru_ua": 0,
     "specialization_review_ru_ua": 0
   },
   "source_sha256": "a5e3a9e436f39b1c7918451f9ef85078251ee3c393a1cd5918d52f30befc74c2",
-  "catalogued_at": "2026-11-27T19:29:44.340808+00:00",
+  "catalogued_at": "2026-11-28T01:31:05.957210+00:00",
   "review_needed": {
     "language": [
       {
@@ -14583,6 +14581,14 @@
           "rus",
           "bel"
         ]
+      },
+      {
+        "block": [
+          "#EXTINF:-1 tvg-id=\"NTVMir.ru@SD\" tvg-logo=\"https://i.imgur.com/pUcV46F.png\" group-title=\"Culture\",NTV Mir (576p)",
+          "http://5.188.159.128:8070/ntvmir_TV/index.m3u8"
+        ],
+        "reason": "unresolved",
+        "feed_languages": []
       },
       {
         "block": [

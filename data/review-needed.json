@@ -47,6 +47,14 @@
     },
     {
       "block": [
+        "#EXTINF:-1 tvg-id=\"NTVMir.ru@SD\" tvg-logo=\"https://i.imgur.com/pUcV46F.png\" group-title=\"Culture\",NTV Mir (576p)",
+        "http://5.188.159.128:8070/ntvmir_TV/index.m3u8"
+      ],
+      "reason": "unresolved",
+      "feed_languages": []
+    },
+    {
+      "block": [
         "#EXTINF:-1 tvg-id=\"ChemodanTV.ua@SD\" tvg-logo=\"https://i.imgur.com/1WjGN8u.png\" http-user-agent=\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36\" group-title=\"Documentary;Education\",Chemodan TV (1080p)",
         "http://stream.mcquack.net/399/index.m3u8"
       ],
